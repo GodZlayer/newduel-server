@@ -1,0 +1,14 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Catacomb",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Catacomb\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Catacomb/spawn.xml"
+    }
+  ]
+}

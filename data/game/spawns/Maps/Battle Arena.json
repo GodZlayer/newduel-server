@@ -1,0 +1,85 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Battle Arena",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Battle Arena\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1056.1359863,
+            1328.4733887,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -8e-07,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Battle Arena/spawn.xml"
+    }
+  ]
+}

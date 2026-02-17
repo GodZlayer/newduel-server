@@ -1,0 +1,45 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "SkillMapSG V1",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapSG V1\\spawn.xml",
+      "count": 3,
+      "spawns": [
+        {
+          "item": "hp02",
+          "timesec": "60000",
+          "gametype": "solo",
+          "pos": [
+            1936.0,
+            1360.0,
+            16.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "60000",
+          "gametype": "solo",
+          "pos": [
+            1936.0,
+            24.0,
+            792.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "80000",
+          "gametype": "solo",
+          "pos": [
+            1936.0,
+            -1360.0,
+            16.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapSG V1/spawn.xml"
+    }
+  ]
+}

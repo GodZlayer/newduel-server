@@ -1,0 +1,75 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Town",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Town\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -107.7636871,
+            46.9901848,
+            0.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3941.0378418,
+            -1781.796875,
+            521.0701294
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3217.4130859,
+            2769.1140137,
+            -710.6282959
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -980.7435913,
+            -2492.3833008,
+            -374.6056824
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -668.5640869,
+            35.8902969,
+            0.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2135.9755859,
+            -3046.4060059,
+            -710.6286621
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Town/spawn.xml"
+    }
+  ]
+}

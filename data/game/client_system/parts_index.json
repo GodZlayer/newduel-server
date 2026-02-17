@@ -1,0 +1,1709 @@
+{
+  "source": "system/parts_index.xml",
+  "count": 178,
+  "entries": [
+    {
+      "file": "Model/man/man-parts00.elu",
+      "parts": [
+        "eq_hands_00",
+        "eq_chest_00",
+        "eq_feet_00",
+        "eq_legs_00",
+        "eq_head_08",
+        "eq_face_05"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts01.elu",
+      "parts": [
+        "eq_chest_a001",
+        "eq_hands_a001",
+        "eq_head_a001",
+        "eq_legs_a001",
+        "eq_feet_a001",
+        "eq_face_a01"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts02.elu",
+      "parts": [
+        "eq_chest_01",
+        "eq_legs_01",
+        "eq_hands_01",
+        "eq_head_01",
+        "eq_face_01"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts03.elu",
+      "parts": [
+        "eq_legs_02",
+        "eq_hands_02",
+        "eq_feet_02",
+        "eq_face_02",
+        "eq_head_02",
+        "eq_chest_02"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts04.elu",
+      "parts": [
+        "eq_chest_03",
+        "eq_feet_03",
+        "eq_head_20",
+        "eq_legs_03",
+        "eq_face_04"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts05.elu",
+      "parts": [
+        "eq_legs_04",
+        "eq_feet_05",
+        "eq_chest_04",
+        "eq_head_05",
+        "eq_hands_09",
+        "eq_face_03"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts06.elu",
+      "parts": [
+        "eq_chest_07",
+        "eq_head_04",
+        "eq_hands_07",
+        "eq_legs_07",
+        "eq_feet_11"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts06_1.elu",
+      "parts": [
+        "eq_chest_07_1",
+        "eq_head_13"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts07.elu",
+      "parts": [
+        "eq_hands_04",
+        "eq_chest_05",
+        "eq_feet_06",
+        "eq_legs_05",
+        "eq_head_16"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts08.elu",
+      "parts": [
+        "eq_legs_06",
+        "eq_chest_06",
+        "eq_head_15",
+        "eq_hands_03",
+        "eq_feet_07"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts09.elu",
+      "parts": [
+        "eq_feet_09",
+        "eq_legs_09",
+        "eq_head_08",
+        "eq_chest_09",
+        "eq_hands_08"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts10.elu",
+      "parts": [
+        "eq_hands_10",
+        "eq_feet_04",
+        "eq_legs_10",
+        "eq_head_07",
+        "eq_chest_10"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts12.elu",
+      "parts": [
+        "eq_hands_11",
+        "eq_chest_12",
+        "eq_feet_12",
+        "eq_legs_12",
+        "eq_head_06"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts13.elu",
+      "parts": [
+        "eq_hands_13",
+        "eq_chest_13",
+        "eq_legs_13",
+        "eq_head_14",
+        "eq_feet_08"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts14.elu",
+      "parts": [
+        "eq_feet_14",
+        "eq_chest_14",
+        "eq_legs_14",
+        "eq_hands_14",
+        "eq_head_09",
+        "eq_head_visor"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts15.elu",
+      "parts": [
+        "eq_chest_15",
+        "eq_hands_16",
+        "eq_feet_15",
+        "eq_legs_15"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts16.elu",
+      "parts": [
+        "eq_legs_16",
+        "eq_chest_16",
+        "eq_feet_16",
+        "eq_hands_17",
+        "eq_head_12"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts17.elu",
+      "parts": [
+        "eq_feet_17",
+        "eq_legs_17",
+        "eq_chest_17",
+        "eq_hands_15",
+        "eq_head_10"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts18.elu",
+      "parts": [
+        "eq_feet_18",
+        "eq_chest_18",
+        "eq_legs_18",
+        "eq_head_11",
+        "eq_hands_18"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts19.elu",
+      "parts": [
+        "eq_feet_19",
+        "eq_hands_19",
+        "eq_chest_19",
+        "eq_legs_19",
+        "eq_head_19"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts20.elu",
+      "parts": [
+        "eq_chest_20",
+        "eq_head_21",
+        "eq_legs_20",
+        "eq_hands_20",
+        "eq_feet_20"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts21.elu",
+      "parts": [
+        "eq_chest_21",
+        "eq_legs_21",
+        "eq_hands_21",
+        "eq_feet_21"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts22.elu",
+      "parts": [
+        "eq_feet_22",
+        "eq_legs_22",
+        "eq_chest_22",
+        "eq_hands_22",
+        "eq_head_22"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts23.elu",
+      "parts": [
+        "eq_feet_23",
+        "eq_legs_23",
+        "eq_hands_23",
+        "eq_chest_23",
+        "eq_head_23"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts24.elu",
+      "parts": [
+        "eq_legs_24",
+        "eq_head_24",
+        "eq_chest_24",
+        "eq_hands_24",
+        "eq_feet_24"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts25.elu",
+      "parts": [
+        "eq_hands_25",
+        "eq_chest_25",
+        "eq_head_25",
+        "eq_legs_25",
+        "eq_feet_25"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts26.elu",
+      "parts": [
+        "eq_legs_26",
+        "eq_hands_26",
+        "eq_chest_26",
+        "eq_feet_26",
+        "eq_head_26"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts27.elu",
+      "parts": [
+        "eq_legs_27",
+        "eq_hands_27",
+        "eq_feet_27",
+        "eq_chest_27"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts28.elu",
+      "parts": [
+        "eq_chest_28",
+        "eq_hands_28",
+        "eq_legs_28",
+        "eq_head_28",
+        "eq_feet_28"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts29.elu",
+      "parts": [
+        "eq_feet_29",
+        "eq_chest_29",
+        "eq_legs_29",
+        "eq_hands_29",
+        "eq_head_29"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts30.elu",
+      "parts": [
+        "eq_feet_30",
+        "eq_legs_30",
+        "eq_hands_30",
+        "eq_head_30",
+        "eq_chest_30"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts31.elu",
+      "parts": [
+        "eq_feet_32",
+        "eq_chest_32",
+        "eq_legs_32",
+        "eq_head_32",
+        "eq_hands_32"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts32.elu",
+      "parts": [
+        "eq_feet_33",
+        "eq_chest_33",
+        "eq_legs_33",
+        "eq_hands_33",
+        "eq_head_33"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts33.elu",
+      "parts": [
+        "eq_feet_34",
+        "eq_head_34",
+        "eq_hands_34",
+        "eq_chest_34",
+        "eq_legs_34"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts33_white.elu",
+      "parts": [
+        "eq_feet_34_white",
+        "eq_legs_34_white",
+        "eq_head_34_white",
+        "eq_hands_34_white",
+        "eq_chest_34_white"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts34.elu",
+      "parts": [
+        "eq_chest_35",
+        "eq_hands_35",
+        "eq_head_35",
+        "eq_legs_35",
+        "eq_feet_35"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts35.elu",
+      "parts": [
+        "eq_feet_36",
+        "eq_legs_36",
+        "eq_hands_36",
+        "eq_head_36",
+        "eq_chest_36"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_assassin.elu",
+      "parts": [
+        "eq_head_Assassin",
+        "eq_hands_Assassin",
+        "eq_chest_Assassin",
+        "eq_feet_Assassin",
+        "eq_legs_Assassin"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_aura.elu",
+      "parts": [
+        "eq_feet_aura",
+        "eq_legs_aura",
+        "eq_hands_aura",
+        "eq_head_aura",
+        "eq_chest_aura"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_axium_high.elu",
+      "parts": [
+        "eq_head_axium_high",
+        "eq_legs_axium_high",
+        "eq_hands_axium_high",
+        "eq_chest_axium_high",
+        "eq_feet_axium_high"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_axium_uniform.elu",
+      "parts": [
+        "eq_legs_axium_uniform",
+        "eq_hands_axium_uniform",
+        "eq_feet_axium_uniform",
+        "eq_head_axium_uniform",
+        "eq_chest_axium_uniform"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_bigi.elu",
+      "parts": [
+        "eq_chest_bigi",
+        "eq_head_bigi"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_blackdragon.elu",
+      "parts": [
+        "eq_feet_blackdragon",
+        "eq_legs_blackdragon",
+        "eq_hands_blackdragon",
+        "eq_chest_blackdragon",
+        "eq_head_blackdragon"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_cat.elu",
+      "parts": [
+        "eq_head_cat"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_ce.elu",
+      "parts": [
+        "eq_chest_ce"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_clanmaster.elu",
+      "parts": [
+        "eq_chest_clanmaster"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_crown.elu",
+      "parts": [
+        "eq_head_crown"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_crusader.elu",
+      "parts": [
+        "eq_legs_crusader",
+        "eq_feet_crusader",
+        "eq_hands_crusader",
+        "eq_chest_crusader",
+        "eq_head_crusader"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_designercoat.elu",
+      "parts": [
+        "eq_chest_designercoat"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_devil.elu",
+      "parts": [
+        "eq_chest_devil_small",
+        "eq_head_devil",
+        "eq_hands_devil",
+        "eq_feet_devil",
+        "eq_legs_devil"
+      ]
+    },
+    {
+      "file": "Model/man/man-partsfix_devil.elu",
+      "parts": [
+        "eq_head_devil",
+        "eq_chest_devil_small",
+        "eq_legs_devil",
+        "eq_hands_devil",
+        "eq_feet_devil"
+      ]
+    },
+    {
+      "file": "Model/man/man-partsfix_devil_Large.elu",
+      "parts": [
+        "eq_legs_devilx",
+        "eq_head_devilx",
+        "eq_chest_devil_large"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_eola.elu",
+      "parts": [
+        "eq_head_eola",
+        "eq_legs_eola",
+        "eq_hands_eola",
+        "eq_chest_eola",
+        "eq_feet_eola"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_event08.elu",
+      "parts": [
+        "eq_head_koala",
+        "eq_chest_germany",
+        "eq_chest_peru"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_face.elu",
+      "parts": [
+        "eq_face_newface08",
+        "eq_face_newface09",
+        "eq_face_newface07",
+        "eq_face_newface06",
+        "eq_face_newface05",
+        "eq_face_newface04",
+        "eq_face_newface03",
+        "eq_face_newface02",
+        "eq_face_newface01",
+        "eq_face_newface10",
+        "eq_face_newface11",
+        "eq_face_newface12",
+        "eq_face_newface13"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_fenrir.elu",
+      "parts": [
+        "eq_legs_fenrir_guardian",
+        "eq_hands_fenrir_guardian",
+        "eq_head_fenrir_guardian",
+        "eq_feet_fenrir_guardian",
+        "eq_chest_fenrir_guardian",
+        "eq_chest_fenrir_guardian_s",
+        "eq_legs_fenrir_guardian_s"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_gm.elu",
+      "parts": [
+        "eq_chest_gm"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_guard.elu",
+      "parts": [
+        "eq_legs_guard",
+        "eq_feet_guard",
+        "eq_hands_guard",
+        "eq_chest_guard"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_halem.elu",
+      "parts": [
+        "eq_hands_halem",
+        "eq_feet_halem",
+        "eq_head_halem",
+        "eq_chest_halem",
+        "eq_legs_halem"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_hanbok.elu",
+      "parts": [
+        "eq_chest_hanbok",
+        "eq_legs_hanbok",
+        "eq_hands_hanbok",
+        "eq_head_hanbok",
+        "eq_feet_hanbok"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_hat.elu",
+      "parts": [
+        "eq_head_helmet2",
+        "eq_head_musketeer3"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_heavy.elu",
+      "parts": [
+        "eq_head_heavymetal",
+        "eq_legs_heavymetal",
+        "eq_hands_heavymetal",
+        "eq_feet_heavymetal",
+        "eq_chest_heavymetal"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_jhunter.elu",
+      "parts": [
+        "eq_legs_jhunter",
+        "eq_feet_jhunter",
+        "eq_chest_jhunter",
+        "eq_head_jhunter",
+        "eq_hands_jhunter"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_judge.elu",
+      "parts": [
+        "eq_feet_judgement",
+        "eq_head_judgement",
+        "eq_legs_judgement",
+        "eq_hands_judgement",
+        "eq_chest_judgement"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_kungfu.elu",
+      "parts": [
+        "eq_legs_kungfu",
+        "eq_hands_kungfu",
+        "eq_head_kungfu",
+        "eq_feet_kungfu",
+        "eq_chest_kungfu"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_magic.elu",
+      "parts": [
+        "eq_head_magician",
+        "eq_hands_magician",
+        "eq_legs_magician",
+        "eq_feet_magician",
+        "eq_chest_magician"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_navy.elu",
+      "parts": [
+        "eq_head_US_Navy_Costume",
+        "eq_chest_US_Navy_Costume",
+        "eq_legs_US_Navy_Costume",
+        "eq_hands_US_Navy_Costume",
+        "eq_feet_US_Navy_Costume"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_ninja.elu",
+      "parts": [
+        "eq_head_ninja",
+        "eq_legs_ninja",
+        "eq_chest_ninja",
+        "eq_hands_ninja",
+        "eq_feet_ninja"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_pirate.elu",
+      "parts": [
+        "eq_hands_pirate",
+        "eq_feet_pirate",
+        "eq_chest_pirate",
+        "eq_head_pirate",
+        "eq_legs_pirate"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_police.elu",
+      "parts": [
+        "eq_hands_police",
+        "eq_head_police",
+        "eq_feet_police",
+        "eq_chest_police",
+        "eq_legs_police"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_pumpkin.elu",
+      "parts": [
+        "eq_head_pumpkin"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_quest.elu",
+      "parts": [
+        "eq_head_goblin",
+        "eq_hands_skeleton",
+        "eq_feet_wrapshoes",
+        "eq_legs_dark"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_quest_gold.elu",
+      "parts": [
+        "eq_head_goblin_gold",
+        "eq_hands_goblin",
+        "eq_head_palmpou",
+        "eq_hands_goblin_gold",
+        "eq_chest_palmpou"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_quest_lizard.elu",
+      "parts": [
+        "eq_hands_lizard",
+        "eq_head_android",
+        "eq_head_mouse"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_rabbit.elu",
+      "parts": [
+        "eq_head_rabbit"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_royal.elu",
+      "parts": [
+        "eq_feet_royal_children",
+        "eq_legs_royal_children",
+        "eq_head_royal_children",
+        "eq_hands_royal_children",
+        "eq_chest_royal_children"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_santa.elu",
+      "parts": [
+        "eq_hands_santa",
+        "eq_chest_santa",
+        "eq_legs_santa",
+        "eq_feet_santa",
+        "eq_head_santa"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_school.elu",
+      "parts": [
+        "eq_legs_school",
+        "eq_feet_school",
+        "eq_hands_school",
+        "eq_chest_school",
+        "eq_head_school"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_shadow.elu",
+      "parts": [
+        "eq_chest_shadow",
+        "eq_head_shadow",
+        "eq_feet_shadow",
+        "eq_legs_shadow",
+        "eq_hands_shadow"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_staff.elu",
+      "parts": [
+        "eq_chest_staff"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_sum08.elu",
+      "parts": [
+        "eq_head_french",
+        "eq_chest_canada",
+        "eq_head_american"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_swat.elu",
+      "parts": [
+        "eq_hands_00",
+        "eq_chest_swat",
+        "eq_feet_00",
+        "eq_legs_00",
+        "eq_head_08",
+        "eq_face_05"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_swim.elu",
+      "parts": [
+        "eq_legs_swim",
+        "eq_hands_swim",
+        "eq_chest_swim",
+        "eq_feet_swim",
+        "eq_head_swim"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_valkyrie.elu",
+      "parts": [
+        "eq_legs_valkyrie",
+        "eq_hands_valkyrie",
+        "eq_feet_valkyrie",
+        "eq_head_valkyrie",
+        "eq_chest_valkyrie"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_vamp.elu",
+      "parts": [
+        "eq_chest_vamp",
+        "eq_hands_16",
+        "eq_feet_15",
+        "eq_legs_15"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_wed.elu",
+      "parts": [
+        "eq_head_wedding",
+        "eq_legs_wedding",
+        "eq_feet_wedding",
+        "eq_hands_wedding",
+        "eq_chest_wedding"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_winter.elu",
+      "parts": [
+        "eq_legs_winter",
+        "eq_feet_winter",
+        "eq_hands_winter",
+        "eq_chest_winter",
+        "eq_head_winter"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_worldcup.elu",
+      "parts": [
+        "eq_legs_brazil",
+        "eq_chest_brazil",
+        "eq_feet_brazil",
+        "eq_legs_korea",
+        "eq_chest_korea",
+        "eq_feet_korea",
+        "eq_head_korea",
+        "eq_legs_japan",
+        "eq_chest_japan",
+        "eq_feet_japan",
+        "eq_head_brazil",
+        "eq_head_japan"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_yohawk.elu",
+      "parts": [
+        "eq_chest_clan_yohawk",
+        "eq_feet_clan_yohawk",
+        "eq_legs_clan_yohawk",
+        "eq_hands_clan_yohawk",
+        "eq_head_clan_yohawk"
+      ]
+    },
+    {
+      "file": "Model/man/man-parts_zeus.elu",
+      "parts": [
+        "eq_chest_zeus",
+        "eq_head_zeus"
+      ]
+    },
+    {
+      "file": "Model/man/man_lo01.elu",
+      "parts": [
+        "eq_chest_05"
+      ]
+    },
+    {
+      "file": "Model/man/man_lo02.elu",
+      "parts": [
+        "eq_chest_05"
+      ]
+    },
+    {
+      "file": "Model/woman/man-parts07.elu",
+      "parts": [
+        "eq_hands_04",
+        "eq_chest_05w",
+        "eq_feet_06",
+        "eq_legs_05",
+        "eq_head_16"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts01.elu",
+      "parts": [
+        "eq_feets_01",
+        "eq_hands_01",
+        "eq_head_hair006",
+        "eq_chest_01",
+        "eq_legs_01",
+        "eq_face_003"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts02.elu",
+      "parts": [
+        "eq_head_hair002",
+        "eq_legs_g002",
+        "eq_chest_long002",
+        "eq_hands_leather001",
+        "eq_feets_p02",
+        "eq_face_001"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts03.elu",
+      "parts": [
+        "eq_chest_long001",
+        "eq_legs_ge001",
+        "eq_head_pony",
+        "eq_feets_p002"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts04.elu",
+      "parts": [
+        "eq_hands_leather04",
+        "eq_chest_p001",
+        "eq_legs_j001",
+        "eq_feets_p004",
+        "eq_head_11"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts05.elu",
+      "parts": [
+        "eq_chest_07",
+        "eq_legs_007",
+        "eq_feets_07",
+        "eq_hands_07",
+        "eq_head_04"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts06.elu",
+      "parts": [
+        "eq_hands_leather05",
+        "eq_chest_c001",
+        "eq_legs_c001",
+        "eq_feet_leather001",
+        "eq_head_hair04"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts07.elu",
+      "parts": [
+        "eq_head_hair001",
+        "eq_feets_leather003",
+        "eq_chest_long003",
+        "eq_hands_leather02",
+        "eq_legs_l001",
+        "eq_face_002"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts07_1.elu",
+      "parts": [
+        "eq_chest_long004",
+        "eq_head_07",
+        "eq_legs_006",
+        "eq_feets_006"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts08.elu",
+      "parts": [
+        "eq_legs_c002",
+        "eq_hands_02",
+        "eq_head_12",
+        "eq_feets_008",
+        "eq_chest_ce"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts09.elu",
+      "parts": [
+        "eq_chest_n013",
+        "eq_legs_c013",
+        "eq_feets_leather007",
+        "eq_hands_leather07",
+        "eq_head_01"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts10.elu",
+      "parts": [
+        "eq_chest_n014",
+        "eq_legs_l014",
+        "eq_feets_leather008",
+        "eq_hands_leather08",
+        "eq_head_10"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts11.elu",
+      "parts": [
+        "eq_chest_05",
+        "eq_legs_005",
+        "eq_feet_005",
+        "eq_hands_05",
+        "eq_head_02",
+        "eq_face_004"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts12.elu",
+      "parts": [
+        "eq_hands_14",
+        "eq_legs_014",
+        "eq_feets_014",
+        "eq_head_05",
+        "eq_chest_14"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts13.elu",
+      "parts": [
+        "eq_chest_08",
+        "eq_feet_009",
+        "eq_hands_08",
+        "eq_legs_008",
+        "eq_head_13"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts14.elu",
+      "parts": [
+        "eq_chest_15",
+        "eq_head_03",
+        "eq_legs_015",
+        "eq_feet_015",
+        "eq_hands_15",
+        "eq_head_visor"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts15.elu",
+      "parts": [
+        "eq_feet_16",
+        "eq_hands_16",
+        "eq_chest_16"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts16.elu",
+      "parts": [
+        "eq_feet_017",
+        "eq_hands_17",
+        "eq_legs_017",
+        "eq_chest_17",
+        "eq_head_06"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts17.elu",
+      "parts": [
+        "eq_feet_018",
+        "eq_legs_018",
+        "eq_chest_18",
+        "eq_hands_18",
+        "eq_head_18"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts18.elu",
+      "parts": [
+        "eq_feet_019",
+        "eq_legs_019",
+        "eq_hands_19",
+        "eq_head_08",
+        "eq_chest_19"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts20.elu",
+      "parts": [
+        "eq_hands_20",
+        "eq_chest_20",
+        "eq_legs_20",
+        "eq_feet_20",
+        "eq_head_20"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts21.elu",
+      "parts": [
+        "eq_chest_21",
+        "eq_legs_21",
+        "eq_feet_21",
+        "eq_hands_21"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts22.elu",
+      "parts": [
+        "eq_chest_22",
+        "eq_legs_22",
+        "eq_feet_22",
+        "eq_head_22",
+        "eq_hands_22"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts23.elu",
+      "parts": [
+        "eq_legs_23",
+        "eq_hands_23",
+        "eq_chest_023",
+        "eq_feet_23",
+        "eq_head_23"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts24.elu",
+      "parts": [
+        "eq_legs_24",
+        "eq_chest_024",
+        "eq_head_24",
+        "eq_feet_24",
+        "eq_hands_24"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts25.elu",
+      "parts": [
+        "eq_head_25",
+        "eq_chest_025",
+        "eq_feet_25",
+        "eq_legs_25",
+        "eq_hands_25"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts26.elu",
+      "parts": [
+        "eq_chest_026",
+        "eq_feet_26",
+        "eq_head_26",
+        "eq_hands_26",
+        "eq_legs_26"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts27.elu",
+      "parts": [
+        "eq_feet_27",
+        "eq_chest_027",
+        "eq_hands_27",
+        "eq_head_27",
+        "eq_legs_27"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts28.elu",
+      "parts": [
+        "eq_chest_28",
+        "eq_hands_28",
+        "eq_legs_28",
+        "eq_feet_28"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts29.elu",
+      "parts": [
+        "eq_chest_29",
+        "eq_feet_29",
+        "eq_hands_29",
+        "eq_head_29",
+        "eq_legs_29"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts30.elu",
+      "parts": [
+        "eq_feets_30",
+        "eq_chest_30",
+        "eq_legs_30",
+        "eq_head_30",
+        "eq_hands_30"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts31.elu",
+      "parts": [
+        "eq_feet_31",
+        "eq_chest_31",
+        "eq_head_31",
+        "eq_hands_31",
+        "eq_legs_31"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts32.elu",
+      "parts": [
+        "eq_feet_32",
+        "eq_chest_32",
+        "eq_legs_32",
+        "eq_head_32",
+        "eq_hands_32"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts33.elu",
+      "parts": [
+        "eq_head_33",
+        "eq_feet_33",
+        "eq_hands_33",
+        "eq_legs_33",
+        "eq_chest_33"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts34.elu",
+      "parts": [
+        "eq_legs_34",
+        "eq_hands_34",
+        "eq_feet_34",
+        "eq_head_34",
+        "eq_chest_34"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts35.elu",
+      "parts": [
+        "eq_hands_35",
+        "eq_feet_35",
+        "eq_chest_35",
+        "eq_legs_35",
+        "eq_head_35"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts36.elu",
+      "parts": [
+        "eq_legs_36",
+        "eq_chest_36",
+        "eq_hands_36",
+        "eq_feet_36",
+        "eq_head_36"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_angel.elu",
+      "parts": [
+        "eq_legs_angel",
+        "eq_head_angel",
+        "eq_chest_angel",
+        "eq_hands_angel",
+        "eq_feet_angel",
+        "eq_chest_angel_small"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_assassin.elu",
+      "parts": [
+        "eq_head_Assassin",
+        "eq_feet_Assassin",
+        "eq_hands_Assassin",
+        "eq_chest_Assassin",
+        "eq_legs_Assassin"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_aura.elu",
+      "parts": [
+        "eq_hands_aura",
+        "eq_feets_aura",
+        "eq_head_aura",
+        "eq_chest_aura",
+        "eq_legs_aura"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_axium_high.elu",
+      "parts": [
+        "eq_feet_axium_high",
+        "eq_legs_axium_high",
+        "eq_head_axium_high",
+        "eq_hands_axium_high",
+        "eq_chest_axium_high"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_axium_uniform.elu",
+      "parts": [
+        "eq_legs_axium_uniform",
+        "eq_feet_axium_uniform",
+        "eq_hands_axium_uniform",
+        "eq_head_axium_uniform",
+        "eq_chest_axium_uniform"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_blackdragon.elu",
+      "parts": [
+        "eq_hands_blackdragon",
+        "eq_chest_blackdragon",
+        "eq_legs_blackdragon",
+        "eq_head_blackdragon",
+        "eq_feet_blackdragon"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_cat.elu",
+      "parts": [
+        "eq_head_cat"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_clanmaster.elu",
+      "parts": [
+        "eq_chest_clanmaster"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_crown.elu",
+      "parts": [
+        "eq_head_crown"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_crusader.elu",
+      "parts": [
+        "eq_hands_crusader",
+        "eq_feet_crusader",
+        "eq_legs_crusader",
+        "eq_chest_crusader",
+        "eq_head_crusader"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_designercoat.elu",
+      "parts": [
+        "eq_chest_wdesignercoat"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_eola.elu",
+      "parts": [
+        "eq_feet_eola",
+        "eq_legs_eola",
+        "eq_head_eola",
+        "eq_hands_eola",
+        "eq_chest_eola"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_event08.elu",
+      "parts": [
+        "eq_head_koala",
+        "eq_chest_germany",
+        "eq_chest_peru"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_face.elu",
+      "parts": [
+        "eq_face_newface09",
+        "eq_face_newface08",
+        "eq_face_newface07",
+        "eq_face_newface06",
+        "eq_face_newface05",
+        "eq_face_newface04",
+        "eq_face_newface03",
+        "eq_face_newface02",
+        "eq_face_newface01",
+        "eq_face_newface11",
+        "eq_face_newface12",
+        "eq_face_newface13",
+        "eq_face_newface14",
+        "eq_face_newface15",
+        "eq_face_newface10"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_fenrir.elu",
+      "parts": [
+        "eq_legs_fenrir_guardian",
+        "eq_hands_fenrir_guardian",
+        "eq_head_fenrir_guardian",
+        "eq_feet_fenrir_guardian",
+        "eq_chest_fenrir_guardian",
+        "eq_chest_fenrir_guardian_s",
+        "eq_legs_fenrir_guardian_s"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_gm.elu",
+      "parts": [
+        "eq_chest_gm"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_guard.elu",
+      "parts": [
+        "eq_feets_guard ",
+        "eq_hands_guard ",
+        "eq_chest_guard ",
+        "eq_legs_guard "
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_halem.elu",
+      "parts": [
+        "eq_hands_halem",
+        "eq_chest_halem",
+        "eq_feet_halem",
+        "eq_head_halem",
+        "eq_legs_halem"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_hanbok.elu",
+      "parts": [
+        "eq_feets_hanbok",
+        "eq_hands_hanbok",
+        "eq_chest_hanbok",
+        "eq_head_hanbok",
+        "eq_legs_hanbok"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_hat.elu",
+      "parts": [
+        "eq_head_helmet",
+        "eq_head_hat"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_heavy.elu",
+      "parts": [
+        "eq_hands_heavymetal",
+        "eq_chest_heavymetal",
+        "eq_legs_heavymetal",
+        "eq_feet_heavymetal",
+        "eq_head_heavymetal"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_jhunter.elu",
+      "parts": [
+        "eq_head_jhunter",
+        "eq_hands_jhunter",
+        "eq_chest_jhunter",
+        "eq_legs_jhunter",
+        "eq_feet_jhunter"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_judge.elu",
+      "parts": [
+        "eq_legs_judgement",
+        "eq_chest_judgement",
+        "eq_feet_judgement",
+        "eq_hands_judgement",
+        "eq_head_judgement"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_kungfu.elu",
+      "parts": [
+        "eq_legs_kungfu",
+        "eq_chest_kungfu",
+        "eq_hands_kungfu",
+        "eq_feet_kungfu",
+        "eq_head_kungfu"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_magic.elu",
+      "parts": [
+        "eq_chest_magician",
+        "eq_head_magician",
+        "eq_feet_magician",
+        "eq_hands_magician",
+        "eq_legs_magician"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_navy.elu",
+      "parts": [
+        "eq_hands_US_Navy_Costume",
+        "eq_legs_US_Navy_Costume",
+        "eq_chest_US_Navy_Costume",
+        "eq_feet_US_Navy_Costume",
+        "eq_head_US_Navy_Costume"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_ninja.elu",
+      "parts": [
+        "eq_hands_ninja",
+        "eq_legs_ninja",
+        "eq_feet_ninja",
+        "eq_head_ninja",
+        "eq_chest_ninja"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_noir.elu",
+      "parts": [
+        "eq_legs_noir",
+        "eq_hands_noir",
+        "eq_chest_noir",
+        "eq_feet_noir"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_pirate.elu",
+      "parts": [
+        "eq_legs_pirate",
+        "eq_hands_pirate",
+        "eq_feet_pirate",
+        "eq_face_01",
+        "eq_head_pirate",
+        "eq_chest_pirate"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_police.elu",
+      "parts": [
+        "eq_chest_police",
+        "eq_head_police",
+        "eq_hands_police",
+        "eq_feet_police",
+        "eq_legs_police"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_pumpkin.elu",
+      "parts": [
+        "eq_head_pumpkin"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_quest.elu",
+      "parts": [
+        "eq_head_goblin",
+        "eq_hands_skeleton",
+        "eq_feet_wrapshoes",
+        "eq_legs_dark"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_quest_gold.elu",
+      "parts": [
+        "eq_head_goblin_gold",
+        "eq_head_palmpou",
+        "eq_hands_goblin",
+        "eq_hands_goblin_gold",
+        "eq_chest_palmpou"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_quest_lizard.elu",
+      "parts": [
+        "eq_hands_lizard",
+        "eq_head_android",
+        "eq_head_mouse"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_rabbit.elu",
+      "parts": [
+        "eq_head_rabbit"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_royal.elu",
+      "parts": [
+        "eq_head_royal_children",
+        "eq_hands_royal_children",
+        "eq_chest_royal_children",
+        "eq_legs_royal_children",
+        "eq_feet_royal_children"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_santa.elu",
+      "parts": [
+        "eq_legs_santa",
+        "eq_feet_santa",
+        "eq_hands_santa",
+        "eq_chest_santa",
+        "eq_head_santa"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_school.elu",
+      "parts": [
+        "eq_feets_school",
+        "eq_hands_school",
+        "eq_chest_school",
+        "eq_head_school",
+        "eq_legs_school"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_shadow.elu",
+      "parts": [
+        "eq_head_shadow",
+        "eq_hands_shadow",
+        "eq_legs_shadow",
+        "eq_feet_shadow",
+        "eq_chest_shadow"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_staff.elu",
+      "parts": [
+        "eq_chest_staff"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_sum08.elu",
+      "parts": [
+        "eq_head_american",
+        "eq_chest_canada",
+        "eq_head_french"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_swim.elu",
+      "parts": [
+        "eq_hands_swim",
+        "eq_chest_swim",
+        "eq_legs_swim",
+        "eq_feet_swim",
+        "eq_head_swim"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_valkyrie.elu",
+      "parts": [
+        "eq_feet_valkyrie",
+        "eq_hands_valkyrie",
+        "eq_legs_valkyrie",
+        "eq_head_valkyrie",
+        "eq_chest_valkyrie"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_wed.elu",
+      "parts": [
+        "eq_chest_wedding",
+        "eq_head_wedding",
+        "eq_hands_wedding",
+        "eq_feet_wedding",
+        "eq_legs_wedding"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_winter.elu",
+      "parts": [
+        "eq_feets_winter",
+        "eq_hands_winter",
+        "eq_head_winter",
+        "eq_chest_winter",
+        "eq_legs_winter"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_worldcup.elu",
+      "parts": [
+        "eq_feets_korea",
+        "eq_chest_korea",
+        "eq_legs_korea",
+        "eq_chest_brazil",
+        "eq_feets_brazil",
+        "eq_legs_brazil",
+        "eq_feets_japan",
+        "eq_legs_japan",
+        "eq_chest_japan",
+        "eq_head_korea",
+        "eq_head_brazil",
+        "eq_head_japan"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_yohawk.elu",
+      "parts": [
+        "eq_chest_yohawk",
+        "eq_head_yohawk",
+        "eq_feet_yohawk",
+        "eq_legs_yohawk",
+        "eq_hands_yohawk"
+      ]
+    },
+    {
+      "file": "Model/woman/woman-parts_zeus.elu",
+      "parts": [
+        "eq_chest_zeus",
+        "eq_head_zeus"
+      ]
+    },
+    {
+      "file": "Model/woman/woman_bigi.elu",
+      "parts": [
+        "eq_chest_bigi",
+        "eq_head_bigi"
+      ]
+    }
+  ]
+}

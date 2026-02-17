@@ -1,0 +1,155 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Island",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Island\\spawn.xml",
+      "count": 14,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3486.4790039,
+            170.6912842,
+            208.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1944.9753418,
+            6114.9101563,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1938.0274658,
+            3829.9345703,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3818.3544922,
+            -4134.8798828,
+            1079.7453613
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0075624,
+            4919.8657227,
+            500.0267334
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1860.020752,
+            6412.5068359,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1633.3625488,
+            6580.918457,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1928.7550049,
+            3519.5380859,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1666.723877,
+            3280.0820313,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1169.0272217,
+            -3369.6643066,
+            384.6375122
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0075607,
+            4919.8657227,
+            500.0267334
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -4660.7910156,
+            -363.7581482
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5040.0209961,
+            -4135.625,
+            328.2922668
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3486.4790039,
+            170.6912842,
+            208.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Island/spawn.xml"
+    }
+  ]
+}

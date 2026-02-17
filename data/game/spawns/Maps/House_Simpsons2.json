@@ -1,0 +1,95 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "House_Simpsons2",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\House_Simpsons2\\spawn.xml",
+      "count": 8,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            304.0,
+            472.0,
+            -8.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1424.0,
+            1112.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -176.0,
+            2856.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -176.0,
+            2880.0,
+            -8.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            304.0,
+            472.0,
+            -8.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1424.0,
+            1112.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -176.0,
+            2856.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -176.0,
+            2880.0,
+            -8.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "House_Simpsons2/spawn.xml"
+    }
+  ]
+}

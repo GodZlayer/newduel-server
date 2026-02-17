@@ -1,0 +1,75 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Dungeon",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Dungeon\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2924.6311035,
+            0.0111899,
+            -283.1813049
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3900.5422363,
+            1170.241333,
+            532.7059326
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3900.5422363,
+            0.0111847,
+            9.8839264
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3900.5422363,
+            0.0111824,
+            9.8839264
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3900.5422363,
+            1170.241333,
+            532.7059326
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2924.6311035,
+            0.0111899,
+            -283.1813049
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Dungeon/spawn.xml"
+    }
+  ]
+}

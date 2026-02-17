@@ -1,0 +1,412 @@
+{
+  "source": "ogz-server-master/report_questmap.txt",
+  "mapsets": [
+    {
+      "id": 1,
+      "name": "Mansion",
+      "sectors": [
+        {
+          "id": 101,
+          "name": "Mansion_Hall1",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Hall2",
+                "Mansion_Passage1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "Mansion_Hall2",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Hall1",
+                "Mansion_Passage1",
+                "Mansion_Room1",
+                "Mansion_Room2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "name": "Mansion_Hall3",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Passage2"
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                "Mansion_Passage1",
+                "Mansion_Passage3"
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                "Mansion_Passage1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "name": "Mansion_Room1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Mansion_Hall2",
+                "Mansion_Room1",
+                "Mansion_Room2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "name": "Mansion_Room2",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Hall1",
+                "Mansion_Hall2",
+                "Mansion_Room1",
+                "Mansion_Passage1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "name": "Mansion_Room3",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Mansion_Passage2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "name": "Mansion_Passage1",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Passage2"
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                "Mansion_Hall3"
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                "Mansion_Hall1",
+                "Mansion_Hall2",
+                "Mansion_Room1",
+                "Mansion_Room2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "name": "Mansion_Passage2",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Hall3"
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                "Mansion_Passage1",
+                "Mansion_Passage3"
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                "Mansion_Room3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "name": "Mansion_Passage3",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                "Mansion_Passage2"
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                "Mansion_Hall3"
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                "Mansion_Hall1",
+                "Mansion_Hall2",
+                "Mansion_Room1",
+                "Mansion_Room2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Prison",
+      "sectors": [
+        {
+          "id": 201,
+          "name": "Prison_prison",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_passage1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Prison_passage1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_shower_room"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "name": "Prison_shower_room",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_passage3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 204,
+          "name": "Prison_passage3",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_hall1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 205,
+          "name": "Prison_hall1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_drainage1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 206,
+          "name": "Prison_drainage1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_hall2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 207,
+          "name": "Prison_hall2",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_drainage2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 208,
+          "name": "Prison_drainage2",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_passage2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 209,
+          "name": "Prison_passage2",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Prison_prison"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dungeon",
+      "sectors": [
+        {
+          "id": 301,
+          "name": "Dungeon_nest1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_passage3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 302,
+          "name": "Dungeon_passage3",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_passage1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 303,
+          "name": "Dungeon_passage1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_cavern2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 304,
+          "name": "Dungeon_cavern2",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_cavern1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 305,
+          "name": "Dungeon_cavern1",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_cavern3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 306,
+          "name": "Dungeon_cavern3",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_nest3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 307,
+          "name": "Dungeon_nest3",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_passage2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 308,
+          "name": "Dungeon_passage2",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_nest2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 309,
+          "name": "Dungeon_nest2",
+          "links": [
+            {
+              "name": null,
+              "targets": [
+                "Dungeon_nest1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

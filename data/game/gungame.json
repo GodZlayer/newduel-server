@@ -1,0 +1,52 @@
+{
+  "source": "gungame.xml",
+  "sets": [
+    [
+      {
+        "melee": "inventory",
+        "primary": "4010",
+        "secondary": "4002"
+      },
+      {
+        "melee": "inventory",
+        "primary": "4502",
+        "secondary": "4006"
+      },
+      {
+        "melee": "inventory",
+        "primary": "5004",
+        "secondary": "5002"
+      },
+      {
+        "melee": "inventory",
+        "primary": "6002",
+        "secondary": "6001"
+      },
+      {
+        "melee": "inventory",
+        "primary": "7002",
+        "secondary": "7001"
+      },
+      {
+        "melee": "inventory",
+        "primary": "8002",
+        "secondary": "8001"
+      },
+      {
+        "melee": "inventory",
+        "primary": "9002",
+        "secondary": "9001"
+      },
+      {
+        "custom1": "30301",
+        "custom2": "30302"
+      },
+      {
+        "melee": "inventory"
+      }
+    ]
+  ],
+  "options": {
+    "MinKillsPerLevel": 2
+  }
+}

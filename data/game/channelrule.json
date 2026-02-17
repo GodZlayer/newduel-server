@@ -1,0 +1,704 @@
+{
+  "source": "channelrule.xml",
+  "rules": [
+    {
+      "id": 0,
+      "name": "novice",
+      "gametypes": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ],
+      "maps": [
+        {
+          "name": "Mansion"
+        },
+        {
+          "name": "Prison"
+        },
+        {
+          "name": "Prison II"
+        },
+        {
+          "name": "Island"
+        },
+        {
+          "name": "Garden"
+        },
+        {
+          "name": "Station"
+        },
+        {
+          "name": "Battle Arena"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Town"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "newbie",
+      "gametypes": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ],
+      "maps": [
+        {
+          "name": "Mansion"
+        },
+        {
+          "name": "Prison"
+        },
+        {
+          "name": "Prison II"
+        },
+        {
+          "name": "Island"
+        },
+        {
+          "name": "Garden"
+        },
+        {
+          "name": "Station"
+        },
+        {
+          "name": "Battle Arena"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Town"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "rookie",
+      "gametypes": [
+        {
+          "id": 0
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ],
+      "maps": [
+        {
+          "name": "Mansion"
+        },
+        {
+          "name": "Prison"
+        },
+        {
+          "name": "Prison II"
+        },
+        {
+          "name": "Island"
+        },
+        {
+          "name": "Garden"
+        },
+        {
+          "name": "Station"
+        },
+        {
+          "name": "Battle Arena"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Town"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Port"
+        },
+        {
+          "name": "Snow_Town"
+        },
+        {
+          "name": "Hall"
+        },
+        {
+          "name": "Catacomb"
+        },
+        {
+          "name": "Jail"
+        },
+        {
+          "name": "Shower Room"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "mastery",
+      "gametypes": [
+        {
+          "id": 0
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ],
+      "maps": [
+        {
+          "name": "Mansion"
+        },
+        {
+          "name": "Prison"
+        },
+        {
+          "name": "Prison II"
+        },
+        {
+          "name": "Island"
+        },
+        {
+          "name": "Garden"
+        },
+        {
+          "name": "Station"
+        },
+        {
+          "name": "Battle Arena"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Town"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Port"
+        },
+        {
+          "name": "Castle"
+        },
+        {
+          "name": "Dungeon"
+        },
+        {
+          "name": "Snow_Town"
+        },
+        {
+          "name": "Hall"
+        },
+        {
+          "name": "Catacomb"
+        },
+        {
+          "name": "Jail"
+        },
+        {
+          "name": "Shower Room"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "elite",
+      "gametypes": [
+        {
+          "id": 0
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 12
+        }
+      ],
+      "maps": [
+        {
+          "name": "Mansion"
+        },
+        {
+          "name": "Prison"
+        },
+        {
+          "name": "Prison II"
+        },
+        {
+          "name": "Island"
+        },
+        {
+          "name": "Garden"
+        },
+        {
+          "name": "Station"
+        },
+        {
+          "name": "Battle Arena"
+        },
+        {
+          "name": "Dojo"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "Town"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Port"
+        },
+        {
+          "name": "Castle"
+        },
+        {
+          "name": "Dungeon"
+        },
+        {
+          "name": "Lost Shrine"
+        },
+        {
+          "name": "Stairway"
+        },
+        {
+          "name": "High_Haven"
+        },
+        {
+          "name": "Citadel"
+        },
+        {
+          "name": "WeaponShop"
+        },
+        {
+          "name": "Snow_Town"
+        },
+        {
+          "name": "Hall"
+        },
+        {
+          "name": "Catacomb"
+        },
+        {
+          "name": "Jail"
+        },
+        {
+          "name": "Shower Room"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "free_all_maps",
+      "gametypes": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        }
+      ],
+      "maps": [
+        {
+          "name": "[CHRIS]_SkillGalaxy"
+        },
+        {
+          "name": "A2Z-Maze"
+        },
+        {
+          "name": "Arena"
+        },
+        {
+          "name": "Basak"
+        },
+        {
+          "name": "Basak2"
+        },
+        {
+          "name": "Battle Arena"
+        },
+        {
+          "name": "BlackSkillZ_V1"
+        },
+        {
+          "name": "Castle"
+        },
+        {
+          "name": "Catacomb"
+        },
+        {
+          "name": "Crafting"
+        },
+        {
+          "name": "cs_assault"
+        },
+        {
+          "name": "cs_assaultV2"
+        },
+        {
+          "name": "cs_assaultV3"
+        },
+        {
+          "name": "DBZ"
+        },
+        {
+          "name": "Dice-SLv1"
+        },
+        {
+          "name": "DiceV2_SF"
+        },
+        {
+          "name": "Dojo"
+        },
+        {
+          "name": "DramaSkillTrail V1"
+        },
+        {
+          "name": "Dungeon"
+        },
+        {
+          "name": "Dungeon II"
+        },
+        {
+          "name": "DusteRSkillTrail_V3fix"
+        },
+        {
+          "name": "DusteRSkillTrailV1"
+        },
+        {
+          "name": "Factory"
+        },
+        {
+          "name": "FinishLine"
+        },
+        {
+          "name": "firstmap"
+        },
+        {
+          "name": "Garden"
+        },
+        {
+          "name": "Hall"
+        },
+        {
+          "name": "House_Simpsons2"
+        },
+        {
+          "name": "Island"
+        },
+        {
+          "name": "Jail"
+        },
+        {
+          "name": "lalalal"
+        },
+        {
+          "name": "Lost Shrine"
+        },
+        {
+          "name": "mansion"
+        },
+        {
+          "name": "MarioCastle"
+        },
+        {
+          "name": "Master_Skiller"
+        },
+        {
+          "name": "MasterSkillerV2"
+        },
+        {
+          "name": "MasterskillV1"
+        },
+        {
+          "name": "MasterSkillV2"
+        },
+        {
+          "name": "Mithlond"
+        },
+        {
+          "name": "Mountain Fort"
+        },
+        {
+          "name": "New York"
+        },
+        {
+          "name": "Night Arena"
+        },
+        {
+          "name": "ObstacleCourse"
+        },
+        {
+          "name": "pirate docks"
+        },
+        {
+          "name": "Port"
+        },
+        {
+          "name": "prison"
+        },
+        {
+          "name": "prison II"
+        },
+        {
+          "name": "ReflectSkillZ"
+        },
+        {
+          "name": "Ringer"
+        },
+        {
+          "name": "RoF"
+        },
+        {
+          "name": "Ruin"
+        },
+        {
+          "name": "Shaolin_Duel"
+        },
+        {
+          "name": "Shaolin_Temp"
+        },
+        {
+          "name": "Shower Room"
+        },
+        {
+          "name": "Showoff"
+        },
+        {
+          "name": "Silly"
+        },
+        {
+          "name": "Skill King"
+        },
+        {
+          "name": "Skill-Test"
+        },
+        {
+          "name": "SkillCityMap"
+        },
+        {
+          "name": "SkillFutureMap"
+        },
+        {
+          "name": "SkillGalaxyV2"
+        },
+        {
+          "name": "SkillIceMap"
+        },
+        {
+          "name": "Skillmap"
+        },
+        {
+          "name": "SkillMapDigital"
+        },
+        {
+          "name": "SkillMapGold"
+        },
+        {
+          "name": "SkillMapSG Basic"
+        },
+        {
+          "name": "SkillMapSG V1"
+        },
+        {
+          "name": "SkillMapSG V2"
+        },
+        {
+          "name": "SkillMapSG V3"
+        },
+        {
+          "name": "skillmapv2"
+        },
+        {
+          "name": "skillmapv3"
+        },
+        {
+          "name": "SkillmapV4"
+        },
+        {
+          "name": "SkillmapV6"
+        },
+        {
+          "name": "SkillMapV8"
+        },
+        {
+          "name": "SkillmapVirtual"
+        },
+        {
+          "name": "SkillTronic"
+        },
+        {
+          "name": "Skyline"
+        },
+        {
+          "name": "Snow_Town"
+        },
+        {
+          "name": "Stairway"
+        },
+        {
+          "name": "Star_Race"
+        },
+        {
+          "name": "station"
+        },
+        {
+          "name": "Street_Duel"
+        },
+        {
+          "name": "Superflip"
+        },
+        {
+          "name": "SuperMario3"
+        },
+        {
+          "name": "ThePillar"
+        },
+        {
+          "name": "Town"
+        },
+        {
+          "name": "triboss"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Garden",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Garden\\spawn.xml",
+      "count": 10,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2202.791748,
+            -2e-06,
+            50.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2202.791748,
+            -2948.7885742,
+            50.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2202.7919922,
+            -2e-06,
+            50.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2202.7922363,
+            -2948.7885742,
+            50.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -2635.284668,
+            -200.2736816
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            2500.0,
+            75.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -2635.284668,
+            -200.2736816
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            300.0000305,
+            -800.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            2500.0,
+            75.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            8.61e-05,
+            -820.0,
+            -600.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Garden/spawn.xml"
+    }
+  ]
+}

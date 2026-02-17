@@ -1,0 +1,307 @@
+{
+  "source": "worlditem.xml",
+  "count": 18,
+  "items": [
+    {
+      "id": "01",
+      "name": "hp01",
+      "type": "hp",
+      "time": 3000,
+      "amount": 10,
+      "modelname": "red"
+    },
+    {
+      "id": "02",
+      "name": "hp02",
+      "type": "hp",
+      "time": 5000,
+      "amount": 25,
+      "modelname": "red"
+    },
+    {
+      "id": "03",
+      "name": "hp03",
+      "type": "hp",
+      "time": 10000,
+      "amount": 50,
+      "modelname": "red"
+    },
+    {
+      "id": "04",
+      "name": "ap01",
+      "type": "ap",
+      "time": 3000,
+      "amount": 10,
+      "modelname": "green"
+    },
+    {
+      "id": "05",
+      "name": "ap02",
+      "type": "ap",
+      "time": 3000,
+      "amount": 25,
+      "modelname": "green"
+    },
+    {
+      "id": "06",
+      "name": "ap03",
+      "type": "ap",
+      "time": 10000,
+      "amount": 50,
+      "modelname": "green"
+    },
+    {
+      "id": "07",
+      "name": "bullet01",
+      "type": "bullet",
+      "time": 3000,
+      "amount": 1,
+      "modelname": "yellow"
+    },
+    {
+      "id": "08",
+      "name": "bullet02",
+      "type": "bullet",
+      "time": 3000,
+      "amount": 2,
+      "modelname": "yellow"
+    },
+    {
+      "id": "51",
+      "name": "itembox",
+      "type": "quest",
+      "time": 3000,
+      "amount": 2,
+      "modelname": "itembox"
+    },
+    {
+      "id": "100",
+      "name": "medikit",
+      "type": "hp",
+      "amount": 10,
+      "modelname": "medikit"
+    },
+    {
+      "id": "110",
+      "name": "repairkit",
+      "type": "ap",
+      "amount": 10,
+      "modelname": "repairkit"
+    },
+    {
+      "id": "111",
+      "name": "bulletkit",
+      "type": "bullet",
+      "amount": 1,
+      "modelname": "bulletkit"
+    },
+    {
+      "id": "120",
+      "name": "samgak01",
+      "type": "hpap",
+      "amount": 7,
+      "modelname": "samgak01"
+    },
+    {
+      "id": "121",
+      "name": "candy",
+      "type": "hpap",
+      "amount": 8,
+      "modelname": "candy"
+    },
+    {
+      "id": "122",
+      "name": "chocobar",
+      "type": "hpap",
+      "amount": 8,
+      "modelname": "chocobar"
+    },
+    {
+      "id": "130",
+      "name": "medickit_rx",
+      "type": "hp",
+      "amount": 20,
+      "modelname": "medickit_rx"
+    },
+    {
+      "id": "131",
+      "name": "repairkit",
+      "type": "ap",
+      "amount": 20,
+      "modelname": "repairkit_rx"
+    },
+    {
+      "id": "201",
+      "name": "portal",
+      "type": "client",
+      "time": 3000,
+      "modelname": "portal"
+    }
+  ],
+  "mesh": [
+    {
+      "name": "yellow",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "yellow",
+          "filename": "model/worlditem/ef_yellow.elu"
+        }
+      ],
+      "animations": [
+        {
+          "name": "play",
+          "filename": "model/worlditem/ef_yellow.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "loop"
+        }
+      ]
+    },
+    {
+      "name": "red",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "red",
+          "filename": "model/worlditem/ef_red.elu"
+        }
+      ],
+      "animations": [
+        {
+          "name": "play",
+          "filename": "model/worlditem/ef_red.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "loop"
+        }
+      ]
+    },
+    {
+      "name": "green",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "green",
+          "filename": "model/worlditem/ef_green.elu"
+        }
+      ],
+      "animations": [
+        {
+          "name": "play",
+          "filename": "model/worlditem/ef_green.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "loop"
+        }
+      ]
+    },
+    {
+      "name": "medikit",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "medikit",
+          "filename": "model/weapon/item/medikit.elu"
+        }
+      ]
+    },
+    {
+      "name": "repairkit",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "repairkit",
+          "filename": "model/weapon/item/repairkit.elu"
+        }
+      ]
+    },
+    {
+      "name": "bulletkit",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "bulletkit",
+          "filename": "model/weapon/item/medickit_samgak01.elu"
+        }
+      ]
+    },
+    {
+      "name": "samgak01",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "samgak01",
+          "filename": "model/weapon/item/medickit_samgak01.elu"
+        }
+      ]
+    },
+    {
+      "name": "chocobar",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "chocobar",
+          "filename": "model/weapon/item/chocobar.elu"
+        }
+      ]
+    },
+    {
+      "name": "portal",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "portal",
+          "filename": "model/worlditem/ef_portal.elu"
+        }
+      ],
+      "animations": [
+        {
+          "name": "play",
+          "filename": "model/worlditem/ef_portal.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "loop"
+        }
+      ]
+    },
+    {
+      "name": "itembox",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "itembox",
+          "filename": "model/worlditem/ef_box.elu"
+        }
+      ],
+      "animations": [
+        {
+          "name": "play",
+          "filename": "model/worlditem/ef_box_open.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "lastframe"
+        },
+        {
+          "name": "playloop",
+          "filename": "model/worlditem/ef_box_opened.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "loop"
+        }
+      ]
+    },
+    {
+      "name": "baseEffect",
+      "_tag": "AddWorldItemElu",
+      "models": [
+        {
+          "name": "baseEffect",
+          "filename": "model/worlditem/ef_prop.elu"
+        }
+      ],
+      "animations": [
+        {
+          "name": "play",
+          "filename": "model/worlditem/ef_prop.elu.ani",
+          "motion_type": "0",
+          "motion_loop_type": "loop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "cs_assaultV3",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\cs_assaultV3\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            6632.0,
+            928.0,
+            -1872.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4880.0,
+            1920.0,
+            -1352.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            5032.0,
+            2736.0,
+            -1504.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5264.0,
+            648.0,
+            -1856.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5528.0,
+            -2264.0,
+            -848.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            3992.0,
+            -632.0,
+            -2224.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            6632.0,
+            928.0,
+            -1872.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4880.0,
+            1920.0,
+            -1352.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            5032.0,
+            2736.0,
+            -1504.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5264.0,
+            648.0,
+            -1856.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5528.0,
+            -2264.0,
+            -848.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            3992.0,
+            -632.0,
+            -2224.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "cs_assaultV3/spawn.xml"
+    }
+  ]
+}

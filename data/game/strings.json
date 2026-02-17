@@ -1,0 +1,7290 @@
+{
+  "source": "strings.xml",
+  "count": 1821,
+  "strings": [
+    {
+      "id": "ZITEM_NAME_1",
+      "text": "Rusty Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_1",
+      "text": "It has some rust here and there. Once used, it's sure to be difficult to sell."
+    },
+    {
+      "id": "ZITEM_NAME_2",
+      "text": "Rusty Sword"
+    },
+    {
+      "id": "ZITEM_DESC_2",
+      "text": "It's a rusty sword. Once used, it's sure to be difficult to sell."
+    },
+    {
+      "id": "ZITEM_NAME_3",
+      "text": "Military Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_3",
+      "text": "Military assault dagger."
+    },
+    {
+      "id": "ZITEM_NAME_4",
+      "text": "Lightweight Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_4",
+      "text": "Easy to use lightweight dagger."
+    },
+    {
+      "id": "ZITEM_NAME_5",
+      "text": "High-Class Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_5",
+      "text": "Heavy unique high-class dagger. Beautiful pattern inscribed on the surface."
+    },
+    {
+      "id": "ZITEM_NAME_6",
+      "text": "Phantom Slaying Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_6",
+      "text": "Mysterious dagger, used to kill evil spirits. However, it could be an urban legend."
+    },
+    {
+      "id": "ZITEM_NAME_7",
+      "text": "Warlord's Gut Ripper"
+    },
+    {
+      "id": "ZITEM_DESC_7",
+      "text": "Unique dagger, used by Warlord's during the Storm civil war."
+    },
+    {
+      "id": "ZITEM_NAME_8",
+      "text": "Crystal Blade"
+    },
+    {
+      "id": "ZITEM_DESC_8",
+      "text": "A dagger which uses its easy breakable disadvantage property to its advantage.  The light crystal blade leaves its broken pieces in the opponent's body when attack and creates fatal wounds."
+    },
+    {
+      "id": "ZITEM_NAME_11",
+      "text": "Iron Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_11",
+      "text": "Basic iron dagger, made in a factory. A serial number is barely visible on the surface."
+    },
+    {
+      "id": "ZITEM_NAME_12",
+      "text": "Iron Sword"
+    },
+    {
+      "id": "ZITEM_DESC_12",
+      "text": "Low level iron sword. Faint serial number visible on the surface."
+    },
+    {
+      "id": "ZITEM_NAME_13",
+      "text": "Military Sword"
+    },
+    {
+      "id": "ZITEM_DESC_13",
+      "text": "Great looking sword, used by ranked officers."
+    },
+    {
+      "id": "ZITEM_NAME_14",
+      "text": "Lightweight Sword"
+    },
+    {
+      "id": "ZITEM_DESC_14",
+      "text": "Easy to use lightweight sword."
+    },
+    {
+      "id": "ZITEM_NAME_15",
+      "text": "High-class Sword"
+    },
+    {
+      "id": "ZITEM_DESC_15",
+      "text": "High-Class sword, made of rare materials for combat."
+    },
+    {
+      "id": "ZITEM_NAME_16",
+      "text": "Devil Slayer"
+    },
+    {
+      "id": "ZITEM_DESC_16",
+      "text": "Mysterious sword used to kill a haunted evil spirit."
+    },
+    {
+      "id": "ZITEM_NAME_17",
+      "text": "Golden Dragon Sword"
+    },
+    {
+      "id": "ZITEM_DESC_17",
+      "text": "Gold plated attractive sword. Sword collectors desperately want to acquire this powerful katana."
+    },
+    {
+      "id": "ZITEM_NAME_18",
+      "text": "Shura"
+    },
+    {
+      "id": "ZITEM_DESC_18",
+      "text": "A sword used by Gumho, who was a legendary warrior at the battle field long time ago.  After his death, his nick name became the name of the weapon."
+    },
+    {
+      "id": "ZITEM_NAME_31",
+      "text": "Iron Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_31",
+      "text": "(Dual Wield) These Kodachi Iron swords are widely produced for the general public."
+    },
+    {
+      "id": "ZITEM_NAME_32",
+      "text": "Lightweight Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_32",
+      "text": "(Dual Wield) Kodachi swords designed for two hands. Much lighter and smaller than regular swords."
+    },
+    {
+      "id": "ZITEM_NAME_33",
+      "text": "High-Class Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_33",
+      "text": "(Dual Wield) This unique sword produced by Kodachi is made of high-end rare materials."
+    },
+    {
+      "id": "ZITEM_NAME_34",
+      "text": "Red Blood"
+    },
+    {
+      "id": "ZITEM_DESC_34",
+      "text": "(Dual Wield) These powerful swords are a symbol of the Red Blood Dynasty, carried by a great swordsman in ancient times."
+    },
+    {
+      "id": "ZITEM_NAME_35",
+      "text": "Dual Scimitar"
+    },
+    {
+      "id": "ZITEM_DESC_35",
+      "text": "A dual sword used by nomads who live in the distant desert far from Axium (tax included)"
+    },
+    {
+      "id": "ZITEM_NAME_51",
+      "text": "Giant Sword"
+    },
+    {
+      "id": "ZITEM_DESC_51",
+      "text": "Sword used by the Hiru tribe."
+    },
+    {
+      "id": "ZITEM_NAME_52",
+      "text": "Bright Giant Sword"
+    },
+    {
+      "id": "ZITEM_DESC_52",
+      "text": "Sword used by the Hiru tribe and added steel."
+    },
+    {
+      "id": "ZITEM_NAME_53",
+      "text": "God Slayer Sword"
+    },
+    {
+      "id": "ZITEM_DESC_53",
+      "text": "This sword made Gods."
+    },
+    {
+      "id": "ZITEM_NAME_54",
+      "text": "Fire-Blast Sword"
+    },
+    {
+      "id": "ZITEM_DESC_54",
+      "text": "Sword used by dragon skin and fire ston."
+    },
+    {
+      "id": "ZITEM_NAME_55",
+      "text": "Skull Giant Sword"
+    },
+    {
+      "id": "ZITEM_DESC_55",
+      "text": "Sword used by much steel and skeleton head."
+    },
+    {
+      "id": "ZITEM_NAME_4001",
+      "text": "Raptor 50"
+    },
+    {
+      "id": "ZITEM_DESC_4001",
+      "text": "This pistol has been used since a long time ago in the empire. Its production has been discontinued. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4002",
+      "text": "Raptor 50 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4002",
+      "text": "(Dual Wield) These pistols have been used since a long time ago in the empire. Their production has been discontinued. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4003",
+      "text": "Raptor 120"
+    },
+    {
+      "id": "ZITEM_DESC_4003",
+      "text": "It was developed to be supplied to the military. Its accuracy has been improved from the Raptor 80. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4004",
+      "text": "Raptor 120 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4004",
+      "text": "(Dual Wield) It was developed to be supplied to the military. Its accuracy has been improved from the Raptor 80s. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4005",
+      "text": "Minic 567"
+    },
+    {
+      "id": "ZITEM_DESC_4005",
+      "text": "This legendary revolver was produced by Maxwell and supplied to the general infantry of the Republic. Its production is now discontinued."
+    },
+    {
+      "id": "ZITEM_NAME_4006",
+      "text": "Minic 567 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4006",
+      "text": "(Dual Wield) These legendary revolvers were produced by Maxwell and supplied to the general infantry of the Republic. Its production is now discontinued."
+    },
+    {
+      "id": "ZITEM_NAME_4007",
+      "text": "Zaurus A"
+    },
+    {
+      "id": "ZITEM_DESC_4007",
+      "text": "This revolver was developed to supply the military. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4008",
+      "text": "Zaurus A x2"
+    },
+    {
+      "id": "ZITEM_DESC_4008",
+      "text": "(Dual Wield) These revolvers were developed to supply the military. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4009",
+      "text": "Raptor 80"
+    },
+    {
+      "id": "ZITEM_DESC_4009",
+      "text": "A revised model of the Raptor 50. Its performance slightly improved but the appearance has not changed from the old version. Its production was announced to be stopped quite early as its competition released a new product. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4010",
+      "text": "Raptor 80 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4010",
+      "text": "(Dual Wield) Revised models of the Raptor 50. The performance improved slightly but the appearance has not changed from the old version. Manufactured by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4011",
+      "text": "Raven 5"
+    },
+    {
+      "id": "ZITEM_DESC_4011",
+      "text": "This pistol was produced to be supplied to the battlefront of the Republic. Manufactured by Maxwell."
+    },
+    {
+      "id": "ZITEM_NAME_4012",
+      "text": "Raven 5 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4012",
+      "text": "(Dual Wield) These pistols were produced to be supplied to the battle front of the Republic. Manufactured by Maxwell."
+    },
+    {
+      "id": "ZITEM_NAME_4013",
+      "text": "Raven 6"
+    },
+    {
+      "id": "ZITEM_DESC_4013",
+      "text": "The follow-up model of the Raven 5. It's performance has been improved but its manufacturer failed to make it lighter. Manufactured by Maxwell."
+    },
+    {
+      "id": "ZITEM_NAME_4014",
+      "text": "Raven 6 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4014",
+      "text": "(Dual Wield) The follow-up models of the Raven 5. The performance has been improved but its manufacturer failed to make it lighter. Manufactured by Maxwell."
+    },
+    {
+      "id": "ZITEM_NAME_4015",
+      "text": "Raptor 160"
+    },
+    {
+      "id": "ZITEM_DESC_4015",
+      "text": "The follow-up model to the Raptor 120. It has more firepower, better performance and an excellent rate of fire."
+    },
+    {
+      "id": "ZITEM_NAME_4016",
+      "text": "Raptor 160 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4016",
+      "text": "(Dual Wield) The follow-up model to the Raptor 120. They have more firepower, better performance and an excellent rate of fire."
+    },
+    {
+      "id": "ZITEM_NAME_4017",
+      "text": "Raven 7"
+    },
+    {
+      "id": "ZITEM_DESC_4017",
+      "text": "The Raven 7 has more firepower and a better rate of fire but it still has some drawbacks in terms of accuracy and weight."
+    },
+    {
+      "id": "ZITEM_NAME_4018",
+      "text": "Raven 7 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4018",
+      "text": "(Dual Wield) The Raven 7s have more firepower and a better rate of fire but they still have some drawbacks in terms of accuracy and weight."
+    },
+    {
+      "id": "ZITEM_NAME_4019",
+      "text": "Raptor 200"
+    },
+    {
+      "id": "ZITEM_DESC_4019",
+      "text": "The Raptor series won confidence with it's high rate of fire and accuracy. This weapon shows the advanced development capability of Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4020",
+      "text": "Raptor 200 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4020",
+      "text": "(Dual Wield) The Raptor series won confidence with it's high rate of fire and accuracy. These weapons show the advanced development capability of Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_4022",
+      "text": "Raven 8 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4022",
+      "text": "(Dual Wield) Model developed mainly to improve fire power and higher rate of fire and laid aside the weight improvement which has been the chronic problem of problem of Raven series."
+    },
+    {
+      "id": "ZITEM_NAME_4501",
+      "text": "Dynax 7000"
+    },
+    {
+      "id": "ZITEM_DESC_4501",
+      "text": "The first of the lightweight revolvers from Canox. Though it's production has been discontinued, the second-hand Dynax is still a popular gun."
+    },
+    {
+      "id": "ZITEM_NAME_4502",
+      "text": "Dynax 7000 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4502",
+      "text": "(Dual Wield) The first of the lightweight revolvers from Canox. Though their production has been discontinued, the second-hand Dynax is still a popular gun."
+    },
+    {
+      "id": "ZITEM_NAME_4503",
+      "text": "Minic 567 Limited"
+    },
+    {
+      "id": "ZITEM_DESC_4503",
+      "text": "This model was produced in order to commemorate the fifth anniversary of Maxwell's Minic. It is more powerful than the original."
+    },
+    {
+      "id": "ZITEM_NAME_4504",
+      "text": "Minic 567 Limited x2"
+    },
+    {
+      "id": "ZITEM_DESC_4504",
+      "text": "(Dual Wield) These were produced in order to commemorate the fifth aniversary of Maxwell's Minic. They have more firepower that the originals."
+    },
+    {
+      "id": "ZITEM_NAME_4505",
+      "text": "Phantom Cruise"
+    },
+    {
+      "id": "ZITEM_DESC_4505",
+      "text": "High-end revolver made by Nico. Its upgraded design draws a lot of attention."
+    },
+    {
+      "id": "ZITEM_NAME_4506",
+      "text": "Phantom Cruise x2"
+    },
+    {
+      "id": "ZITEM_DESC_4506",
+      "text": "(Dual Wield) High-end revolvers made by Nico. Its upgraded design draws a lot of attention."
+    },
+    {
+      "id": "ZITEM_NAME_4507",
+      "text": "Phantom Cruise N"
+    },
+    {
+      "id": "ZITEM_DESC_4507",
+      "text": "Phantom Cruise's slightly upgraded model. Its performance has slightly improved."
+    },
+    {
+      "id": "ZITEM_NAME_4508",
+      "text": "Phantom Cruise N x2"
+    },
+    {
+      "id": "ZITEM_DESC_4508",
+      "text": "(Dual Wield) Phantom Cruise's minor upgraded models. The performance has slightly improved."
+    },
+    {
+      "id": "ZITEM_NAME_4509",
+      "text": "Dynax 8000"
+    },
+    {
+      "id": "ZITEM_DESC_4509",
+      "text": "Lightweight revolver made by Canox. This is the follow-up model of the Dynax 7000, its performance has remarkably improved."
+    },
+    {
+      "id": "ZITEM_NAME_4510",
+      "text": "Dynax 8000 x2"
+    },
+    {
+      "id": "ZITEM_DESC_4510",
+      "text": "(Dual Wield) Lightweight revolvers made by Canox. These are the follow-up models of the Dynax 7000, their performance have remarkably improved."
+    },
+    {
+      "id": "ZITEM_NAME_4511",
+      "text": "Minic 567 MK.II"
+    },
+    {
+      "id": "ZITEM_DESC_4511",
+      "text": "This is an upgraded model of the commemorative fifth anniversary Minic 567. It packs more power than the original one."
+    },
+    {
+      "id": "ZITEM_NAME_4512",
+      "text": "Minic 567 MK.II x2"
+    },
+    {
+      "id": "ZITEM_DESC_4512",
+      "text": "(Dual Wield) This is the upgraded models of the commemorative fifth anniversary Minic 567. They pack more power than the original ones."
+    },
+    {
+      "id": "ZITEM_NAME_4513",
+      "text": "Zaurus B"
+    },
+    {
+      "id": "ZITEM_DESC_4513",
+      "text": "The Zaurus Type B is the most powerful handgun money can buy. It also has better accuracy."
+    },
+    {
+      "id": "ZITEM_NAME_4514",
+      "text": "Zaurus B x2"
+    },
+    {
+      "id": "ZITEM_DESC_4514",
+      "text": "(Dual Wield) The Zaurus Type Bs are the most powerful handgun money can buy. They also have better accuracy."
+    },
+    {
+      "id": "ZITEM_NAME_4516",
+      "text": "Dynax 800C x2"
+    },
+    {
+      "id": "ZITEM_DESC_4516",
+      "text": "(Dual Wield) Illegally altered model of 8000 which once was very popular.  This model gained popularity so the Canox company decided to sell it officially."
+    },
+    {
+      "id": "ZITEM_NAME_5001",
+      "text": "Renard"
+    },
+    {
+      "id": "ZITEM_DESC_5001",
+      "text": "This old submachine gun was produced by Canox. Its production has been discontinued."
+    },
+    {
+      "id": "ZITEM_NAME_5002",
+      "text": "Renard x2"
+    },
+    {
+      "id": "ZITEM_DESC_5002",
+      "text": "(Dual Wield) These old submachine guns were produced by Canox. Its production has been discontinued."
+    },
+    {
+      "id": "ZITEM_NAME_5003",
+      "text": "Walcom S5"
+    },
+    {
+      "id": "ZITEM_DESC_5003",
+      "text": "This submachine gun produced by Walcom are quite popular. They have better firepower and a larger ammo capacity."
+    },
+    {
+      "id": "ZITEM_NAME_5004",
+      "text": "Walcom S5 x2"
+    },
+    {
+      "id": "ZITEM_DESC_5004",
+      "text": "(Dual Wield) These submachine guns produced by Walcom are quite popular. They have better firepower and a larger ammo capacity."
+    },
+    {
+      "id": "ZITEM_NAME_5005",
+      "text": "Ellan"
+    },
+    {
+      "id": "ZITEM_DESC_5005",
+      "text": "Canox's small submachine gun. This was manufactured with a focus on better mobility."
+    },
+    {
+      "id": "ZITEM_NAME_5006",
+      "text": "Ellan x2"
+    },
+    {
+      "id": "ZITEM_DESC_5006",
+      "text": "(Dual Wield) Canox's small submachine guns. These were manufactured with focus on better mobility."
+    },
+    {
+      "id": "ZITEM_NAME_5007",
+      "text": "Renard V"
+    },
+    {
+      "id": "ZITEM_DESC_5007",
+      "text": "Follow-up model of the once widely-popular Renard. It has better accuracy and a higher rate of fire."
+    },
+    {
+      "id": "ZITEM_NAME_5008",
+      "text": "Renard V x2"
+    },
+    {
+      "id": "ZITEM_DESC_5008",
+      "text": "(Dual Wield) Follow-up model of the once widely popular Renards. They have better accuracy and a higher rate of fire."
+    },
+    {
+      "id": "ZITEM_NAME_5009",
+      "text": "Walcom S6"
+    },
+    {
+      "id": "ZITEM_DESC_5009",
+      "text": "The follow-up model of the Walcom S5. It has more firepower and better stability compared with its previous model."
+    },
+    {
+      "id": "ZITEM_NAME_5010",
+      "text": "Walcom S6 x2"
+    },
+    {
+      "id": "ZITEM_DESC_5010",
+      "text": "(Dual Wield) The follow-up models of Walcom's S5. They have more firepower and better stability compared with its previous models."
+    },
+    {
+      "id": "ZITEM_NAME_5011",
+      "text": "New Renard V"
+    },
+    {
+      "id": "ZITEM_DESC_5011",
+      "text": "New version of the popular Renard V produced by Canox."
+    },
+    {
+      "id": "ZITEM_NAME_5012",
+      "text": "New Renard V x2"
+    },
+    {
+      "id": "ZITEM_DESC_5012",
+      "text": "(Dual Wield) New versions of the popular Renard V produced by Canox."
+    },
+    {
+      "id": "ZITEM_NAME_5013",
+      "text": "Walcom XL"
+    },
+    {
+      "id": "ZITEM_DESC_5013",
+      "text": "This model was produced in order to commemorate the 70th anniversary of Walcom. It has a lightweight body and it is called 'the Exterminator'."
+    },
+    {
+      "id": "ZITEM_NAME_5014",
+      "text": "Walcom XL x2"
+    },
+    {
+      "id": "ZITEM_DESC_5014",
+      "text": "(Dual Wield) These models were produced in order to commemorate the 70th anniversary of Walcom. It has a lightweight body and it is called 'the Exterminator'."
+    },
+    {
+      "id": "ZITEM_NAME_5015",
+      "text": "Renard VI"
+    },
+    {
+      "id": "ZITEM_DESC_5015",
+      "text": "This new model was produced by Canox whose popularity was dented by Walcom XL."
+    },
+    {
+      "id": "ZITEM_NAME_5016",
+      "text": "Renard VI x2"
+    },
+    {
+      "id": "ZITEM_DESC_5016",
+      "text": "(Dual Wield) These new models were produced by Canox whose popularity was dented by Walcom XL."
+    },
+    {
+      "id": "ZITEM_NAME_5017",
+      "text": "Walcom XLS"
+    },
+    {
+      "id": "ZITEM_DESC_5017",
+      "text": "Upgrade to the Walcom XL. The only difference from the old model is enhanced fire power."
+    },
+    {
+      "id": "ZITEM_NAME_5018",
+      "text": "Walcom XLS x2"
+    },
+    {
+      "id": "ZITEM_DESC_5018",
+      "text": "(Dual Wield) Upgrades to the Walcom XL. The only difference from the old models are enhanced fire power."
+    },
+    {
+      "id": "ZITEM_NAME_5020",
+      "text": "Walcom S7 x2"
+    },
+    {
+      "id": "ZITEM_DESC_5020",
+      "text": "(Dual Wield) New SMG from Walcom company which has been rivary of Renard company.  The fire power has been enhanced."
+    },
+    {
+      "id": "ZITEM_NAME_6001",
+      "text": "Breaker 3"
+    },
+    {
+      "id": "ZITEM_DESC_6001",
+      "text": "Pump action shotgun produced by Leonics, who has specialized in the production of shotguns for ages. Its production has been discontinued."
+    },
+    {
+      "id": "ZITEM_NAME_6002",
+      "text": "Breaker 5"
+    },
+    {
+      "id": "ZITEM_DESC_6002",
+      "text": "Pump action type shotgun produced by Leonics. Though made a long time ago, it is still very popular."
+    },
+    {
+      "id": "ZITEM_NAME_6003",
+      "text": "Breaker 6"
+    },
+    {
+      "id": "ZITEM_DESC_6003",
+      "text": "Leonics' new shotgun that was released quite recently."
+    },
+    {
+      "id": "ZITEM_NAME_6004",
+      "text": "Breaker 7"
+    },
+    {
+      "id": "ZITEM_DESC_6004",
+      "text": "Leonics's 7th model adopted a new design different from the existing Breaker series."
+    },
+    {
+      "id": "ZITEM_NAME_6005",
+      "text": "Avenger"
+    },
+    {
+      "id": "ZITEM_DESC_6005",
+      "text": "Shotgun introduced by Nico as a monumental product. This weapon has strong destructive power. It's only drawback, is it can only load a small number of bullets."
+    },
+    {
+      "id": "ZITEM_NAME_6006",
+      "text": "Breaker 8"
+    },
+    {
+      "id": "ZITEM_DESC_6006",
+      "text": "New shotgun produced by Leonics, who is quite famous for the Breaker series of shotguns."
+    },
+    {
+      "id": "ZITEM_NAME_6007",
+      "text": "Avenger MK.II"
+    },
+    {
+      "id": "ZITEM_DESC_6007",
+      "text": "Avenger's follow-up model that became the weapon of choice for adventurers."
+    },
+    {
+      "id": "ZITEM_NAME_6008",
+      "text": "Breaker 9P"
+    },
+    {
+      "id": "ZITEM_DESC_6008",
+      "text": "Prototype model of the Breaker9, the newest shotgun of Rionix.  Great ability but a bit unstable."
+    },
+    {
+      "id": "ZITEM_NAME_509006",
+      "text": "Breaker 9se"
+    },
+    {
+      "id": "ZITEM_DESC_509006",
+      "text": "Latest model of the Breaker 9 series, made by Rionix.  No major changes in ability, but the level restriction got lowered."
+    },
+    {
+      "id": "ZITEM_NAME_6011",
+      "text": "Breaker 1"
+    },
+    {
+      "id": "ZITEM_DESC_6011",
+      "text": "Fast reloading Short double barrel shotgun produced by Smokey."
+    },
+    {
+      "id": "ZITEM_NAME_6012",
+      "text": "Breaker 2"
+    },
+    {
+      "id": "ZITEM_DESC_6012",
+      "text": "Fast reloading Short double barrel shotgun produced by Smokey."
+    },
+    {
+      "id": "ZITEM_NAME_6013",
+      "text": "Breaker 3"
+    },
+    {
+      "id": "ZITEM_DESC_6013",
+      "text": "Long double barrel shotgun produced by Smokey."
+    },
+    {
+      "id": "ZITEM_NAME_6014",
+      "text": "Breaker 4"
+    },
+    {
+      "id": "ZITEM_DESC_6014",
+      "text": "Long double barrel shotgun produced by Smokey."
+    },
+    {
+      "id": "ZITEM_NAME_7001",
+      "text": "Nico R2"
+    },
+    {
+      "id": "ZITEM_DESC_7001",
+      "text": "Rifle produced by Nico in the early days."
+    },
+    {
+      "id": "ZITEM_NAME_7002",
+      "text": "Nico R5"
+    },
+    {
+      "id": "ZITEM_DESC_7002",
+      "text": "One of the most popular rifles among the Republican army."
+    },
+    {
+      "id": "ZITEM_NAME_7003",
+      "text": "Walcom Warrior 77"
+    },
+    {
+      "id": "ZITEM_DESC_7003",
+      "text": "Produced by Walcom, it has the drawback of being difficult to use but it has relatively strong power."
+    },
+    {
+      "id": "ZITEM_NAME_7004",
+      "text": "Maxwell LX30"
+    },
+    {
+      "id": "ZITEM_DESC_7004",
+      "text": "Produced by Maxwell, this weapon has stable grip, good operability, and a high rate of fire."
+    },
+    {
+      "id": "ZITEM_NAME_7005",
+      "text": "Nico R6"
+    },
+    {
+      "id": "ZITEM_DESC_7005",
+      "text": "Follow-up model of popular R5 of Nico. With its improved fire power, it is popular among R5 maniacs."
+    },
+    {
+      "id": "ZITEM_NAME_7006",
+      "text": "Maxwell LX44"
+    },
+    {
+      "id": "ZITEM_DESC_7006",
+      "text": "(Discontinued Item) Rifle with a higher fire rate than LX30. It has a stable grip with high accuracy."
+    },
+    {
+      "id": "ZITEM_NAME_7007",
+      "text": "Nico R7"
+    },
+    {
+      "id": "ZITEM_DESC_7007",
+      "text": "Nico's new rifle with better fire power."
+    },
+    {
+      "id": "ZITEM_NAME_7008",
+      "text": "Walcom Warrior 88"
+    },
+    {
+      "id": "ZITEM_DESC_7008",
+      "text": "Still not easy to use but, this new product by Walcom is produced to focus on stronger fire power."
+    },
+    {
+      "id": "ZITEM_NAME_7009",
+      "text": "Maxwell SWT"
+    },
+    {
+      "id": "ZITEM_DESC_7009",
+      "text": "New rifle developed by Maxwell company which has been requested by Special force in charge of Metropolise security.  It has greatly improved on weight and bullet carriage."
+    },
+    {
+      "id": "ZITEM_NAME_8001",
+      "text": "Nico MG-K8"
+    },
+    {
+      "id": "ZITEM_DESC_8001",
+      "text": "It is so heavy that it is hard to carry but, its rate of fire makes the enemies shiver in fear."
+    },
+    {
+      "id": "ZITEM_NAME_8002",
+      "text": "Nico MG-K9"
+    },
+    {
+      "id": "ZITEM_DESC_8002",
+      "text": "K9 machine gun with upgraded power. It's powerful rate of fire and damage will make swiss cheese of the opposition."
+    },
+    {
+      "id": "ZITEM_NAME_8003",
+      "text": "Nico MG-KX"
+    },
+    {
+      "id": "ZITEM_DESC_8003",
+      "text": "Nico's new machine gun with explosive power. Even just looking at the MG-KX will make the enemies feel pain."
+    },
+    {
+      "id": "ZITEM_NAME_8004",
+      "text": "Nico MG-K11"
+    },
+    {
+      "id": "ZITEM_DESC_8004",
+      "text": "With the popularity of KX, this previously developed machine gun model has been released with the name K11."
+    },
+    {
+      "id": "ZITEM_NAME_9001",
+      "text": "Walcom L1"
+    },
+    {
+      "id": "ZITEM_DESC_9001",
+      "text": "Rocket launcher with strong fire power produced by Walcom."
+    },
+    {
+      "id": "ZITEM_NAME_9002",
+      "text": "Maxwell RW-77"
+    },
+    {
+      "id": "ZITEM_DESC_9002",
+      "text": "Rocket launcher produced by Maxwell. It can hold more bullets than Walcom's L series and has a better fire rate capability. However, the fire power was reduced."
+    },
+    {
+      "id": "ZITEM_NAME_9003",
+      "text": "Walcom L1 mk. II"
+    },
+    {
+      "id": "ZITEM_DESC_9003",
+      "text": "Walcom's Rocket Launcher. This slightly upgraded model of the L1 has slightly stronger fire power."
+    },
+    {
+      "id": "ZITEM_NAME_9004",
+      "text": "Maxwell RW-88"
+    },
+    {
+      "id": "ZITEM_DESC_9004",
+      "text": "An upgraded version of RW-77. Though nothing major has changed, it has a better rate of fire than the previous models."
+    },
+    {
+      "id": "ZITEM_NAME_9005",
+      "text": "Walcom L2"
+    },
+    {
+      "id": "ZITEM_DESC_9005",
+      "text": "Walcom's Rocket Launcher. Holds more bullets than L1, it has become a little lighter and more powerful."
+    },
+    {
+      "id": "ZITEM_NAME_9006",
+      "text": "Maxwell RW-66"
+    },
+    {
+      "id": "ZITEM_DESC_9006",
+      "text": "Rocket launcher made in the early days by Maxwell. It lacks the strong power."
+    },
+    {
+      "id": "ZITEM_NAME_9007",
+      "text": "Maxwell RW-99"
+    },
+    {
+      "id": "ZITEM_DESC_9007",
+      "text": "A revolutionary rocket that has increased the maximum number of bullet and reduced the weight by using new material."
+    },
+    {
+      "id": "ZITEM_NAME_10001",
+      "text": "Bird's Sniper Rifle SN40"
+    },
+    {
+      "id": "ZITEM_DESC_10001",
+      "text": "Used by the military during the storm civil war. This is a typical sniper rifle with optimal level of accuracy."
+    },
+    {
+      "id": "ZITEM_NAME_21001",
+      "text": "Ares Running Shirt"
+    },
+    {
+      "id": "ZITEM_DESC_21001",
+      "text": "Men's running shirt designed by Ares, a supplier of military outfits."
+    },
+    {
+      "id": "ZITEM_NAME_21002",
+      "text": "Renaut Cotton Shirt"
+    },
+    {
+      "id": "ZITEM_DESC_21002",
+      "text": "Very active men's cotton shirt designed by Renaut Sports."
+    },
+    {
+      "id": "ZITEM_NAME_21003",
+      "text": "Venico Leather Coat"
+    },
+    {
+      "id": "ZITEM_DESC_21003",
+      "text": "Men's Leather Coat designed by Venico."
+    },
+    {
+      "id": "ZITEM_NAME_21004",
+      "text": "Vinz Winter Jacket"
+    },
+    {
+      "id": "ZITEM_DESC_21004",
+      "text": "This winter jacket for men has good thermal insulation great for any cold environment."
+    },
+    {
+      "id": "ZITEM_NAME_21005",
+      "text": "Miz Leather Coat"
+    },
+    {
+      "id": "ZITEM_DESC_21005",
+      "text": "Quite Fashionable and stylish men's trench coat produced by Miz."
+    },
+    {
+      "id": "ZITEM_NAME_21006",
+      "text": "Ares Military Jacket"
+    },
+    {
+      "id": "ZITEM_DESC_21006",
+      "text": "Military jacket that Ares designed to supply the military."
+    },
+    {
+      "id": "ZITEM_NAME_21007",
+      "text": "Vinz Long Coat"
+    },
+    {
+      "id": "ZITEM_DESC_21007",
+      "text": "Long wool coat designed by Vinz for men."
+    },
+    {
+      "id": "ZITEM_NAME_21008",
+      "text": "Renaut Summer Shirt"
+    },
+    {
+      "id": "ZITEM_DESC_21008",
+      "text": "Men's shirt with flower patterns designed by Renaut for summer."
+    },
+    {
+      "id": "ZITEM_NAME_21501",
+      "text": "Flex Cotton T-Shirt"
+    },
+    {
+      "id": "ZITEM_DESC_21501",
+      "text": "Cotton T-Shirt exclusively for women. This product is especially suitable for active women."
+    },
+    {
+      "id": "ZITEM_NAME_21502",
+      "text": "Urike Leather Jacket"
+    },
+    {
+      "id": "ZITEM_DESC_21502",
+      "text": "Urike Women's Leather Jacket quite popular with the elastic fabric."
+    },
+    {
+      "id": "ZITEM_NAME_21503",
+      "text": "Rex Military Vest"
+    },
+    {
+      "id": "ZITEM_DESC_21503",
+      "text": "Women's military vest, which ensures greater survival in combat."
+    },
+    {
+      "id": "ZITEM_NAME_21504",
+      "text": "Arona Leather Jacket"
+    },
+    {
+      "id": "ZITEM_DESC_21504",
+      "text": "Fashionable leather jacket for women."
+    },
+    {
+      "id": "ZITEM_NAME_21505",
+      "text": "L-Star Leather Coat"
+    },
+    {
+      "id": "ZITEM_DESC_21505",
+      "text": "Women's luxury coat designed by L-Star."
+    },
+    {
+      "id": "ZITEM_NAME_21506",
+      "text": "Rex Military Jacket"
+    },
+    {
+      "id": "ZITEM_DESC_21506",
+      "text": "Women's military jacket supplied by Rex."
+    },
+    {
+      "id": "ZITEM_NAME_21507",
+      "text": "Urike Trench Coat"
+    },
+    {
+      "id": "ZITEM_DESC_21507",
+      "text": "Women's stylish trench coat, a new design by Urike."
+    },
+    {
+      "id": "ZITEM_NAME_21508",
+      "text": "Bics Summer Top"
+    },
+    {
+      "id": "ZITEM_DESC_21508",
+      "text": "Women's flower patterned top for summer wear, designed by Bics."
+    },
+    {
+      "id": "ZITEM_NAME_22001",
+      "text": "Ares Combat Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22001",
+      "text": "Popular combat gloves, very comfortable simple design."
+    },
+    {
+      "id": "ZITEM_NAME_22002",
+      "text": "Vinz Winter Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22002",
+      "text": "Winter gloves for men. designed by Vinz."
+    },
+    {
+      "id": "ZITEM_NAME_22003",
+      "text": "Ares Iron Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22003",
+      "text": "During combat these iron gloves provide excellent defensive power."
+    },
+    {
+      "id": "ZITEM_NAME_22004",
+      "text": "Miz Sheep Leather Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22004",
+      "text": "Gloves made of durable sheep leather."
+    },
+    {
+      "id": "ZITEM_NAME_22005",
+      "text": "Renaut Summer Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22005",
+      "text": "Summer gloves for men, designed by Renaut."
+    },
+    {
+      "id": "ZITEM_NAME_22501",
+      "text": "Rex Combat Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22501",
+      "text": "Traditional design combat gloves, made out of elastic materials."
+    },
+    {
+      "id": "ZITEM_NAME_22502",
+      "text": "Arona Winter Leather Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22502",
+      "text": "Women's winter leather gloves."
+    },
+    {
+      "id": "ZITEM_NAME_22503",
+      "text": "Rex Iron Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22503",
+      "text": "Women's iron gloves designed for aggressive combat."
+    },
+    {
+      "id": "ZITEM_NAME_22504",
+      "text": "Urike Sheepskin Leather Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22504",
+      "text": "Women's sheepskin leather gloves designed for combat."
+    },
+    {
+      "id": "ZITEM_NAME_22505",
+      "text": "Bics Summer Gloves"
+    },
+    {
+      "id": "ZITEM_DESC_22505",
+      "text": "Women's gloves for summer wear designed by Bics."
+    },
+    {
+      "id": "ZITEM_NAME_23001",
+      "text": "Vinz Training Pants"
+    },
+    {
+      "id": "ZITEM_DESC_23001",
+      "text": "Men's trousers designed by Vinz, made out of elastic materials."
+    },
+    {
+      "id": "ZITEM_NAME_23002",
+      "text": "Renaut Sporty Pants"
+    },
+    {
+      "id": "ZITEM_DESC_23002",
+      "text": "Sporty trousers designed by Renaut sportswear."
+    },
+    {
+      "id": "ZITEM_NAME_23003",
+      "text": "Miz Leather Trousers"
+    },
+    {
+      "id": "ZITEM_DESC_23003",
+      "text": "Miz trousers in a sophisticated design to enhance greater defense. Sleek and clean sewing on pure leather."
+    },
+    {
+      "id": "ZITEM_NAME_23004",
+      "text": "Venico Denim Trousers"
+    },
+    {
+      "id": "ZITEM_DESC_23004",
+      "text": "Venico trousers designed for men."
+    },
+    {
+      "id": "ZITEM_NAME_23005",
+      "text": "Ares Military Trousers"
+    },
+    {
+      "id": "ZITEM_DESC_23005",
+      "text": "Trousers that Ares supplies to the military."
+    },
+    {
+      "id": "ZITEM_NAME_23006",
+      "text": "Webs Blue Jeans"
+    },
+    {
+      "id": "ZITEM_DESC_23006",
+      "text": "Webs jeans for tough adventurers."
+    },
+    {
+      "id": "ZITEM_NAME_23007",
+      "text": "Renaut Summer Shorts"
+    },
+    {
+      "id": "ZITEM_DESC_23007",
+      "text": "Men's swim trousers for summer designed by Renaut."
+    },
+    {
+      "id": "ZITEM_NAME_23501",
+      "text": "Flex Training Pants"
+    },
+    {
+      "id": "ZITEM_DESC_23501",
+      "text": "Flex women's training pants with excellent elasticity, good touch and feel."
+    },
+    {
+      "id": "ZITEM_NAME_23502",
+      "text": "Arona Blue Jeans"
+    },
+    {
+      "id": "ZITEM_DESC_23502",
+      "text": "(Discontinued Item) Women's Blue jeans widely worn by all, young and old."
+    },
+    {
+      "id": "ZITEM_NAME_23503",
+      "text": "Rex Military Trousers"
+    },
+    {
+      "id": "ZITEM_DESC_23503",
+      "text": "Comfortable military trousers especially designed for female soldiers."
+    },
+    {
+      "id": "ZITEM_NAME_23504",
+      "text": "L-Star Black Cotton Slacks"
+    },
+    {
+      "id": "ZITEM_DESC_23504",
+      "text": "(Discontinued Item) Cotton trousers with luxurious touch that L-Star presents for special females."
+    },
+    {
+      "id": "ZITEM_NAME_23505",
+      "text": "Arona Blue Jeans (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_23505",
+      "text": "Women's Blue jeans widely worn by all, young and old."
+    },
+    {
+      "id": "ZITEM_NAME_23506",
+      "text": "Vinz Chamois Trousers"
+    },
+    {
+      "id": "ZITEM_DESC_23506",
+      "text": "Women's Chamois trousers with a good touch and feel, designed by Vinz."
+    },
+    {
+      "id": "ZITEM_NAME_23507",
+      "text": "L-Star Black Cotton Slacks"
+    },
+    {
+      "id": "ZITEM_DESC_23507",
+      "text": "Cotton trousers (new) with luxurious touch that L-Star presents for special females."
+    },
+    {
+      "id": "ZITEM_NAME_23508",
+      "text": "Rex Military Trousers"
+    },
+    {
+      "id": "ZITEM_DESC_23508",
+      "text": "Women's military trousers designed by Rex."
+    },
+    {
+      "id": "ZITEM_NAME_23509",
+      "text": "Urike Cotton Slacks"
+    },
+    {
+      "id": "ZITEM_DESC_23509",
+      "text": "Stylish cotton trousers made by Urike. They have an added practical touch and stylish look, using coarse fabric."
+    },
+    {
+      "id": "ZITEM_NAME_23510",
+      "text": "Bics Summer Shorts"
+    },
+    {
+      "id": "ZITEM_DESC_23510",
+      "text": "Women's swimming shorts for summer designed by Bics."
+    },
+    {
+      "id": "ZITEM_NAME_24001",
+      "text": "Ares Combat Shoes"
+    },
+    {
+      "id": "ZITEM_DESC_24001",
+      "text": "High-end shoes with comfortable touch for dynamic activity."
+    },
+    {
+      "id": "ZITEM_NAME_24002",
+      "text": "Venico Casual Shoes"
+    },
+    {
+      "id": "ZITEM_DESC_24002",
+      "text": "Uniquely designed casual shoes."
+    },
+    {
+      "id": "ZITEM_NAME_24003",
+      "text": "Renaut Climbing Shoes"
+    },
+    {
+      "id": "ZITEM_DESC_24003",
+      "text": "Made with sturdy leather, these shoes do not tear no matter how tough the terrain is that they trod upon."
+    },
+    {
+      "id": "ZITEM_NAME_24004",
+      "text": "Ares Iron Boots"
+    },
+    {
+      "id": "ZITEM_DESC_24004",
+      "text": "Heavy boots for greater defensive power during battle."
+    },
+    {
+      "id": "ZITEM_NAME_24005",
+      "text": "Vinz Casual Shoes"
+    },
+    {
+      "id": "ZITEM_DESC_24005",
+      "text": "Very sturdy casual shoes designed by Vinz."
+    },
+    {
+      "id": "ZITEM_NAME_24006",
+      "text": "Renaut Summer Sandals"
+    },
+    {
+      "id": "ZITEM_DESC_24006",
+      "text": "Men's sandals for summer designed by Renaut."
+    },
+    {
+      "id": "ZITEM_NAME_24501",
+      "text": "Urike Leather Shoes"
+    },
+    {
+      "id": "ZITEM_DESC_24501",
+      "text": "Urike leather shoes designed for combat."
+    },
+    {
+      "id": "ZITEM_NAME_24502",
+      "text": "Rex Combat Shoes"
+    },
+    {
+      "id": "ZITEM_DESC_24502",
+      "text": "Combat shoes specially made for female soldiers by Rex."
+    },
+    {
+      "id": "ZITEM_NAME_24503",
+      "text": "L-Star Leather Boots"
+    },
+    {
+      "id": "ZITEM_DESC_24503",
+      "text": "Leather boots designed by L-Star."
+    },
+    {
+      "id": "ZITEM_NAME_24504",
+      "text": "Rex Iron Boots"
+    },
+    {
+      "id": "ZITEM_DESC_24504",
+      "text": "Heavy looking, however these shoes are made for those who put great value to their defensive power."
+    },
+    {
+      "id": "ZITEM_NAME_24505",
+      "text": "Urike Leather Boots"
+    },
+    {
+      "id": "ZITEM_DESC_24505",
+      "text": "Leather boots with a unique touch and feel, designed by Urike."
+    },
+    {
+      "id": "ZITEM_NAME_24506",
+      "text": "Bics Summer Sandals"
+    },
+    {
+      "id": "ZITEM_DESC_24506",
+      "text": "Women's summer sandals, designed by Bics."
+    },
+    {
+      "id": "ZITEM_NAME_25001",
+      "text": "Ring of the Citizen"
+    },
+    {
+      "id": "ZITEM_DESC_25001",
+      "text": "This ring was designed by the mayor in commemoration of his city and citizens."
+    },
+    {
+      "id": "ZITEM_NAME_25002",
+      "text": "Ring of the Crying Hawk"
+    },
+    {
+      "id": "ZITEM_DESC_25002",
+      "text": "This legendary ring was used by the special combat forces in ancient times."
+    },
+    {
+      "id": "ZITEM_NAME_25003",
+      "text": "Warrior's Cry"
+    },
+    {
+      "id": "ZITEM_DESC_25003",
+      "text": "This small ring preserves the wishes of many warriors who longed for a safe return home alive."
+    },
+    {
+      "id": "ZITEM_NAME_25004",
+      "text": "Pierre's Ring"
+    },
+    {
+      "id": "ZITEM_DESC_25004",
+      "text": "This ring holds the spirit of a brave commander who was killed in battle."
+    },
+    {
+      "id": "ZITEM_NAME_25005",
+      "text": "FMT Ring"
+    },
+    {
+      "id": "ZITEM_DESC_25005",
+      "text": "This unique ring was designed to commemorate the scientist who created a system named FMT. There is a faint McField signature inscribed inside of the band."
+    },
+    {
+      "id": "ZITEM_NAME_25006",
+      "text": "Ring of Good Fortune"
+    },
+    {
+      "id": "ZITEM_DESC_25006",
+      "text": "Simple designed ring for good fortune."
+    },
+    {
+      "id": "ZITEM_NAME_25007",
+      "text": "Altema's Ring"
+    },
+    {
+      "id": "ZITEM_DESC_25007",
+      "text": "This ring was designed by the TEAMI in commemoration of Altema's war achievements."
+    },
+    {
+      "id": "ZITEM_NAME_25008",
+      "text": "Band of the Blood"
+    },
+    {
+      "id": "ZITEM_DESC_25008",
+      "text": "A beautiful red jewel is the center piece for this energy based ring."
+    },
+    {
+      "id": "ZITEM_NAME_25009",
+      "text": "Elia's Ring"
+    },
+    {
+      "id": "ZITEM_DESC_25009",
+      "text": "Elia's troops heroically protected Menlo, during the battle of Sun and raised the overall morale of Emperor Altema's soldiers. This ring was created to commemorate the princess' call of immortal courage."
+    },
+    {
+      "id": "ZITEM_NAME_25010",
+      "text": "Ring of a Feather"
+    },
+    {
+      "id": "ZITEM_DESC_25010",
+      "text": "This legendary ring enhances forces that help defy gravity."
+    },
+    {
+      "id": "ZITEM_NAME_30001",
+      "text": "Medical Kit MK-1"
+    },
+    {
+      "id": "ZITEM_DESC_30001",
+      "text": "This enables you to recover physical strength. 2 units"
+    },
+    {
+      "id": "ZITEM_NAME_30002",
+      "text": "Medical Kit MK-2"
+    },
+    {
+      "id": "ZITEM_DESC_30002",
+      "text": "This enables you to recover physical strength. 3 units"
+    },
+    {
+      "id": "ZITEM_NAME_30003",
+      "text": "Medical Kit MK-3"
+    },
+    {
+      "id": "ZITEM_DESC_30003",
+      "text": "This enables you to recover physical strength. 4 units"
+    },
+    {
+      "id": "ZITEM_NAME_30101",
+      "text": "Repair Kit RK-1"
+    },
+    {
+      "id": "ZITEM_DESC_30101",
+      "text": "Enables you to repair armor. 2 units"
+    },
+    {
+      "id": "ZITEM_NAME_30102",
+      "text": "Repair Kit RK-2"
+    },
+    {
+      "id": "ZITEM_DESC_30102",
+      "text": "Enables you to repair armor. 3 units"
+    },
+    {
+      "id": "ZITEM_NAME_30103",
+      "text": "Repair Kit RK-3"
+    },
+    {
+      "id": "ZITEM_DESC_30103",
+      "text": "Enables you to repair armor. 4 units"
+    },
+    {
+      "id": "ZITEM_NAME_30201",
+      "text": "Canox FB1"
+    },
+    {
+      "id": "ZITEM_DESC_30201",
+      "text": "Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 2 units"
+    },
+    {
+      "id": "ZITEM_NAME_30202",
+      "text": "Canox FB2"
+    },
+    {
+      "id": "ZITEM_DESC_30202",
+      "text": "Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 3 units"
+    },
+    {
+      "id": "ZITEM_NAME_30203",
+      "text": "Canox FB3"
+    },
+    {
+      "id": "ZITEM_DESC_30203",
+      "text": "Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 4 units"
+    },
+    {
+      "id": "ZITEM_NAME_30204",
+      "text": "Canox FB4"
+    },
+    {
+      "id": "ZITEM_DESC_30204",
+      "text": "Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 5 units"
+    },
+    {
+      "id": "ZITEM_NAME_30205",
+      "text": "Canox FB5"
+    },
+    {
+      "id": "ZITEM_DESC_30205",
+      "text": "Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 6 units"
+    },
+    {
+      "id": "ZITEM_NAME_30301",
+      "text": "Canox FG1"
+    },
+    {
+      "id": "ZITEM_DESC_30301",
+      "text": "New grenade produced by Canox, this grenade can be easily used indoors. 2 units"
+    },
+    {
+      "id": "ZITEM_NAME_30302",
+      "text": "Canox FG2"
+    },
+    {
+      "id": "ZITEM_DESC_30302",
+      "text": "New grenade produced by Canox, this grenade can be easily used indoors. 3 units"
+    },
+    {
+      "id": "ZITEM_NAME_30303",
+      "text": "Canox FG3"
+    },
+    {
+      "id": "ZITEM_DESC_30303",
+      "text": "New grenade produced by Canox, this grenade can be easily used indoors. 4 units"
+    },
+    {
+      "id": "ZITEM_NAME_30304",
+      "text": "Canox FG4"
+    },
+    {
+      "id": "ZITEM_DESC_30304",
+      "text": "New grenade produced by Canox, this grenade can be easily used indoors. 5 units"
+    },
+    {
+      "id": "ZITEM_NAME_30305",
+      "text": "Canox FG5"
+    },
+    {
+      "id": "ZITEM_DESC_30305",
+      "text": "New grenade produced by Canox, this grenade can be easily used indoors. 6 units"
+    },
+    {
+      "id": "ZITEM_NAME_30401",
+      "text": "Canox SG1"
+    },
+    {
+      "id": "ZITEM_DESC_30401",
+      "text": "Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 3 units"
+    },
+    {
+      "id": "ZITEM_NAME_30402",
+      "text": "Canox SG2"
+    },
+    {
+      "id": "ZITEM_DESC_30402",
+      "text": "Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 4 units"
+    },
+    {
+      "id": "ZITEM_NAME_30403",
+      "text": "Canox SG3"
+    },
+    {
+      "id": "ZITEM_DESC_30403",
+      "text": "Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 5 units"
+    },
+    {
+      "id": "ZITEM_NAME_30404",
+      "text": "Canox SG4"
+    },
+    {
+      "id": "ZITEM_DESC_30404",
+      "text": "Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 6 units"
+    },
+    {
+      "id": "ZITEM_NAME_30405",
+      "text": "Canox SG5"
+    },
+    {
+      "id": "ZITEM_DESC_30405",
+      "text": "Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 7 units"
+    },
+    {
+      "id": "ZITEM_NAME_300000",
+      "text": "Goblin Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_300000",
+      "text": "Dagger used by the Goblin tribe."
+    },
+    {
+      "id": "ZITEM_NAME_300001",
+      "text": "Goblin Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_300001",
+      "text": "Unique rifle used by the Goblin tribe."
+    },
+    {
+      "id": "ZITEM_NAME_300002",
+      "text": "Goblin Mace"
+    },
+    {
+      "id": "ZITEM_DESC_300002",
+      "text": "Mace used by the Chief Goblin."
+    },
+    {
+      "id": "ZITEM_NAME_300003",
+      "text": "Goblin Wand"
+    },
+    {
+      "id": "ZITEM_DESC_300003",
+      "text": "Wand used by the Chief Goblin."
+    },
+    {
+      "id": "ZITEM_NAME_300004",
+      "text": "Goblin Great Hammer"
+    },
+    {
+      "id": "ZITEM_DESC_300004",
+      "text": "Great Hammer used by the Goblin King."
+    },
+    {
+      "id": "ZITEM_NAME_300031",
+      "text": "Skeleton Sword"
+    },
+    {
+      "id": "ZITEM_DESC_300031",
+      "text": "Precious sword used by the Skeleton soldiers."
+    },
+    {
+      "id": "ZITEM_NAME_400001",
+      "text": "Ring of Apology"
+    },
+    {
+      "id": "ZITEM_DESC_400001",
+      "text": "(Event Item) This unique heavy ring enhances defensive strength during battle."
+    },
+    {
+      "id": "ZITEM_NAME_400002",
+      "text": "Bug Buster Trench Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400002",
+      "text": "(Event Item) Men's trench coat that only those adventurers who helped rid the abnormal noxious creatures away from the world of Astra, can wear it."
+    },
+    {
+      "id": "ZITEM_NAME_400003",
+      "text": "Bug Buster Trench Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400003",
+      "text": "(Event Item) Women's trench coat that only those adventurers who helped rid the abnormal noxious creatures away from the world of Astra, can wear it."
+    },
+    {
+      "id": "ZITEM_NAME_400004",
+      "text": "Main Event Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400004",
+      "text": "(Event Item) Jackets for the crowd control staff members."
+    },
+    {
+      "id": "ZITEM_NAME_400005",
+      "text": "Main Event Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400005",
+      "text": "(Event Item) Jackets for the crowd control staff members."
+    },
+    {
+      "id": "ZITEM_NAME_400006",
+      "text": "Decipher's Ring"
+    },
+    {
+      "id": "ZITEM_DESC_400006",
+      "text": "(Event Item) Precious golden ring with ancient symbols inscribed on its surface."
+    },
+    {
+      "id": "ZITEM_NAME_400007",
+      "text": "Triangle Seaweed-Rolled Rice"
+    },
+    {
+      "id": "ZITEM_DESC_400007",
+      "text": "Triangle shaped rice rolls wrapped in seaweed. Recovers 20 HP."
+    },
+    {
+      "id": "ZITEM_NAME_400008",
+      "text": "Pampoa Companion Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400008",
+      "text": "Mysterious legendary armor produced by King Roku for the Pampoa tribe. This coat enhances health and armor during battle."
+    },
+    {
+      "id": "ZITEM_NAME_400009",
+      "text": "Pampoa Companion Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400009",
+      "text": "Mysterious legendary armor produced by King Roku for the Pampoa's tribe. This coat enhances health and armor during battle."
+    },
+    {
+      "id": "ZITEM_NAME_400010",
+      "text": "Candy Bar"
+    },
+    {
+      "id": "ZITEM_DESC_400010",
+      "text": "Sweet Candy. Recovers 20 AP."
+    },
+    {
+      "id": "ZITEM_NAME_400011",
+      "text": "Burning Tide Helmet (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400011",
+      "text": "Designed by Vinz. The flames give it an intense look."
+    },
+    {
+      "id": "ZITEM_NAME_400012",
+      "text": "Burning Tide Helmet (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400012",
+      "text": "Designed by Vinz. The fierce but passionate look is so impressive."
+    },
+    {
+      "id": "ZITEM_NAME_400501",
+      "text": "Goblin King's Rocket"
+    },
+    {
+      "id": "ZITEM_DESC_400501",
+      "text": "A rocket which was discovered from a Goblin King's dead body. The design is very unique."
+    },
+    {
+      "id": "ZITEM_NAME_400502",
+      "text": "Demon Bringer"
+    },
+    {
+      "id": "ZITEM_DESC_400502",
+      "text": "A sword which was taken from the Giant Skeleton. It is extremely strong, but also cursed."
+    },
+    {
+      "id": "ZITEM_NAME_400503",
+      "text": "Goblin Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400503",
+      "text": "A silly looking hat which resembles a goblin's face. It does not have great defensive attributes, but it is fun to wear."
+    },
+    {
+      "id": "ZITEM_NAME_400504",
+      "text": "Goblin Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400504",
+      "text": "A silly looking hat which resembles a goblin's face. It does not have great defensive attributes, but it is fun to wear."
+    },
+    {
+      "id": "ZITEM_NAME_400505",
+      "text": "Demon Hand (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400505",
+      "text": "A glove with an unknown dark force. It feels a lot heavier than it looks."
+    },
+    {
+      "id": "ZITEM_NAME_400506",
+      "text": "Demon Hand (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400506",
+      "text": "A glove with an unknown dark force. It feels a lot heavier than it looks."
+    },
+    {
+      "id": "ZITEM_NAME_400507",
+      "text": "Odd Gun x2"
+    },
+    {
+      "id": "ZITEM_DESC_400507",
+      "text": "Odd Gun is a very strange gun which is made from various animals' bones and flesh. How the gun operates is still a mystery."
+    },
+    {
+      "id": "ZITEM_NAME_400508",
+      "text": "Wings of Catastrophe"
+    },
+    {
+      "id": "ZITEM_DESC_400508",
+      "text": "Wings of Catastrophe is a Kodachi that was modeled on wings and tail of Lich. It has been said that a part of Lich's body was used to create the weapon."
+    },
+    {
+      "id": "ZITEM_NAME_400509",
+      "text": "Leather Wrap Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400509",
+      "text": "Defense of Leather Wrap Shoes was highly improved by the leather which is firmly wrapped around."
+    },
+    {
+      "id": "ZITEM_NAME_400510",
+      "text": "Leather Wrap Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400510",
+      "text": "Defense of Leather Wrap Shoes was highly improved by the leather which is firmly wrapped around."
+    },
+    {
+      "id": "ZITEM_NAME_400511",
+      "text": "Dark Lord Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_400511",
+      "text": "This unique item is Dark Lord's precious clothing which reveals his evil senses and identity."
+    },
+    {
+      "id": "ZITEM_NAME_400512",
+      "text": "Dark Lord Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_400512",
+      "text": "This unique item is Dark Lord's precious clothing which reveals her evil senses and identity."
+    },
+    {
+      "id": "ZITEM_NAME_500001",
+      "text": "Adventurer Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500001",
+      "text": "Practical lightweight dagger."
+    },
+    {
+      "id": "ZITEM_NAME_500002",
+      "text": "Koden Knife"
+    },
+    {
+      "id": "ZITEM_DESC_500002",
+      "text": "A dagger designed by a legendary swordsman."
+    },
+    {
+      "id": "ZITEM_NAME_500003",
+      "text": "Dark-Sun Martial Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500003",
+      "text": "An obscure dagger handed down from the Moon dynasty."
+    },
+    {
+      "id": "ZITEM_NAME_500004",
+      "text": "Ridic Hunter Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500004",
+      "text": "This strange dagger raises defensive strength."
+    },
+    {
+      "id": "ZITEM_NAME_500005",
+      "text": "Black Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500005",
+      "text": "This dagger is taken from black lake."
+    },
+    {
+      "id": "ZITEM_NAME_500006",
+      "text": "Prince Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500006",
+      "text": "This was Prince Dagger long time ago."
+    },
+    {
+      "id": "ZITEM_NAME_500007",
+      "text": "Multi Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500007",
+      "text": "This dagger is smitted with many daggers."
+    },
+    {
+      "id": "ZITEM_NAME_500008",
+      "text": "Gold Phoenix Dagger"
+    },
+    {
+      "id": "ZITEM_DESC_500008",
+      "text": "This dagger have Gold Phoenix feathers in dagger."
+    },
+    {
+      "id": "ZITEM_NAME_502001",
+      "text": "Adventurer Long Sword"
+    },
+    {
+      "id": "ZITEM_DESC_502001",
+      "text": "Adventurer's Lightweight practical sword."
+    },
+    {
+      "id": "ZITEM_NAME_502002",
+      "text": "Salamanda"
+    },
+    {
+      "id": "ZITEM_DESC_502002",
+      "text": "A unique sword designed by a legendary swordsman."
+    },
+    {
+      "id": "ZITEM_NAME_502003",
+      "text": "Dark Karma"
+    },
+    {
+      "id": "ZITEM_DESC_502003",
+      "text": "An obscure sword handed down from the Moon dynasty."
+    },
+    {
+      "id": "ZITEM_NAME_502004",
+      "text": "Wooden Sword"
+    },
+    {
+      "id": "ZITEM_DESC_502004",
+      "text": "A light wooden sword suitable for beginners practicing swordsmanship."
+    },
+    {
+      "id": "ZITEM_NAME_502005",
+      "text": "Mace"
+    },
+    {
+      "id": "ZITEM_DESC_502005",
+      "text": "A gruesome looking iron hammer.  It is powerful, but slow, heavy and hard to handle."
+    },
+    {
+      "id": "ZITEM_NAME_502006",
+      "text": "Snake Sword"
+    },
+    {
+      "id": "ZITEM_DESC_502006",
+      "text": "This sword uses snake model."
+    },
+    {
+      "id": "ZITEM_NAME_502007",
+      "text": "Knight Sword"
+    },
+    {
+      "id": "ZITEM_DESC_502007",
+      "text": "This sword belongs to Destiny Knight."
+    },
+    {
+      "id": "ZITEM_NAME_502008",
+      "text": "Ritual Sword"
+    },
+    {
+      "id": "ZITEM_DESC_503008",
+      "text": "Ritual man used this sword in great duel."
+    },
+    {
+      "id": "ZITEM_NAME_502009",
+      "text": "Blood Eye Sword"
+    },
+    {
+      "id": "ZITEM_DESC_503009",
+      "text": "This sword used by bloody eye."
+    },
+    {
+      "id": "ZITEM_NAME_503001",
+      "text": "Apocalypse Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_503001",
+      "text": "Apocalypse Kodachi is one of gang kodachi."
+    },
+    {
+      "id": "ZITEM_NAME_503002",
+      "text": "Snake Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_503002",
+      "text": "This kodachi is stolen from Great Snake."
+    },
+    {
+      "id": "ZITEM_NAME_503003",
+      "text": "Black Pearl Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_503003",
+      "text": "This kodachi is overpowered with black pearl."
+    },
+    {
+      "id": "ZITEM_NAME_503004",
+      "text": "Iron Arm Kodachi"
+    },
+    {
+      "id": "ZITEM_DESC_503004",
+      "text": "This kodachi belongs to with Iron Arm Monster."
+    },
+    {
+      "id": "ZITEM_NAME_504001",
+      "text": "Adventurer Pistol x2"
+    },
+    {
+      "id": "ZITEM_DESC_504001",
+      "text": "(Dual Wield) These pistols are mainly used by novice adventurers."
+    },
+    {
+      "id": "ZITEM_NAME_504002",
+      "text": "Ridic Hunter Pistol x2"
+    },
+    {
+      "id": "ZITEM_DESC_504002",
+      "text": "(Dual Wield) These strange pistols raise AP for the person who wears it."
+    },
+    {
+      "id": "ZITEM_NAME_504003",
+      "text": "Iris Pistol x2"
+    },
+    {
+      "id": "ZITEM_DESC_504003",
+      "text": "(Dual Wield) These are pistols that the Republic's soldiers used to use. It was named after their residence."
+    },
+    {
+      "id": "ZITEM_NAME_504004",
+      "text": "Iron Crow Pistol x2"
+    },
+    {
+      "id": "ZITEM_DESC_504004",
+      "text": "(Dual Wield) Pistols used in Iron Crow, the center of the Havani."
+    },
+    {
+      "id": "ZITEM_NAME_504005",
+      "text": "Plasma Raven x2"
+    },
+    {
+      "id": "ZITEM_DESC_504005",
+      "text": "(Dual Wield) Pistols shoots plasma bullets."
+    },
+    {
+      "id": "ZITEM_NAME_504006",
+      "text": "Desert Deagle x2"
+    },
+    {
+      "id": "ZITEM_DESC_504006",
+      "text": "(Dual Wield) Pistols is most usage."
+    },
+    {
+      "id": "ZITEM_NAME_504007",
+      "text": "Golden Raven x2"
+    },
+    {
+      "id": "ZITEM_DESC_504007",
+      "text": "(Dual Wield) Pistols blessed with golden barrier."
+    },
+    {
+      "id": "ZITEM_NAME_504501",
+      "text": "Iris Revolver x2"
+    },
+    {
+      "id": "ZITEM_DESC_504501",
+      "text": "(Dual Wield) Revolvers that the Republic's soldiers used to use. It was named after their residence."
+    },
+    {
+      "id": "ZITEM_NAME_504502",
+      "text": "Iron Crow Revolver x2"
+    },
+    {
+      "id": "ZITEM_DESC_504502",
+      "text": "(Dual Wield) Revolvers used in Iron Crow, the center of the Havani."
+    },
+    {
+      "id": "ZITEM_NAME_504503",
+      "text": "Gold Hound x2"
+    },
+    {
+      "id": "ZITEM_DESC_504503",
+      "text": "(Dual Wield) The most powerful revolvers of their class. Developed mainly focusing on firepower. It is difficult for beginners to use it due to it's slow firing rate and strong recoil."
+    },
+    {
+      "id": "ZITEM_NAME_504504",
+      "text": "Double Zaurus x2"
+    },
+    {
+      "id": "ZITEM_DESC_504504",
+      "text": "(Dual Wield) revolver is double shoot."
+    },
+    {
+      "id": "ZITEM_NAME_504505",
+      "text": "Silver Revolver x2"
+    },
+    {
+      "id": "ZITEM_DESC_504505",
+      "text": "(Dual Wield) revolver has silver bless."
+    },
+    {
+      "id": "ZITEM_NAME_505001",
+      "text": "Adventurer SMG x2"
+    },
+    {
+      "id": "ZITEM_DESC_505001",
+      "text": "(Dual Wield) SMGs mainly used by novice adventurers. It seems that merchants remodel the Renard's Magazine illegally and then sell them on the black market."
+    },
+    {
+      "id": "ZITEM_NAME_505002",
+      "text": "Iris SMG x2"
+    },
+    {
+      "id": "ZITEM_DESC_505002",
+      "text": "(Dual Wield) SMGs that the Republic's soldiers used to use."
+    },
+    {
+      "id": "ZITEM_NAME_505003",
+      "text": "Iron Crow SMG x2"
+    },
+    {
+      "id": "ZITEM_DESC_505003",
+      "text": "(Dual Wield) SMGs used in Iron Crow, the center of the Havani."
+    },
+    {
+      "id": "ZITEM_NAME_505004",
+      "text": "Ellan V5 x2"
+    },
+    {
+      "id": "ZITEM_DESC_505004",
+      "text": "(Dual Wield) SMGs are copy of Ellan but new and better."
+    },
+    {
+      "id": "ZITEM_NAME_505005",
+      "text": "Iron Renard x2"
+    },
+    {
+      "id": "ZITEM_DESC_505005",
+      "text": "(Dual Wield) SMGs are made with iron."
+    },
+    {
+      "id": "ZITEM_NAME_505006",
+      "text": "Iron Renard V x2"
+    },
+    {
+      "id": "ZITEM_DESC_505006",
+      "text": "(Dual Wield) SMGs are made with iron + extra bless."
+    },
+    {
+      "id": "ZITEM_NAME_505007",
+      "text": "Plasma SMG x2"
+    },
+    {
+      "id": "ZITEM_DESC_505007",
+      "text": "(Dual Wield) SMGs shoots plasma bullets."
+    },
+    {
+      "id": "ZITEM_NAME_506001",
+      "text": "Iris Shotgun"
+    },
+    {
+      "id": "ZITEM_DESC_506001",
+      "text": "Shotgun that the Republic's soldiers used to use. It was named after their residence."
+    },
+    {
+      "id": "ZITEM_NAME_506002",
+      "text": "Iron Crow Shotgun"
+    },
+    {
+      "id": "ZITEM_DESC_506002",
+      "text": "Shotgun used in Iron Crow, the center of the Havani."
+    },
+    {
+      "id": "ZITEM_NAME_506003",
+      "text": "Biggie Shotgun"
+    },
+    {
+      "id": "ZITEM_DESC_506003",
+      "text": "A unknown foreign country developed this shotgun. It looks a little too light as a weapon, but the gun has great capability which comes from its light weight."
+    },
+    {
+      "id": "ZITEM_NAME_506004",
+      "text": "Cruelizon"
+    },
+    {
+      "id": "ZITEM_DESC_506004",
+      "text": "A shotgun with enhanced power from the Breaker series. Fire rate and stability are relatively decreased, thus making it hard to control this gun."
+    },
+    {
+      "id": "ZITEM_NAME_506005",
+      "text": "Health Breaker"
+    },
+    {
+      "id": "ZITEM_DESC_506005",
+      "text": "A shotgun what increases your health by 0, ( ͡° ͜ʖ ͡°)."
+    },
+    {
+      "id": "ZITEM_NAME_506007",
+      "text": "Elite Breaker"
+    },
+    {
+      "id": "ZITEM_DESC_506007",
+      "text": "Elite Breaker."
+    },
+    {
+      "id": "ZITEM_NAME_506008",
+      "text": "Blade Breaker"
+    },
+    {
+      "id": "ZITEM_DESC_506008",
+      "text": "Blade Breaker"
+    },
+    {
+      "id": "ZITEM_NAME_506009",
+      "text": "Pioneer"
+    },
+    {
+      "id": "ZITEM_DESC_506009",
+      "text": "The gun's inner structure is remarkably altered for faster continuous shooting and high bullet charge.  Such attempt has named the weapon as 'Pioneer.'"
+    },
+    {
+      "id": "ZITEM_NAME_507001",
+      "text": "Iris Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507001",
+      "text": "Rifle that the Republic's soldiers used to use. It was named after their residence."
+    },
+    {
+      "id": "ZITEM_NAME_507002",
+      "text": "Iron Crow Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507002",
+      "text": "Rifle used in Iron Crow, the center of the Havani."
+    },
+    {
+      "id": "ZITEM_NAME_507003",
+      "text": "Prime TX"
+    },
+    {
+      "id": "ZITEM_DESC_507003",
+      "text": "A rifle focused on fire rate and stability. Its stable and controllable recoil makes it an excellent choice to use."
+    },
+    {
+      "id": "ZITEM_NAME_507004",
+      "text": "Mini Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507004",
+      "text": "A rifle what have good weight and speed."
+    },
+    {
+      "id": "ZITEM_NAME_507005",
+      "text": "Wooden Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507005",
+      "text": "A rifle what have low weight."
+    },
+    {
+      "id": "ZITEM_NAME_507006",
+      "text": "Rocket Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507006",
+      "text": "A rifle what model is like rocket."
+    },
+    {
+      "id": "ZITEM_NAME_507007",
+      "text": "Wooden V Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507007",
+      "text": "A rifle what have low weight."
+    },
+    {
+      "id": "ZITEM_NAME_507008",
+      "text": "Rocket V Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507008",
+      "text": "A rifle what model is like rocket."
+    },
+    {
+      "id": "ZITEM_NAME_507009",
+      "text": "Laser Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507009",
+      "text": "A rifle what have very hurtable bullets."
+    },
+    {
+      "id": "ZITEM_NAME_507010",
+      "text": "Golden Rifle"
+    },
+    {
+      "id": "ZITEM_DESC_507010",
+      "text": "A rifle what is blessed with gold."
+    },
+    {
+      "id": "ZITEM_NAME_508001",
+      "text": "Iron Crow Machine Gun"
+    },
+    {
+      "id": "ZITEM_DESC_508001",
+      "text": "Machine Gun used in Iron Crow, the center of the Havani, main city for outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_508002",
+      "text": "Wooden Machine Gun"
+    },
+    {
+      "id": "ZITEM_DESC_508002",
+      "text": "Machine Gun what have low weight."
+    },
+    {
+      "id": "ZITEM_NAME_508003",
+      "text": "Speed Machine Gun"
+    },
+    {
+      "id": "ZITEM_DESC_508003",
+      "text": "Machine Gun what have great speed."
+    },
+    {
+      "id": "ZITEM_NAME_508004",
+      "text": "Plasma Machine Gun"
+    },
+    {
+      "id": "ZITEM_DESC_508004",
+      "text": "Machine Gun what have great speed and damage."
+    },
+    {
+      "id": "ZITEM_NAME_509001",
+      "text": "Iris Rocket"
+    },
+    {
+      "id": "ZITEM_DESC_509001",
+      "text": "A rocket the Republic soldiers used to use. It was named after their residence."
+    },
+    {
+      "id": "ZITEM_NAME_509002",
+      "text": "Iron Crow Rocket"
+    },
+    {
+      "id": "ZITEM_DESC_509002",
+      "text": "A rocket produced for the Iron Crow. Used to dominate Havani, city of outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_509003",
+      "text": "Pressure RX"
+    },
+    {
+      "id": "ZITEM_DESC_509003",
+      "text": "A more balanced rocket launcher. Its damage is somewhat sacrificed but the clip capacity and the reload speed have been improved."
+    },
+    {
+      "id": "ZITEM_NAME_520001",
+      "text": "Ares Military Hat"
+    },
+    {
+      "id": "ZITEM_DESC_520001",
+      "text": "Military combat hat designed by Ares."
+    },
+    {
+      "id": "ZITEM_NAME_520002",
+      "text": "Ceremonial Dress Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520002",
+      "text": "Ceremonial dress hat designed by Icon for the Ranks of the Empire to wear at political ceremonies."
+    },
+    {
+      "id": "ZITEM_NAME_520003",
+      "text": "Gunners Heaven Soft Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520003",
+      "text": "Exclusive soft hat for the Gunners Heaven crew, it matches a dark colored coat."
+    },
+    {
+      "id": "ZITEM_NAME_520004",
+      "text": "Military Head Bandana (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520004",
+      "text": "Basic military head bandana for combat."
+    },
+    {
+      "id": "ZITEM_NAME_520005",
+      "text": "Basic Head Bandana (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520005",
+      "text": "Men's Bandana used for fashion."
+    },
+    {
+      "id": "ZITEM_NAME_520006",
+      "text": "Water-Drop Head Bandana (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520006",
+      "text": "Practical lightweight bandana with a water drop pattern."
+    },
+    {
+      "id": "ZITEM_NAME_520007",
+      "text": "Star Glaze Bandana (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520007",
+      "text": "Soft star glazed pattern bandana for men."
+    },
+    {
+      "id": "ZITEM_NAME_520008",
+      "text": "Eternal Blue Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520008",
+      "text": "This unique hat was designed for the Eternal Blue outlaw crew."
+    },
+    {
+      "id": "ZITEM_NAME_520009",
+      "text": "Adventurer's Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520009",
+      "text": "Lightweight hat recommended for novice adventurers who hate outfits with heavy equipment."
+    },
+    {
+      "id": "ZITEM_NAME_520010",
+      "text": "Blue Whistle Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520010",
+      "text": "Hat designed for Blue Whistle."
+    },
+    {
+      "id": "ZITEM_NAME_520011",
+      "text": "Ipot Summer Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520011",
+      "text": "Hat for cool guys on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_520012",
+      "text": "Iron Crow Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520012",
+      "text": "Iron Crow warriors wear these protective hats around the city of Havani, the city of outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_520013",
+      "text": "Santa Claus Cap (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520013",
+      "text": "A Christmas season Santa Cap for men."
+    },
+    {
+      "id": "ZITEM_NAME_520014",
+      "text": "Phantom Breed Bandana (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520014",
+      "text": "Heavy bandana designed for the Phantom Breed spy crew."
+    },
+    {
+      "id": "ZITEM_NAME_520015",
+      "text": "Republic Gun Priest Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520015",
+      "text": "Mens hat for a secret organization associated with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_520016",
+      "text": "Gray Dust Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520016",
+      "text": "Men's hat for the Empire's elite troops."
+    },
+    {
+      "id": "ZITEM_NAME_520017",
+      "text": "Sir Protector Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520017",
+      "text": "This hat enhances defensive strength in combat."
+    },
+    {
+      "id": "ZITEM_NAME_520018",
+      "text": "Bigi Sports Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520018",
+      "text": "This loud and stylish hat was designed for the Bigi crew members."
+    },
+    {
+      "id": "ZITEM_NAME_520019",
+      "text": "Warrior Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520019",
+      "text": "Men's Warrior Hat used in combat, enhances defensive strength."
+    },
+    {
+      "id": "ZITEM_NAME_520020",
+      "text": "Desert Flame Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520020",
+      "text": "Desert Flame hat originally designed for troops that were stationed in desert areas."
+    },
+    {
+      "id": "ZITEM_NAME_520021",
+      "text": "Battle Brood Helmet (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520021",
+      "text": "Specially designed men's helmet made from all reinforced material. This headgear protects against all types of damage."
+    },
+    {
+      "id": "ZITEM_NAME_520022",
+      "text": "Active Sports Rasta Locks (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520022",
+      "text": "Limited Periodic sale. Men's sport suit made to be used in a certain sport. It seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_520025",
+      "text": "Military Officer Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520025",
+      "text": "Military officer hat used by war fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_520026",
+      "text": "Classic Leather Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520026",
+      "text": "A classic leather hat for men."
+    },
+    {
+      "id": "ZITEM_NAME_520027",
+      "text": "Zeus Hair Band (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520027",
+      "text": "Stylishly designed lightweight hair band for men. Poor defensive enhancement, but good health bonus."
+    },
+    {
+      "id": "ZITEM_NAME_520028",
+      "text": "Pumpkin Head (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520028",
+      "text": "Happy Halloween!"
+    },
+    {
+      "id": "ZITEM_NAME_520029",
+      "text": "Blue Vane Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520029",
+      "text": "Men's Blue Vane series hat made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_520030",
+      "text": "Train Guard Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520030",
+      "text": "Men's hat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_520031",
+      "text": "PA Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520031",
+      "text": "Men's hat worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_520032",
+      "text": "Divine Hands Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520032",
+      "text": "Men's hat worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_520033",
+      "text": "Bunny Ears Head Band (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520033",
+      "text": "Men's bunny ears head band that can be used as an extra accessory."
+    },
+    {
+      "id": "ZITEM_NAME_520034",
+      "text": "Cat Ears Head Band (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520034",
+      "text": "Men's cat ears head band that can be used as an extra accessory."
+    },
+    {
+      "id": "ZITEM_NAME_520035",
+      "text": "Slider Sports Hat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520035",
+      "text": "Men's sports hat that is comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_520052",
+      "text": "Tuxedo Wig (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_520052",
+      "text": "A tuxedo wig for a wedding that has a sharp and elegant touch."
+    },
+    {
+      "id": "ZITEM_NAME_520501",
+      "text": "Rex Military Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520501",
+      "text": "Military hat for female soldiers. Designed by Rex."
+    },
+    {
+      "id": "ZITEM_NAME_520502",
+      "text": "Ceremonial Dress Beret (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520502",
+      "text": "A ceremonial dress hat supplied to the female soldiers of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_520503",
+      "text": "Gunners Heaven Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520503",
+      "text": "A hat exclusively for the Gunners Heaven, a private organization of the Republic."
+    },
+    {
+      "id": "ZITEM_NAME_520504",
+      "text": "Military Bandana (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520504",
+      "text": "An easy-to-wear women's bandana. It can also be used to disguise yourself at battlefield."
+    },
+    {
+      "id": "ZITEM_NAME_520505",
+      "text": "Basic Head Bandana (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520505",
+      "text": "Women's Bandana used for fashion."
+    },
+    {
+      "id": "ZITEM_NAME_520506",
+      "text": "Water-Drop Head Bandana (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520506",
+      "text": "Practical lightweight bandana with a water drop pattern."
+    },
+    {
+      "id": "ZITEM_NAME_520507",
+      "text": "Star Glaze Bandana (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520507",
+      "text": "Soft star glazed pattern bandana for women."
+    },
+    {
+      "id": "ZITEM_NAME_520508",
+      "text": "Eternal Blue Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520508",
+      "text": "For outlaws of the sea, Eternal Blue women's pirate hat."
+    },
+    {
+      "id": "ZITEM_NAME_520509",
+      "text": "Adventurer Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520509",
+      "text": "A stylish baseball hat recommended for the novice adventurers. This item is made for those who hate to wear heavy gear."
+    },
+    {
+      "id": "ZITEM_NAME_520510",
+      "text": "Blue Whistle Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520510",
+      "text": "The Blue Whistle women's hat."
+    },
+    {
+      "id": "ZITEM_NAME_520511",
+      "text": "Ipot Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520511",
+      "text": "A cool hat for women on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_520512",
+      "text": "Iron Crow Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520512",
+      "text": "Women's hat worn in Havani, the city of outlaws"
+    },
+    {
+      "id": "ZITEM_NAME_520513",
+      "text": "Mrs. Claus Cap (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520513",
+      "text": "Christmas season item for women."
+    },
+    {
+      "id": "ZITEM_NAME_520514",
+      "text": "Phantom Breed Bandana (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520514",
+      "text": "Heavy bandana designed for the Phantom Breed spy crew."
+    },
+    {
+      "id": "ZITEM_NAME_520515",
+      "text": "Gun Priestess Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520515",
+      "text": "Women's lightweight hat for a secret organization related with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_520516",
+      "text": "Gray Dust Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520516",
+      "text": "A women's hat used by Gray Dust, the elite troops of the empire."
+    },
+    {
+      "id": "ZITEM_NAME_520517",
+      "text": "Sir Protector Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520517",
+      "text": "Women's Sir Protector Hat, designed for protection."
+    },
+    {
+      "id": "ZITEM_NAME_520518",
+      "text": "Bigi Sports Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520518",
+      "text": "This loud and stylish hat was designed for the Bigi crew members."
+    },
+    {
+      "id": "ZITEM_NAME_520519",
+      "text": "Princess Warrior Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520519",
+      "text": "The crown hat of a princess warrior in battle."
+    },
+    {
+      "id": "ZITEM_NAME_520520",
+      "text": "Desert Flame Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520520",
+      "text": "The Desert Flame's helmet is made for the female troops who are deployed in the tough terrain of the desert."
+    },
+    {
+      "id": "ZITEM_NAME_520521",
+      "text": "Battle Brood Helmet (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520521",
+      "text": "Specially designed women's helmet made from all reinforced material. This headgear protects against all types of damage."
+    },
+    {
+      "id": "ZITEM_NAME_520522",
+      "text": "Active Sports Rasta Locks (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520522",
+      "text": "(Limited Periodic Sale) A Rastafarian dreadlock look for that active person. It seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_520525",
+      "text": "Military Officer Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520525",
+      "text": "A female military officer hat favored by military fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_520526",
+      "text": "Picnic Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520526",
+      "text": "A gorgeous female Picnic Hat with classical look. It does not seem to have much value as an armor, but it seems that something joyful will happen."
+    },
+    {
+      "id": "ZITEM_NAME_520527",
+      "text": "Zeus Hair Band (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520527",
+      "text": "A light weighted female hair band. It does not have much defense bonus but is an item with strong health bonus benefit."
+    },
+    {
+      "id": "ZITEM_NAME_520528",
+      "text": "Pumpkin Head (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520528",
+      "text": "Happy Halloween!"
+    },
+    {
+      "id": "ZITEM_NAME_520529",
+      "text": "Blue Vane Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520529",
+      "text": "Women's Blue Vane series hat made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_520530",
+      "text": "Train Guard Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520530",
+      "text": "Women's hat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_520531",
+      "text": "PA Headdress (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520531",
+      "text": "Women's hat worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_520532",
+      "text": "Divine Hands Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520532",
+      "text": "Women's nurse hat worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_520533",
+      "text": "Bunny Ears Head Band (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520533",
+      "text": "Women's bunny ears head band that can be used as an extra accessory."
+    },
+    {
+      "id": "ZITEM_NAME_520534",
+      "text": "Cat Ears Head Band (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520534",
+      "text": "Women's cat ears head band that can be used as an extra accessory."
+    },
+    {
+      "id": "ZITEM_NAME_520535",
+      "text": "Slider Sports Hat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520535",
+      "text": "Women's sport hat that is comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_520552",
+      "text": "Wedding Veil (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_520552",
+      "text": "Pure white wedding veil of every girl's dream, in cheerful minimal style."
+    },
+    {
+      "id": "ZITEM_NAME_521001",
+      "text": "Ceremonial Dress Garment (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521001",
+      "text": "A ceremonial dress garment that the Empire ranks wear at important ceremonies."
+    },
+    {
+      "id": "ZITEM_NAME_521002",
+      "text": "Gunners Heaven Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521002",
+      "text": "Long leather coat and garment design for the Gunners Heaven crew, a private organization of the Republic."
+    },
+    {
+      "id": "ZITEM_NAME_521003",
+      "text": "Eternal Blue Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521003",
+      "text": "Men's Coat worn by the Eternal Blue, outcast pirates from the Costa Islands."
+    },
+    {
+      "id": "ZITEM_NAME_521004",
+      "text": "Adventurer Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521004",
+      "text": "This jacket is great for novice adventurers who hate heavy outfits and equipment."
+    },
+    {
+      "id": "ZITEM_NAME_521005",
+      "text": "Blue Whistle Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521005",
+      "text": "Men's jacket worn by Blue Whistle, the headache of the empire."
+    },
+    {
+      "id": "ZITEM_NAME_521006",
+      "text": "Ipot Beach Shirt (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521006",
+      "text": "Hawaiian shirt for cool guys on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_521007",
+      "text": "Iron Crow Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521007",
+      "text": "The Iron Crow men wear this coat around the city of Havani."
+    },
+    {
+      "id": "ZITEM_NAME_521008",
+      "text": "Santa Claus Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521008",
+      "text": "Christmas gift for men."
+    },
+    {
+      "id": "ZITEM_NAME_521009",
+      "text": "Phantom Breed Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521009",
+      "text": "Heavy armor designed for the Phantom Breed spy crew."
+    },
+    {
+      "id": "ZITEM_NAME_521010",
+      "text": "Republic Gun Priest Garment (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521010",
+      "text": "Men's lightweight garment developed for a secret organization associated with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_521011",
+      "text": "Gray Dust Long Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521011",
+      "text": "Men's long coat worn by the elite troops, Gray Dust."
+    },
+    {
+      "id": "ZITEM_NAME_521012",
+      "text": "Sir Protector Garment (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521012",
+      "text": "Sleek men's jacket designed for defense."
+    },
+    {
+      "id": "ZITEM_NAME_521013",
+      "text": "Bigi Trench Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521013",
+      "text": "Trench coat armor designed by Bigi."
+    },
+    {
+      "id": "ZITEM_NAME_521014",
+      "text": "Gun Knight Trench Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521014",
+      "text": "This trench coat was once worn by a legendary male gun knight of Axium"
+    },
+    {
+      "id": "ZITEM_NAME_521015",
+      "text": "Warrior Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521015",
+      "text": "Legendary coat designed for elite warriors."
+    },
+    {
+      "id": "ZITEM_NAME_521016",
+      "text": "Desert Flame Top (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521016",
+      "text": "Desert Flame men's top for desert terrain."
+    },
+    {
+      "id": "ZITEM_NAME_521017",
+      "text": "Battle Brood Armor (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521017",
+      "text": "This special armor enhances protection against heavy damage attacks."
+    },
+    {
+      "id": "ZITEM_NAME_521018",
+      "text": "Active Sports Top (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521018",
+      "text": "(Limited Periodic Sale) A men's sports suit made to be used in a certain sport. It seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_521021",
+      "text": "Military Officer Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521021",
+      "text": "Military officer jacket used by war fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_521022",
+      "text": "Zeus Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521022",
+      "text": "Radiant lightweight coat design by Zeus. It enhances health bonuses during combat."
+    },
+    {
+      "id": "ZITEM_NAME_521023",
+      "text": "Blue Vane Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521023",
+      "text": "Men's Blue Vane series coat made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_521024",
+      "text": "Train Guard Coat (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521024",
+      "text": "Men's coat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_521025",
+      "text": "PA Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521025",
+      "text": "Men's Jacket worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_521026",
+      "text": "Divine Hands Robe (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521026",
+      "text": "Men's robe worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_521027",
+      "text": "Slider Sports Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521027",
+      "text": "Men's sport jacket that is comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_521043",
+      "text": "Tuxedo Jacket (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_521043",
+      "text": "A tuxedo jacket for a wedding that has a sharp and elegant touch."
+    },
+    {
+      "id": "ZITEM_NAME_521501",
+      "text": "Ceremonial Dress Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521501",
+      "text": "A ceremonial dress jacket supplied to the female soldiers of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_521502",
+      "text": "Gunners Heaven Long Wool Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521502",
+      "text": "A women's long wool coat and garment exclusively for the Gunners Heaven, a private organization of the Republic."
+    },
+    {
+      "id": "ZITEM_NAME_521503",
+      "text": "Eternal Blue Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521503",
+      "text": "For outlaws of the sea, Eternal Blue women's pirate garment."
+    },
+    {
+      "id": "ZITEM_NAME_521504",
+      "text": "Adventurer Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521504",
+      "text": "Women's jacket recommended for novice adventurers. This item is made for those who hate to wear heavy gear."
+    },
+    {
+      "id": "ZITEM_NAME_521505",
+      "text": "Blue Whistle Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521505",
+      "text": "Women's Blue Whistle jacket, Blue Whistle is known as the headache of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_521506",
+      "text": "Ipot Bikini Upper Garment (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521506",
+      "text": "A bikini garment for cool women on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_521507",
+      "text": "Iron Crow Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521507",
+      "text": "Iron Crow women's coat worn in Havani, the main city for outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_521508",
+      "text": "Mrs. Claus Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521508",
+      "text": "Christmas season item for women."
+    },
+    {
+      "id": "ZITEM_NAME_521509",
+      "text": "Phantom Breed Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521509",
+      "text": "Women's Jacket handed down from ancient times. It is pretty heavy."
+    },
+    {
+      "id": "ZITEM_NAME_521510",
+      "text": "Republic Gun Priestess Upper Garment (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521510",
+      "text": "Women's lightweight garment for a secret organization associated with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_521511",
+      "text": "Gray Dust Trench Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521511",
+      "text": "A women's Gray Dust Trench Coat for the elite troops of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_521512",
+      "text": "Sir Protector Garment (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521512",
+      "text": "Women's Sir Protector Garment, designed for protection."
+    },
+    {
+      "id": "ZITEM_NAME_521513",
+      "text": "Bigi Trench Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521513",
+      "text": "A women's trench coat designed by Bigi. An exotic and sophisticated emblem is marked on the back of the coat."
+    },
+    {
+      "id": "ZITEM_NAME_521514",
+      "text": "Gun Knight Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521514",
+      "text": "This jacket was once worn by a legendary female gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_521515",
+      "text": "Princess Warrior Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521515",
+      "text": "Coat made suitable for a princess to wear in combat."
+    },
+    {
+      "id": "ZITEM_NAME_521516",
+      "text": "Desert Flame Top (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521516",
+      "text": "The Desert Flame's women's top designed for troops who operate in desert."
+    },
+    {
+      "id": "ZITEM_NAME_521517",
+      "text": "Battle Brood Armor (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521517",
+      "text": "A part of women's special armor made of reinforced material. It protects the chest from all types of damage."
+    },
+    {
+      "id": "ZITEM_NAME_521518",
+      "text": "Active Sports Top (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521518",
+      "text": "(Limited Periodic Sale) A women's sports suit made to be used in a certain sport. It seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_521521",
+      "text": "Military Officer Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521521",
+      "text": "A female military officer Jacket favored by military fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_521522",
+      "text": "Zeus Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521522",
+      "text": "A light weight female coat. The harmony of orange and dark blue color attracts people's eyes."
+    },
+    {
+      "id": "ZITEM_NAME_521523",
+      "text": "Blue Vane Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521523",
+      "text": "Women's Blue Vane series coat made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_521524",
+      "text": "Train Guard Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521524",
+      "text": "Women's coat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_521525",
+      "text": "PA Dress Coat (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521525",
+      "text": "Women's coat worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_521526",
+      "text": "Divine Hands Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521526",
+      "text": "Women's jacket worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_521527",
+      "text": "Slider Sports Jacket (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521527",
+      "text": "Women's sport jacket that is comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_521543",
+      "text": "Wedding Upper Garment (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_521543",
+      "text": "Pure white wedding upper garment of every girl's dream, in cheerful minimal style."
+    },
+    {
+      "id": "ZITEM_NAME_522001",
+      "text": "Ceremonial Dress Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522001",
+      "text": "Ceremonial dress gloves that the ranks of the empire wear to important ceremonies."
+    },
+    {
+      "id": "ZITEM_NAME_522002",
+      "text": "Gunners Heaven Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522002",
+      "text": "Gloves for the elite Gunners Heaven crew."
+    },
+    {
+      "id": "ZITEM_NAME_522003",
+      "text": "Eternal Blue Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522003",
+      "text": "Gloves worn by the outllaws of Eternal Blue."
+    },
+    {
+      "id": "ZITEM_NAME_522004",
+      "text": "Adventurer Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522004",
+      "text": "Gloves recommended for novice adventurers who hate outfits with heavy equipment."
+    },
+    {
+      "id": "ZITEM_NAME_522005",
+      "text": "Blue Whistle Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522005",
+      "text": "Gloves designed for Blue Whistle, the headache of the empire."
+    },
+    {
+      "id": "ZITEM_NAME_522006",
+      "text": "Ipot Beach Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522006",
+      "text": "Gloves for cool guys on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_522007",
+      "text": "Iron Crow Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522007",
+      "text": "Iron Crow warriors wear these protective gloves around Havani, the city of outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_522008",
+      "text": "Santa Claus Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522008",
+      "text": "Great gift for the Christmas season."
+    },
+    {
+      "id": "ZITEM_NAME_522009",
+      "text": "Phantom Breed Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522009",
+      "text": "Gloves for the mighty men of the Phantom Breed, a spy organization."
+    },
+    {
+      "id": "ZITEM_NAME_522010",
+      "text": "Gun Priest Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522010",
+      "text": "Men's lightweight gloves for a secret organization associated with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_522011",
+      "text": "Gray Dust Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522011",
+      "text": "Gloves worn by the Gray Dust elite troops."
+    },
+    {
+      "id": "ZITEM_NAME_522012",
+      "text": "Sir Protector  Leather Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522012",
+      "text": "Defensive gloves designed for protection."
+    },
+    {
+      "id": "ZITEM_NAME_522013",
+      "text": "Gun Knight Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522013",
+      "text": "These gloves were once worn by a legendary male gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_522014",
+      "text": "Warrior Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522014",
+      "text": "Legendary gloves designed for elite warriors."
+    },
+    {
+      "id": "ZITEM_NAME_522015",
+      "text": "Desert Flame Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522015",
+      "text": "Desert Flame gloves originally designed for troops that were deployed to tough desert areas."
+    },
+    {
+      "id": "ZITEM_NAME_522016",
+      "text": "Battle Brood Gauntlets (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522016",
+      "text": "Special gauntlets made of reinforced material to enhance hand protection."
+    },
+    {
+      "id": "ZITEM_NAME_522017",
+      "text": "Military Officer Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522017",
+      "text": "Gloves for military officers favored by war fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_522018",
+      "text": "Blue Vane Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522018",
+      "text": "Men's Blue Vane series gloves made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_522019",
+      "text": "Train Guard Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522019",
+      "text": "Men's gloves worn by soldiers who guard the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_522020",
+      "text": "PA Leather Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522020",
+      "text": "Men's gloves worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_522021",
+      "text": "Divine Hands Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522021",
+      "text": "Men's gloves worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_522022",
+      "text": "Slider Sports Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522022",
+      "text": "Men's sport gloves that are comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_522035",
+      "text": "Tuxedo Gloves (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_522035",
+      "text": "Tuxedo gloves for a wedding that has a sharp and elegant touch."
+    },
+    {
+      "id": "ZITEM_NAME_522501",
+      "text": "Ceremonial Dress Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522501",
+      "text": "Ceremonial dress gloves supplied to the female soldiers of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_522502",
+      "text": "Gunners Heaven Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522502",
+      "text": "Fur gloves exclusively for the Gunners Heaven, a private organization of the Republic. Gloves are made with soft rabbit fur."
+    },
+    {
+      "id": "ZITEM_NAME_522503",
+      "text": "Eternal Blue Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522503",
+      "text": "The outlaw at the sea, women's pirate Eternal Blue gloves."
+    },
+    {
+      "id": "ZITEM_NAME_522504",
+      "text": "Adventurer Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522504",
+      "text": "Women's gloves recommended for the novice adventurers. This item is made for those who hate to wear heavy gear."
+    },
+    {
+      "id": "ZITEM_NAME_522505",
+      "text": "Blue Whistle Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522505",
+      "text": "Women's Blue Whistle gloves, Blue Whistle is known as the headache of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_522506",
+      "text": "Ipot Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522506",
+      "text": "Gloves for cool females on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_522507",
+      "text": "Iron Crow Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522507",
+      "text": "Women's gloves worn in Havani, the main city for outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_522508",
+      "text": "Mrs. Claus Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522508",
+      "text": "Christmas season item for women."
+    },
+    {
+      "id": "ZITEM_NAME_522509",
+      "text": "Phantom Breed Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522509",
+      "text": "Women's gloves for a spy organization handed down from the ancient times. They are somewhat heavy."
+    },
+    {
+      "id": "ZITEM_NAME_522510",
+      "text": "Republic Gun Priestess Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522510",
+      "text": "Women's lightweight gloves for a secret organization related with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_522511",
+      "text": "Gray Dust Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522511",
+      "text": "Women's gloves worn by the Gray Dust elite troops."
+    },
+    {
+      "id": "ZITEM_NAME_522512",
+      "text": "Sir Protector Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522512",
+      "text": "Women's Sir Protector Gloves, designed for protection."
+    },
+    {
+      "id": "ZITEM_NAME_522513",
+      "text": "Gun Knight Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522513",
+      "text": "These gloves were once worn by a legendary female gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_522514",
+      "text": "Princess Warrior Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522514",
+      "text": "Gloves made suitable for a princess to wear in combat."
+    },
+    {
+      "id": "ZITEM_NAME_522515",
+      "text": "Desert Flame Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522515",
+      "text": "The Desert Flame women's leather gloves, made for troops who operate in the desert."
+    },
+    {
+      "id": "ZITEM_NAME_522516",
+      "text": "Battle Brood Gauntlets (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522516",
+      "text": "A part of women's special armor made of reinforced material. It protects hands from all types of damage."
+    },
+    {
+      "id": "ZITEM_NAME_522517",
+      "text": "Military Officer Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522517",
+      "text": "Female military officer gloves favored by military fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_522518",
+      "text": "Blue Vane Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522518",
+      "text": "Women's Blue Vane series gloves made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_522519",
+      "text": "Train Guard Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522519",
+      "text": "Women's gloves worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_522520",
+      "text": "PA cotton Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522520",
+      "text": "Women's gloves worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_522521",
+      "text": "Divine Hands Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522521",
+      "text": "Women's gloves worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_522522",
+      "text": "Slider Sports Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522522",
+      "text": "Women's sport gloves that are comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_522535",
+      "text": "Wedding Gloves (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_522535",
+      "text": "Pure white wedding gloves of every girl's dream, in cheerful minimal style."
+    },
+    {
+      "id": "ZITEM_NAME_523001",
+      "text": "Ceremonial Dress Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523001",
+      "text": "Ceremonial dress trousers that the general ranks of the Empire wear at important ceremonies."
+    },
+    {
+      "id": "ZITEM_NAME_523002",
+      "text": "Gunners Heaven Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523002",
+      "text": "Trousers designed exclusively for the Gunners Heaven, private organization of the Republic."
+    },
+    {
+      "id": "ZITEM_NAME_523003",
+      "text": "Eternal Blue Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523003",
+      "text": "Men's uniform trousers for Eternal Blue, a crew of outlaws in the sea."
+    },
+    {
+      "id": "ZITEM_NAME_523004",
+      "text": "Adventurer Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523004",
+      "text": "Men's Trousers recommended for novice adventurers who hate outfits with heavy equipment."
+    },
+    {
+      "id": "ZITEM_NAME_523005",
+      "text": "Blue Whistle Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523005",
+      "text": "Men's trousers for Blue Whistle, Blue Whistle is known as the headache of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_523006",
+      "text": "Ipot Beach Shorts (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523006",
+      "text": "Summer shorts for downtime at a hot beach in Sin City."
+    },
+    {
+      "id": "ZITEM_NAME_523007",
+      "text": "Iron Crow Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523007",
+      "text": "Trousers worn by the Iron Crow warriors."
+    },
+    {
+      "id": "ZITEM_NAME_523008",
+      "text": "Santa Claus Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523008",
+      "text": "Christmas season item for men."
+    },
+    {
+      "id": "ZITEM_NAME_523009",
+      "text": "Phantom Breed Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523009",
+      "text": "Trousers designed for the Phantom Breed spy crew."
+    },
+    {
+      "id": "ZITEM_NAME_523010",
+      "text": "Republic Gun Priest Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523010",
+      "text": "Lightweight trousers for men, worn by Republic Gun Priests related with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_523011",
+      "text": "Gray Dust Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523011",
+      "text": "Men's trousers designed for the Gray Dust elite troops."
+    },
+    {
+      "id": "ZITEM_NAME_523012",
+      "text": "Sir Protector Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523012",
+      "text": "Sleek men's trousers designed for defense."
+    },
+    {
+      "id": "ZITEM_NAME_523013",
+      "text": "Gun Knight Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523013",
+      "text": "This trousers was once worn by a legendary male gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_523014",
+      "text": "Warrior Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523014",
+      "text": "Legendary pants designed for elite warriors."
+    },
+    {
+      "id": "ZITEM_NAME_523015",
+      "text": "Desert Flame Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523015",
+      "text": "Desert Flame pants for Men."
+    },
+    {
+      "id": "ZITEM_NAME_523016",
+      "text": "Battle Brood Pants (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523016",
+      "text": "Special pants made of reinforced material to enhance leg protection."
+    },
+    {
+      "id": "ZITEM_NAME_523017",
+      "text": "Active Sports Pants (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523017",
+      "text": "(Limited Periodic Sale) Powerful men's sport suit."
+    },
+    {
+      "id": "ZITEM_NAME_523020",
+      "text": "Military Officer Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523020",
+      "text": "Trousers worn by military officers. Favored by war fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_523021",
+      "text": "Blue Vane Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523021",
+      "text": "Men's Blue Vane series trousers made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_523022",
+      "text": "Train Guard Trousers (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523022",
+      "text": "Men's trousers worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_523023",
+      "text": "PA Pants (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523023",
+      "text": "Men's pants worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_523024",
+      "text": "Divine Hands Pants (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523024",
+      "text": "Men's pants worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_523025",
+      "text": "Slider Sports Pants (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523025",
+      "text": "Men's sport pants that are comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_523038",
+      "text": "Tuxedo Pants (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_523038",
+      "text": "Tuxedo pants for a wedding that has a sharp and elegant touch."
+    },
+    {
+      "id": "ZITEM_NAME_523501",
+      "text": "Ceremonial Dress Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523501",
+      "text": "Ceremonial dress trousers supplied to the female soldiers of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_523502",
+      "text": "Gunners Heaven Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523502",
+      "text": "Women's trousers exclusively for the Gunners Heaven, a private organization of the Republic."
+    },
+    {
+      "id": "ZITEM_NAME_523503",
+      "text": "Eternal Blue Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523503",
+      "text": "Women's uniform trousers for Eternal Blue, outlaws at the sea."
+    },
+    {
+      "id": "ZITEM_NAME_523504",
+      "text": "Adventurer Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523504",
+      "text": "Women's trousers recommended for novice adventurers who hate outfits with heavy equipment."
+    },
+    {
+      "id": "ZITEM_NAME_523505",
+      "text": "Blue Whistle Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523505",
+      "text": "Women's Trousers for Blue Whistle, Blue Whistle is known as the headache of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_523506",
+      "text": "Ipot Bikini (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523506",
+      "text": "Bikini garment for cool women on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_523507",
+      "text": "Iron Crow Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523507",
+      "text": "Iron Crow women's trousers worn in Iron Crow, the center of the Havani, main city for outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_523508",
+      "text": "Mrs. Claus Skirt (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523508",
+      "text": "Christmas season item for women."
+    },
+    {
+      "id": "ZITEM_NAME_523509",
+      "text": "Phantom Breed Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523509",
+      "text": "Women's trousers handed down from the ancient times. They are somewhat heavy."
+    },
+    {
+      "id": "ZITEM_NAME_523510",
+      "text": "Republic Gun Priestess Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523510",
+      "text": "Women's lightweight trousers for a secret organization related with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_523511",
+      "text": "Gray Dust Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523511",
+      "text": "Women's trousers worn by the Gray Dust elite troops."
+    },
+    {
+      "id": "ZITEM_NAME_523512",
+      "text": "Sir Protector Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523512",
+      "text": "Women's Sir Protector Trousers, designed for protection."
+    },
+    {
+      "id": "ZITEM_NAME_523513",
+      "text": "Gun Knight Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523513",
+      "text": "This trousers was once worn by a legendary female gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_523514",
+      "text": "Princess Warrior Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523514",
+      "text": "Designed for a princess, built to endure combat for a warrior."
+    },
+    {
+      "id": "ZITEM_NAME_523515",
+      "text": "Desert Flame Pants (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523515",
+      "text": "The troop which operates in deserts, the Desert Flame women's pants."
+    },
+    {
+      "id": "ZITEM_NAME_523516",
+      "text": "Battle Brood Bottom (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523516",
+      "text": "A part of women's special armor made of reinforced material. It offers major leg protection."
+    },
+    {
+      "id": "ZITEM_NAME_523517",
+      "text": "Active Sports Pants (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523517",
+      "text": "(Limited Periodic Sale) A women's sports suit made to be used in a certain sport. It seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_523520",
+      "text": "Military Officer Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523520",
+      "text": "Female military officer trousers favored by military fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_523521",
+      "text": "Blue Vane Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523521",
+      "text": "Women's Blue Vane series trousers made of a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_523522",
+      "text": "Train Guard Trousers (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523522",
+      "text": "Women's trousers worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_523523",
+      "text": "PA Dress Pants (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523523",
+      "text": "Women's pants worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_523524",
+      "text": "Divine Hands Skirt (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523524",
+      "text": "Women's skirt worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_523525",
+      "text": "Slider Sports Pants (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523525",
+      "text": "Women's sport pants that are comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_523538",
+      "text": "Wedding Lower Garment (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_523538",
+      "text": "Pure white wedding lower garment of every girl's dream, in cheerful minimal style."
+    },
+    {
+      "id": "ZITEM_NAME_524001",
+      "text": "Ceremonial Dress Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524001",
+      "text": "Iron Crow warriors wear these protective shoes around the city of Havani, the city of outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_524002",
+      "text": "Gunners Heaven Leather Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524002",
+      "text": "Exclusive leather shoes for the Republic's Gunners Heaven."
+    },
+    {
+      "id": "ZITEM_NAME_524003",
+      "text": "Eternal Blue Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524003",
+      "text": "Uniform boots for the Eternal Blue outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_524004",
+      "text": "Adventurer Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524004",
+      "text": "Boots recommended for novice adventurers who hate outfits with heavy equipment."
+    },
+    {
+      "id": "ZITEM_NAME_524005",
+      "text": "Blue Whistle Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524005",
+      "text": "Shoes designed for Blue Whistle."
+    },
+    {
+      "id": "ZITEM_NAME_524006",
+      "text": "Summer Beach Aqua Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524006",
+      "text": "Aqua shoes for cool guys on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_524007",
+      "text": "Iron Crow Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524007",
+      "text": "Iron Crow warriors wear these protective shoes around the city of Havani, the city of outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_524008",
+      "text": "Santa Claus Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524008",
+      "text": "Christmas season item for men."
+    },
+    {
+      "id": "ZITEM_NAME_524009",
+      "text": "Phantom Breed Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524009",
+      "text": "Heavy shoes for the Phantom Breed."
+    },
+    {
+      "id": "ZITEM_NAME_524010",
+      "text": "Gun Priest Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524010",
+      "text": "Men's lightweight shoes for a secret organization associated with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_524011",
+      "text": "Gray Dust Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524011",
+      "text": "Uniform shoes for the elite Gray Dust troops."
+    },
+    {
+      "id": "ZITEM_NAME_524012",
+      "text": "Sir Protector Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524012",
+      "text": "These shoes enhance defensive strength."
+    },
+    {
+      "id": "ZITEM_NAME_524013",
+      "text": "Gun Knight Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524013",
+      "text": "These shoes were once worn by a legendary male gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_524014",
+      "text": "Warrior Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524014",
+      "text": "Legendary shoes designed for elite warriors."
+    },
+    {
+      "id": "ZITEM_NAME_524015",
+      "text": "Desert Flame Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524015",
+      "text": "Desert Flame's leather boots for men."
+    },
+    {
+      "id": "ZITEM_NAME_524016",
+      "text": "Battle Brood Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524016",
+      "text": "Special men's boots made of reinforced material to enhance foot protection."
+    },
+    {
+      "id": "ZITEM_NAME_524017",
+      "text": "Active Sports Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524017",
+      "text": "Men's sport suit that seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_524020",
+      "text": "Military Officer Battle Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524020",
+      "text": "Battle shoes worn by military officers favored by war fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_524021",
+      "text": "Blue Vane Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524021",
+      "text": "Men's Blue Vane series shoes made from a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_524022",
+      "text": "Train Guard Boots (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524022",
+      "text": "Men's leather boots worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_524023",
+      "text": "PA Dress Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524023",
+      "text": "Men's dress shoes worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_524024",
+      "text": "Divine Hands Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524024",
+      "text": "Men's shoes worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_524025",
+      "text": "Slider Sports Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524025",
+      "text": "Men's sport shoes that are comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_524038",
+      "text": "Tuxedo Shoes (Men)"
+    },
+    {
+      "id": "ZITEM_DESC_524038",
+      "text": "Tuxedo shoes for a wedding that has a sharp and elegant touch."
+    },
+    {
+      "id": "ZITEM_NAME_524501",
+      "text": "Ceremonial Dress Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524501",
+      "text": "Ceremonial dress shoes supplied to the female soldiers of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_524502",
+      "text": "Gunners Heaven Reinforced Leather Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524502",
+      "text": "Exclusive reinforced leather shoes for the Gunners Heaven, a private organization of the Republic."
+    },
+    {
+      "id": "ZITEM_NAME_524503",
+      "text": "Eternal Blue Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524503",
+      "text": "The outlaw at the sea, women's Eternal Blue boots."
+    },
+    {
+      "id": "ZITEM_NAME_524504",
+      "text": "Adventurer Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524504",
+      "text": "Women's boots recommended for the novice adventurers. This item is made for those who hate to wear heavy gear."
+    },
+    {
+      "id": "ZITEM_NAME_524505",
+      "text": "Blue Whistle Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524505",
+      "text": "Women's Blue Whistle shoes, Blue Whistle is known as the headache of the Empire."
+    },
+    {
+      "id": "ZITEM_NAME_524506",
+      "text": "Ipot Sandals (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524506",
+      "text": "Sandals for cool women on a hot summer beach."
+    },
+    {
+      "id": "ZITEM_NAME_524507",
+      "text": "Iron Crow Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524507",
+      "text": "Women's shoes worn in Havani, the city of outlaws."
+    },
+    {
+      "id": "ZITEM_NAME_524508",
+      "text": "Mrs. Claus Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524508",
+      "text": "Christmas season item for women."
+    },
+    {
+      "id": "ZITEM_NAME_524509",
+      "text": "Phantom Breed Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524509",
+      "text": "Women's shoes handed down from ancient times. They are somewhat heavy."
+    },
+    {
+      "id": "ZITEM_NAME_524510",
+      "text": "Republic Gun Priestess Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524510",
+      "text": "Women's lightweight shoes for a secret organization related with religious groups."
+    },
+    {
+      "id": "ZITEM_NAME_524511",
+      "text": "Gray Dust Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524511",
+      "text": "Women's shoes worn by the Gray Dust elite troops."
+    },
+    {
+      "id": "ZITEM_NAME_524512",
+      "text": "Sir Protector Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524512",
+      "text": "Women's Sir Protector Shoes, designed for protection."
+    },
+    {
+      "id": "ZITEM_NAME_524513",
+      "text": "Gun Knight Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524513",
+      "text": "These shoes were once worn by a legendary female gun knight of Axium."
+    },
+    {
+      "id": "ZITEM_NAME_524514",
+      "text": "Princess Warrior Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524514",
+      "text": "Shoes made suitable for a princess to wear in combat."
+    },
+    {
+      "id": "ZITEM_NAME_524515",
+      "text": "Desert Flame Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524515",
+      "text": "Desert Flame's boots for women."
+    },
+    {
+      "id": "ZITEM_NAME_524516",
+      "text": "Battle Brood Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524516",
+      "text": "Special women's boots made of reinforced material to enhance foot protection."
+    },
+    {
+      "id": "ZITEM_NAME_524517",
+      "text": "Active Sports Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524517",
+      "text": "A women's sports suit made to be used in a certain sport. It seems to generate great power when worn."
+    },
+    {
+      "id": "ZITEM_NAME_524520",
+      "text": "Military Officer Battle Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524520",
+      "text": "Female military officer battle shoes favored by military fanatics."
+    },
+    {
+      "id": "ZITEM_NAME_524521",
+      "text": "Blue Vane Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524521",
+      "text": "Women's Blue Vane series shoes made from a highly flexible material."
+    },
+    {
+      "id": "ZITEM_NAME_524522",
+      "text": "Train Guard Boots (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524522",
+      "text": "Women's leather boots worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight."
+    },
+    {
+      "id": "ZITEM_NAME_524523",
+      "text": "PA Dress Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524523",
+      "text": "Women's dress shoes worn by the personal assistants of the empire's nobles."
+    },
+    {
+      "id": "ZITEM_NAME_524524",
+      "text": "Divine Hands Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524524",
+      "text": "Women's shoes worn by those in the Republic support forces, Healing Hands."
+    },
+    {
+      "id": "ZITEM_NAME_524525",
+      "text": "Slider Sports Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524525",
+      "text": "Women's sport shoes that are comfortable enough to wear everyday while still maintaining sports functionality."
+    },
+    {
+      "id": "ZITEM_NAME_524538",
+      "text": "Wedding Shoes (Women)"
+    },
+    {
+      "id": "ZITEM_DESC_524538",
+      "text": "Pure white wedding shoes of every girl's dream, in cheerful minimal style."
+    },
+    {
+      "id": "ZITEM_NAME_525001",
+      "text": "Clover Ring"
+    },
+    {
+      "id": "ZITEM_DESC_525001",
+      "text": "This ring brings luck and makes you lighter."
+    },
+    {
+      "id": "ZITEM_NAME_525002",
+      "text": "Iron Calvary Ring"
+    },
+    {
+      "id": "ZITEM_DESC_525002",
+      "text": "Powerful magicians designed this ring for the Iron Calvary. Its mighty force makes you feel lighter."
+    },
+    {
+      "id": "ZITEM_NAME_525003",
+      "text": "Ring of the Great Emperor"
+    },
+    {
+      "id": "ZITEM_DESC_525003",
+      "text": "This enchanted ring was designed for the Great Emperor of Ryswick. A mysterious power affects anyone that wears this ring."
+    },
+    {
+      "id": "ZITEM_NAME_525004",
+      "text": "Skill Ring"
+    },
+    {
+      "id": "ZITEM_DESC_525004",
+      "text": "Increases experience and bounty by 20%."
+    },
+    {
+      "id": "ZITEM_NAME_525005",
+      "text": "Lucky Ring"
+    },
+    {
+      "id": "ZITEM_DESC_525005",
+      "text": "A ring that possesses many different mysterious powers.  Only one can be equiped at a time."
+    },
+    {
+      "id": "ZITEM_NAME_52511",
+      "text": "Lucky Chocolate Bar"
+    },
+    {
+      "id": "ZITEM_DESC_52511",
+      "text": "A delicious looking chocolate. Recovers 20 AP."
+    },
+    {
+      "id": "ZITEM_NAME_400013",
+      "text": "Turkey Dinner"
+    },
+    {
+      "id": "ZITEM_DESC_400013",
+      "text": "Special item for Thanksgiving. Recovers 20 HP."
+    },
+    {
+      "id": "ZITEM_NAME_400014",
+      "text": "Icecream"
+    },
+    {
+      "id": "ZITEM_DESC_400014",
+      "text": "Natural Icecream for hot summer nights. Recovers 20 AP."
+    },
+    {
+      "id": "ZITEM_NAME_52601",
+      "text": "Magazine Pouch"
+    },
+    {
+      "id": "ZITEM_DESC_52601",
+      "text": "This Pouch holds three extra magazine clips."
+    },
+    {
+      "id": "ZITEM_NAME_527001",
+      "text": "Medical Kit MX-S1"
+    },
+    {
+      "id": "ZITEM_DESC_527001",
+      "text": "A powerful super lightweight medical kit. Medical Kit MX-S1 heals almost twice more than MK series. (3 bundle pack)"
+    },
+    {
+      "id": "ZITEM_NAME_52702",
+      "text": "Medical Kit MX-S2"
+    },
+    {
+      "id": "ZITEM_DESC_52702",
+      "text": "A powerful super lightweight medical kit. Recovers 20 HP."
+    },
+    {
+      "id": "ZITEM_NAME_528001",
+      "text": "Repair Kit RX-S1"
+    },
+    {
+      "id": "ZITEM_DESC_528001",
+      "text": "A powerful super lightweight repair kit. Repair Kit RX-S1 heals almost twice more than RK series. (3 bundle pack)"
+    },
+    {
+      "id": "ZITEM_NAME_52802",
+      "text": "Repair Kit RX-S2"
+    },
+    {
+      "id": "ZITEM_DESC_52802",
+      "text": "A powerful super lightweight repair kit. Recover 20 AP."
+    },
+    {
+      "id": "ZITEM_NAME_600001",
+      "text": "Canopus' Coin"
+    },
+    {
+      "id": "ZITEM_DESC_600001",
+      "text": "A coin empowered by Canopus the God of Flame."
+    },
+    {
+      "id": "ZITEM_NAME_600002",
+      "text": "Canopus' Hand Stamp"
+    },
+    {
+      "id": "ZITEM_DESC_600002",
+      "text": "A hand stamp empowered by Canopus the God of Flame."
+    },
+    {
+      "id": "ZITEM_NAME_600003",
+      "text": "Canopus' Medal"
+    },
+    {
+      "id": "ZITEM_DESC_600003",
+      "text": "A medal empowered by Canopus the God of Flame."
+    },
+    {
+      "id": "ZITEM_NAME_600004",
+      "text": "Canopus' Jewel"
+    },
+    {
+      "id": "ZITEM_DESC_600004",
+      "text": "A jewel empowered by Canopus the God of Flame."
+    },
+    {
+      "id": "ZITEM_NAME_600005",
+      "text": "Canopus' Eye"
+    },
+    {
+      "id": "ZITEM_DESC_600005",
+      "text": "An eye empowered by Canopus the God of Flame."
+    },
+    {
+      "id": "ZITEM_NAME_600006",
+      "text": "Canopus' Eye"
+    },
+    {
+      "id": "ZITEM_DESC_600006",
+      "text": "[Enchant Lv.0] Enchanted on this tiny jewel is the power of Canopus. Melee weapon fires up when charged. Any opponent hit by enchant attack will get damaged at every second for a certain amount of time."
+    },
+    {
+      "id": "ZITEM_NAME_600101",
+      "text": "Enia's Coin"
+    },
+    {
+      "id": "ZITEM_DESC_600101",
+      "text": "A coin empowered by Enia the God of Water and Ice."
+    },
+    {
+      "id": "ZITEM_NAME_600102",
+      "text": "Enia's Hand Stamp"
+    },
+    {
+      "id": "ZITEM_DESC_600102",
+      "text": "A hand stamp empowered by Enia the God of Water and Ice."
+    },
+    {
+      "id": "ZITEM_NAME_600103",
+      "text": "Enia's Medal"
+    },
+    {
+      "id": "ZITEM_DESC_600103",
+      "text": "A medal empowered by Enia the God of Water and Ice."
+    },
+    {
+      "id": "ZITEM_NAME_600104",
+      "text": "Enia's Jewel"
+    },
+    {
+      "id": "ZITEM_DESC_600104",
+      "text": "A jewel empowered by Enia the God of Water and Ice."
+    },
+    {
+      "id": "ZITEM_NAME_600105",
+      "text": "Enia's Eye"
+    },
+    {
+      "id": "ZITEM_DESC_600105",
+      "text": "Eye of Enia the God of Water and Ice."
+    },
+    {
+      "id": "ZITEM_NAME_600106",
+      "text": "Enia's Eye"
+    },
+    {
+      "id": "ZITEM_DESC_600106",
+      "text": "[Enchant Lv.1] Enchanted on this tiny jewel is the power of Enia. Melee weapon fires up when charged. Any opponent hit by enchant attack will get damaged at every second for a certain amount of time."
+    },
+    {
+      "id": "ZITEM_NAME_600201",
+      "text": "Winscar's Coin"
+    },
+    {
+      "id": "ZITEM_DESC_600201",
+      "text": "A coin empowered by Winscar the Lord of Wind and Sky."
+    },
+    {
+      "id": "ZITEM_NAME_600202",
+      "text": "Winscar's Hand Stamp"
+    },
+    {
+      "id": "ZITEM_DESC_600202",
+      "text": "A hand stamp empowered by Winscar the Lord of Wind and Sky."
+    },
+    {
+      "id": "ZITEM_NAME_600203",
+      "text": "Winscar's Medal"
+    },
+    {
+      "id": "ZITEM_DESC_600203",
+      "text": "A medal empowered by Winscar the Lord of Wind and Sky."
+    },
+    {
+      "id": "ZITEM_NAME_600204",
+      "text": "Winscar's Jewel"
+    },
+    {
+      "id": "ZITEM_DESC_600204",
+      "text": "A jewel empowered by Winscar the Lord of Wind and Sky."
+    },
+    {
+      "id": "ZITEM_NAME_600205",
+      "text": "Winscar's Eye"
+    },
+    {
+      "id": "ZITEM_DESC_600205",
+      "text": "Eye of Winscar the God of Wind and Sky."
+    },
+    {
+      "id": "ZITEM_NAME_600301",
+      "text": "Giston's Coin"
+    },
+    {
+      "id": "ZITEM_DESC_600301",
+      "text": "A coin empowered by Giston the God of Earth."
+    },
+    {
+      "id": "ZITEM_NAME_600302",
+      "text": "Giston's Hand Stamp"
+    },
+    {
+      "id": "ZITEM_DESC_600302",
+      "text": "A hand stamp empowered by Giston the God of Earth."
+    },
+    {
+      "id": "ZITEM_NAME_600303",
+      "text": "Giston's Medal"
+    },
+    {
+      "id": "ZITEM_DESC_600303",
+      "text": "A medal empowered by Giston the God of Earth."
+    },
+    {
+      "id": "ZITEM_NAME_600304",
+      "text": "Giston's Jewel"
+    },
+    {
+      "id": "ZITEM_DESC_600304",
+      "text": "A jewel empowered by Giston the God of Earth."
+    },
+    {
+      "id": "ZITEM_NAME_600305",
+      "text": "Giston's Eye"
+    },
+    {
+      "id": "ZITEM_DESC_600305",
+      "text": "Eye of Giston the God of Earth"
+    },
+    {
+      "id": "ZITEM_NAME_700001",
+      "text": "Admission Ticket"
+    },
+    {
+      "id": "ZITEM_DESC_700001",
+      "text": "Ticket that allows you admission into a pay channel."
+    },
+    {
+      "id": "CHANNEL_DEFAULT_NAME",
+      "text": "Free Channel"
+    },
+    {
+      "id": "CHANNEL_NOVICE_NAME_1",
+      "text": "Free Channel 1"
+    },
+    {
+      "id": "CHANNEL_NOVICE_NAME_2",
+      "text": "Free Channel 2"
+    },
+    {
+      "id": "CHANNEL_NOVICE_NAME_3",
+      "text": "Free Channel 3"
+    },
+    {
+      "id": "CHANNEL_NOVICE_NAME_4",
+      "text": "Free Channel 4"
+    },
+    {
+      "id": "CHANNEL_NOVICE_NAME_5",
+      "text": "Free Channel 5"
+    },
+    {
+      "id": "CHANNEL_NEWBIE_NAME_1",
+      "text": "Entry-level Channel 1 (Level 1-5)"
+    },
+    {
+      "id": "CHANNEL_NEWBIE_NAME_2",
+      "text": "Entry-level Channel 2 (Level 1-5)"
+    },
+    {
+      "id": "CHANNEL_NEWBIE2_NAME_1",
+      "text": "Beginner Channel 1 (Level 6-10)"
+    },
+    {
+      "id": "CHANNEL_NEWBIE2_NAME_2",
+      "text": "Beginner Channel 2 (Level 6-10)"
+    },
+    {
+      "id": "CHANNEL_ROOKIE_NAME_1",
+      "text": "Veteran Channel 1 (Level 11-20)"
+    },
+    {
+      "id": "CHANNEL_ROOKIE_NAME_2",
+      "text": "Veteran Channel 2 (Level 11-20)"
+    },
+    {
+      "id": "CHANNEL_MASTERY_NAME_1",
+      "text": "Expert Channel 1 (Level 21 and over)"
+    },
+    {
+      "id": "CHANNEL_MASTERY_NAME_2",
+      "text": "Expert Channel 2 (Level 21 and over)"
+    },
+    {
+      "id": "CHANNEL_ELITE_NAME_1",
+      "text": "Elite Channel 1 (Level 35 and over)"
+    },
+    {
+      "id": "CHANNEL_ELITE_NAME_2",
+      "text": "Elite Channel 2 (Level 35 and over)"
+    },
+    {
+      "id": "CMD_NAME_1",
+      "text": "help"
+    },
+    {
+      "id": "CMD_USAGE_1",
+      "text": "/help or /help [command]"
+    },
+    {
+      "id": "CMD_HELP_1",
+      "text": "Show the list of chatting commands."
+    },
+    {
+      "id": "CMD_ALIAS_1_1",
+      "text": "h"
+    },
+    {
+      "id": "CMD_ALIAS_1_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_2",
+      "text": "whisper"
+    },
+    {
+      "id": "CMD_USAGE_2",
+      "text": "/whisper [ID] [msg]"
+    },
+    {
+      "id": "CMD_HELP_2",
+      "text": "Whisper to the designated ID"
+    },
+    {
+      "id": "CMD_ALIAS_2_1",
+      "text": "w"
+    },
+    {
+      "id": "CMD_ALIAS_2_2",
+      "text": "say"
+    },
+    {
+      "id": "CMD_NAME_3",
+      "text": "report"
+    },
+    {
+      "id": "CMD_USAGE_3",
+      "text": "/report"
+    },
+    {
+      "id": "CMD_HELP_3",
+      "text": "Report details of the chat"
+    },
+    {
+      "id": "CMD_ALIAS_3_1",
+      "text": "112"
+    },
+    {
+      "id": "CMD_ALIAS_3_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_4",
+      "text": "friend"
+    },
+    {
+      "id": "CMD_USAGE_4",
+      "text": "/friend [cmd] [args]"
+    },
+    {
+      "id": "CMD_HELP_4",
+      "text": "friend commands"
+    },
+    {
+      "id": "CMD_ALIAS_4_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_4_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_5",
+      "text": "clan"
+    },
+    {
+      "id": "CMD_USAGE_5",
+      "text": "/clan [cmd] [args]"
+    },
+    {
+      "id": "CMD_HELP_5",
+      "text": "clan commands"
+    },
+    {
+      "id": "CMD_ALIAS_5_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_5_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_6",
+      "text": "follow"
+    },
+    {
+      "id": "CMD_USAGE_6",
+      "text": "/follow [ID]"
+    },
+    {
+      "id": "CMD_HELP_6",
+      "text": "Follow a friend's game stage"
+    },
+    {
+      "id": "CMD_ALIAS_6_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_6_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_7",
+      "text": "qj"
+    },
+    {
+      "id": "CMD_USAGE_7",
+      "text": "/qj"
+    },
+    {
+      "id": "CMD_HELP_7",
+      "text": "Start a game right away in any room"
+    },
+    {
+      "id": "CMD_ALIAS_7_1",
+      "text": "go"
+    },
+    {
+      "id": "CMD_ALIAS_7_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_8",
+      "text": "taunt"
+    },
+    {
+      "id": "CMD_USAGE_8",
+      "text": "/taunt"
+    },
+    {
+      "id": "CMD_HELP_8",
+      "text": "Taunt others in a game. (Supported in game only)"
+    },
+    {
+      "id": "CMD_ALIAS_8_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_8_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_9",
+      "text": "salute"
+    },
+    {
+      "id": "CMD_USAGE_9",
+      "text": "/salute"
+    },
+    {
+      "id": "CMD_HELP_9",
+      "text": "Character bows to salute. (Supported in game only)"
+    },
+    {
+      "id": "CMD_ALIAS_9_1",
+      "text": "bow"
+    },
+    {
+      "id": "CMD_ALIAS_9_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_10",
+      "text": "wave"
+    },
+    {
+      "id": "CMD_USAGE_10",
+      "text": "/wave"
+    },
+    {
+      "id": "CMD_HELP_10",
+      "text": "Character waves hands. (Supported in game only)"
+    },
+    {
+      "id": "CMD_ALIAS_10_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_10_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_11",
+      "text": "laugh"
+    },
+    {
+      "id": "CMD_USAGE_11",
+      "text": "/laugh"
+    },
+    {
+      "id": "CMD_HELP_11",
+      "text": "Character laughs. (Supported in game only)"
+    },
+    {
+      "id": "CMD_ALIAS_11_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_11_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_12",
+      "text": "cry"
+    },
+    {
+      "id": "CMD_USAGE_12",
+      "text": "/cry"
+    },
+    {
+      "id": "CMD_HELP_12",
+      "text": "Character cries. (Supported in game only)"
+    },
+    {
+      "id": "CMD_ALIAS_12_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_12_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_13",
+      "text": "dance"
+    },
+    {
+      "id": "CMD_USAGE_13",
+      "text": "/dance"
+    },
+    {
+      "id": "CMD_HELP_13",
+      "text": "Character dances. (Supported in game only)"
+    },
+    {
+      "id": "CMD_ALIAS_13_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_13_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_14",
+      "text": "macro"
+    },
+    {
+      "id": "CMD_USAGE_14",
+      "text": "/macro"
+    },
+    {
+      "id": "CMD_HELP_14",
+      "text": "Register macros"
+    },
+    {
+      "id": "CMD_ALIAS_14_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_14_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_15",
+      "text": "suicide"
+    },
+    {
+      "id": "CMD_USAGE_15",
+      "text": "/suicide"
+    },
+    {
+      "id": "CMD_HELP_15",
+      "text": "The character in the game is immediately defeated."
+    },
+    {
+      "id": "CMD_ALIAS_15_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_15_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_16",
+      "text": "vote"
+    },
+    {
+      "id": "CMD_USAGE_16",
+      "text": "/vote"
+    },
+    {
+      "id": "CMD_HELP_16",
+      "text": "voting"
+    },
+    {
+      "id": "CMD_ALIAS_16_1",
+      "text": "call for a vote"
+    },
+    {
+      "id": "CMD_ALIAS_16_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_17",
+      "text": "yes"
+    },
+    {
+      "id": "CMD_USAGE_17",
+      "text": "/yes"
+    },
+    {
+      "id": "CMD_HELP_17",
+      "text": "yes command"
+    },
+    {
+      "id": "CMD_ALIAS_17_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_17_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_18",
+      "text": "no"
+    },
+    {
+      "id": "CMD_USAGE_18",
+      "text": "/no"
+    },
+    {
+      "id": "CMD_HELP_18",
+      "text": "no command"
+    },
+    {
+      "id": "CMD_ALIAS_18_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_18_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_19",
+      "text": "kick"
+    },
+    {
+      "id": "CMD_USAGE_19",
+      "text": "/kick"
+    },
+    {
+      "id": "CMD_HELP_19",
+      "text": "Propose kicking a player"
+    },
+    {
+      "id": "CMD_ALIAS_19_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_19_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_20",
+      "text": "chatmake"
+    },
+    {
+      "id": "CMD_USAGE_20",
+      "text": "/chatmake [roomname]"
+    },
+    {
+      "id": "CMD_HELP_20",
+      "text": "create a chat room"
+    },
+    {
+      "id": "CMD_ALIAS_20_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_20_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_21",
+      "text": "chatjoin"
+    },
+    {
+      "id": "CMD_USAGE_21",
+      "text": "/chatjoin [roomname]"
+    },
+    {
+      "id": "CMD_HELP_21",
+      "text": "join chat room"
+    },
+    {
+      "id": "CMD_ALIAS_21_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_21_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_22",
+      "text": "chatleave"
+    },
+    {
+      "id": "CMD_USAGE_22",
+      "text": "/chatleave [roomname]"
+    },
+    {
+      "id": "CMD_HELP_22",
+      "text": "leave chat room"
+    },
+    {
+      "id": "CMD_ALIAS_22_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_22_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_23",
+      "text": "chatselect"
+    },
+    {
+      "id": "CMD_USAGE_23",
+      "text": "/chatselect [roomname]"
+    },
+    {
+      "id": "CMD_HELP_23",
+      "text": "select a chat room"
+    },
+    {
+      "id": "CMD_ALIAS_23_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_23_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_24",
+      "text": "chatinvite"
+    },
+    {
+      "id": "CMD_USAGE_24",
+      "text": "/chatinvite [name]"
+    },
+    {
+      "id": "CMD_HELP_24",
+      "text": "invite to chat room"
+    },
+    {
+      "id": "CMD_ALIAS_24_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_24_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_25",
+      "text": "chataccept"
+    },
+    {
+      "id": "CMD_USAGE_25",
+      "text": "/chataccept"
+    },
+    {
+      "id": "CMD_HELP_25",
+      "text": "Player accepts Chat"
+    },
+    {
+      "id": "CMD_ALIAS_25_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_25_2",
+      "text": ""
+    },
+    {
+      "id": "CMD_NAME_26",
+      "text": "chat"
+    },
+    {
+      "id": "CMD_USAGE_26",
+      "text": "chat [message]"
+    },
+    {
+      "id": "CMD_HELP_26",
+      "text": "chat"
+    },
+    {
+      "id": "CMD_ALIAS_26_1",
+      "text": ""
+    },
+    {
+      "id": "CMD_ALIAS_26_2",
+      "text": ""
+    },
+    {
+      "id": "NOTIFY_10",
+      "text": "Network initialization has failed."
+    },
+    {
+      "id": "NOTIFY_11",
+      "text": "Network port is in use."
+    },
+    {
+      "id": "NOTIFY_15",
+      "text": "NAT network connection configuration set."
+    },
+    {
+      "id": "NOTIFY_51",
+      "text": "The user is not found."
+    },
+    {
+      "id": "NOTIFY_70",
+      "text": "The character does not exist."
+    },
+    {
+      "id": "NOTIFY_100",
+      "text": "The stage already exists."
+    },
+    {
+      "id": "NOTIFY_101",
+      "text": "The stage does not exist."
+    },
+    {
+      "id": "NOTIFY_110",
+      "text": "The capacity for members has reached its limit."
+    },
+    {
+      "id": "NOTIFY_150",
+      "text": "The Chat Room has been created."
+    },
+    {
+      "id": "NOTIFY_151",
+      "text": "The Chat Room creation has failed."
+    },
+    {
+      "id": "NOTIFY_152",
+      "text": "The Chat Room already exists."
+    },
+    {
+      "id": "NOTIFY_153",
+      "text": "The Chat Room does not exist."
+    },
+    {
+      "id": "NOTIFY_154",
+      "text": "There is no Chat Room to participate in."
+    },
+    {
+      "id": "NOTIFY_155",
+      "text": "You cannot participate in the Chat Room."
+    },
+    {
+      "id": "NOTIFY_156",
+      "text": "Too many participants."
+    },
+    {
+      "id": "NOTIFY_200",
+      "text": "Speed hacking has been declared as having been used."
+    },
+    {
+      "id": "NOTIFY_201",
+      "text": "Use of memory hack has been declared."
+    },
+    {
+      "id": "NOTIFY_251",
+      "text": "Already registered as a friend"
+    },
+    {
+      "id": "NOTIFY_252",
+      "text": "Not registered as a friend."
+    },
+    {
+      "id": "NOTIFY_253",
+      "text": "The list of friends is full."
+    },
+    {
+      "id": "NOTIFY_255",
+      "text": "Registered as friend."
+    },
+    {
+      "id": "NOTIFY_256",
+      "text": "Player has been removed from your friends list."
+    },
+    {
+      "id": "NOTIFY_301",
+      "text": "Your counterpart has rejected whispering."
+    },
+    {
+      "id": "NOTIFY_302",
+      "text": "Whispering has been rejected."
+    },
+    {
+      "id": "NOTIFY_311",
+      "text": "Your counterpart has rejected the invitation."
+    },
+    {
+      "id": "NOTIFY_312",
+      "text": "The invitation has been rejected."
+    },
+    {
+      "id": "NPC_NAME_11",
+      "text": "Soldier Goblin"
+    },
+    {
+      "id": "NPC_DESC_11",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_12",
+      "text": "Goblin Gunners"
+    },
+    {
+      "id": "NPC_DESC_12",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_13",
+      "text": "Goblin Wizard"
+    },
+    {
+      "id": "NPC_DESC_13",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_14",
+      "text": "General Goblin"
+    },
+    {
+      "id": "NPC_DESC_14",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_15",
+      "text": "Elder Goblin"
+    },
+    {
+      "id": "NPC_DESC_15",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_16",
+      "text": "Goblin King"
+    },
+    {
+      "id": "NPC_DESC_16",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_17",
+      "text": "Event Goblin"
+    },
+    {
+      "id": "NPC_DESC_17",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_21",
+      "text": "Pampoa"
+    },
+    {
+      "id": "NPC_DESC_21",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_22",
+      "text": "General Pampoa"
+    },
+    {
+      "id": "NPC_DESC_22",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_23",
+      "text": "Pampow"
+    },
+    {
+      "id": "NPC_DESC_23",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_24",
+      "text": "Cursed Pampow"
+    },
+    {
+      "id": "NPC_DESC_24",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_25",
+      "text": "Pampow Baby"
+    },
+    {
+      "id": "NPC_DESC_25",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_31",
+      "text": "Skeleton"
+    },
+    {
+      "id": "NPC_DESC_31",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_32",
+      "text": "Skeleton Mage"
+    },
+    {
+      "id": "NPC_DESC_32",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_33",
+      "text": "General Skeleton"
+    },
+    {
+      "id": "NPC_DESC_33",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_34",
+      "text": "Giant Skeleton"
+    },
+    {
+      "id": "NPC_DESC_34",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_35",
+      "text": "Cursed Corpse"
+    },
+    {
+      "id": "NPC_DESC_35",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_36",
+      "text": "Richie"
+    },
+    {
+      "id": "NPC_DESC_36",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_41",
+      "text": "Kobold"
+    },
+    {
+      "id": "NPC_DESC_41",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_42",
+      "text": "Kobold Shaman"
+    },
+    {
+      "id": "NPC_DESC_42",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_43",
+      "text": "General Kobold"
+    },
+    {
+      "id": "NPC_DESC_43",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_44",
+      "text": "Kobold King"
+    },
+    {
+      "id": "NPC_DESC_44",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_45",
+      "text": "Broken Golem"
+    },
+    {
+      "id": "NPC_DESC_45",
+      "text": ""
+    },
+    {
+      "id": "NPC_NAME_46",
+      "text": "Scrider"
+    },
+    {
+      "id": "NPC_DESC_46",
+      "text": ""
+    },
+    {
+      "id": "SCENARIO_TITLE_500",
+      "text": "Hubigo QL 0"
+    },
+    {
+      "id": "SCENARIO_TITLE_501",
+      "text": "Hubigo QL 1"
+    },
+    {
+      "id": "SCENARIO_TITLE_502",
+      "text": "Hubigo QL 2"
+    },
+    {
+      "id": "SCENARIO_TITLE_503",
+      "text": "Hubigo QL 3"
+    },
+    {
+      "id": "SHUTDOWN_01",
+      "text": "THE SERVER WILL SHUTDOWN IN 1 MINUTE FOR MAINTENANCE"
+    },
+    {
+      "id": "SHUTDOWN_02",
+      "text": "Please log out now for data safety."
+    },
+    {
+      "id": "SHUTDOWN_03",
+      "text": "Sorry for the inconvenience."
+    },
+    {
+      "id": "SHUTDOWN_04",
+      "text": "Server Shutdown in 30 seconds."
+    },
+    {
+      "id": "SHUTDOWN_05",
+      "text": "Server Shutdown in 20 seconds."
+    },
+    {
+      "id": "SHUTDOWN_06",
+      "text": "Server Shutdown in 10 seconds."
+    },
+    {
+      "id": "SHUTDOWN_07",
+      "text": "Server Shutdown in 5 seconds."
+    },
+    {
+      "id": "SHUTDOWN_08",
+      "text": "Server Shutdown in 4 seconds."
+    },
+    {
+      "id": "SHUTDOWN_09",
+      "text": "Server Shutdown in 3 seconds."
+    },
+    {
+      "id": "SHUTDOWN_10",
+      "text": "Server Shutdown in 2 seconds."
+    },
+    {
+      "id": "SHUTDOWN_11",
+      "text": "Server Shutdown in 1 second."
+    },
+    {
+      "id": "SHUTDOWN_12",
+      "text": "Server SHUTTING DOWN!"
+    },
+    {
+      "id": "QITEM_NAME_200001",
+      "text": "Torn Page 13"
+    },
+    {
+      "id": "QITEM_DESC_200001",
+      "text": "A page torn out of a book. The faint print says page 13."
+    },
+    {
+      "id": "QITEM_NAME_200002",
+      "text": "Torn Page 25"
+    },
+    {
+      "id": "QITEM_DESC_200002",
+      "text": "A page torn out of a book. The faint print says page 25."
+    },
+    {
+      "id": "QITEM_NAME_200003",
+      "text": "Torn Page 41"
+    },
+    {
+      "id": "QITEM_DESC_200003",
+      "text": "A page torn out of a book. The faint print says page 41."
+    },
+    {
+      "id": "QITEM_NAME_200004",
+      "text": "Torn Page 65"
+    },
+    {
+      "id": "QITEM_DESC_200004",
+      "text": "A page torn out of a book. The faint print says page 65."
+    },
+    {
+      "id": "QITEM_NAME_200005",
+      "text": "Small Skull"
+    },
+    {
+      "id": "QITEM_DESC_200005",
+      "text": "Mysterious Skull. It looks like it is a skull of a bird."
+    },
+    {
+      "id": "QITEM_NAME_200006",
+      "text": "Large Skull"
+    },
+    {
+      "id": "QITEM_DESC_200006",
+      "text": "Mysterious Skull. Not identified, the owner of the skull seems to have had a big head."
+    },
+    {
+      "id": "QITEM_NAME_200007",
+      "text": "Mysterious Skull"
+    },
+    {
+      "id": "QITEM_DESC_200007",
+      "text": "Mysterious skull whose usage is not identified."
+    },
+    {
+      "id": "QITEM_NAME_200008",
+      "text": "Goblin's Skull"
+    },
+    {
+      "id": "QITEM_DESC_200008",
+      "text": "This unique item was found in a Goblin's cave. An inscription on the back reads \"Fight for a new world\"."
+    },
+    {
+      "id": "QITEM_NAME_200009",
+      "text": "Goblin King's Skull"
+    },
+    {
+      "id": "QITEM_DESC_200009",
+      "text": "Skull of the Goblin King."
+    },
+    {
+      "id": "QITEM_NAME_200010",
+      "text": "Enormously Huge Skull"
+    },
+    {
+      "id": "QITEM_DESC_200010",
+      "text": "It looks like bones of a man. However, the size is equivalent to that of a dinosaur."
+    },
+    {
+      "id": "QITEM_NAME_200011",
+      "text": "Raw Meat"
+    },
+    {
+      "id": "QITEM_DESC_200011",
+      "text": "Raw meat of an unknow animal. It seemed to have been used as food."
+    },
+    {
+      "id": "QITEM_NAME_200012",
+      "text": "Seasoned Meat"
+    },
+    {
+      "id": "QITEM_DESC_200012",
+      "text": "Cooked seasoned meat. Looks very delicious."
+    },
+    {
+      "id": "QITEM_NAME_200013",
+      "text": "Steak"
+    },
+    {
+      "id": "QITEM_DESC_200013",
+      "text": "Very delicious looking steak. It must have been the Goblin's favorite."
+    },
+    {
+      "id": "QITEM_NAME_200014",
+      "text": "Iron Earring"
+    },
+    {
+      "id": "QITEM_DESC_200014",
+      "text": "Iron-made earrings for the tribe, Kobold. Humans cannot wear them."
+    },
+    {
+      "id": "QITEM_NAME_200015",
+      "text": "Silver Earring"
+    },
+    {
+      "id": "QITEM_DESC_200015",
+      "text": "Silver earrings for the tribe, Kobold. Humans cannot wear them."
+    },
+    {
+      "id": "QITEM_NAME_200016",
+      "text": "Gold Earring"
+    },
+    {
+      "id": "QITEM_DESC_200016",
+      "text": "Gold earrings for the tribe, Kobold. Humans cannot wear them."
+    },
+    {
+      "id": "QITEM_NAME_200017",
+      "text": "Platinum Earring"
+    },
+    {
+      "id": "QITEM_DESC_200017",
+      "text": "Earrings made of special metal used by the King, Kobold. Humans cannot wear them."
+    },
+    {
+      "id": "QITEM_NAME_200018",
+      "text": "Crimson's Necklace"
+    },
+    {
+      "id": "QITEM_DESC_200018",
+      "text": "A necklace worn by the trial chief of Goblin. It is highly doubtful whether humans can wear it."
+    },
+    {
+      "id": "QITEM_NAME_200019",
+      "text": "Skeleton Doll"
+    },
+    {
+      "id": "QITEM_DESC_200019",
+      "text": "Doll made in the shape of the skeleton of a soldier. The taste of the maker is highly doubtful."
+    },
+    {
+      "id": "QITEM_NAME_200020",
+      "text": "Kobold Doll"
+    },
+    {
+      "id": "QITEM_DESC_200020",
+      "text": "This doll looks exactly like Kobold! Will children be happy to get this doll?"
+    },
+    {
+      "id": "QITEM_NAME_200021",
+      "text": "Goblin Doll"
+    },
+    {
+      "id": "QITEM_DESC_200021",
+      "text": "A Goblin Doll, seems goblins like playing with dolls..."
+    },
+    {
+      "id": "QITEM_NAME_200022",
+      "text": "Pampow Doll"
+    },
+    {
+      "id": "QITEM_DESC_200022",
+      "text": "Doll that just looks like the mischievous fairy, Pampow."
+    },
+    {
+      "id": "QITEM_NAME_200023",
+      "text": "Rabbit Doll"
+    },
+    {
+      "id": "QITEM_DESC_200023",
+      "text": "Cute doll shaped like rabbit. What is it for then?!"
+    },
+    {
+      "id": "QITEM_NAME_200024",
+      "text": "Stuffed Bear"
+    },
+    {
+      "id": "QITEM_DESC_200024",
+      "text": "Stuffed animal that kids used to have on their bed. How come it is in this...?!"
+    },
+    {
+      "id": "QITEM_NAME_200025",
+      "text": "Cursed Bear"
+    },
+    {
+      "id": "QITEM_DESC_200025",
+      "text": "Kids may not want to have it on their bed. How come it is here...?!"
+    },
+    {
+      "id": "QITEM_NAME_200026",
+      "text": "Pampow Idol"
+    },
+    {
+      "id": "QITEM_DESC_200026",
+      "text": "Fairy shown in dreams. It just looks like Pampow."
+    },
+    {
+      "id": "QITEM_NAME_200027",
+      "text": "Cursed Pampow Idol"
+    },
+    {
+      "id": "QITEM_DESC_200027",
+      "text": "It just looks like Pampow. However, it looks dreary somehow."
+    },
+    {
+      "id": "QITEM_NAME_200028",
+      "text": "Devil's Dictionary"
+    },
+    {
+      "id": "QITEM_DESC_200028",
+      "text": "Dictionary that is full of strange contents."
+    },
+    {
+      "id": "QITEM_NAME_200029",
+      "text": "Scrider's Register Volume I"
+    },
+    {
+      "id": "QITEM_DESC_200029",
+      "text": "A strange book full of people's names, volume I. It is said to have come from hell."
+    },
+    {
+      "id": "QITEM_NAME_200030",
+      "text": "Scrider's Register Volume II"
+    },
+    {
+      "id": "QITEM_DESC_200030",
+      "text": "A strange book full of people's names, volume II. It is said to have come from hell."
+    },
+    {
+      "id": "QITEM_NAME_200031",
+      "text": "Blessed Cross"
+    },
+    {
+      "id": "QITEM_DESC_200031",
+      "text": "It is similar to one that the gun priests had."
+    },
+    {
+      "id": "QITEM_NAME_200032",
+      "text": "Cursed Cross"
+    },
+    {
+      "id": "QITEM_DESC_200032",
+      "text": "It is similar to one that the gun priests had. But..."
+    },
+    {
+      "id": "QITEM_NAME_200033",
+      "text": "Pickaxe"
+    },
+    {
+      "id": "QITEM_DESC_200033",
+      "text": "This is a pickaxe that is used in a stope. But where to mine with it?"
+    },
+    {
+      "id": "QITEM_NAME_200034",
+      "text": "Speaking Stone"
+    },
+    {
+      "id": "QITEM_DESC_200034",
+      "text": "This stone utters weird things from time to time. It can move, too."
+    },
+    {
+      "id": "QITEM_NAME_200035",
+      "text": "Ice Crystal"
+    },
+    {
+      "id": "QITEM_DESC_200035",
+      "text": "Ice crystal that seems not to be melted by usual heat."
+    },
+    {
+      "id": "QITEM_NAME_200036",
+      "text": "Broken Gear"
+    },
+    {
+      "id": "QITEM_DESC_200036",
+      "text": "Gear that has been broken. It seems no one can use it again."
+    },
+    {
+      "id": "QITEM_NAME_200037",
+      "text": "High-class Gear"
+    },
+    {
+      "id": "QITEM_DESC_200037",
+      "text": "Gear that seems to have had some important function in a machine."
+    },
+    {
+      "id": "QITEM_NAME_200038",
+      "text": "Goblin King's Axe"
+    },
+    {
+      "id": "QITEM_DESC_200038",
+      "text": "Frightening axe used by Goblin King. It is pity that it cannot be used by men."
+    },
+    {
+      "id": "QITEM_NAME_200039",
+      "text": "Kobold King's Axe"
+    },
+    {
+      "id": "QITEM_DESC_200039",
+      "text": "Frightening axe used by Kobold King. It is pity that it cannot be used by men."
+    },
+    {
+      "id": "QITEM_NAME_200040",
+      "text": "Superion's Sword"
+    },
+    {
+      "id": "QITEM_DESC_200040",
+      "text": "Frightening sword used by Superion. It is pity that it cannot be used by men."
+    },
+    {
+      "id": "QITEM_NAME_200041",
+      "text": "Aneramon's Sword"
+    },
+    {
+      "id": "QITEM_DESC_200041",
+      "text": "The Curse Sword that was stuck in Aneramon's heart. It appears dangerous to touch."
+    },
+    {
+      "id": "QITEM_NAME_200042",
+      "text": "Lich's Tail"
+    },
+    {
+      "id": "QITEM_DESC_200042",
+      "text": "The tail that Lich uses to attack. It is very sharp and flexible like a whip."
+    },
+    {
+      "id": "QITEM_NAME_200043",
+      "text": "Pampow's Ice Sword"
+    },
+    {
+      "id": "QITEM_DESC_200043",
+      "text": "The Ice Sword used by Pampow when it casts magic. It seems that an unknown power is enchanted on it."
+    },
+    {
+      "id": "CONFIG_MACRO_F1",
+      "text": "/h"
+    },
+    {
+      "id": "CONFIG_MACRO_F2",
+      "text": "/Provoke"
+    },
+    {
+      "id": "CONFIG_MACRO_F3",
+      "text": "/hi"
+    },
+    {
+      "id": "CONFIG_MACRO_F4",
+      "text": "/wave"
+    },
+    {
+      "id": "CONFIG_MACRO_F5",
+      "text": "Hello!"
+    },
+    {
+      "id": "CONFIG_MACRO_F6",
+      "text": "Let's have a good time and play fair."
+    },
+    {
+      "id": "CONFIG_MACRO_F7",
+      "text": "Good Shot !!"
+    },
+    {
+      "id": "CONFIG_MACRO_F8",
+      "text": "Thank you very much."
+    },
+    {
+      "id": "UI_COMMON_OK",
+      "text": "OK (&O)"
+    },
+    {
+      "id": "UI_COMMON_CANCEL",
+      "text": "Cancel (&C)"
+    },
+    {
+      "id": "UI_LOGIN_01",
+      "text": "GunZ Login"
+    },
+    {
+      "id": "UI_LOGIN_02",
+      "text": "User ID"
+    },
+    {
+      "id": "UI_LOGIN_03",
+      "text": "Password"
+    },
+    {
+      "id": "UI_LOGIN_04",
+      "text": "Connect (&C)"
+    },
+    {
+      "id": "UI_LOGIN_05",
+      "text": "Are you sure you want to quit Gunz: The Duel?"
+    },
+    {
+      "id": "UI_LOBBY_01",
+      "text": "Lobby"
+    },
+    {
+      "id": "UI_LOBBY_02",
+      "text": "Start Now (&G)"
+    },
+    {
+      "id": "UI_LOBBY_03",
+      "text": "Find the counter clan team"
+    },
+    {
+      "id": "UI_LOBBY_04",
+      "text": "In search of the counter team..."
+    },
+    {
+      "id": "UI_LOBBY_05",
+      "text": "Cancel"
+    },
+    {
+      "id": "UI_LOBBY_06",
+      "text": "Name"
+    },
+    {
+      "id": "UI_LOBBY_07",
+      "text": "Clan :"
+    },
+    {
+      "id": "UI_LOBBY_08",
+      "text": "Level : 0 lv."
+    },
+    {
+      "id": "UI_LOBBY_09",
+      "text": "XP : 0%"
+    },
+    {
+      "id": "UI_LOBBY_10",
+      "text": "Bounty : 0"
+    },
+    {
+      "id": "UI_LOBBY_11",
+      "text": "HP : 0"
+    },
+    {
+      "id": "UI_LOBBY_12",
+      "text": "AP : 0"
+    },
+    {
+      "id": "UI_LOBBY_13",
+      "text": "WT : 0"
+    },
+    {
+      "id": "UI_LOBBY_14",
+      "text": "Clan War"
+    },
+    {
+      "id": "UI_LOBBY_15",
+      "text": "Fight with clan balance feature on."
+    },
+    {
+      "id": "UI_LOBBY_16",
+      "text": "Select clan member(s) to participate in clan war."
+    },
+    {
+      "id": "UI_LOBBY_17",
+      "text": "OK (&O)"
+    },
+    {
+      "id": "UI_LOBBY_18",
+      "text": "Cancel (&C)"
+    },
+    {
+      "id": "UI_LOBBY_19",
+      "text": "Withdraw from the clan"
+    },
+    {
+      "id": "UI_LOBBY_20",
+      "text": "Are you sure you want to withdraw from the clan?"
+    },
+    {
+      "id": "UI_LOBBY_21",
+      "text": "Yes (&Y)"
+    },
+    {
+      "id": "UI_LOBBY_A01",
+      "text": "Monster Bible"
+    },
+    {
+      "id": "UI_LOBBY_A02",
+      "text": "Are you sure you want to exit to the server select screen?"
+    },
+    {
+      "id": "UI_SCF_01",
+      "text": "Game Creation"
+    },
+    {
+      "id": "UI_SCF_02",
+      "text": "Room Name"
+    },
+    {
+      "id": "UI_SCF_03",
+      "text": "Password"
+    },
+    {
+      "id": "UI_SCF_04",
+      "text": "How about playing a GUNZ game?"
+    },
+    {
+      "id": "UI_REPLAY_01",
+      "text": "Replays"
+    },
+    {
+      "id": "UI_REPLAY_02",
+      "text": "../My Documents/Gunz/Replay"
+    },
+    {
+      "id": "UI_REPLAY_03",
+      "text": "You may experience problems with viewing"
+    },
+    {
+      "id": "UI_REPLAY_04",
+      "text": "replays from older versions."
+    },
+    {
+      "id": "UI_REPLAY_05",
+      "text": "View (&V)"
+    },
+    {
+      "id": "UI_REPLAY_06",
+      "text": "Are you sure you want to see the replay?"
+    },
+    {
+      "id": "UI_REPLAY_07",
+      "text": "Replay"
+    },
+    {
+      "id": "UI_REPLAY_08",
+      "text": "Are you sure you want to see the video again?"
+    },
+    {
+      "id": "UI_REPLAY_09",
+      "text": "View (&V)"
+    },
+    {
+      "id": "UI_REPLAY_10",
+      "text": "Exit (&X)"
+    },
+    {
+      "id": "UI_REPLAY_A01",
+      "text": "Close (&C)"
+    },
+    {
+      "id": "UI_PSJF_01",
+      "text": "Enter the Password"
+    },
+    {
+      "id": "UI_PSJF_02",
+      "text": "Game Title"
+    },
+    {
+      "id": "UI_PSJF_03",
+      "text": "Password"
+    },
+    {
+      "id": "UI_NPC_01",
+      "text": "Modify the Network Port"
+    },
+    {
+      "id": "UI_NPC_02",
+      "text": "Restart the Gunz program in order to apply the modified network port. Exit the program now?"
+    },
+    {
+      "id": "UI_NPC_03",
+      "text": "OK (&O)"
+    },
+    {
+      "id": "UI_NPC_04",
+      "text": "Cancel (&C)"
+    },
+    {
+      "id": "UI_GREETER_01",
+      "text": "Start (&G)"
+    },
+    {
+      "id": "UI_CI_01",
+      "text": "To All:"
+    },
+    {
+      "id": "UI_CI_02",
+      "text": "To Team:"
+    },
+    {
+      "id": "UI_CI_03",
+      "text": "Game Menu"
+    },
+    {
+      "id": "UI_CI_04",
+      "text": "Options (&O)"
+    },
+    {
+      "id": "UI_CI_05",
+      "text": "Return to game (&X)"
+    },
+    {
+      "id": "UI_CI_06",
+      "text": "Exit to Game Room (&R)"
+    },
+    {
+      "id": "UI_CI_07",
+      "text": "Exit to Channel Lobby (&L)"
+    },
+    {
+      "id": "UI_CI_08",
+      "text": "Are you sure you want to exit to the lobby?"
+    },
+    {
+      "id": "UI_CI_09",
+      "text": "Quit the game (&Q)"
+    },
+    {
+      "id": "UI_CI_10",
+      "text": "Are you sure you want to quit Gunz: The Duel?"
+    },
+    {
+      "id": "UI_CLF_01",
+      "text": "Channel List"
+    },
+    {
+      "id": "UI_CLF_02",
+      "text": "General"
+    },
+    {
+      "id": "UI_CLF_03",
+      "text": "Private"
+    },
+    {
+      "id": "UI_CLF_04",
+      "text": "Clan"
+    },
+    {
+      "id": "UI_CLF_05",
+      "text": "Enter"
+    },
+    {
+      "id": "UI_CLF_06",
+      "text": "Go to my clan channel"
+    },
+    {
+      "id": "UI_BC_01",
+      "text": "Total"
+    },
+    {
+      "id": "UI_BC_02",
+      "text": "Would you like to purchase it?"
+    },
+    {
+      "id": "UI_112C_01",
+      "text": "Report"
+    },
+    {
+      "id": "UI_112C_02",
+      "text": "Please select the character and the reason for filing the report."
+    },
+    {
+      "id": "UI_112C_03",
+      "text": "Select character :"
+    },
+    {
+      "id": "UI_112C_04",
+      "text": "Select reason :"
+    },
+    {
+      "id": "UI_112C_05",
+      "text": "Please select"
+    },
+    {
+      "id": "UI_112C_06",
+      "text": "Abuse"
+    },
+    {
+      "id": "UI_112C_07",
+      "text": "Abuse on parent"
+    },
+    {
+      "id": "UI_112C_08",
+      "text": "Sexual chatting"
+    },
+    {
+      "id": "UI_112C_09",
+      "text": "Impostor"
+    },
+    {
+      "id": "UI_112C_10",
+      "text": "Scamming"
+    },
+    {
+      "id": "UI_112C_11",
+      "text": "Spamming"
+    },
+    {
+      "id": "UI_112C_12",
+      "text": "GM Impostor"
+    },
+    {
+      "id": "UI_112C_13",
+      "text": "Please describe the person you are making the report about and the reason carefully. False reports will result in user restriction to the reporter."
+    },
+    {
+      "id": "UI_CC_01",
+      "text": "Create a character"
+    },
+    {
+      "id": "UI_CC_02",
+      "text": "Name"
+    },
+    {
+      "id": "UI_CC_03",
+      "text": "Sex"
+    },
+    {
+      "id": "UI_CC_04",
+      "text": "Hair"
+    },
+    {
+      "id": "UI_CC_05",
+      "text": "Face"
+    },
+    {
+      "id": "UI_CC_06",
+      "text": "Weapons"
+    },
+    {
+      "id": "UI_CC_07",
+      "text": "Devil Slayer"
+    },
+    {
+      "id": "UI_CC_08",
+      "text": "Walcom XLx2"
+    },
+    {
+      "id": "UI_CC_09",
+      "text": "Walcom XLx2"
+    },
+    {
+      "id": "UI_CC_10",
+      "text": "Grenade FG-3"
+    },
+    {
+      "id": "UI_CC_11",
+      "text": "Medical K-12"
+    },
+    {
+      "id": "UI_CC_LIST_01_01",
+      "text": "Male"
+    },
+    {
+      "id": "UI_CC_LIST_01_02",
+      "text": "Female"
+    },
+    {
+      "id": "UI_CC_LIST_02_01",
+      "text": "Type1"
+    },
+    {
+      "id": "UI_CC_LIST_02_02",
+      "text": "Type2"
+    },
+    {
+      "id": "UI_CC_LIST_02_03",
+      "text": "Type3"
+    },
+    {
+      "id": "UI_CC_LIST_02_04",
+      "text": "Type4"
+    },
+    {
+      "id": "UI_CC_LIST_03_01",
+      "text": "Axium Gun Knight"
+    },
+    {
+      "id": "UI_CC_LIST_03_02",
+      "text": "Travia Gun Fighter"
+    },
+    {
+      "id": "UI_CC_LIST_03_03",
+      "text": "Axium Assassin"
+    },
+    {
+      "id": "UI_CC_LIST_03_04",
+      "text": "Travia Scout"
+    },
+    {
+      "id": "UI_CC_LIST_03_05",
+      "text": "Axium Gun Priest"
+    },
+    {
+      "id": "UI_CC_LIST_03_06",
+      "text": "Travia Doctor"
+    },
+    {
+      "id": "UI_CS_01",
+      "text": "Name"
+    },
+    {
+      "id": "UI_CS_02",
+      "text": "0 Lv."
+    },
+    {
+      "id": "UI_CS_03",
+      "text": "Clan"
+    },
+    {
+      "id": "UI_CS_04",
+      "text": "Select (&G)"
+    },
+    {
+      "id": "UI_CS_05",
+      "text": "Are you sure you want to exit to the server select screen?"
+    },
+    {
+      "id": "UI_CS_06",
+      "text": "Delete a character"
+    },
+    {
+      "id": "UI_CS_07",
+      "text": "To delete a character, please type 'YES' in"
+    },
+    {
+      "id": "UI_CS_08",
+      "text": "the box and press the OK button."
+    },
+    {
+      "id": "UI_CLAN_01",
+      "text": "Create a clan"
+    },
+    {
+      "id": "UI_CLAN_02",
+      "text": "Agree (&A)"
+    },
+    {
+      "id": "UI_CLAN_03",
+      "text": "Deny (&D)"
+    },
+    {
+      "id": "UI_CLAN_04",
+      "text": "Time Limit :"
+    },
+    {
+      "id": "UI_CLAN_05",
+      "text": "Agree to create a clan"
+    },
+    {
+      "id": "UI_CLAN_06",
+      "text": "Please wait until the members agree to clan creation."
+    },
+    {
+      "id": "UI_CLAN_07",
+      "text": "Time Limit :"
+    },
+    {
+      "id": "UI_CLAN_08",
+      "text": "Agreement from the clan members"
+    },
+    {
+      "id": "UI_CLAN_09",
+      "text": "Please wait for the clan members to agree."
+    },
+    {
+      "id": "UI_CLAN_10",
+      "text": "Clan creation"
+    },
+    {
+      "id": "UI_CLAN_11",
+      "text": "Clan Name"
+    },
+    {
+      "id": "UI_CLAN_12",
+      "text": "Clan creation requires 10 levels or more and 1000 BP with additional four founding members of a clan. Please create a unique name up to 13 letters."
+    },
+    {
+      "id": "UI_CLAN_13",
+      "text": "Founding"
+    },
+    {
+      "id": "UI_CLAN_14",
+      "text": "Wait for consent"
+    },
+    {
+      "id": "UI_CLAN_15",
+      "text": "Consented"
+    },
+    {
+      "id": "UI_EQUIPMENT_01",
+      "text": "Filter :"
+    },
+    {
+      "id": "UI_EQUIPMENT_02",
+      "text": "Equip"
+    },
+    {
+      "id": "UI_EQUIPMENT_03",
+      "text": "Move to Storage"
+    },
+    {
+      "id": "UI_EQUIPMENT_04",
+      "text": "Move to Backpack"
+    },
+    {
+      "id": "UI_EQUIPMENT_05",
+      "text": "Are you sure you want to send this item to Backpack?"
+    },
+    {
+      "id": "UI_EQUIPMENT_06",
+      "text": "[ WEIGHT ]"
+    },
+    {
+      "id": "UI_EQUIPMENT_07",
+      "text": "0 / 0 Wt."
+    },
+    {
+      "id": "UI_EQUIPMENT_08",
+      "text": "[ LV / HP / AP ]"
+    },
+    {
+      "id": "UI_EQUIPMENT_09",
+      "text": "0Lv. / 0 / 0"
+    },
+    {
+      "id": "UI_EQUIPMENT_10",
+      "text": "Are you sure you want to send this item to the Storage?"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_01",
+      "text": "Show all Equipment"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_02",
+      "text": "Armor : Head"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_03",
+      "text": "Armor : Body"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_04",
+      "text": "Armor : Hands"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_05",
+      "text": "Armor : Legs"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_06",
+      "text": "Armor : Feet"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_07",
+      "text": "Weapon : Melee Weapons"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_08",
+      "text": "Weapon : Ranged Weapons"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_09",
+      "text": "Item : M-R Kit / Grenade"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_10",
+      "text": "Item : Rings"
+    },
+    {
+      "id": "UI_EQUIPMENT_LIST_01_11",
+      "text": "Item : Quest Item"
+    },
+    {
+      "id": "UI_MB_01",
+      "text": "Monster Bible"
+    },
+    {
+      "id": "UI_NL_01",
+      "text": "Login"
+    },
+    {
+      "id": "UI_NL_02",
+      "text": "Being connected to ijji."
+    },
+    {
+      "id": "UI_NL_03",
+      "text": "Are you sure you want to quit Gunz: The Duel?"
+    },
+    {
+      "id": "UI_RC_01",
+      "text": "Change Resolution"
+    },
+    {
+      "id": "UI_RC_02",
+      "text": "Apply New Resolution."
+    },
+    {
+      "id": "UI_RC_03",
+      "text": "If the new resolution settings are not applied within 10 seconds, it"
+    },
+    {
+      "id": "UI_RC_04",
+      "text": "returns to the previous resolution settings."
+    },
+    {
+      "id": "UI_RC_05",
+      "text": "Are you sure you want to apply the new resolution?"
+    },
+    {
+      "id": "UI_RC_06",
+      "text": "New resolution has been applied."
+    },
+    {
+      "id": "UI_RC_07",
+      "text": "Would you like to apply this resolution?"
+    },
+    {
+      "id": "UI_RC_08",
+      "text": "Yes (&Y)"
+    },
+    {
+      "id": "UI_SSF_01",
+      "text": "Game Options"
+    },
+    {
+      "id": "UI_SSF_02",
+      "text": "Time Limit"
+    },
+    {
+      "id": "UI_SSF_03",
+      "text": "Late Join"
+    },
+    {
+      "id": "UI_SSF_04",
+      "text": "Friendly Fire"
+    },
+    {
+      "id": "UI_SSF_05",
+      "text": "Level Restriction"
+    },
+    {
+      "id": "UI_SSF_06",
+      "text": "Spectator Mode"
+    },
+    {
+      "id": "UI_SSF_07",
+      "text": "Voting"
+    },
+    {
+      "id": "UI_SSF_08",
+      "text": "Team Balance"
+    },
+    {
+      "id": "UI_OPTION_01",
+      "text": "Options"
+    },
+    {
+      "id": "UI_OPTION_02",
+      "text": "Resolution"
+    },
+    {
+      "id": "UI_OPTION_03",
+      "text": "Brightness"
+    },
+    {
+      "id": "UI_OPTION_04",
+      "text": "Reflection Effect"
+    },
+    {
+      "id": "UI_OPTION_05",
+      "text": "Light Map"
+    },
+    {
+      "id": "UI_OPTION_06",
+      "text": "Shader"
+    },
+    {
+      "id": "UI_OPTION_07",
+      "text": "Dynamic Light"
+    },
+    {
+      "id": "UI_OPTION_08",
+      "text": "Character Image Quality"
+    },
+    {
+      "id": "UI_OPTION_09",
+      "text": "Background Image Quality"
+    },
+    {
+      "id": "UI_OPTION_10",
+      "text": "Effect Quality"
+    },
+    {
+      "id": "UI_OPTION_11",
+      "text": "Texture Quality"
+    },
+    {
+      "id": "UI_OPTION_12",
+      "text": "Optimize"
+    },
+    {
+      "id": "UI_OPTION_13",
+      "text": "Background Music"
+    },
+    {
+      "id": "UI_OPTION_14",
+      "text": "Volume of Background Music"
+    },
+    {
+      "id": "UI_OPTION_15",
+      "text": "Sound Effect"
+    },
+    {
+      "id": "UI_OPTION_16",
+      "text": "Sound Volume"
+    },
+    {
+      "id": "UI_OPTION_17",
+      "text": "3D sound left-right retroflexion"
+    },
+    {
+      "id": "UI_OPTION_18",
+      "text": "Hardware Mixing Support"
+    },
+    {
+      "id": "UI_OPTION_19",
+      "text": "Sound indicating that the enemy has been hit"
+    },
+    {
+      "id": "UI_OPTION_20",
+      "text": "Mouse Sensitivity"
+    },
+    {
+      "id": "UI_OPTION_21",
+      "text": "Inverted Mouse"
+    },
+    {
+      "id": "UI_OPTION_22",
+      "text": "Move forward"
+    },
+    {
+      "id": "UI_OPTION_23",
+      "text": "Move backward"
+    },
+    {
+      "id": "UI_OPTION_24",
+      "text": "Move to the left"
+    },
+    {
+      "id": "UI_OPTION_25",
+      "text": "Move to the right"
+    },
+    {
+      "id": "UI_OPTION_26",
+      "text": "Sword/Dagger"
+    },
+    {
+      "id": "UI_OPTION_27",
+      "text": "Weapon 1"
+    },
+    {
+      "id": "UI_OPTION_28",
+      "text": "Weapon 2"
+    },
+    {
+      "id": "UI_OPTION_29",
+      "text": "Select Item 1"
+    },
+    {
+      "id": "UI_OPTION_30",
+      "text": "Select Item 2"
+    },
+    {
+      "id": "UI_OPTION_31",
+      "text": "Previous Weapon"
+    },
+    {
+      "id": "UI_OPTION_32",
+      "text": "Next Weapon"
+    },
+    {
+      "id": "UI_OPTION_33",
+      "text": "Game Menu"
+    },
+    {
+      "id": "UI_OPTION_34",
+      "text": "Reload"
+    },
+    {
+      "id": "UI_OPTION_35",
+      "text": "Jump"
+    },
+    {
+      "id": "UI_OPTION_36",
+      "text": "Scoreboard"
+    },
+    {
+      "id": "UI_OPTION_37",
+      "text": "Screenshot"
+    },
+    {
+      "id": "UI_OPTION_38",
+      "text": "Record/Playback"
+    },
+    {
+      "id": "UI_OPTION_39",
+      "text": "Defense"
+    },
+    {
+      "id": "UI_OPTION_40",
+      "text": "Show/Hide Chat"
+    },
+    {
+      "id": "UI_OPTION_59",
+      "text": "Fire"
+    },
+    {
+      "id": "UI_OPTION_41",
+      "text": "Defaults"
+    },
+    {
+      "id": "UI_OPTION_42",
+      "text": "Port Setting"
+    },
+    {
+      "id": "UI_OPTION_43",
+      "text": "Maximize Performance (Response of the mouse can be slowed down in some systems)"
+    },
+    {
+      "id": "UI_OPTION_44",
+      "text": "Chat Filtering Options"
+    },
+    {
+      "id": "UI_OPTION_45",
+      "text": "General chat"
+    },
+    {
+      "id": "UI_OPTION_46",
+      "text": "Team chat"
+    },
+    {
+      "id": "UI_OPTION_47",
+      "text": "Clan chat"
+    },
+    {
+      "id": "UI_OPTION_48",
+      "text": "Whisper"
+    },
+    {
+      "id": "UI_OPTION_49",
+      "text": "Refuse Clan Invitations"
+    },
+    {
+      "id": "UI_OPTION_50",
+      "text": "Crosshair Type"
+    },
+    {
+      "id": "UI_OPTION_51",
+      "text": "F1 Key"
+    },
+    {
+      "id": "UI_OPTION_52",
+      "text": "F2 Key"
+    },
+    {
+      "id": "UI_OPTION_53",
+      "text": "F3 Key"
+    },
+    {
+      "id": "UI_OPTION_54",
+      "text": "F4 Key"
+    },
+    {
+      "id": "UI_OPTION_55",
+      "text": "F5 Key"
+    },
+    {
+      "id": "UI_OPTION_56",
+      "text": "F6 Key"
+    },
+    {
+      "id": "UI_OPTION_57",
+      "text": "F7 Key"
+    },
+    {
+      "id": "UI_OPTION_58",
+      "text": "F8 Key"
+    },
+    {
+      "id": "UI_OPTION_LIST_01_01",
+      "text": "High"
+    },
+    {
+      "id": "UI_OPTION_LIST_01_02",
+      "text": "Normal"
+    },
+    {
+      "id": "UI_OPTION_LIST_01_03",
+      "text": "Low"
+    },
+    {
+      "id": "UI_OPTION_60",
+      "text": "Taunt"
+    },
+    {
+      "id": "UI_OPTION_61",
+      "text": "Bow"
+    },
+    {
+      "id": "UI_OPTION_62",
+      "text": "Wave"
+    },
+    {
+      "id": "UI_OPTION_63",
+      "text": "Laugh"
+    },
+    {
+      "id": "UI_OPTION_64",
+      "text": "Cry"
+    },
+    {
+      "id": "UI_OPTION_65",
+      "text": "Dance"
+    },
+    {
+      "id": "UI_OPTION_66",
+      "text": "Controller Sensitivity"
+    },
+    {
+      "id": "UI_OPTION_67",
+      "text": "Inverted Controller"
+    },
+    {
+      "id": "UI_OPTION_68",
+      "text": "Action1"
+    },
+    {
+      "id": "UI_OPTION_69",
+      "text": "Action2"
+    },
+    {
+      "id": "UI_OPTION_70",
+      "text": "Emotion"
+    },
+    {
+      "id": "UI_OPTION_71",
+      "text": "Mouse"
+    },
+    {
+      "id": "UI_OPTION_72",
+      "text": "Controller"
+    },
+    {
+      "id": "UI_OPTION_73",
+      "text": "Alternative Fire"
+    },
+    {
+      "id": "UI_OPTION_74",
+      "text": "Narration Voice Play"
+    },
+    {
+      "id": "UI_SHOP_01",
+      "text": "Lobby > Shop"
+    },
+    {
+      "id": "UI_SHOP_02",
+      "text": "Filter :"
+    },
+    {
+      "id": "UI_SHOP_03",
+      "text": "Buy (&B)"
+    },
+    {
+      "id": "UI_SHOP_04",
+      "text": "Are you sure you want to buy the selected item?"
+    },
+    {
+      "id": "UI_SHOP_05",
+      "text": "Buy (&B)"
+    },
+    {
+      "id": "UI_SHOP_06",
+      "text": "Change to web browser."
+    },
+    {
+      "id": "UI_SHOP_07",
+      "text": "Sell (&S)"
+    },
+    {
+      "id": "UI_SHOP_08",
+      "text": "Are you sure you want to sell the selected item?"
+    },
+    {
+      "id": "UI_SHOP_09",
+      "text": "Sell (&S)"
+    },
+    {
+      "id": "UI_SHOP_10",
+      "text": "[ BOUNTY ]"
+    },
+    {
+      "id": "UI_SHOP_11",
+      "text": "0 Bounty"
+    },
+    {
+      "id": "UI_SHOP_12",
+      "text": "[ LEVEL / WEIGHT ]"
+    },
+    {
+      "id": "UI_SHOP_13",
+      "text": "0Lv. / 0 (0)"
+    },
+    {
+      "id": "UI_SHOP_14",
+      "text": "Sell item"
+    },
+    {
+      "id": "UI_SHOP_15",
+      "text": "Please enter the quantity to sell."
+    },
+    {
+      "id": "UI_SHOP_16",
+      "text": "quantity"
+    },
+    {
+      "id": "UI_SHOP_17",
+      "text": "Sell (&S)"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_01",
+      "text": "Show all Equipment"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_02",
+      "text": "Armor : Head"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_03",
+      "text": "Armor : Body"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_04",
+      "text": "Armor : Hands"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_05",
+      "text": "Armor : Legs"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_06",
+      "text": "Armor : Feet"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_07",
+      "text": "Weapon : Melee Weapons"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_08",
+      "text": "Weapon : Ranged Weapons"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_09",
+      "text": "Item : M-R Kit / Grenade"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_10",
+      "text": "Item : Rings"
+    },
+    {
+      "id": "UI_SHOP_LIST_01_11",
+      "text": "Item : Quest Item"
+    },
+    {
+      "id": "UI_STAGE_01",
+      "text": "Name"
+    },
+    {
+      "id": "UI_STAGE_02",
+      "text": "Clan :"
+    },
+    {
+      "id": "UI_STAGE_03",
+      "text": "Level : 0 lv."
+    },
+    {
+      "id": "UI_STAGE_04",
+      "text": "XP : -"
+    },
+    {
+      "id": "UI_STAGE_05",
+      "text": "Bounty : -"
+    },
+    {
+      "id": "UI_STAGE_06",
+      "text": "HP : -"
+    },
+    {
+      "id": "UI_STAGE_07",
+      "text": "AP : -"
+    },
+    {
+      "id": "UI_STAGE_08",
+      "text": "WT : -"
+    },
+    {
+      "id": "UI_STAGE_09",
+      "text": "Blue Team"
+    },
+    {
+      "id": "UI_STAGE_10",
+      "text": "Red Team"
+    },
+    {
+      "id": "UI_STAGE_11",
+      "text": "Intrusion (&G)"
+    },
+    {
+      "id": "UI_STAGE_12",
+      "text": "Options"
+    },
+    {
+      "id": "UI_STAGE_13",
+      "text": "Mode"
+    },
+    {
+      "id": "UI_STAGE_14",
+      "text": "Map"
+    },
+    {
+      "id": "UI_STAGE_15",
+      "text": "Players"
+    },
+    {
+      "id": "UI_STAGE_16",
+      "text": "Round"
+    },
+    {
+      "id": "UI_STAGE_17",
+      "text": "Members : 0"
+    },
+    {
+      "id": "UI_STAGE_18",
+      "text": "Quest Level : 0"
+    },
+    {
+      "id": "UI_STAGE_19",
+      "text": "Are you sure you want to exit to the Channel Lobby?"
+    },
+    {
+      "id": "UI_STAGE_20",
+      "text": "Place item"
+    },
+    {
+      "id": "UI_STAGE_21",
+      "text": "There is no item."
+    },
+    {
+      "id": "UI_ETC_01",
+      "text": "Name"
+    },
+    {
+      "id": "UI_ETC_02",
+      "text": "XP"
+    },
+    {
+      "id": "UI_ETC_03",
+      "text": "Kill"
+    },
+    {
+      "id": "UI_ETC_04",
+      "text": "Death"
+    },
+    {
+      "id": "UI_WARNING_TITLE",
+      "text": "Hacking Attempt"
+    },
+    {
+      "id": "UI_WARNING_01",
+      "text": "A hacking attempt was detected. Connection to the server will be terminated."
+    }
+  ]
+}

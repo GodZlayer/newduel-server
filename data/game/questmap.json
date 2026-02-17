@@ -1,0 +1,858 @@
+{
+  "source": "questmap.xml",
+  "count": 3,
+  "mapsets": [
+    {
+      "id": 1,
+      "title": "Mansion",
+      "sectors": [
+        {
+          "id": 101,
+          "title": "Mansion_Hall1",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "boss_spawn": "1",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall2"
+                },
+                {
+                  "sector": "Mansion_Passage1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "title": "Mansion_Hall2",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "boss_spawn": "1",
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall1"
+                },
+                {
+                  "sector": "Mansion_Passage1"
+                },
+                {
+                  "sector": "Mansion_Room1"
+                },
+                {
+                  "sector": "Mansion_Room2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "title": "Mansion_Hall3",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Passage2"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Mansion_Passage1"
+                },
+                {
+                  "sector": "Mansion_Passage3"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Mansion_Passage1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "Mansion_Room1",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "boss_spawn": "1",
+          "links": [
+            {
+              "targets": [
+                {
+                  "sector": "Mansion_Hall2"
+                },
+                {
+                  "sector": "Mansion_Room1"
+                },
+                {
+                  "sector": "Mansion_Room2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "title": "Mansion_Room2",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall1"
+                },
+                {
+                  "sector": "Mansion_Hall2"
+                },
+                {
+                  "sector": "Mansion_Room1"
+                },
+                {
+                  "sector": "Mansion_Passage1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "title": "Mansion_Room3",
+          "boss_spawn": "1",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "links": [
+            {
+              "targets": [
+                {
+                  "sector": "Mansion_Passage2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "title": "Mansion_Passage1",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Passage2"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall3"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall1"
+                },
+                {
+                  "sector": "Mansion_Hall2"
+                },
+                {
+                  "sector": "Mansion_Room1"
+                },
+                {
+                  "sector": "Mansion_Room2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "title": "Mansion_Passage2",
+          "melee_spawn": 12,
+          "range_spawn": 10,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Mansion_Passage1"
+                },
+                {
+                  "sector": "Mansion_Passage3"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Mansion_Room3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "title": "Mansion_Passage3",
+          "melee_spawn": 8,
+          "range_spawn": 8,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Mansion_Passage2"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall3"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Mansion_Hall1"
+                },
+                {
+                  "sector": "Mansion_Hall2"
+                },
+                {
+                  "sector": "Mansion_Room1"
+                },
+                {
+                  "sector": "Mansion_Room2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Prison",
+      "sectors": [
+        {
+          "id": 201,
+          "title": "Prison_drainage1",
+          "melee_spawn": 13,
+          "range_spawn": 13,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_passage2"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_passage2"
+                },
+                {
+                  "sector": "Prison_drainage2"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Prison_hall2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "title": "Prison_drainage2",
+          "melee_spawn": 8,
+          "range_spawn": 9,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_drainage1"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_passage3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "title": "Prison_hall1",
+          "boss_spawn": "1",
+          "melee_spawn": 20,
+          "range_spawn": 26,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_passage1"
+                },
+                {
+                  "sector": "Prison_prison"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_passage3"
+                },
+                {
+                  "sector": "Prison_prison"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 204,
+          "title": "Prison_hall2",
+          "boss_spawn": "1",
+          "melee_spawn": 13,
+          "range_spawn": 19,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_drainage1"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_drainage2"
+                },
+                {
+                  "sector": "Prison_passage2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 205,
+          "title": "Prison_passage1",
+          "melee_spawn": 9,
+          "range_spawn": 9,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_shower_room"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_prison"
+                },
+                {
+                  "sector": "Prison_passage3"
+                },
+                {
+                  "sector": "Prison_hall1"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Prison_prison"
+                },
+                {
+                  "sector": "Prison_passage3"
+                },
+                {
+                  "sector": "Prison_hall1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 206,
+          "title": "Prison_passage2",
+          "melee_spawn": 11,
+          "range_spawn": 11,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_drainage1"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": []
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Prison_passage1"
+                },
+                {
+                  "sector": "Prison_passage3"
+                }
+              ]
+            },
+            {
+              "name": "link04",
+              "targets": [
+                {
+                  "sector": "Prison_drainage1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 207,
+          "title": "Prison_passage3",
+          "melee_spawn": 8,
+          "range_spawn": 8,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_prison"
+                },
+                {
+                  "sector": "Prison_passage1"
+                },
+                {
+                  "sector": "Prison_hall1"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_prison"
+                },
+                {
+                  "sector": "Prison_passage1"
+                },
+                {
+                  "sector": "Prison_hall1"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Prison_drainage2"
+                }
+              ]
+            },
+            {
+              "name": "link04",
+              "targets": [
+                {
+                  "sector": "Prison_passage2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 208,
+          "title": "Prison_prison",
+          "melee_spawn": 26,
+          "range_spawn": 28,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_passage1"
+                },
+                {
+                  "sector": "Prison_hall1"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Prison_passage3"
+                },
+                {
+                  "sector": "Prison_hall1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 209,
+          "title": "Prison_shower_room",
+          "boss_spawn": "1",
+          "melee_spawn": 10,
+          "range_spawn": 22,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Prison_passage1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Dungeon",
+      "sectors": [
+        {
+          "id": 301,
+          "title": "Dungeon_cavern1",
+          "melee_spawn": 9,
+          "range_spawn": 11,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_passage3"
+                },
+                {
+                  "sector": "Dungeon_cavern3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_nest3"
+                },
+                {
+                  "sector": "Dungeon_passage1"
+                },
+                {
+                  "sector": "Dungeon_passage2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 302,
+          "title": "Dungeon_cavern2",
+          "melee_spawn": 16,
+          "range_spawn": 16,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_passage3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_passage1"
+                },
+                {
+                  "sector": "Dungeon_passage2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 303,
+          "title": "Dungeon_cavern3",
+          "boss_spawn": "1",
+          "melee_spawn": 28,
+          "range_spawn": 27,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern1"
+                },
+                {
+                  "sector": "Dungeon_passage3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_passage1"
+                },
+                {
+                  "sector": "Dungeon_passage2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 304,
+          "title": "Dungeon_nest1",
+          "boss_spawn": "1",
+          "melee_spawn": 9,
+          "range_spawn": 9,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_passage2"
+                },
+                {
+                  "sector": "Dungeon_cavern2"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_passage1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 305,
+          "title": "Dungeon_nest2",
+          "boss_spawn": "1",
+          "melee_spawn": 30,
+          "range_spawn": 25,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_nest3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 306,
+          "title": "Dungeon_nest3",
+          "boss_spawn": "1",
+          "melee_spawn": 12,
+          "range_spawn": 14,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern1"
+                },
+                {
+                  "sector": "Dungeon_passage3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_nest2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 307,
+          "title": "Dungeon_passage1",
+          "melee_spawn": 13,
+          "range_spawn": 13,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_nest1"
+                },
+                {
+                  "sector": "Dungeon_cavern1"
+                },
+                {
+                  "sector": "Dungeon_cavern2"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern2"
+                },
+                {
+                  "sector": "Dungeon_cavern3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 308,
+          "title": "Dungeon_passage2",
+          "melee_spawn": 10,
+          "range_spawn": 8,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern2"
+                },
+                {
+                  "sector": "Dungeon_cavern3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern1"
+                },
+                {
+                  "sector": "Dungeon_nest1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 309,
+          "title": "Dungeon_passage3",
+          "melee_spawn": 16,
+          "range_spawn": 16,
+          "links": [
+            {
+              "name": "link01",
+              "targets": [
+                {
+                  "sector": "Dungeon_nest3"
+                }
+              ]
+            },
+            {
+              "name": "link02",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern1"
+                },
+                {
+                  "sector": "Dungeon_cavern3"
+                }
+              ]
+            },
+            {
+              "name": "link03",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern1"
+                },
+                {
+                  "sector": "Dungeon_cavern3"
+                }
+              ]
+            },
+            {
+              "name": "link04",
+              "targets": [
+                {
+                  "sector": "Dungeon_cavern2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

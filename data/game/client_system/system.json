@@ -1,0 +1,56 @@
+{
+  "source": "system/system.xml",
+  "root": "XML",
+  "data": {
+    "XMLHEADER": {
+      "#": "version=\"1.0\" encoding=\"UTF-8\""
+    },
+    "SKIN": {
+      "#": "Default"
+    },
+    "DEFFONT": {
+      "#": "Arial"
+    },
+    "IME": {
+      "#": "true"
+    },
+    "BAREPORT": {
+      "ADDR": {
+        "#": "www.battlearena.com"
+      },
+      "DIR": {
+        "#": "incoming/gunz_global"
+      }
+    },
+    "HOMEPAGE": {
+      "URL": {
+        "#": "http://www.gunzonline.com"
+      },
+      "TITLE": {
+        "#": "GunZ the Dual"
+      }
+    },
+    "EMBLEM_URL": {
+      "#": "http://localhost/emblems/"
+    },
+    "TEMBLEM_URL": {
+      "#": "http://localhost/emblems/"
+    },
+    "LOCATORLIST": {
+      "LOCATOR": {
+        "@": {
+          "id": "1",
+          "IP": "127.0.0.1"
+        }
+      }
+    },
+    "TLOCATORLIST": {
+      "LOCATOR": {
+        "@": {
+          "id": "1",
+          "IP": "127.0.0.1"
+        }
+      }
+    }
+  }
+}

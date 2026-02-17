@@ -1,0 +1,8 @@
+{
+  "source": "server.xml",
+  "data": {
+    "game_dir": "",
+    "is_master_server": 1,
+    "database_type": "sqlite"
+  }
+}

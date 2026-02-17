@@ -1,0 +1,110 @@
+{
+  "source": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-source-master\\src\\GunzNakama\\XML\\notify.xml",
+  "count": 26,
+  "notifies": [
+    {
+      "id": 10,
+      "text": "STR:NOTIFY_10"
+    },
+    {
+      "id": 11,
+      "text": "STR:NOTIFY_11"
+    },
+    {
+      "id": 15,
+      "text": "STR:NOTIFY_15"
+    },
+    {
+      "id": 51,
+      "text": "STR:NOTIFY_51"
+    },
+    {
+      "id": 70,
+      "text": "STR:NOTIFY_70"
+    },
+    {
+      "id": 100,
+      "text": "STR:NOTIFY_100"
+    },
+    {
+      "id": 101,
+      "text": "STR:NOTIFY_101"
+    },
+    {
+      "id": 110,
+      "text": "STR:NOTIFY_110"
+    },
+    {
+      "id": 150,
+      "text": "STR:NOTIFY_150"
+    },
+    {
+      "id": 151,
+      "text": "STR:NOTIFY_151"
+    },
+    {
+      "id": 152,
+      "text": "STR:NOTIFY_152"
+    },
+    {
+      "id": 153,
+      "text": "STR:NOTIFY_153"
+    },
+    {
+      "id": 154,
+      "text": "STR:NOTIFY_154"
+    },
+    {
+      "id": 155,
+      "text": "STR:NOTIFY_155"
+    },
+    {
+      "id": 156,
+      "text": "STR:NOTIFY_156"
+    },
+    {
+      "id": 200,
+      "text": "STR:NOTIFY_200"
+    },
+    {
+      "id": 201,
+      "text": "STR:NOTIFY_201"
+    },
+    {
+      "id": 251,
+      "text": "STR:NOTIFY_251"
+    },
+    {
+      "id": 252,
+      "text": "STR:NOTIFY_252"
+    },
+    {
+      "id": 253,
+      "text": "STR:NOTIFY_253"
+    },
+    {
+      "id": 255,
+      "text": "STR:NOTIFY_255"
+    },
+    {
+      "id": 256,
+      "text": "STR:NOTIFY_256"
+    },
+    {
+      "id": 301,
+      "text": "STR:NOTIFY_301"
+    },
+    {
+      "id": 302,
+      "text": "STR:NOTIFY_302"
+    },
+    {
+      "id": 311,
+      "text": "STR:NOTIFY_311"
+    },
+    {
+      "id": 312,
+      "text": "STR:NOTIFY_312"
+    }
+  ]
+}

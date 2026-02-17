@@ -1,0 +1,17 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Goblin King",
+        "level_req": 1,
+        "map_id": 2,
+        "max_players": 4,
+        "rewards": {
+            "xp": 500,
+            "bounty": 200
+        },
+        "stages": [
+            { "sector": 1, "npcs": [{"id": 10, "count": 10}] },
+            { "sector": 2, "npcs": [{"id": 11, "count": 5}, {"id": 100, "count": 1}] }
+        ]
+    }
+}

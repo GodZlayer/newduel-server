@@ -1,0 +1,14 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Master_Skiller",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Master_Skiller\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Master_Skiller/spawn.xml"
+    }
+  ]
+}

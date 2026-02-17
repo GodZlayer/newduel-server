@@ -1,0 +1,14 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "SkillMapV8",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapV8\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapV8/spawn.xml"
+    }
+  ]
+}

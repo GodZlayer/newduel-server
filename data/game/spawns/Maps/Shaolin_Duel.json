@@ -1,0 +1,55 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "Shaolin_Duel",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Shaolin_Duel\\spawn.xml",
+      "count": 4,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            152.0,
+            -1344.0,
+            64.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            3416.0,
+            -1104.0,
+            -800.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1432.0,
+            344.0,
+            0.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            2304.0,
+            904.0,
+            -528.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Shaolin_Duel/spawn.xml"
+    }
+  ]
+}

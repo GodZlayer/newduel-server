@@ -1,0 +1,14 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+  "map": "Prison_shower_room",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_shower_room\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_shower_room/spawn.xml"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "system/locale.xml",
+  "root": "XML",
+  "data": {
+    "LOCALE": {
+      "COUNTRY": {
+        "#": "BRZ"
+      },
+      "LANGUAGE": {
+        "#": "BRZ"
+      },
+      "MAXPLAYERS": {
+        "#": "10"
+      }
+    }
+  }
+}

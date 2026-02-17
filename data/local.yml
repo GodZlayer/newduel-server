@@ -1,0 +1,21 @@
+name: nakama-node-1
+database:
+  address:
+    - root@cockroachdb:26257
+logger:
+  level: "info"
+  format: "json"
+session:
+  encryption_key: "defaultencryptionkey"
+  token_expiry_sec: 3600
+socket:
+  server_key: "defaultserverkey"
+  port: 7350
+console:
+  port: 7351
+  username: "admin"
+  password: "password"
+runtime:
+  path: "/nakama/data/modules"
+  js_entrypoint: "main.js"
+  http_key: "defaulthttpkey"

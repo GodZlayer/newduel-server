@@ -1,0 +1,23 @@
+{
+  "source": "channel.xml",
+  "defaults": {
+    "default_channel_name": {
+      "name": "STR:CHANNEL_DEFAULT_NAME"
+    },
+    "default_rule_name": {
+      "name": "novice"
+    }
+  },
+  "channels": [
+    {
+      "name": "Free Channel",
+      "maxplayers": 200,
+      "rule": "elite"
+    },
+    {
+      "name": "Free All Maps",
+      "maxplayers": 200,
+      "rule": "free_all_maps"
+    }
+  ]
+}

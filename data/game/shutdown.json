@@ -1,0 +1,54 @@
+{
+  "source": "shutdown.xml",
+  "count": 12,
+  "notifies": [
+    {
+      "delay": 0,
+      "message": "STR:SHUTDOWN_01"
+    },
+    {
+      "delay": 5000,
+      "message": "STR:SHUTDOWN_02"
+    },
+    {
+      "delay": 5000,
+      "message": "STR:SHUTDOWN_03"
+    },
+    {
+      "delay": 30000,
+      "message": "STR:SHUTDOWN_04"
+    },
+    {
+      "delay": 10000,
+      "message": "STR:SHUTDOWN_05"
+    },
+    {
+      "delay": 10000,
+      "message": "STR:SHUTDOWN_06"
+    },
+    {
+      "delay": 5000,
+      "message": "STR:SHUTDOWN_07"
+    },
+    {
+      "delay": 1000,
+      "message": "STR:SHUTDOWN_08"
+    },
+    {
+      "delay": 1000,
+      "message": "STR:SHUTDOWN_09"
+    },
+    {
+      "delay": 1000,
+      "message": "STR:SHUTDOWN_10"
+    },
+    {
+      "delay": 1000,
+      "message": "STR:SHUTDOWN_11"
+    },
+    {
+      "delay": 1000,
+      "message": "STR:SHUTDOWN_12"
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "source": "npcset.xml",
+  "count": 47,
+  "sets": [
+    {
+      "id": 10001,
+      "name": "Ga1",
+      "basenpc": 11
+    },
+    {
+      "id": 10002,
+      "name": "Ga2",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 10.0,
+          "max_rate": 20.0
+        }
+      ]
+    },
+    {
+      "id": 10003,
+      "name": "Ga3",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 15.0,
+          "max_rate": 20.0
+        },
+        {
+          "npc_id": 13,
+          "min_rate": 5.0,
+          "max_rate": 10.0
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "name": "Ga4",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 13,
+          "min_rate": 10.0,
+          "max_rate": 20.0
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "name": "Gb1",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "name": "Gb2",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 20.0,
+          "max_rate": 25.0
+        },
+        {
+          "npc_id": 13,
+          "min_rate": 10.0,
+          "max_rate": 15.0
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "name": "Gb3",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 14,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "name": "Gb4",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 14,
+          "min_rate": 20.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10021,
+      "name": "Gc1",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 50.0,
+          "max_rate": 60.0
+        }
+      ]
+    },
+    {
+      "id": 10022,
+      "name": "Gc2",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 25.0,
+          "max_rate": 30.0
+        },
+        {
+          "npc_id": 13,
+          "min_rate": 15.0,
+          "max_rate": 20.0
+        }
+      ]
+    },
+    {
+      "id": 10023,
+      "name": "Gc3",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 14,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    },
+    {
+      "id": 10024,
+      "name": "Gc4",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 25.0,
+          "max_rate": 30.0
+        },
+        {
+          "npc_id": 13,
+          "min_rate": 15.0,
+          "max_rate": 20.0
+        },
+        {
+          "npc_id": 14,
+          "min_rate": 5.0,
+          "max_rate": 10.0
+        }
+      ]
+    },
+    {
+      "id": 10031,
+      "name": "Gd1",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 70.0,
+          "max_rate": 80.0
+        }
+      ]
+    },
+    {
+      "id": 10032,
+      "name": "Gd2",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 40.0,
+          "max_rate": 50.0
+        },
+        {
+          "npc_id": 15,
+          "min_rate": 20.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10033,
+      "name": "Gd3",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 13,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 14,
+          "min_rate": 10.0,
+          "max_rate": 15.0
+        }
+      ]
+    },
+    {
+      "id": 10034,
+      "name": "Gd4",
+      "basenpc": 14,
+      "addnpc": [
+        {
+          "npc_id": 15,
+          "min_rate": 20.0,
+          "max_rate": 25.0
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "name": "Ge1",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 13,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 14,
+          "min_rate": 10.0,
+          "max_rate": 20.0
+        }
+      ]
+    },
+    {
+      "id": 10042,
+      "name": "Ge2",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 13,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 14,
+          "min_rate": 5.0,
+          "max_rate": 10.0
+        },
+        {
+          "npc_id": 15,
+          "min_rate": 5.0,
+          "max_rate": 10.0
+        }
+      ]
+    },
+    {
+      "id": 10043,
+      "name": "Ge3",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 15,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    },
+    {
+      "id": 10044,
+      "name": "Ge4",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 13,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 14,
+          "min_rate": 5.0,
+          "max_rate": 10.0
+        }
+      ]
+    },
+    {
+      "id": 10051,
+      "name": "Gf1",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 15,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    },
+    {
+      "id": 10052,
+      "name": "Gf2",
+      "basenpc": 13,
+      "addnpc": [
+        {
+          "npc_id": 14,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 15,
+          "min_rate": 20.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10053,
+      "name": "Gf3",
+      "basenpc": 13,
+      "addnpc": [
+        {
+          "npc_id": 15,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    },
+    {
+      "id": 10054,
+      "name": "Gf4",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 14,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 15,
+          "min_rate": 20.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "name": "Gx1",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 70.0,
+          "max_rate": 80.0
+        },
+        {
+          "npc_id": 17,
+          "min_rate": 0.0,
+          "max_rate": 5.0,
+          "max_count": "1"
+        }
+      ]
+    },
+    {
+      "id": 10062,
+      "name": "Gx2",
+      "basenpc": 12,
+      "addnpc": [
+        {
+          "npc_id": 17,
+          "min_rate": 0.0,
+          "max_rate": 5.0,
+          "max_count": "1"
+        }
+      ]
+    },
+    {
+      "id": 10063,
+      "name": "Gx3",
+      "basenpc": 11,
+      "addnpc": [
+        {
+          "npc_id": 13,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 14,
+          "min_rate": 20.0,
+          "max_rate": 30.0
+        },
+        {
+          "npc_id": 17,
+          "min_rate": 0.0,
+          "max_rate": 5.0,
+          "max_count": "1"
+        }
+      ]
+    },
+    {
+      "id": 10071,
+      "name": "Pa1",
+      "basenpc": 21
+    },
+    {
+      "id": 10072,
+      "name": "Pa2",
+      "basenpc": 21,
+      "addnpc": [
+        {
+          "npc_id": 11,
+          "min_rate": 25.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10073,
+      "name": "Pa3",
+      "basenpc": 21,
+      "addnpc": [
+        {
+          "npc_id": 12,
+          "min_rate": 25.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10081,
+      "name": "Pb1",
+      "basenpc": 21,
+      "addnpc": [
+        {
+          "npc_id": 22,
+          "min_rate": 15.0,
+          "max_rate": 20.0
+        }
+      ]
+    },
+    {
+      "id": 10082,
+      "name": "Pb2",
+      "basenpc": 21,
+      "addnpc": [
+        {
+          "npc_id": 22,
+          "min_rate": 25.0,
+          "max_rate": 30.0
+        }
+      ]
+    },
+    {
+      "id": 10083,
+      "name": "Pb3",
+      "basenpc": 21,
+      "addnpc": [
+        {
+          "npc_id": 22,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 25,
+          "min_rate": 0.0,
+          "max_rate": 1.0,
+          "max_count": "1"
+        }
+      ]
+    },
+    {
+      "id": 10091,
+      "name": "Sa1",
+      "basenpc": 31
+    },
+    {
+      "id": 10092,
+      "name": "Sa2",
+      "basenpc": 31,
+      "addnpc": [
+        {
+          "npc_id": 32,
+          "min_rate": 20.0,
+          "max_rate": 25.0
+        }
+      ]
+    },
+    {
+      "id": 10093,
+      "name": "Sa3",
+      "basenpc": 32
+    },
+    {
+      "id": 10101,
+      "name": "Sb1",
+      "basenpc": 31,
+      "addnpc": [
+        {
+          "npc_id": 32,
+          "min_rate": 50.0,
+          "max_rate": 60.0
+        }
+      ]
+    },
+    {
+      "id": 10102,
+      "name": "Sb2",
+      "basenpc": 31,
+      "addnpc": [
+        {
+          "npc_id": 32,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 33,
+          "min_rate": 10.0,
+          "max_rate": 20.0
+        }
+      ]
+    },
+    {
+      "id": 10103,
+      "name": "Sb3",
+      "basenpc": 32,
+      "addnpc": [
+        {
+          "npc_id": 33,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 25,
+          "min_rate": 0.0,
+          "max_rate": 1.0,
+          "max_count": "1"
+        }
+      ]
+    },
+    {
+      "id": 10104,
+      "name": "Sb4",
+      "basenpc": 31,
+      "addnpc": [
+        {
+          "npc_id": 32,
+          "min_rate": 20.0,
+          "max_rate": 25.0
+        },
+        {
+          "npc_id": 34,
+          "min_rate": 10.0,
+          "max_rate": 15.0,
+          "max_count": "5"
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "name": "Sb5",
+      "basenpc": 31,
+      "addnpc": [
+        {
+          "npc_id": 32,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 33,
+          "min_rate": 20.0,
+          "max_rate": 25.0
+        },
+        {
+          "npc_id": 34,
+          "min_rate": 10.0,
+          "max_rate": 15.0,
+          "max_count": "5"
+        }
+      ]
+    },
+    {
+      "id": 10201,
+      "name": "Sc1",
+      "basenpc": 32,
+      "addnpc": [
+        {
+          "npc_id": 33,
+          "min_rate": 20.0,
+          "max_rate": 25.0
+        },
+        {
+          "npc_id": 34,
+          "min_rate": 20.0,
+          "max_rate": 25.0,
+          "max_count": "10"
+        }
+      ]
+    },
+    {
+      "id": 10301,
+      "name": "Ka1",
+      "basenpc": 41
+    },
+    {
+      "id": 10302,
+      "name": "Ka2",
+      "basenpc": 41,
+      "addnpc": [
+        {
+          "npc_id": 42,
+          "min_rate": 30.0,
+          "max_rate": 50.0
+        }
+      ]
+    },
+    {
+      "id": 10303,
+      "name": "Ka3",
+      "basenpc": 42
+    },
+    {
+      "id": 10401,
+      "name": "Kb1",
+      "basenpc": 41,
+      "addnpc": [
+        {
+          "npc_id": 42,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        },
+        {
+          "npc_id": 43,
+          "min_rate": 20.0,
+          "max_rate": 30.0
+        },
+        {
+          "npc_id": 25,
+          "min_rate": 0.0,
+          "max_rate": 1.0,
+          "max_count": "1"
+        }
+      ]
+    },
+    {
+      "id": 10402,
+      "name": "Kb2",
+      "basenpc": 42,
+      "addnpc": [
+        {
+          "npc_id": 43,
+          "min_rate": 30.0,
+          "max_rate": 40.0
+        }
+      ]
+    }
+  ]
+}

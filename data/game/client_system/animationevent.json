@@ -1,0 +1,2807 @@
+{
+  "source": "system/AnimationEvent.xml",
+  "root": "XML",
+  "data": {
+    "NPC": [
+      {
+        "@": {
+          "id": "11"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_neglect",
+                "beginframe": "2358"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "neglect2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinClan_neglect",
+                "beginframe": "10232"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "111"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_neglect",
+                "beginframe": "2358"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "neglect2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinClan_neglect",
+                "beginframe": "10232"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "12"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinClan_neglect",
+                "beginframe": "2358"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "neglect2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinClan_neglect",
+                "beginframe": "7674"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinG_attack",
+                "beginframe": "905"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "we_shotgunpa_fire",
+                "beginframe": "805"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "13"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinClan_neglect",
+                "beginframe": "316"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinG_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/Goblin_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinG_attack",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_castSecond",
+                  "beginframe": "9179"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinW_FX_Healing",
+                  "beginframe": "11274"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinG_attack",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "we_grenade_explosion",
+                  "beginframe": "200"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "14"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinClan_neglect",
+                "beginframe": "1432"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinH_attack",
+                "beginframe": "1389"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinH_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinH_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "15"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinC_neglect",
+                "beginframe": "3347"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinC_attack",
+                "beginframe": "916"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_dieFirst",
+                  "beginframe": "379"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_dieSecond",
+                  "beginframe": "10042"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinG_attack",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_castSecond",
+                  "beginframe": "9179"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_FX_Slow",
+                  "beginframe": "11084"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_castFirst",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinC_FX_Fireball",
+                  "beginframe": "4179"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "16"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_special",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "3753"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "6700"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "9647"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "5579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "8316"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "11368"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "17"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_special",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "3753"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "6700"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "9647"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "5579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "8316"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "11368"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "18"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_special",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "3753"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "6700"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "9647"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "5579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "8316"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "11368"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "181"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_special",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "3753"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "6700"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "9647"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "5579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "8316"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "11368"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "19"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_special",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "3753"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "6700"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "9647"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "5579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "8316"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "11368"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "191"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_special",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "3753"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "6700"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_attack",
+                  "beginframe": "9647"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "5579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "8316"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_Fireball",
+                  "beginframe": "11368"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "21"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "22"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardS_attack",
+                "beginframe": "905"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardS_cast",
+                "beginframe": "705"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardS_cast2",
+                "beginframe": "563"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "23"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardC_neglect",
+                "beginframe": "1432"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/Lizard_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "24"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_neglect",
+                "beginframe": "3347"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_die",
+                "beginframe": "331"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_breath",
+                "beginframe": "1445"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "25"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_neglect",
+                "beginframe": "3347"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_die",
+                "beginframe": "331"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/lizard/LizardK_breath",
+                "beginframe": "1445"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinW_FX_Healing",
+                "beginframe": "1445"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "26"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/golem/Golem_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/golem/Golem_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/golem/Golem_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "1768"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "4168"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/golem/Golem_stunfist",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/golem/Golem_special",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "31"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "blade_swing",
+                "beginframe": "1900"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/Skeleton_die",
+                "beginframe": "2211"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/Skeleton_die",
+                  "beginframe": "2084"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/Skeleton_die",
+                  "beginframe": "3412"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "131"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "blade_swing",
+                "beginframe": "1900"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/Skeleton_die",
+                "beginframe": "2211"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/Skeleton_die",
+                  "beginframe": "2084"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/Skeleton_die",
+                  "beginframe": "3412"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "32"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonM_neglect",
+                "beginframe": "2408"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonM_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonM_FX_Burn",
+                "beginframe": "9012"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonM_neglect",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonM_FX_MagicArrow",
+                  "beginframe": "1579"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonM_FX_MagicArrow",
+                  "beginframe": "3000"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonM_FX_MagicArrow",
+                  "beginframe": "4053"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonM_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonM_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "33"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonC_neglect",
+                "beginframe": "3168"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonC_FX_SwordSlash",
+                "beginframe": "1200"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonC_die",
+                "beginframe": "2211"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonC_die",
+                  "beginframe": "2084"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonC_die",
+                  "beginframe": "3412"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "34"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_neglectFirst",
+                  "beginframe": "1400"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_neglectSecond",
+                  "beginframe": "6695"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_attackFirst",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_attackSecond",
+                  "beginframe": "884"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_dieFirst",
+                  "beginframe": "1400"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_dieSecond",
+                  "beginframe": "7937"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonB_dieThird",
+                  "beginframe": "16421"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "we_grenade_explosion",
+                "beginframe": "2690"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "35"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonCc_attack",
+                "beginframe": "1611"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonCc_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinC_FX_Slow",
+                "beginframe": "1870"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonCc_cast",
+                "beginframe": "3316"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "36"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonLp_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonLp_die",
+                "beginframe": "8695"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinC_FX_Fireball",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinC_FX_Fireball",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "37"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_neglectFirst",
+                  "beginframe": "1400"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_neglectSecond",
+                  "beginframe": "6695"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_attackFirst",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_attackSecond",
+                  "beginframe": "884"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_L",
+                  "beginframe": "2842"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/goblin/GoblinK_FX_R",
+                  "beginframe": "1284"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_dieFirst",
+                  "beginframe": "1400"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_dieSecond",
+                  "beginframe": "7937"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonSp_dieThird",
+                  "beginframe": "16421"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/goblin/GoblinK_FX_Fireball",
+                "beginframe": "2842"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonC_FX_SwordSlash",
+                "beginframe": "1954"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "38"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonAn_attack",
+                "beginframe": "1611"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonAn_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonAn_cast",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "we_grenade_explosion",
+                  "beginframe": "2000"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonAn_FX_Lightning",
+                "beginframe": "2130"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "39"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "neglect1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonLc_neglect",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonLc_Wing",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonLc_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/skeleton/SkeletonLc_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonLc_cast",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonLc_FX_Stomp",
+                  "beginframe": "7421"
+                }
+              }
+            ]
+          },
+          {
+            "@": {
+              "name": "special_attack2"
+            },
+            "AddAnimEvent": [
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonLc_breathready",
+                  "beginframe": "0"
+                }
+              },
+              {
+                "@": {
+                  "eventtype": "sound",
+                  "filename": "quest/skeleton/SkeletonLc_FX_Burn",
+                  "beginframe": "2130"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "41"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_baby_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_babymelee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_baby_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "48"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_baby_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_babymelee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_baby_die",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "42"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_melee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpoa_special_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "43"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_melee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_special_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "46"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_melee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoh_special_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "44"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_melee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_special_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "47"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_melee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpo-au_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/palmpou_special_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@": {
+          "id": "45"
+        },
+        "Animation": [
+          {
+            "@": {
+              "name": "run"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoa_run",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "melee_attack"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoa_melee_attack",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "die"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoa_die",
+                "beginframe": "0"
+              }
+            }
+          },
+          {
+            "@": {
+              "name": "special_attack1"
+            },
+            "AddAnimEvent": {
+              "@": {
+                "eventtype": "sound",
+                "filename": "quest/Palmpoa/cpalmpoa_special_attack",
+                "beginframe": "0"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

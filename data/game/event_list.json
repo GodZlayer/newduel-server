@@ -1,0 +1,192 @@
+{
+  "source": "EventList.xml",
+  "count": 5,
+  "locales": [
+    {
+      "country": "brz",
+      "events": [
+        {
+          "EventID": 1,
+          "name": "EVENT_NAME_1",
+          "event_type": 1,
+          "elapsed_time": 1000,
+          "percent": 1800,
+          "rate": 1,
+          "announce": "EVENT_ANNOUNCE_1",
+          "server_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "game_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "start_time": {
+            "year": 2005,
+            "month": 12,
+            "day": 21,
+            "hour": 12
+          },
+          "end_time": {
+            "year": 2006,
+            "month": 1,
+            "day": 21,
+            "hour": 23
+          }
+        }
+      ]
+    },
+    {
+      "country": "brz",
+      "events": [
+        {
+          "id": 2,
+          "EventID": 2,
+          "name": "EVENT_NAME_2",
+          "event_type": 100,
+          "announce": "EVENT_ANNOUNCE_2",
+          "xp_bonus_ratio": 50,
+          "server_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "game_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "start_time": {
+            "year": 2006,
+            "month": 12,
+            "day": 30,
+            "hour": 0
+          },
+          "end_time": {
+            "year": 2100,
+            "month": 12,
+            "day": 31,
+            "hour": 23
+          }
+        }
+      ]
+    },
+    {
+      "country": "brz",
+      "events": [
+        {
+          "id": 3,
+          "EventID": 3,
+          "name": "EVENT_NAME_3",
+          "event_type": 100,
+          "announce": "EVENT_ANNOUNCE_3",
+          "bp_bonus_ratio": 50,
+          "server_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "game_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "start_time": {
+            "year": 2006,
+            "month": 12,
+            "day": 21,
+            "hour": 0
+          },
+          "end_time": {
+            "year": 2006,
+            "month": 12,
+            "day": 31,
+            "hour": 23
+          }
+        }
+      ]
+    },
+    {
+      "country": "brz",
+      "events": [
+        {
+          "id": 4,
+          "EventID": 2,
+          "name": "EVENT_NAME_2",
+          "event_type": 100,
+          "announce": "EVENT_ANNOUNCE_2",
+          "xp_bonus_ratio": 50,
+          "server_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "game_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "start_time": {
+            "year": 2007,
+            "month": 1,
+            "day": 1,
+            "hour": 0
+          },
+          "end_time": {
+            "year": 2007,
+            "month": 1,
+            "day": 31,
+            "hour": 23
+          }
+        }
+      ]
+    },
+    {
+      "country": "brz",
+      "events": [
+        {
+          "id": 5,
+          "EventID": 3,
+          "name": "EVENT_NAME_3",
+          "event_type": 100,
+          "announce": "EVENT_ANNOUNCE_3",
+          "bp_bonus_ratio": 50,
+          "server_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "game_types": [
+            {
+              "order": 1,
+              "type": 100
+            }
+          ],
+          "start_time": {
+            "year": 2007,
+            "month": 1,
+            "day": 1,
+            "hour": 0
+          },
+          "end_time": {
+            "year": 2007,
+            "month": 1,
+            "day": 31,
+            "hour": 23
+          }
+        }
+      ]
+    }
+  ]
+}

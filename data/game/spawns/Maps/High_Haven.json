@@ -1,0 +1,175 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+  "map": "High_Haven",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\High_Haven\\spawn.xml",
+      "count": 16,
+      "spawns": [
+        {
+          "item": "blueflag",
+          "timesec": "5000",
+          "gametype": "solo",
+          "pos": [
+            5040.8,
+            17.8,
+            150.0
+          ]
+        },
+        {
+          "item": "redflag",
+          "timesec": "5000",
+          "gametype": "solo",
+          "pos": [
+            -5061.1,
+            1.8,
+            150.0
+          ]
+        },
+        {
+          "item": "blueflag",
+          "timesec": "5000",
+          "gametype": "team",
+          "pos": [
+            5040.8,
+            17.8,
+            150.0
+          ]
+        },
+        {
+          "item": "redflag",
+          "timesec": "5000",
+          "gametype": "team",
+          "pos": [
+            -5061.1,
+            1.8,
+            150.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2217.449707,
+            775.2012939,
+            -795.6045532
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5000.0,
+            0.0,
+            158.4726563
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            264.2125854,
+            30.3530216,
+            -795.6044922
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            0.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5000.0,
+            0.0,
+            158.4726563
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            800.0,
+            -550.0,
+            -267.5876465
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -5000.0,
+            0.0,
+            450.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            800.0,
+            -550.0,
+            -267.5876465
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3000.0,
+            8.7e-06,
+            -795.6045532
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3000.0,
+            8.7e-06,
+            -795.6045532
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5000.0,
+            3.32e-05,
+            450.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -800.0,
+            550.0,
+            -267.5875854
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "High_Haven/spawn.xml"
+    }
+  ]
+}

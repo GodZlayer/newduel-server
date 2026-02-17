@@ -1,0 +1,5661 @@
+{
+  "source_roots": [
+    "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+    "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+    "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps"
+  ],
+  "count": 130,
+  "spawns": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Battle Arena\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1056.1359863,
+            1328.4733887,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -8e-07,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Battle Arena/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Castle\\spawn.xml",
+      "count": 13,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -4224.5385742,
+            -605.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4354.0830078,
+            -18.8507614,
+            -545.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4801.1953125,
+            3667.2580566,
+            -840.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -4770.0,
+            1630.0,
+            -695.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5323.1459961,
+            -923.4708252,
+            -995.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5060.0,
+            3045.0,
+            -845.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4675.0,
+            -2400.0,
+            -695.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -4976.5214844,
+            1612.9936523,
+            -845.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.0,
+            -1400.0,
+            -765.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3755.7094727,
+            -763.2302246,
+            -532.7045898
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3500.0,
+            -1635.6525879,
+            -495.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4354.0830078,
+            -18.8508091,
+            -545.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.0,
+            -4224.5385742,
+            -605.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Castle/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Dungeon\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2924.6311035,
+            0.0111899,
+            -283.1813049
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3900.5422363,
+            1170.241333,
+            532.7059326
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3900.5422363,
+            0.0111847,
+            9.8839264
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3900.5422363,
+            0.0111824,
+            9.8839264
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3900.5422363,
+            1170.241333,
+            532.7059326
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2924.6311035,
+            0.0111899,
+            -283.1813049
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Dungeon/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Factory\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2504.03125,
+            -1697.8614502,
+            285.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2488.0837402,
+            1657.7590332,
+            305.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1211.5681152,
+            2840.9711914,
+            360.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -73.15979,
+            -1686.1795654,
+            285.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1184.453125,
+            -616.0078735,
+            905.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2678.5119629,
+            1633.3972168,
+            305.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -1.31e-05,
+            305.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2192.2102051,
+            -1672.6177979,
+            305.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2678.5119629,
+            1633.3972168,
+            305.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2504.03125,
+            -1697.8614502,
+            285.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            416.7194519,
+            -297.8787842,
+            1205.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2072.6379395,
+            1654.4375,
+            305.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Factory/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Garden\\spawn.xml",
+      "count": 10,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2202.791748,
+            -2e-06,
+            50.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2202.791748,
+            -2948.7885742,
+            50.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2202.7919922,
+            -2e-06,
+            50.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2202.7922363,
+            -2948.7885742,
+            50.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -2635.284668,
+            -200.2736816
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            2500.0,
+            75.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -2635.284668,
+            -200.2736816
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            300.0000305,
+            -800.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            2500.0,
+            75.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            8.61e-05,
+            -820.0,
+            -600.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Garden/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\High_Haven\\spawn.xml",
+      "count": 16,
+      "spawns": [
+        {
+          "item": "blueflag",
+          "timesec": "5000",
+          "gametype": "solo",
+          "pos": [
+            5040.8,
+            17.8,
+            150.0
+          ]
+        },
+        {
+          "item": "redflag",
+          "timesec": "5000",
+          "gametype": "solo",
+          "pos": [
+            -5061.1,
+            1.8,
+            150.0
+          ]
+        },
+        {
+          "item": "blueflag",
+          "timesec": "5000",
+          "gametype": "team",
+          "pos": [
+            5040.8,
+            17.8,
+            150.0
+          ]
+        },
+        {
+          "item": "redflag",
+          "timesec": "5000",
+          "gametype": "team",
+          "pos": [
+            -5061.1,
+            1.8,
+            150.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2217.449707,
+            775.2012939,
+            -795.6045532
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5000.0,
+            0.0,
+            158.4726563
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            264.2125854,
+            30.3530216,
+            -795.6044922
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            0.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5000.0,
+            0.0,
+            158.4726563
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            800.0,
+            -550.0,
+            -267.5876465
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -5000.0,
+            0.0,
+            450.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            800.0,
+            -550.0,
+            -267.5876465
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3000.0,
+            8.7e-06,
+            -795.6045532
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3000.0,
+            8.7e-06,
+            -795.6045532
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5000.0,
+            3.32e-05,
+            450.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -800.0,
+            550.0,
+            -267.5875854
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "High_Haven/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Island\\spawn.xml",
+      "count": 14,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3486.4790039,
+            170.6912842,
+            208.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1944.9753418,
+            6114.9101563,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1938.0274658,
+            3829.9345703,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3818.3544922,
+            -4134.8798828,
+            1079.7453613
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0075624,
+            4919.8657227,
+            500.0267334
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1860.020752,
+            6412.5068359,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1633.3625488,
+            6580.918457,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1928.7550049,
+            3519.5380859,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1666.723877,
+            3280.0820313,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1169.0272217,
+            -3369.6643066,
+            384.6375122
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0075607,
+            4919.8657227,
+            500.0267334
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -4660.7910156,
+            -363.7581482
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5040.0209961,
+            -4135.625,
+            328.2922668
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3486.4790039,
+            170.6912842,
+            208.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Island/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Lost Shrine\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4000.0,
+            1800.0,
+            -340.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -2400.0,
+            -3000.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2300.0,
+            -1.32e-05,
+            310.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1.09e-05,
+            -240.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2300.0,
+            -1.32e-05,
+            310.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            2400.0,
+            3000.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -4000.0,
+            -1800.0,
+            -340.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1200.0,
+            3000.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -4000.0,
+            0.0,
+            -245.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            0.0,
+            -240.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4000.0,
+            0.0,
+            -245.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1200.0,
+            -3000.0,
+            5.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Lost Shrine/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Mansion\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1284.8856201,
+            279.5906677
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            4799.7851563,
+            -790.5439453,
+            601.9998169
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -1798.4650879,
+            -714.6474609
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -9.1e-06,
+            -2298.1274414,
+            741.9470215
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -5423.1645508,
+            -1336.1931152,
+            704.1063843
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1.6e-06,
+            -1798.4650879,
+            -714.6474609
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1e-07,
+            -2090.2116699,
+            1399.8809814
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Mansion/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Port\\spawn.xml",
+      "count": 10,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1200.0,
+            -2800.0,
+            -445.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1800.0,
+            -2500.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            -2100.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1300.0,
+            2400.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3300.0,
+            4100.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -900.0,
+            3400.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2700.0,
+            -2500.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1700.0,
+            900.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1800.0,
+            0.0,
+            455.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3600.0,
+            2400.0,
+            455.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Port/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Prison\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3135.3920898,
+            -1719.171875,
+            -663.4040527
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3018.2729492,
+            -2577.8046875,
+            -101.5480347
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1.85e-05,
+            0.4286194
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            3451.612793,
+            4002.9538574,
+            -256.9829102
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            2889.8708496,
+            -3429.0600586,
+            -663.4041748
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3135.3920898,
+            -1719.171875,
+            -663.4040527
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -3.19e-05,
+            0.4286051
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Prison/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Prison II\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1867.5767822,
+            -6487.0117188,
+            -649.8615723
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2993.03125,
+            4084.5275879,
+            -246.7167664
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -1.5e-06,
+            3.2833252
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            102.1681519,
+            -6487.0117188,
+            -649.8615723
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1130.6702881,
+            -4191.2607422,
+            3.2832642
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1376.5926514,
+            4180.6269531,
+            3.2832642
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Prison II/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Ruin\\spawn.xml",
+      "count": 9,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -8.7e-06,
+            200.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -8.7e-06,
+            1185.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -2708.1740723,
+            -2700.5026855,
+            1080.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            2708.1738281,
+            -2700.5026855,
+            1080.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -8.7e-06,
+            1185.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Ruin/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Stairway\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3734.7490234,
+            299.9999695,
+            150.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1625.2487793,
+            1965.0,
+            820.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3050.0,
+            -1200.0,
+            1815.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2800.0,
+            2250.0,
+            1715.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2500.0,
+            -1350.0001221,
+            230.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2800.0,
+            299.999939,
+            945.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1560.0,
+            1655.0,
+            1590.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3500.0,
+            -2356.4387207,
+            -625.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            192.4004974,
+            -2150.0,
+            150.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -250.0,
+            1800.0,
+            820.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -4100.0,
+            1450.0,
+            -1309.9998779
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2500.0,
+            -1050.0,
+            1590.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Stairway/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Station\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -0.321785,
+            1422.3381348,
+            680.9749146
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5522.2685547,
+            0.0,
+            518.6928711
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5017.878418,
+            -2.22e-05,
+            508.4477844
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -0.321785,
+            -1413.4533691,
+            680.9745483
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.321785,
+            -1413.4533691,
+            680.9747925
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.321785,
+            1422.3381348,
+            680.9749146
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Station/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-server-master\\Maps\\Town\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -107.7636871,
+            46.9901848,
+            0.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3941.0378418,
+            -1781.796875,
+            521.0701294
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3217.4130859,
+            2769.1140137,
+            -710.6282959
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -980.7435913,
+            -2492.3833008,
+            -374.6056824
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -668.5640869,
+            35.8902969,
+            0.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2135.9755859,
+            -3046.4060059,
+            -710.6286621
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-server-master/Maps",
+      "relative": "Town/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\A2Z-Maze\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1376.0,
+            -1248.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            352.0,
+            -1144.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -352.0,
+            832.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            728.0,
+            528.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            800.0,
+            848.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -232.0,
+            528.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1376.0,
+            -1248.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            352.0,
+            -1144.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -352.0,
+            832.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            728.0,
+            528.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            800.0,
+            848.0,
+            1632.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -232.0,
+            528.0,
+            1632.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "A2Z-Maze/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Arena\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Arena/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Basak\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -544.0,
+            288.0,
+            1048.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            720.0,
+            -712.0,
+            536.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            208.0,
+            768.0,
+            496.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -544.0,
+            288.0,
+            1048.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            720.0,
+            -712.0,
+            536.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            208.0,
+            768.0,
+            496.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Basak/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Basak2\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3000.0,
+            640.0,
+            64.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -120.0,
+            496.0,
+            560.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1072.0,
+            864.0,
+            56.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            872.0,
+            -448.0,
+            544.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2648.0,
+            248.0,
+            560.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1600.0,
+            0.0,
+            176.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3000.0,
+            640.0,
+            64.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -120.0,
+            496.0,
+            560.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            1072.0,
+            864.0,
+            56.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            872.0,
+            -448.0,
+            544.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2648.0,
+            248.0,
+            560.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -1600.0,
+            0.0,
+            176.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Basak2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Battle Arena\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1056.1359863,
+            1328.4733887,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -8e-07,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Battle Arena/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\BlackSkillZ_V1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "BlackSkillZ_V1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Castle\\spawn.xml",
+      "count": 13,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -4224.5385742,
+            -605.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4354.0830078,
+            -18.8507614,
+            -545.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4801.1953125,
+            3667.2580566,
+            -840.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -4770.0,
+            1630.0,
+            -695.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5323.1459961,
+            -923.4708252,
+            -995.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5060.0,
+            3045.0,
+            -845.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4675.0,
+            -2400.0,
+            -695.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -4976.5214844,
+            1612.9936523,
+            -845.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.0,
+            -1400.0,
+            -765.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3755.7094727,
+            -763.2302246,
+            -532.7045898
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3500.0,
+            -1635.6525879,
+            -495.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4354.0830078,
+            -18.8508091,
+            -545.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.0,
+            -4224.5385742,
+            -605.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Castle/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Catacomb\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Catacomb/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Crafting\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Crafting/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\cs_assault\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4608.0,
+            3000.0,
+            -2288.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1488.0,
+            -2280.0,
+            -2144.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            528.0,
+            2032.0,
+            -1000.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4624.0,
+            -4184.0,
+            -1488.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5632.0,
+            -1032.0,
+            -2040.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            3448.0,
+            -824.0,
+            -1136.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4608.0,
+            3000.0,
+            -2288.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1488.0,
+            -2280.0,
+            -2144.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            528.0,
+            2032.0,
+            -1000.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4624.0,
+            -4184.0,
+            -1488.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5632.0,
+            -1032.0,
+            -2040.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            3448.0,
+            -824.0,
+            -1136.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "cs_assault/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\cs_assaultV2\\spawn.xml",
+      "count": 8,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3152.0,
+            312.0,
+            -1744.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5528.0,
+            -2264.0,
+            -848.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4976.0,
+            -904.0,
+            -2040.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            6288.0,
+            -616.0,
+            -1720.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3152.0,
+            312.0,
+            -1744.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5528.0,
+            -2264.0,
+            -848.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4976.0,
+            -904.0,
+            -2040.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            6288.0,
+            -616.0,
+            -1720.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "cs_assaultV2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\cs_assaultV3\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            6632.0,
+            928.0,
+            -1872.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4880.0,
+            1920.0,
+            -1352.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            5032.0,
+            2736.0,
+            -1504.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5264.0,
+            648.0,
+            -1856.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5528.0,
+            -2264.0,
+            -848.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            3992.0,
+            -632.0,
+            -2224.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            6632.0,
+            928.0,
+            -1872.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4880.0,
+            1920.0,
+            -1352.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            5032.0,
+            2736.0,
+            -1504.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5264.0,
+            648.0,
+            -1856.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5528.0,
+            -2264.0,
+            -848.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            3992.0,
+            -632.0,
+            -2224.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "cs_assaultV3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\DBZ\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "DBZ/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Dice-SLv1\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            696.0,
+            1728.0,
+            472.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -472.0,
+            496.0,
+            472.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            16.0,
+            -328.0,
+            472.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            696.0,
+            1728.0,
+            472.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -472.0,
+            496.0,
+            472.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            16.0,
+            -328.0,
+            472.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Dice-SLv1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\DiceV2_SF\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            520.0,
+            2544.0,
+            608.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            520.0,
+            -200.0,
+            320.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -864.0,
+            368.0,
+            -176.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2744.0,
+            80.0,
+            -176.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2728.0,
+            2024.0,
+            1104.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            4184.0,
+            2248.0,
+            1104.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            520.0,
+            2544.0,
+            608.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            520.0,
+            -200.0,
+            320.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -864.0,
+            368.0,
+            -176.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2744.0,
+            80.0,
+            -176.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2728.0,
+            2024.0,
+            1104.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            4184.0,
+            2248.0,
+            1104.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "DiceV2_SF/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Dojo\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Dojo/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\DramaSkillTrail V1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "DramaSkillTrail V1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Dungeon\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2924.6311035,
+            0.0111899,
+            -283.1813049
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3900.5422363,
+            1170.241333,
+            532.7059326
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3900.5422363,
+            0.0111847,
+            9.8839264
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3900.5422363,
+            0.0111824,
+            9.8839264
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3900.5422363,
+            1170.241333,
+            532.7059326
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2924.6311035,
+            0.0111899,
+            -283.1813049
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Dungeon/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Dungeon II\\spawn.xml",
+      "count": 9,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2000.0019531,
+            -1354.8735352,
+            701.7874756
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            423.3981934,
+            5.4371643,
+            800.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2000.0,
+            -300.0000305,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -816.2229004,
+            -299.9999695,
+            -360.5130615
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2000.0,
+            1141.1621094,
+            546.9030762
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2650.8830566,
+            1392.7982178,
+            1812.7218018
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -816.2229004,
+            -300.0,
+            -360.5130615
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2000.0,
+            1141.1621094,
+            546.9030762
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2000.0,
+            -300.0,
+            5.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Dungeon II/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\DusteRSkillTrailV1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "DusteRSkillTrailV1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\DusteRSkillTrail_V3fix\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "DusteRSkillTrail_V3fix/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Factory\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2504.03125,
+            -1697.8614502,
+            285.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2488.0837402,
+            1657.7590332,
+            305.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1211.5681152,
+            2840.9711914,
+            360.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -73.15979,
+            -1686.1795654,
+            285.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1184.453125,
+            -616.0078735,
+            905.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2678.5119629,
+            1633.3972168,
+            305.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -1.31e-05,
+            305.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2192.2102051,
+            -1672.6177979,
+            305.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2678.5119629,
+            1633.3972168,
+            305.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2504.03125,
+            -1697.8614502,
+            285.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            416.7194519,
+            -297.8787842,
+            1205.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2072.6379395,
+            1654.4375,
+            305.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Factory/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\FinishLine\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "FinishLine/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\firstmap\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "firstmap/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Garden\\spawn.xml",
+      "count": 10,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2202.791748,
+            -2e-06,
+            50.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2202.791748,
+            -2948.7885742,
+            50.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2202.7919922,
+            -2e-06,
+            50.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2202.7922363,
+            -2948.7885742,
+            50.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -2635.284668,
+            -200.2736816
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            2500.0,
+            75.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -2635.284668,
+            -200.2736816
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            300.0000305,
+            -800.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            2500.0,
+            75.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            8.61e-05,
+            -820.0,
+            -600.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Garden/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Hall\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Hall/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\House_Simpsons2\\spawn.xml",
+      "count": 8,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            304.0,
+            472.0,
+            -8.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1424.0,
+            1112.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -176.0,
+            2856.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -176.0,
+            2880.0,
+            -8.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            304.0,
+            472.0,
+            -8.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1424.0,
+            1112.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -176.0,
+            2856.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -176.0,
+            2880.0,
+            -8.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "House_Simpsons2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Island\\spawn.xml",
+      "count": 14,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3486.4790039,
+            170.6912842,
+            208.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1944.9753418,
+            6114.9101563,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1938.0274658,
+            3829.9345703,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3818.3544922,
+            -4134.8798828,
+            1079.7453613
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0075624,
+            4919.8657227,
+            500.0267334
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1860.020752,
+            6412.5068359,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1633.3625488,
+            6580.918457,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1928.7550049,
+            3519.5380859,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -1666.723877,
+            3280.0820313,
+            -579.7717285
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1169.0272217,
+            -3369.6643066,
+            384.6375122
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0075607,
+            4919.8657227,
+            500.0267334
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -4660.7910156,
+            -363.7581482
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            5040.0209961,
+            -4135.625,
+            328.2922668
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3486.4790039,
+            170.6912842,
+            208.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Island/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Jail\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Jail/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\lalalal\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "lalalal/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Lost Shrine\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4000.0,
+            1800.0,
+            -340.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -2400.0,
+            -3000.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2300.0,
+            -1.32e-05,
+            310.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1.09e-05,
+            -240.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2300.0,
+            -1.32e-05,
+            310.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            2400.0,
+            3000.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -4000.0,
+            -1800.0,
+            -340.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1200.0,
+            3000.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -4000.0,
+            0.0,
+            -245.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            0.0,
+            -240.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4000.0,
+            0.0,
+            -245.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1200.0,
+            -3000.0,
+            5.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Lost Shrine/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\mansion\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1284.8856201,
+            279.5906677
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            4799.7851563,
+            -790.5439453,
+            601.9998169
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -1798.4650879,
+            -714.6474609
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -9.1e-06,
+            -2298.1274414,
+            741.9470215
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -5423.1645508,
+            -1336.1931152,
+            704.1063843
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1.6e-06,
+            -1798.4650879,
+            -714.6474609
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1e-07,
+            -2090.2116699,
+            1399.8809814
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "mansion/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\MarioCastle\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "MarioCastle/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\MasterSkillerV2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "MasterSkillerV2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\MasterskillV1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "MasterskillV1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\MasterSkillV2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "MasterSkillV2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Master_Skiller\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Master_Skiller/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Mithlond\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Mithlond/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Mountain Fort\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Mountain Fort/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\New York\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1284.8856201,
+            279.5906677
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            4799.7851563,
+            -790.5439453,
+            601.9998169
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -1798.4650879,
+            -714.6474609
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -9.1e-06,
+            -2298.1274414,
+            741.9470215
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -5423.1645508,
+            -1336.1931152,
+            704.1063843
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1.6e-06,
+            -1798.4650879,
+            -714.6474609
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1e-07,
+            -2090.2116699,
+            1399.8809814
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "New York/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Night Arena\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1056.1359863,
+            1328.4733887,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -8e-07,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            0.0,
+            399.9749756
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            2737.6391602,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        },
+        {
+          "item": "bullet01",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -2750.8081055,
+            -2379.3818359,
+            -1031.9265137
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Night Arena/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\ObstacleCourse\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "ObstacleCourse/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\pirate docks\\spawn.xml",
+      "count": 10,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -900.0,
+            3600.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1800.0,
+            -2500.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            -2100.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1300.0,
+            2400.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3300.0,
+            4100.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1096.0317383,
+            1566.5085449,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2700.0,
+            -2500.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1700.0,
+            900.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1800.0,
+            0.0,
+            455.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3600.0,
+            2400.0,
+            455.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "pirate docks/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Port\\spawn.xml",
+      "count": 10,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -1200.0,
+            -2800.0,
+            -445.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1800.0,
+            -2500.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            -2100.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1300.0,
+            2400.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3300.0,
+            4100.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -900.0,
+            3400.0,
+            5.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2700.0,
+            -2500.0,
+            5.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1700.0,
+            900.0,
+            5.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1800.0,
+            0.0,
+            455.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3600.0,
+            2400.0,
+            455.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Port/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\prison\\spawn.xml",
+      "count": 7,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3135.3920898,
+            -1719.171875,
+            -663.4040527
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3018.2729492,
+            -2577.8046875,
+            -101.5480347
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            1.85e-05,
+            0.4286194
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            3451.612793,
+            4002.9538574,
+            -256.9829102
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            2889.8708496,
+            -3429.0600586,
+            -663.4041748
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3135.3920898,
+            -1719.171875,
+            -663.4040527
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -3.19e-05,
+            0.4286051
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "prison/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\prison II\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1867.5767822,
+            -6487.0117188,
+            -649.8615723
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2993.03125,
+            4084.5275879,
+            -246.7167664
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -1.5e-06,
+            3.2833252
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            102.1681519,
+            -6487.0117188,
+            -649.8615723
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1130.6702881,
+            -4191.2607422,
+            3.2832642
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1376.5926514,
+            4180.6269531,
+            3.2832642
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "prison II/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\ReflectSkillZ\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "ReflectSkillZ/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Ringer\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Ringer/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\RoF\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "RoF/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Ruin\\spawn.xml",
+      "count": 9,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -8.7e-06,
+            200.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            0.0,
+            -8.7e-06,
+            1185.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -2708.1740723,
+            -2700.5026855,
+            1080.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            2708.1738281,
+            -2700.5026855,
+            1080.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            0.0,
+            -8.7e-06,
+            1185.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -3766.4899902,
+            1708.0566406,
+            1085.0002441
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Ruin/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Shaolin_Duel\\spawn.xml",
+      "count": 4,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            152.0,
+            -1344.0,
+            64.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            3416.0,
+            -1104.0,
+            -800.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1432.0,
+            344.0,
+            0.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            2304.0,
+            904.0,
+            -528.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Shaolin_Duel/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Shaolin_Temp\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4224.0,
+            -48.0,
+            784.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2448.0,
+            480.0,
+            1608.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            352.0,
+            -128.0,
+            1224.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            424.0,
+            -2080.0,
+            -568.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3400.0,
+            896.0,
+            -768.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            960.0,
+            1880.0,
+            -560.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            4224.0,
+            -48.0,
+            784.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2448.0,
+            480.0,
+            1608.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            352.0,
+            -128.0,
+            1224.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            424.0,
+            -2080.0,
+            -568.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3400.0,
+            896.0,
+            -768.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            960.0,
+            1880.0,
+            -560.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Shaolin_Temp/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Shower Room\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Shower Room/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Showoff\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Showoff/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Silly\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Silly/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Skill King\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Skill King/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Skill-Test\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Skill-Test/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillCityMap\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillCityMap/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillFutureMap\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillFutureMap/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillGalaxyV2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillGalaxyV2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillIceMap\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillIceMap/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Skillmap\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Skillmap/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapDigital\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapDigital/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapGold\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapGold/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapSG Basic\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapSG Basic/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapSG V1\\spawn.xml",
+      "count": 3,
+      "spawns": [
+        {
+          "item": "hp02",
+          "timesec": "60000",
+          "gametype": "solo",
+          "pos": [
+            1936.0,
+            1360.0,
+            16.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "60000",
+          "gametype": "solo",
+          "pos": [
+            1936.0,
+            24.0,
+            792.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "80000",
+          "gametype": "solo",
+          "pos": [
+            1936.0,
+            -1360.0,
+            16.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapSG V1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapSG V2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapSG V2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapSG V3\\spawn.xml",
+      "count": 8,
+      "spawns": [
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            3592.0,
+            3672.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            3592.0,
+            528.0,
+            496.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            1400.0,
+            104.0,
+            2584.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            -520.0,
+            112.0,
+            2592.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            -504.0,
+            -1304.0,
+            2592.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "60000",
+          "gametype": "solo",
+          "pos": [
+            664.0,
+            2376.0,
+            528.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "60000",
+          "gametype": "team",
+          "pos": [
+            664.0,
+            2376.0,
+            528.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "90000",
+          "gametype": "team",
+          "pos": [
+            664.0,
+            2376.0,
+            528.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapSG V3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\skillmapv2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "skillmapv2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\skillmapv3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "skillmapv3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillmapV4\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillmapV4/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillmapV6\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillmapV6/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapV8\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapV8/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillmapVirtual\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillmapVirtual/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillTronic\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillTronic/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Skyline\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Skyline/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Snow_Town\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3369.9816895,
+            107.6977539,
+            300.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3941.0378418,
+            -1781.796875,
+            821.0701294
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3217.4130859,
+            2769.1140137,
+            -410.6282959
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -990.2953491,
+            35.8316956,
+            833.0192871
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4646.6494141,
+            84.600708,
+            -410.6283569
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2266.890625,
+            -4075.9592285,
+            -410.6286621
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            1932.0458984,
+            -3046.4060059,
+            -410.6286621
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            2135.0583496,
+            -1580.5131836,
+            -173.7171021
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            4896.4731445,
+            2901.6054688,
+            -410.6282959
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3870.284668,
+            -4615.175293,
+            -410.6282959
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -668.5640869,
+            35.8902855,
+            300.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2135.9755859,
+            -3046.4060059,
+            -410.6286621
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Snow_Town/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Stairway\\spawn.xml",
+      "count": 12,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3734.7490234,
+            299.9999695,
+            150.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            1625.2487793,
+            1965.0,
+            820.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3050.0,
+            -1200.0,
+            1815.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2800.0,
+            2250.0,
+            1715.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2500.0,
+            -1350.0001221,
+            230.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -2800.0,
+            299.999939,
+            945.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            1560.0,
+            1655.0,
+            1590.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            3500.0,
+            -2356.4387207,
+            -625.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            192.4004974,
+            -2150.0,
+            150.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -250.0,
+            1800.0,
+            820.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -4100.0,
+            1450.0,
+            -1309.9998779
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -2500.0,
+            -1050.0,
+            1590.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Stairway/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Star_Race\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Star_Race/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\station\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -0.321785,
+            1422.3381348,
+            680.9749146
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -5522.2685547,
+            0.0,
+            518.6928711
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            5017.878418,
+            -2.22e-05,
+            508.4477844
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -0.321785,
+            -1413.4533691,
+            680.9745483
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.321785,
+            -1413.4533691,
+            680.9747925
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -0.321785,
+            1422.3381348,
+            680.9749146
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "station/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Street_Duel\\spawn.xml",
+      "count": 4,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -1704.0,
+            920.0,
+            1176.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            584.0,
+            -2528.0,
+            1104.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "team",
+          "pos": [
+            -1440.0,
+            -784.0,
+            1992.0
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            352.0,
+            -776.0,
+            2024.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Street_Duel/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Superflip\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Superflip/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SuperMario3\\spawn.xml",
+      "count": 15,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -3584.0,
+            -704.0,
+            4800.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2240.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2112.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "85000",
+          "gametype": "solo",
+          "pos": [
+            17792.0,
+            16256.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "85000",
+          "gametype": "solo",
+          "pos": [
+            17792.0,
+            16256.0,
+            2624.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "75000",
+          "gametype": "solo",
+          "pos": [
+            17856.0,
+            9664.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "55000",
+          "gametype": "solo",
+          "pos": [
+            -20800.0,
+            -15104.0,
+            1728.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -128.0,
+            -16512.0,
+            64.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "65000",
+          "gametype": "team",
+          "pos": [
+            -3584.0,
+            -704.0,
+            4800.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "65000",
+          "gametype": "team",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2240.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "65000",
+          "gametype": "team",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2112.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "85000",
+          "gametype": "team",
+          "pos": [
+            17792.0,
+            16256.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "85000",
+          "gametype": "team",
+          "pos": [
+            17792.0,
+            16256.0,
+            2624.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "75000",
+          "gametype": "team",
+          "pos": [
+            17856.0,
+            9664.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "55000",
+          "gametype": "team",
+          "pos": [
+            -20800.0,
+            -15104.0,
+            1728.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SuperMario3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\ThePillar\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "ThePillar/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\Town\\spawn.xml",
+      "count": 6,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -107.7636871,
+            46.9901848,
+            0.0
+          ]
+        },
+        {
+          "item": "ap03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            -3941.0378418,
+            -1781.796875,
+            521.0701294
+          ]
+        },
+        {
+          "item": "hp03",
+          "timesec": "45000",
+          "gametype": "solo",
+          "pos": [
+            3217.4130859,
+            2769.1140137,
+            -710.6282959
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "30000",
+          "gametype": "solo",
+          "pos": [
+            -980.7435913,
+            -2492.3833008,
+            -374.6056824
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            -668.5640869,
+            35.8902969,
+            0.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "45000",
+          "gametype": "team",
+          "pos": [
+            2135.9755859,
+            -3046.4060059,
+            -710.6286621
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "Town/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\triboss\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "triboss/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\[CHRIS]_SkillGalaxy\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "[CHRIS]_SkillGalaxy/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_cavern1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_cavern1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_cavern2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_cavern2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_cavern3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_cavern3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_nest1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_nest1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_nest2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_nest2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_nest3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_nest3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_passage1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_passage1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_passage2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_passage2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Dungeon_passage3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Dungeon_passage3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_hall1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_hall1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_hall2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_hall2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_hall3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_hall3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_passage1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_passage1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_passage2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_passage2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_passage3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_passage3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_room1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_room1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_room2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_room2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Mansion_room3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Mansion_room3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_drainage1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_drainage1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_drainage2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_drainage2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_hall1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_hall1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_hall2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_hall2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_passage1\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_passage1/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_passage2\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_passage2/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_passage3\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_passage3/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_prison\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_prison/spawn.xml"
+    },
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Quest\\Maps\\Prison_shower_room\\spawn.xml",
+      "count": 0,
+      "spawns": [],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Quest/Maps",
+      "relative": "Prison_shower_room/spawn.xml"
+    }
+  ]
+}

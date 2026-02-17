@@ -1,0 +1,47 @@
+{
+  "3": {
+    "id": 3,
+    "name": "Pistol",
+    "knockback": 30
+  },
+  "4": {
+    "id": 4,
+    "name": "Double Pistol",
+    "knockback": 30
+  },
+  "5": {
+    "id": 5,
+    "name": "SMG Effect",
+    "knockback": 20
+  },
+  "6": {
+    "id": 6,
+    "name": "Double SMG Effect",
+    "knockback": 20
+  },
+  "7": {
+    "id": 7,
+    "name": "Shotgun Effect",
+    "knockback": 400
+  },
+  "8": {
+    "id": 8,
+    "name": "Rifle Effect",
+    "knockback": 50
+  },
+  "9": {
+    "id": 9,
+    "name": "Machine Gun Effect",
+    "knockback": 150
+  },
+  "10": {
+    "id": 10,
+    "name": "Revolver",
+    "knockback": 100
+  },
+  "11": {
+    "id": 11,
+    "name": "Revolver Dual",
+    "knockback": 200
+  }
+}

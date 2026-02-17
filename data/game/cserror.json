@@ -1,0 +1,442 @@
+{
+  "source": "cserror.xml",
+  "count": 109,
+  "errors": [
+    {
+      "id": 100,
+      "text": "Communicator does not have a UID. This Communicator must be initialized by the Master-Controller."
+    },
+    {
+      "id": 101,
+      "text": "Communicator has no UID space to allocate your UID."
+    },
+    {
+      "id": 110,
+      "text": "Communicator tries to connect to an invalid direct connection."
+    },
+    {
+      "id": 200,
+      "text": "Command has an invalid receiver UID. If you did not connect to any server and set default receiver, you must do it first."
+    },
+    {
+      "id": 300,
+      "text": "Zone-Server is not connected to the Master-Controller."
+    },
+    {
+      "id": 301,
+      "text": "Zone-Server tries to invalidate the Master-Controller."
+    },
+    {
+      "id": 1000,
+      "text": "Invalid object UID."
+    },
+    {
+      "id": 2000,
+      "text": "Map file open error."
+    },
+    {
+      "id": 10000,
+      "text": "You have entered an incorrect password.  Please check your password and try again."
+    },
+    {
+      "id": 10001,
+      "text": "This ID is already in use."
+    },
+    {
+      "id": 10002,
+      "text": "The client version does not match the server."
+    },
+    {
+      "id": 10003,
+      "text": "The server is full."
+    },
+    {
+      "id": 10004,
+      "text": "This ID is banned from Gunz online."
+    },
+    {
+      "id": 10005,
+      "text": "Authentication failed."
+    },
+    {
+      "id": 10100,
+      "text": "This character name is already in use."
+    },
+    {
+      "id": 10101,
+      "text": "You have used invalid characters that are not allowed. Please use letters and numbers only."
+    },
+    {
+      "id": 10102,
+      "text": "The character name is too short."
+    },
+    {
+      "id": 10103,
+      "text": "The character name is too long."
+    },
+    {
+      "id": 10104,
+      "text": "Enter character name."
+    },
+    {
+      "id": 10110,
+      "text": "The character name does not exist."
+    },
+    {
+      "id": 10111,
+      "text": "Cannot delete a character if it belongs to a clan or has cash items."
+    },
+    {
+      "id": 20001,
+      "text": "Insufficient Bounty!"
+    },
+    {
+      "id": 20002,
+      "text": "You are not allowed to purchase the item."
+    },
+    {
+      "id": 20003,
+      "text": "You are not allowed to equip this iem."
+    },
+    {
+      "id": 20004,
+      "text": "You ae not allowed to unequip this item."
+    },
+    {
+      "id": 20005,
+      "text": "You are not allowed to sell this item."
+    },
+    {
+      "id": 20006,
+      "text": "You are not allowed to sell the equipped item."
+    },
+    {
+      "id": 20007,
+      "text": "The item is not available."
+    },
+    {
+      "id": 20008,
+      "text": "You have too many items."
+    },
+    {
+      "id": 20009,
+      "text": "The selected item does not exist."
+    },
+    {
+      "id": 20010,
+      "text": "The item you selected is too heavy for your current configuration."
+    },
+    {
+      "id": 20011,
+      "text": "You must be a higher level to use this item."
+    },
+    {
+      "id": 20012,
+      "text": "Cannot equip the same equipment(or item) in a slot."
+    },
+    {
+      "id": 20013,
+      "text": "Cannot take off because there is too much weight."
+    },
+    {
+      "id": 20014,
+      "text": "Cannot sell the cash equipment (or item) at the shop."
+    },
+    {
+      "id": 20015,
+      "text": "Cannot take the equipment (or item), it does not match your gender."
+    },
+    {
+      "id": 20016,
+      "text": "This item cannot be equipped, you do not have the required level. Do you still want this equipment (or item)?"
+    },
+    {
+      "id": 20017,
+      "text": "Cannot deposit the equipment(or item) in the Storage."
+    },
+    {
+      "id": 20018,
+      "text": "You may only deposit a cash item into the Storage."
+    },
+    {
+      "id": 20019,
+      "text": "The item has been unequipped because of a level decrease."
+    },
+    {
+      "id": 20020,
+      "text": "Cannot equip this item."
+    },
+    {
+      "id": 30000,
+      "text": "Cannot enter the room."
+    },
+    {
+      "id": 30001,
+      "text": "Room is full."
+    },
+    {
+      "id": 30002,
+      "text": "Incorrect password!"
+    },
+    {
+      "id": 30003,
+      "text": "You cannot enter at your current level."
+    },
+    {
+      "id": 30004,
+      "text": "Cannot join game in progress."
+    },
+    {
+      "id": 30005,
+      "text": "You may not enter."
+    },
+    {
+      "id": 30006,
+      "text": "The stage does not exist."
+    },
+    {
+      "id": 30007,
+      "text": "The stage is already present."
+    },
+    {
+      "id": 30008,
+      "text": "You cannot make the room."
+    },
+    {
+      "id": 30009,
+      "text": "There is no room available for you to enter."
+    },
+    {
+      "id": 30020,
+      "text": "Cannot enter the channel."
+    },
+    {
+      "id": 30021,
+      "text": "Max number of user reached."
+    },
+    {
+      "id": 30022,
+      "text": "You cannot enter at your current level."
+    },
+    {
+      "id": 30023,
+      "text": "If you have a character that is level 21 or above, you cannot enter the beginner's channel."
+    },
+    {
+      "id": 30026,
+      "text": "Please select a character first."
+    },
+    {
+      "id": 30030,
+      "text": "Cannot form a clan."
+    },
+    {
+      "id": 30031,
+      "text": "The clan cannot be closed."
+    },
+    {
+      "id": 30032,
+      "text": "The clan name is already in use."
+    },
+    {
+      "id": 30033,
+      "text": "You do not have enough members for the clan to be created."
+    },
+    {
+      "id": 30034,
+      "text": "This user already belongs to another clan."
+    },
+    {
+      "id": 30035,
+      "text": "The member you have requested to join your clan is not in the lobby."
+    },
+    {
+      "id": 30036,
+      "text": "The clan name is incorrect."
+    },
+    {
+      "id": 30037,
+      "text": "This is not the Clan Leader."
+    },
+    {
+      "id": 30038,
+      "text": "You are not a authorized to perform this action."
+    },
+    {
+      "id": 30039,
+      "text": "This user already belongs to another clan."
+    },
+    {
+      "id": 30040,
+      "text": "Your request to join the clan has been rejected."
+    },
+    {
+      "id": 30041,
+      "text": "This user already is a member in another clan."
+    },
+    {
+      "id": 30042,
+      "text": "Unable to send invite. Player is currently in a game."
+    },
+    {
+      "id": 30043,
+      "text": "You have not joined the clan."
+    },
+    {
+      "id": 30044,
+      "text": "You cannot withdraw from the clan."
+    },
+    {
+      "id": 30045,
+      "text": "Cannot add an additional clan member."
+    },
+    {
+      "id": 30046,
+      "text": "Your friend is not online."
+    },
+    {
+      "id": 30047,
+      "text": "Not in the same clan."
+    },
+    {
+      "id": 30048,
+      "text": "You cannot change your permissions."
+    },
+    {
+      "id": 30049,
+      "text": "Theclan member is not available."
+    },
+    {
+      "id": 30050,
+      "text": "Insufficient bounty (1000 BP) for clan creation."
+    },
+    {
+      "id": 30051,
+      "text": "Only level 10 or higher can create a clan."
+    },
+    {
+      "id": 30052,
+      "text": "Clan will be closed on '%s'."
+    },
+    {
+      "id": 30070,
+      "text": "You cannot request a Clan War."
+    },
+    {
+      "id": 30071,
+      "text": "When does this message appear?"
+    },
+    {
+      "id": 30072,
+      "text": "When does this message appear?"
+    },
+    {
+      "id": 30073,
+      "text": "When does this message appear?"
+    },
+    {
+      "id": 30080,
+      "text": "You are not in the same clan."
+    },
+    {
+      "id": 30081,
+      "text": "There are no clan members present."
+    },
+    {
+      "id": 30082,
+      "text": "One of the selected clan members is not available for a Clan War right now."
+    },
+    {
+      "id": 30103,
+      "text": "This function is not yet supported."
+    },
+    {
+      "id": 30104,
+      "text": "Please do not use vulgar or profane language."
+    },
+    {
+      "id": 30105,
+      "text": "Please do not spam the channel or room."
+    },
+    {
+      "id": 30106,
+      "text": "Prohibited to join chat for 1 minute."
+    },
+    {
+      "id": 90000,
+      "text": "Cannot access server."
+    },
+    {
+      "id": 90002,
+      "text": "Disconnected from the server."
+    },
+    {
+      "id": 100000,
+      "text": "You have joined the clan."
+    },
+    {
+      "id": 100001,
+      "text": "The clan has been created."
+    },
+    {
+      "id": 110000,
+      "text": "You cannot enter."
+    },
+    {
+      "id": 120000,
+      "text": "Cannot apply for a vote."
+    },
+    {
+      "id": 130001,
+      "text": "A hacking attempt was detected. Connection to the game server will be terminated."
+    },
+    {
+      "id": 130002,
+      "text": "This account has been blocked due to a hacking attempt. Account will be blocked for approximately an hour."
+    },
+    {
+      "id": 130003,
+      "text": "Connection is denied due to user's status. Connection to the game server will be terminated shortly."
+    },
+    {
+      "id": 130004,
+      "text": "An invalid file has been detected."
+    },
+    {
+      "id": 200000,
+      "text": "You cannot start the vote."
+    },
+    {
+      "id": 200001,
+      "text": "You cannot use this function in a ladder game."
+    },
+    {
+      "id": 200002,
+      "text": "Voting already started."
+    },
+    {
+      "id": 200003,
+      "text": "The vote failed."
+    },
+    {
+      "id": 200004,
+      "text": "10 seconds remaining."
+    },
+    {
+      "id": 200005,
+      "text": "30 seconds remaining."
+    },
+    {
+      "id": 200006,
+      "text": "60 seconds remaining."
+    },
+    {
+      "id": 200007,
+      "text": "There are too many players to start this game."
+    },
+    {
+      "id": 200008,
+      "text": "'%s' isn't ready."
+    }
+  ]
+}

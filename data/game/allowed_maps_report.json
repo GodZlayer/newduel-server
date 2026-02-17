@@ -1,0 +1,122 @@
+{
+  "source": {
+    "channelrule": "channelrule.json",
+    "maps_manifest": "maps_manifest.json"
+  },
+  "rules": [
+    {
+      "id": 0,
+      "name": "novice",
+      "allowed": [
+        "Mansion",
+        "Prison",
+        "Prison II",
+        "Island",
+        "Garden",
+        "Station",
+        "Battle Arena",
+        "Factory",
+        "Town"
+      ],
+      "missing": []
+    },
+    {
+      "id": 3,
+      "name": "newbie",
+      "allowed": [
+        "Mansion",
+        "Prison",
+        "Prison II",
+        "Island",
+        "Garden",
+        "Station",
+        "Battle Arena",
+        "Factory",
+        "Town"
+      ],
+      "missing": []
+    },
+    {
+      "id": 1,
+      "name": "rookie",
+      "allowed": [
+        "Mansion",
+        "Prison",
+        "Prison II",
+        "Island",
+        "Garden",
+        "Station",
+        "Battle Arena",
+        "Factory",
+        "Town",
+        "Ruin",
+        "Port"
+      ],
+      "missing": [
+        "Snow_Town",
+        "Hall",
+        "Catacomb",
+        "Jail",
+        "Shower Room"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "mastery",
+      "allowed": [
+        "Mansion",
+        "Prison",
+        "Prison II",
+        "Island",
+        "Garden",
+        "Station",
+        "Battle Arena",
+        "Factory",
+        "Town",
+        "Ruin",
+        "Port",
+        "Castle",
+        "Dungeon"
+      ],
+      "missing": [
+        "Snow_Town",
+        "Hall",
+        "Catacomb",
+        "Jail",
+        "Shower Room"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "elite",
+      "allowed": [
+        "Mansion",
+        "Prison",
+        "Prison II",
+        "Island",
+        "Garden",
+        "Station",
+        "Battle Arena",
+        "Factory",
+        "Town",
+        "Ruin",
+        "Port",
+        "Castle",
+        "Dungeon",
+        "Lost Shrine",
+        "Stairway",
+        "High_Haven"
+      ],
+      "missing": [
+        "Dojo",
+        "Citadel",
+        "WeaponShop",
+        "Snow_Town",
+        "Hall",
+        "Catacomb",
+        "Jail",
+        "Shower Room"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1528 @@
+{
+    "0":  {
+              "id":  0,
+              "name":  "Mansion",
+              "image":  "map_Mansion.bmp",
+              "banner":  "banner_Mansion.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "1":  {
+              "id":  1,
+              "name":  "Battle Arena",
+              "image":  "map_Battle Arena.bmp",
+              "banner":  "banner_Battle Arena.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "2":  {
+              "id":  2,
+              "name":  "Castle",
+              "image":  "map_Castle.bmp",
+              "banner":  "banner_Castle.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "3":  {
+              "id":  3,
+              "name":  "Dojo",
+              "image":  "",
+              "banner":  "",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "4":  {
+              "id":  4,
+              "name":  "Dungeon",
+              "image":  "map_Dungeon.bmp",
+              "banner":  "banner_Dungeon.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "5":  {
+              "id":  5,
+              "name":  "Dungeon II",
+              "image":  "map_Dungeon II.bmp",
+              "banner":  "banner_Dungeon II.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "6":  {
+              "id":  6,
+              "name":  "Factory",
+              "image":  "map_Factory.bmp",
+              "banner":  "banner_Factory.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "7":  {
+              "id":  7,
+              "name":  "Garden",
+              "image":  "map_Garden.bmp",
+              "banner":  "banner_Garden.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "8":  {
+              "id":  8,
+              "name":  "High_Haven",
+              "image":  "map_High_Haven.bmp",
+              "banner":  "banner_High_Haven.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "9":  {
+              "id":  9,
+              "name":  "Island",
+              "image":  "map_island.bmp",
+              "banner":  "banner_island.tga",
+              "exp_ratio":  1,
+              "max_players":  16,
+              "only_duel":  false,
+              "modes":  [
+                            "DM",
+                            "TDM"
+                        ],
+              "available":  true,
+              "source":  "legacy"
+          },
+    "10":  {
+               "id":  10,
+               "name":  "Lost Shrine",
+               "image":  "map_Lost Shrine.bmp",
+               "banner":  "banner_Lost Shrine.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "11":  {
+               "id":  11,
+               "name":  "Port",
+               "image":  "map_Port.bmp",
+               "banner":  "banner_port.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "12":  {
+               "id":  12,
+               "name":  "Prison",
+               "image":  "map_Prison.bmp",
+               "banner":  "banner_Prison.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "13":  {
+               "id":  13,
+               "name":  "Prison II",
+               "image":  "map_Prison II.bmp",
+               "banner":  "banner_Prison II.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "14":  {
+               "id":  14,
+               "name":  "Ruin",
+               "image":  "map_Ruin.bmp",
+               "banner":  "banner_Ruin.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "15":  {
+               "id":  15,
+               "name":  "Snow_Town",
+               "image":  "map_Snow_Town.bmp",
+               "banner":  "banner_Snow_Town.tga",
+               "exp_ratio":  1.1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "16":  {
+               "id":  16,
+               "name":  "Stairway",
+               "image":  "map_Stairway.bmp",
+               "banner":  "banner_Stairway.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "17":  {
+               "id":  17,
+               "name":  "Station",
+               "image":  "map_Station.bmp",
+               "banner":  "banner_Station.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "18":  {
+               "id":  18,
+               "name":  "Town",
+               "image":  "map_Town.bmp",
+               "banner":  "banner_Town.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "19":  {
+               "id":  19,
+               "name":  "WeaponShop",
+               "image":  "map_WeaponShop.bmp",
+               "banner":  "banner_WeaponShop.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM"
+                         ],
+               "available":  false,
+               "source":  "legacy"
+           },
+    "20":  {
+               "id":  20,
+               "name":  "Catacomb",
+               "image":  "map_Catacomb.bmp",
+               "banner":  "banner_Catacomb.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  true,
+               "modes":  [
+                             "DUEL"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "21":  {
+               "id":  21,
+               "name":  "Hall",
+               "image":  "map_Hall.bmp",
+               "banner":  "banner_Hall.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  true,
+               "modes":  [
+                             "DUEL"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "22":  {
+               "id":  22,
+               "name":  "Jail",
+               "image":  "map_Prison.bmp",
+               "banner":  "banner_Prison.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  true,
+               "modes":  [
+                             "DUEL"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "23":  {
+               "id":  23,
+               "name":  "Shower Room",
+               "image":  "map_Prison II.bmp",
+               "banner":  "banner_Prison II.tga",
+               "exp_ratio":  1,
+               "max_players":  16,
+               "only_duel":  true,
+               "modes":  [
+                             "DUEL"
+                         ],
+               "available":  true,
+               "source":  "legacy"
+           },
+    "24":  {
+               "id":  24,
+               "name":  "[CHRIS]_SkillGalaxy",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  false,
+               "source":  "custom"
+           },
+    "25":  {
+               "id":  25,
+               "name":  "A2Z-Maze",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "26":  {
+               "id":  26,
+               "name":  "Arena",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "27":  {
+               "id":  27,
+               "name":  "Basak",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "28":  {
+               "id":  28,
+               "name":  "Basak2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "29":  {
+               "id":  29,
+               "name":  "BlackSkillZ_V1",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "30":  {
+               "id":  30,
+               "name":  "Crafting",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "31":  {
+               "id":  31,
+               "name":  "cs_assault",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "32":  {
+               "id":  32,
+               "name":  "cs_assaultV2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "33":  {
+               "id":  33,
+               "name":  "cs_assaultV3",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "34":  {
+               "id":  34,
+               "name":  "DBZ",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "35":  {
+               "id":  35,
+               "name":  "Dice-SLv1",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "36":  {
+               "id":  36,
+               "name":  "DiceV2_SF",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "37":  {
+               "id":  37,
+               "name":  "DramaSkillTrail V1",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "38":  {
+               "id":  38,
+               "name":  "DusteRSkillTrail_V3fix",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "39":  {
+               "id":  39,
+               "name":  "DusteRSkillTrailV1",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "40":  {
+               "id":  40,
+               "name":  "FinishLine",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "41":  {
+               "id":  41,
+               "name":  "firstmap",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "42":  {
+               "id":  42,
+               "name":  "House_Simpsons2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "43":  {
+               "id":  43,
+               "name":  "lalalal",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "44":  {
+               "id":  44,
+               "name":  "MarioCastle",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "45":  {
+               "id":  45,
+               "name":  "Master_Skiller",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "46":  {
+               "id":  46,
+               "name":  "MasterSkillerV2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "47":  {
+               "id":  47,
+               "name":  "MasterskillV1",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "48":  {
+               "id":  48,
+               "name":  "MasterSkillV2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "49":  {
+               "id":  49,
+               "name":  "Mithlond",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "50":  {
+               "id":  50,
+               "name":  "Mountain Fort",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "51":  {
+               "id":  51,
+               "name":  "New York",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "52":  {
+               "id":  52,
+               "name":  "Night Arena",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "53":  {
+               "id":  53,
+               "name":  "ObstacleCourse",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "54":  {
+               "id":  54,
+               "name":  "pirate docks",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "55":  {
+               "id":  55,
+               "name":  "ReflectSkillZ",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "56":  {
+               "id":  56,
+               "name":  "Ringer",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "57":  {
+               "id":  57,
+               "name":  "RoF",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "58":  {
+               "id":  58,
+               "name":  "Shaolin_Duel",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "59":  {
+               "id":  59,
+               "name":  "Shaolin_Temp",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "60":  {
+               "id":  60,
+               "name":  "Showoff",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "61":  {
+               "id":  61,
+               "name":  "Silly",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "62":  {
+               "id":  62,
+               "name":  "Skill King",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "63":  {
+               "id":  63,
+               "name":  "Skill-Test",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "64":  {
+               "id":  64,
+               "name":  "SkillCityMap",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "65":  {
+               "id":  65,
+               "name":  "SkillFutureMap",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "66":  {
+               "id":  66,
+               "name":  "SkillGalaxyV2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "67":  {
+               "id":  67,
+               "name":  "SkillIceMap",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "68":  {
+               "id":  68,
+               "name":  "Skillmap",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "69":  {
+               "id":  69,
+               "name":  "SkillMapDigital",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "70":  {
+               "id":  70,
+               "name":  "SkillMapGold",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "71":  {
+               "id":  71,
+               "name":  "SkillMapSG Basic",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "72":  {
+               "id":  72,
+               "name":  "SkillMapSG V1",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "73":  {
+               "id":  73,
+               "name":  "SkillMapSG V2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "74":  {
+               "id":  74,
+               "name":  "SkillMapSG V3",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "75":  {
+               "id":  75,
+               "name":  "skillmapv2",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "76":  {
+               "id":  76,
+               "name":  "skillmapv3",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "77":  {
+               "id":  77,
+               "name":  "SkillmapV4",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "78":  {
+               "id":  78,
+               "name":  "SkillmapV6",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "79":  {
+               "id":  79,
+               "name":  "SkillMapV8",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "80":  {
+               "id":  80,
+               "name":  "SkillmapVirtual",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "81":  {
+               "id":  81,
+               "name":  "SkillTronic",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "82":  {
+               "id":  82,
+               "name":  "Skyline",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "83":  {
+               "id":  83,
+               "name":  "Star_Race",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "84":  {
+               "id":  84,
+               "name":  "Street_Duel",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "85":  {
+               "id":  85,
+               "name":  "Superflip",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "86":  {
+               "id":  86,
+               "name":  "SuperMario3",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "87":  {
+               "id":  87,
+               "name":  "ThePillar",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           },
+    "88":  {
+               "id":  88,
+               "name":  "triboss",
+               "image":  "",
+               "banner":  "",
+               "exp_ratio":  1,
+               "max_players":  8,
+               "only_duel":  false,
+               "modes":  [
+                             "DM",
+                             "TDM",
+                             "GL",
+                             "TGL",
+                             "TRAIN"
+                         ],
+               "available":  true,
+               "source":  "custom"
+           }
+}

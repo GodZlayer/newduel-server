@@ -1,0 +1,1198 @@
+{
+  "source": "messages.xml",
+  "count": 298,
+  "messages": [
+    {
+      "id": 500,
+      "text": "Announcements"
+    },
+    {
+      "id": 501,
+      "text": "Log into the ijji.com GUNZ home page first and Click Play live to launch GunZ."
+    },
+    {
+      "id": 1000,
+      "text": "You must wait 1 minute before reporting again."
+    },
+    {
+      "id": 1001,
+      "text": "Chat details are reported."
+    },
+    {
+      "id": 1002,
+      "text": "Please return to the main lobby to recruit a clan member."
+    },
+    {
+      "id": 1003,
+      "text": "Enter $1 characters or longer."
+    },
+    {
+      "id": 1004,
+      "text": "Command Syntax Error."
+    },
+    {
+      "id": 1005,
+      "text": "Command Syntax Error."
+    },
+    {
+      "id": 1006,
+      "text": "Can only be implemented in the lobby."
+    },
+    {
+      "id": 1007,
+      "text": "Can only be implemented in the waiting room."
+    },
+    {
+      "id": 1008,
+      "text": "Can only be implemented in the game."
+    },
+    {
+      "id": 1009,
+      "text": "The request has been canceled."
+    },
+    {
+      "id": 1010,
+      "text": "Cannot use this command."
+    },
+    {
+      "id": 1011,
+      "text": "The screen shot has been saved in \"My Documents$1\"."
+    },
+    {
+      "id": 1012,
+      "text": "An attempt to save screenshot has failed."
+    },
+    {
+      "id": 1013,
+      "text": "Recording started."
+    },
+    {
+      "id": 1014,
+      "text": "Recording has been saved in  \"My Documents$1\"."
+    },
+    {
+      "id": 1015,
+      "text": "Saving the recording has failed."
+    },
+    {
+      "id": 1016,
+      "text": "Voting for kicking '%s' has started."
+    },
+    {
+      "id": 1017,
+      "text": "If you want to participate in the voting, press 'Y' for Yes; 'N' for No."
+    },
+    {
+      "id": 1018,
+      "text": "Select the user to be kicked."
+    },
+    {
+      "id": 1019,
+      "text": "[ESC] Cancel"
+    },
+    {
+      "id": 1020,
+      "text": "Vote is accepted."
+    },
+    {
+      "id": 1021,
+      "text": "Vote is rejected."
+    },
+    {
+      "id": 1022,
+      "text": "Vote option is not available."
+    },
+    {
+      "id": 1023,
+      "text": "Vote on '$1' has commenced."
+    },
+    {
+      "id": 1024,
+      "text": "Searching for the opposing team $1"
+    },
+    {
+      "id": 1025,
+      "text": "The user has left the room."
+    },
+    {
+      "id": 1105,
+      "text": "$1 is trying to recruit '$3' for clan with $2. Would you like to join?"
+    },
+    {
+      "id": 1106,
+      "text": "$1 rejected the offer to join the clan."
+    },
+    {
+      "id": 1107,
+      "text": "Clan created"
+    },
+    {
+      "id": 1108,
+      "text": "This clan is disbanded. The clan will no longer exist after 48 hours."
+    },
+    {
+      "id": 1109,
+      "text": "Only the Clan Leader can execute this command."
+    },
+    {
+      "id": 1110,
+      "text": "Only the Clan Leader and Clan Administrator can perform this command."
+    },
+    {
+      "id": 1111,
+      "text": "You have already joined a clan."
+    },
+    {
+      "id": 1112,
+      "text": "You are not a member of any clan."
+    },
+    {
+      "id": 1113,
+      "text": "Would you like to join the clan?"
+    },
+    {
+      "id": 1114,
+      "text": "Your membership has been rejected."
+    },
+    {
+      "id": 1115,
+      "text": "You have joined the clan."
+    },
+    {
+      "id": 1116,
+      "text": "You have left the clan."
+    },
+    {
+      "id": 1117,
+      "text": "Clan Leader cannot leave the clan."
+    },
+    {
+      "id": 1118,
+      "text": "Deletion cannot be done while you are a clan member. You have to quit the clan first."
+    },
+    {
+      "id": 1119,
+      "text": "Permissions has been changed."
+    },
+    {
+      "id": 1120,
+      "text": "The selected member has been removed from the clan."
+    },
+    {
+      "id": 1121,
+      "text": "You have to recruit $1 members to create a clan."
+    },
+    {
+      "id": 1122,
+      "text": "Are you sure that you want to disband the clan?"
+    },
+    {
+      "id": 1123,
+      "text": "Are you sure that you want to leave the clan?"
+    },
+    {
+      "id": 1124,
+      "text": "Clan Name is different."
+    },
+    {
+      "id": 1125,
+      "text": "Clan Member '$1' has logged in."
+    },
+    {
+      "id": 1200,
+      "text": "You cannot delete a character that is equipped with a Cash item.  Unequip the item first and try again."
+    },
+    {
+      "id": 1201,
+      "text": "Character is deleted."
+    },
+    {
+      "id": 1202,
+      "text": "You will return to the previous resolution settings in $1 second(s)."
+    },
+    {
+      "id": 1301,
+      "text": "Clan Leader : $1, $2 accessed."
+    },
+    {
+      "id": 1302,
+      "text": "%d waiting."
+    },
+    {
+      "id": 1303,
+      "text": "You have not joined the clan."
+    },
+    {
+      "id": 1304,
+      "text": "Select the free channel if you do not want any level restraint."
+    },
+    {
+      "id": 1305,
+      "text": "You are to fight with all users regardless of the channel in the league game."
+    },
+    {
+      "id": 1306,
+      "text": "$1 is invited to the Chat Room."
+    },
+    {
+      "id": 1307,
+      "text": "$1 has invited you to the Chat Room '$2'."
+    },
+    {
+      "id": 1308,
+      "text": "$2' has entered the Chat Room '$1'."
+    },
+    {
+      "id": 1309,
+      "text": "$2' has exited the Chat Room '$1'."
+    },
+    {
+      "id": 1310,
+      "text": "Will be converted to the Chat Room '$1'."
+    },
+    {
+      "id": 1312,
+      "text": "Chat Room($1) $2 : $3"
+    },
+    {
+      "id": 1313,
+      "text": "Request being made to open the Chat Room ..."
+    },
+    {
+      "id": 1314,
+      "text": "Request being made to join the Chat Room ..."
+    },
+    {
+      "id": 1315,
+      "text": "Leave Chat Room."
+    },
+    {
+      "id": 1316,
+      "text": "Selecting Chat Room."
+    },
+    {
+      "id": 1317,
+      "text": "You have entered the channel '$1'."
+    },
+    {
+      "id": 1400,
+      "text": "Waiting for response."
+    },
+    {
+      "id": 1401,
+      "text": "Please wait until the player agrees."
+    },
+    {
+      "id": 1402,
+      "text": "$1 has invited you to participate in a Clan War. Do you accept the invite?"
+    },
+    {
+      "id": 1403,
+      "text": "$1 has rejected your request."
+    },
+    {
+      "id": 1404,
+      "text": "$1 has cancelled the request."
+    },
+    {
+      "id": 1405,
+      "text": "It has been cancelled"
+    },
+    {
+      "id": 1406,
+      "text": "Select the right number of people."
+    },
+    {
+      "id": 1420,
+      "text": "$1 have invited you to a clan war. Do you accept the invite?"
+    },
+    {
+      "id": 1510,
+      "text": "$1' Clan has defeated '$2' Clan $3 times in a row and is very confident."
+    },
+    {
+      "id": 1511,
+      "text": "$1' Clan defeated '$2' Clan recording $3 wins in a row."
+    },
+    {
+      "id": 1512,
+      "text": "$1' Clan defeated '$2' Clan to record $3 wins in a row with great ease."
+    },
+    {
+      "id": 1513,
+      "text": "$1' Clan defeated '$2' Clan to successfully record $3 wins in a row."
+    },
+    {
+      "id": 1514,
+      "text": "$1' Clan defeated '$2' Clan $3 wins in a row."
+    },
+    {
+      "id": 1515,
+      "text": "$1' Clan defeated '$2' Clan stopping its consecutive winning streak."
+    },
+    {
+      "id": 1520,
+      "text": "$1' has won $4 Duel Matches in a row in $3 room of '$2' channel."
+    },
+    {
+      "id": 1521,
+      "text": "$2' has stopped '$1' from a winning streak of $3 straight Duel Matches."
+    },
+    {
+      "id": 1600,
+      "text": "'Dash'"
+    },
+    {
+      "id": 1601,
+      "text": "You can move faster by Dashing"
+    },
+    {
+      "id": 1602,
+      "text": "You can Dash when you are in mid-air. (Melee Weapon Required)."
+    },
+    {
+      "id": 1603,
+      "text": "'Perfect defense'"
+    },
+    {
+      "id": 1604,
+      "text": "During defense, you can completely block  bullets and melee attacks."
+    },
+    {
+      "id": 1605,
+      "text": "Lower attacks are impossible to defend."
+    },
+    {
+      "id": 1606,
+      "text": "'Special attack'"
+    },
+    {
+      "id": 1607,
+      "text": "With a long sword equipped, it knocks your target upward in the air."
+    },
+    {
+      "id": 1608,
+      "text": "With a dagger equipped, it pushes your target suspending him/her with its pushing power."
+    },
+    {
+      "id": 1609,
+      "text": "Break fall'"
+    },
+    {
+      "id": 1610,
+      "text": "A successful break fall maneuver reduces the additional damage that you."
+    },
+    {
+      "id": 1611,
+      "text": "might suffer as you cannot move while on the ground."
+    },
+    {
+      "id": 1612,
+      "text": "'Tumbling'"
+    },
+    {
+      "id": 1613,
+      "text": "You can avoid an attack by tumbling."
+    },
+    {
+      "id": 1614,
+      "text": "You can also fire a gun while tumbling."
+    },
+    {
+      "id": 1615,
+      "text": "'Wall hang'"
+    },
+    {
+      "id": 1616,
+      "text": "Click on the right mouse button when jumping in mid-air next to a wall."
+    },
+    {
+      "id": 1617,
+      "text": "This move can only be used with your melee weapon equipped."
+    },
+    {
+      "id": 1618,
+      "text": "'Wall jump'"
+    },
+    {
+      "id": 1619,
+      "text": "Press the Jump Key when you are close to any wall."
+    },
+    {
+      "id": 1620,
+      "text": "to perform the wall jump."
+    },
+    {
+      "id": 1621,
+      "text": "'Wall Running'"
+    },
+    {
+      "id": 1622,
+      "text": "Press and hold the Jump Key when the character standing diagonal against any wall while moving"
+    },
+    {
+      "id": 1623,
+      "text": "forward then the character can automatically run on the wall."
+    },
+    {
+      "id": 1624,
+      "text": "Climb along the wall"
+    },
+    {
+      "id": 1625,
+      "text": "You can climb along the wall."
+    },
+    {
+      "id": 1626,
+      "text": "The function only works if you are very close to the wall."
+    },
+    {
+      "id": 1700,
+      "text": "[Character Information]============="
+    },
+    {
+      "id": 1701,
+      "text": "Name"
+    },
+    {
+      "id": 1702,
+      "text": "Clan"
+    },
+    {
+      "id": 1703,
+      "text": "Level"
+    },
+    {
+      "id": 1704,
+      "text": "Winning Percentage"
+    },
+    {
+      "id": 1705,
+      "text": "Win"
+    },
+    {
+      "id": 1706,
+      "text": "Lose"
+    },
+    {
+      "id": 1707,
+      "text": "Connection Time"
+    },
+    {
+      "id": 1708,
+      "text": "day"
+    },
+    {
+      "id": 1709,
+      "text": "hour"
+    },
+    {
+      "id": 1710,
+      "text": "min"
+    },
+    {
+      "id": 1711,
+      "text": "sec"
+    },
+    {
+      "id": 1712,
+      "text": "EXP"
+    },
+    {
+      "id": 1713,
+      "text": "Bounty"
+    },
+    {
+      "id": 1714,
+      "text": "HP"
+    },
+    {
+      "id": 1715,
+      "text": "AP"
+    },
+    {
+      "id": 1716,
+      "text": "WT"
+    },
+    {
+      "id": 1717,
+      "text": "Lv."
+    },
+    {
+      "id": 2000,
+      "text": "$1 has joined the game."
+    },
+    {
+      "id": 2001,
+      "text": "$1 has left the game."
+    },
+    {
+      "id": 2002,
+      "text": "$1 has leveled up."
+    },
+    {
+      "id": 2003,
+      "text": "$1 has leveled down."
+    },
+    {
+      "id": 2004,
+      "text": "Clan War $1 ( $2 vs. $3 )"
+    },
+    {
+      "id": 2005,
+      "text": "Fallen into oblivion."
+    },
+    {
+      "id": 2006,
+      "text": "You have committed suicide."
+    },
+    {
+      "id": 2007,
+      "text": "You have committed suicide."
+    },
+    {
+      "id": 2008,
+      "text": "$1 has commited suicide."
+    },
+    {
+      "id": 2009,
+      "text": "You have defeated $1."
+    },
+    {
+      "id": 2010,
+      "text": "$1 has defeated you."
+    },
+    {
+      "id": 2011,
+      "text": "$1 has defeated $2."
+    },
+    {
+      "id": 2012,
+      "text": "Press the Fire key to play!"
+    },
+    {
+      "id": 2013,
+      "text": "Wait for $1 second(s)!"
+    },
+    {
+      "id": 2014,
+      "text": "You will leave the game in $1 second(s)"
+    },
+    {
+      "id": 2015,
+      "text": "Whispering ($1) : $2"
+    },
+    {
+      "id": 2016,
+      "text": "The item has been withdrawn."
+    },
+    {
+      "id": 2017,
+      "text": "The item cannot be withdrawn"
+    },
+    {
+      "id": 2018,
+      "text": "You have purchased the item"
+    },
+    {
+      "id": 2019,
+      "text": "You cannot purchase the item"
+    },
+    {
+      "id": 2020,
+      "text": "Your item has been sold."
+    },
+    {
+      "id": 2021,
+      "text": "There is no character to select. Create a character first."
+    },
+    {
+      "id": 2022,
+      "text": "You cannot sell this item."
+    },
+    {
+      "id": 2023,
+      "text": "You will advance to the next round in $1 second(s)."
+    },
+    {
+      "id": 2024,
+      "text": "Quest Team got a(an) $1."
+    },
+    {
+      "id": 2025,
+      "text": "Got $2 $1(s)."
+    },
+    {
+      "id": 2026,
+      "text": "The Portal was opened."
+    },
+    {
+      "id": 2027,
+      "text": "Auto Team Balance"
+    },
+    {
+      "id": 2028,
+      "text": "Wrong item combination."
+    },
+    {
+      "id": 3000,
+      "text": "Administrator: $1"
+    },
+    {
+      "id": 8000,
+      "text": "None"
+    },
+    {
+      "id": 8001,
+      "text": "Add a friend"
+    },
+    {
+      "id": 8002,
+      "text": "Delete a friend"
+    },
+    {
+      "id": 8003,
+      "text": "Check Location"
+    },
+    {
+      "id": 8004,
+      "text": "Catch up with"
+    },
+    {
+      "id": 8005,
+      "text": "Whisper"
+    },
+    {
+      "id": 8006,
+      "text": "Kick"
+    },
+    {
+      "id": 8007,
+      "text": "Recruit"
+    },
+    {
+      "id": 8008,
+      "text": "Delegate a new Clan Leader"
+    },
+    {
+      "id": 8009,
+      "text": "Changing to clan administrator grade."
+    },
+    {
+      "id": 8010,
+      "text": "Changing to clan member grade."
+    },
+    {
+      "id": 8011,
+      "text": "Kick out of the clan"
+    },
+    {
+      "id": 8012,
+      "text": "Quit the clan"
+    },
+    {
+      "id": 8013,
+      "text": ""
+    },
+    {
+      "id": 8014,
+      "text": "OK"
+    },
+    {
+      "id": 8015,
+      "text": "Cancel"
+    },
+    {
+      "id": 8016,
+      "text": "Yes"
+    },
+    {
+      "id": 8017,
+      "text": "No"
+    },
+    {
+      "id": 8018,
+      "text": "Message"
+    },
+    {
+      "id": 9000,
+      "text": ""
+    },
+    {
+      "id": 9001,
+      "text": "Clan Leader"
+    },
+    {
+      "id": 9002,
+      "text": "Clan Administrator"
+    },
+    {
+      "id": 9003,
+      "text": "Clan Member"
+    },
+    {
+      "id": 9004,
+      "text": "Administrator"
+    },
+    {
+      "id": 9005,
+      "text": "Developer"
+    },
+    {
+      "id": 9006,
+      "text": "Commands"
+    },
+    {
+      "id": 9007,
+      "text": "Help"
+    },
+    {
+      "id": 9008,
+      "text": "Usage"
+    },
+    {
+      "id": 9100,
+      "text": "Male"
+    },
+    {
+      "id": 9101,
+      "text": "Female"
+    },
+    {
+      "id": 9102,
+      "text": "Male"
+    },
+    {
+      "id": 9103,
+      "text": "Female"
+    },
+    {
+      "id": 9200,
+      "text": "Lobby"
+    },
+    {
+      "id": 9201,
+      "text": "Stage"
+    },
+    {
+      "id": 9202,
+      "text": "Shop"
+    },
+    {
+      "id": 9203,
+      "text": "Equipment"
+    },
+    {
+      "id": 9204,
+      "text": "Cash"
+    },
+    {
+      "id": 9302,
+      "text": "For Men"
+    },
+    {
+      "id": 9349,
+      "text": "For Women"
+    },
+    {
+      "id": 9303,
+      "text": "Req. Level"
+    },
+    {
+      "id": 9304,
+      "text": "Weight"
+    },
+    {
+      "id": 9305,
+      "text": "Attributes:Fire"
+    },
+    {
+      "id": 9306,
+      "text": "Attributes:Ice"
+    },
+    {
+      "id": 9307,
+      "text": "Attributes:Poison"
+    },
+    {
+      "id": 9308,
+      "text": "Attributes:Lightning"
+    },
+    {
+      "id": 9309,
+      "text": "Duration"
+    },
+    {
+      "id": 9310,
+      "text": "Clip"
+    },
+    {
+      "id": 9311,
+      "text": "Damage"
+    },
+    {
+      "id": 9312,
+      "text": "Delay"
+    },
+    {
+      "id": 9313,
+      "text": "Max Wgt."
+    },
+    {
+      "id": 9314,
+      "text": "Speed"
+    },
+    {
+      "id": 9315,
+      "text": "Jump [X]"
+    },
+    {
+      "id": 9316,
+      "text": "Dash [X]"
+    },
+    {
+      "id": 9317,
+      "text": "Wall climbing [X]"
+    },
+    {
+      "id": 9318,
+      "text": "Damage"
+    },
+    {
+      "id": 9319,
+      "text": "Quest"
+    },
+    {
+      "id": 9320,
+      "text": "Item"
+    },
+    {
+      "id": 9321,
+      "text": "Sacrifice"
+    },
+    {
+      "id": 9322,
+      "text": "Players"
+    },
+    {
+      "id": 9323,
+      "text": "Blue"
+    },
+    {
+      "id": 9324,
+      "text": "Red"
+    },
+    {
+      "id": 9325,
+      "text": "Quantity"
+    },
+    {
+      "id": 9326,
+      "text": "Searching for the counter team"
+    },
+    {
+      "id": 9327,
+      "text": "Num of items"
+    },
+    {
+      "id": 9328,
+      "text": "Num of NPC"
+    },
+    {
+      "id": 9329,
+      "text": "Progression"
+    },
+    {
+      "id": 9330,
+      "text": "Remaining Time"
+    },
+    {
+      "id": 9331,
+      "text": "V"
+    },
+    {
+      "id": 9363,
+      "text": "Objective Kills"
+    },
+    {
+      "id": 9364,
+      "text": "Round"
+    },
+    {
+      "id": 9332,
+      "text": "Rate"
+    },
+    {
+      "id": 9333,
+      "text": "Grade"
+    },
+    {
+      "id": 9334,
+      "text": "Regular"
+    },
+    {
+      "id": 9335,
+      "text": "Legendary"
+    },
+    {
+      "id": 9336,
+      "text": "Boss"
+    },
+    {
+      "id": 9337,
+      "text": "Elite"
+    },
+    {
+      "id": 9338,
+      "text": "Veteran"
+    },
+    {
+      "id": 9339,
+      "text": "Very strong"
+    },
+    {
+      "id": 9340,
+      "text": "Strong"
+    },
+    {
+      "id": 9341,
+      "text": "Average"
+    },
+    {
+      "id": 9342,
+      "text": "Weak"
+    },
+    {
+      "id": 9343,
+      "text": "Very Weak"
+    },
+    {
+      "id": 9344,
+      "text": "Infinite"
+    },
+    {
+      "id": 9345,
+      "text": "None"
+    },
+    {
+      "id": 9346,
+      "text": "Level gap"
+    },
+    {
+      "id": 9347,
+      "text": "Allowed"
+    },
+    {
+      "id": 9348,
+      "text": "Prohibited"
+    },
+    {
+      "id": 9365,
+      "text": "Type"
+    },
+    {
+      "id": 9366,
+      "text": "Exp"
+    },
+    {
+      "id": 9367,
+      "text": "Kill"
+    },
+    {
+      "id": 9368,
+      "text": "Death"
+    },
+    {
+      "id": 9369,
+      "text": "Ping"
+    },
+    {
+      "id": 9370,
+      "text": "< Head >"
+    },
+    {
+      "id": 9371,
+      "text": "< Chest >"
+    },
+    {
+      "id": 9372,
+      "text": "< Hands >"
+    },
+    {
+      "id": 9373,
+      "text": "< Legs >"
+    },
+    {
+      "id": 9374,
+      "text": "< Feet >"
+    },
+    {
+      "id": 9375,
+      "text": "< Left Finger >"
+    },
+    {
+      "id": 9376,
+      "text": "< Right Finger >"
+    },
+    {
+      "id": 9377,
+      "text": "< Melee >"
+    },
+    {
+      "id": 9378,
+      "text": "< Primary Weapon >"
+    },
+    {
+      "id": 9379,
+      "text": "< Secondary Weapon >"
+    },
+    {
+      "id": 9380,
+      "text": "< Item 1 >"
+    },
+    {
+      "id": 9381,
+      "text": "< Item 2 >"
+    },
+    {
+      "id": 9382,
+      "text": "Debug Server"
+    },
+    {
+      "id": 9383,
+      "text": "Match Server"
+    },
+    {
+      "id": 9384,
+      "text": "Clan Server"
+    },
+    {
+      "id": 9385,
+      "text": "Quest Server"
+    },
+    {
+      "id": 9386,
+      "text": "Event Server"
+    },
+    {
+      "id": 9387,
+      "text": "iGunZ Server"
+    },
+    {
+      "id": 100100,
+      "text": "Searching for a counterpart team $1"
+    },
+    {
+      "id": 100200,
+      "text": "The vote on '$1' has started."
+    },
+    {
+      "id": 100300,
+      "text": "There is a word '$1' that you cannot use."
+    },
+    {
+      "id": 9350,
+      "text": "Deathmatch"
+    },
+    {
+      "id": 9351,
+      "text": "Team Deathmatch"
+    },
+    {
+      "id": 9352,
+      "text": "Gladiator"
+    },
+    {
+      "id": 9353,
+      "text": "Team Gladiator"
+    },
+    {
+      "id": 9354,
+      "text": "Assassination"
+    },
+    {
+      "id": 9355,
+      "text": "Training"
+    },
+    {
+      "id": 9356,
+      "text": "Classic"
+    },
+    {
+      "id": 9357,
+      "text": "Team Classic"
+    },
+    {
+      "id": 9358,
+      "text": "Survival"
+    },
+    {
+      "id": 9359,
+      "text": "Quest"
+    },
+    {
+      "id": 9360,
+      "text": "Berserker"
+    },
+    {
+      "id": 9361,
+      "text": "Team Deathmatch Extreme"
+    },
+    {
+      "id": 9362,
+      "text": "The Duel match"
+    },
+    {
+      "id": 9400,
+      "text": "remaining."
+    },
+    {
+      "id": 9401,
+      "text": "You joined stage '$1'."
+    },
+    {
+      "id": 9402,
+      "text": "$1' joined stage '$2'."
+    },
+    {
+      "id": 9500,
+      "text": "ON"
+    },
+    {
+      "id": 9501,
+      "text": "OFF"
+    },
+    {
+      "id": 9601,
+      "text": "A hacking attempt has been detected."
+    },
+    {
+      "id": 20000,
+      "text": "A hacking attempt has been detected. In accordance with the agreement that members have consented, the GUNZ Operation Team continues to monitor and collect information on the users who hack. Keep in mind that all the responsibility brought about by committing any illegal act in civil or criminal case falls on the shoulders of the user who commits such an illegal act."
+    },
+    {
+      "id": 20001,
+      "text": "The following items have expired:"
+    },
+    {
+      "id": 20002,
+      "text": "You can mount or release an equipment by dragging or double clicking an icon. You cannot send a bounty equipment (item) to the Storage."
+    },
+    {
+      "id": 20003,
+      "text": "WARNING: GunZ does not support the $1. You may be unable to view certain fonts or proceed with gameplay. Do you still wish to continue?"
+    },
+    {
+      "id": 20004,
+      "text": "GunZ requires DirectX 9.0c to run properly. Would you like to install DirectX 9.0c now?"
+    },
+    {
+      "id": 20005,
+      "text": "**This is not decided yet**"
+    },
+    {
+      "id": 20006,
+      "text": "Please enter 'YES' if you would like to delete this character."
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "source": "protocol.xml",
+  "requests": [
+    {
+      "id": "CheckProcessToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckDBConnectionToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckProcessRunningTimeToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckCpuPerformanceToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckMemoryPerformanceToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckDiskPerformanceToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckUserConnectionToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckProcessToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckDBConnectionToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckProcessRunningTimeToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckCpuPerformanceToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckMemoryPerformanceToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckDiskPerformanceToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    },
+    {
+      "id": "CheckUserConnectionToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "string",
+          "description": "destination task name",
+          "name": "target"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": "CheckProcessToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckDBConnectionToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckProcessRunningTimeToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckCpuPerformanceToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckMemoryPerformanceToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckDiskPerformanceToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckUserConnectionToMRS",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckProcessToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckDBConnectionToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckProcessRunningTimeToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckCpuPerformanceToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckMemoryPerformanceToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckDiskPerformanceToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    },
+    {
+      "id": "CheckUserConnectionToSVR",
+      "params": [
+        {
+          "type": "string",
+          "description": "request task name",
+          "name": "task_name"
+        },
+        {
+          "type": "parse_string",
+          "description": "result output stirng",
+          "name": "output_string"
+        },
+        {
+          "type": "DWORD",
+          "description": "last update time",
+          "name": "last_update_time"
+        }
+      ]
+    }
+  ]
+}

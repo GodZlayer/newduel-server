@@ -1,0 +1,401 @@
+{
+  "source": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-source-master\\src\\GunzNakama\\XML\\chatcmds.xml",
+  "count": 25,
+  "commands": [
+    {
+      "id": 1,
+      "name": "help",
+      "usage": "STR:CMD_USAGE_1",
+      "help": "STR:CMD_HELP_1",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_1_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_1_2"
+        },
+        {
+          "name": "h"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "STR:CMD_NAME_2",
+      "usage": "STR:CMD_USAGE_2",
+      "help": "STR:CMD_HELP_2",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_2_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_2_2"
+        },
+        {
+          "name": "whisper"
+        },
+        {
+          "name": "w"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "112",
+      "usage": "STR:CMD_USAGE_3",
+      "help": "STR:CMD_HELP_3",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_3_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_3_2"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "STR:CMD_NAME_5",
+      "usage": "STR:CMD_USAGE_5",
+      "help": "STR:CMD_HELP_5",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_5_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_5_2"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "STR:CMD_NAME_6",
+      "usage": "STR:CMD_USAGE_6",
+      "help": "STR:CMD_HELP_6",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_6_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_6_2"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "STR:CMD_NAME_7",
+      "usage": "STR:CMD_USAGE_7",
+      "help": "STR:CMD_HELP_7",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_7_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_7_2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "STR:CMD_NAME_8",
+      "usage": "STR:CMD_USAGE_8",
+      "help": "STR:CMD_HELP_8",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_8_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_8_2"
+        },
+        {
+          "name": "provoke"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "STR:CMD_NAME_9",
+      "usage": "STR:CMD_USAGE_9",
+      "help": "STR:CMD_HELP_9",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_9_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_9_2"
+        },
+        {
+          "name": "bow"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "STR:CMD_NAME_10",
+      "usage": "STR:CMD_USAGE_10",
+      "help": "STR:CMD_HELP_10",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_10_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_10_2"
+        },
+        {
+          "name": "wave"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "STR:CMD_NAME_11",
+      "usage": "STR:CMD_USAGE_11",
+      "help": "STR:CMD_HELP_11",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_11_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_11_2"
+        },
+        {
+          "name": "laugh"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "STR:CMD_NAME_12",
+      "usage": "STR:CMD_USAGE_12",
+      "help": "STR:CMD_HELP_12",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_12_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_12_2"
+        },
+        {
+          "name": "cry"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "STR:CMD_NAME_13",
+      "usage": "STR:CMD_USAGE_13",
+      "help": "STR:CMD_HELP_13",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_13_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_13_2"
+        },
+        {
+          "name": "dance"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "STR:CMD_NAME_14",
+      "usage": "STR:CMD_USAGE_14",
+      "help": "STR:CMD_HELP_14",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_14_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_14_2"
+        },
+        {
+          "name": "macro"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "STR:CMD_NAME_15",
+      "usage": "STR:CMD_USAGE_15",
+      "help": "STR:CMD_HELP_15",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_15_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_15_2"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "STR:CMD_NAME_16",
+      "usage": "STR:CMD_USAGE_16",
+      "help": "STR:CMD_HELP_16",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_16_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_16_2"
+        },
+        {
+          "name": "callvote"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "STR:CMD_NAME_17",
+      "usage": "STR:CMD_USAGE_17",
+      "help": "STR:CMD_HELP_17",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_17_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_17_2"
+        },
+        {
+          "name": "yes"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "STR:CMD_NAME_18",
+      "usage": "STR:CMD_USAGE_18",
+      "help": "STR:CMD_HELP_18",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_18_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_18_2"
+        },
+        {
+          "name": "no"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "STR:CMD_NAME_19",
+      "usage": "STR:CMD_USAGE_19",
+      "help": "STR:CMD_HELP_19",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_19_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_19_2"
+        },
+        {
+          "name": "강퇴"
+        },
+        {
+          "name": "kick"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "STR:CMD_NAME_20",
+      "usage": "STR:CMD_USAGE_20",
+      "help": "STR:CMD_HELP_20",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_20_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_20_2"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "STR:CMD_NAME_21",
+      "usage": "STR:CMD_USAGE_21",
+      "help": "STR:CMD_HELP_21",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_21_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_21_2"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "STR:CMD_NAME_22",
+      "usage": "STR:CMD_USAGE_22",
+      "help": "STR:CMD_HELP_22",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_22_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_22_2"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "STR:CMD_NAME_23",
+      "usage": "STR:CMD_USAGE_23",
+      "help": "STR:CMD_HELP_23",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_23_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_23_2"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "STR:CMD_NAME_24",
+      "usage": "STR:CMD_USAGE_24",
+      "help": "STR:CMD_HELP_24",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_24_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_24_2"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "STR:CMD_NAME_25",
+      "usage": "STR:CMD_USAGE_25",
+      "help": "STR:CMD_HELP_25",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_25_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_25_2"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "STR:CMD_NAME_26",
+      "usage": "STR:CMD_USAGE_26",
+      "help": "STR:CMD_HELP_26",
+      "aliases": [
+        {
+          "name": "STR:CMD_ALIAS_26_1"
+        },
+        {
+          "name": "STR:CMD_ALIAS_26_2"
+        }
+      ]
+    }
+  ]
+}

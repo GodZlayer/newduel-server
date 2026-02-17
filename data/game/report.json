@@ -1,0 +1,14 @@
+{
+  "outputs": {
+    "zitem": "C:\\Users\\santo\\Documents\\OpenGunz\\nakama-server\\data\\game\\zitem.json",
+    "shop": "C:\\Users\\santo\\Documents\\OpenGunz\\nakama-server\\data\\game\\shop.json",
+    "formula": "C:\\Users\\santo\\Documents\\OpenGunz\\nakama-server\\data\\game\\formula.json",
+    "droptable": "C:\\Users\\santo\\Documents\\OpenGunz\\nakama-server\\data\\game\\droptable.json"
+  },
+  "counts": {
+    "zitem": 507,
+    "shop": 176,
+    "formula": 3,
+    "droptable": 19
+  }
+}

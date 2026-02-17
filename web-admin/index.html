@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenGunZ - Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@heroiclabs/nakama-js@2.6.1/dist/nakama-js.umd.js"></script>
+    <style>
+        body { background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .sidebar { height: 100vh; background-color: #212529; color: white; padding-top: 20px; }
+        .sidebar a { color: #adb5bd; text-decoration: none; padding: 10px 20px; display: block; }
+        .sidebar a:hover, .sidebar a.active { background-color: #343a40; color: white; }
+        .card { border: none; box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); }
+        #login-screen { max-width: 400px; margin: 100px auto; }
+    </style>
+</head>
+<body>
+
+<div id="login-screen" class="card p-4">
+    <h3 class="text-center mb-4">Admin Login</h3>
+    <div class="mb-3">
+        <label class="form-label">Server IP</label>
+        <input type="text" id="server-ip" class="form-control" value="127.0.0.1">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="admin@example.com">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" id="password" class="form-control">
+    </div>
+    <button id="login-btn" class="btn btn-primary w-100">Login</button>
+</div>
+
+<div id="main-content" class="container-fluid d-none">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block sidebar">
+            <h4 class="px-3">OpenGunZ</h4>
+            <hr>
+            <a href="#" class="active" onclick="showSection('stats')">Dashboard</a>
+            <a href="#" onclick="showSection('users')">Users</a>
+            <a href="#" onclick="showSection('announcements')">Announcements</a>
+            <hr>
+            <a href="#" onclick="logout()">Logout</a>
+        </nav>
+
+        <main class="col-md-10 ms-sm-auto px-md-4 py-4">
+            <div id="stats-section">
+                <h2>Server Stats</h2>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center bg-primary text-white">
+                            <h5>Users</h5>
+                            <h3 id="stat-users">0</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center bg-success text-white">
+                            <h5>Clans</h5>
+                            <h3 id="stat-clans">0</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center bg-info text-white">
+                            <h5>Version</h5>
+                            <h3 id="stat-version">-</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="users-section" class="d-none">
+                <h2>User Management</h2>
+                <table class="table table-striped mt-4">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Display Name</th>
+                            <th>Created At</th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-table-body">
+                        <!-- Users will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="announcements-section" class="d-none">
+                <h2>Send Announcement</h2>
+                <div class="card p-4 mt-4">
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea id="announcement-msg" class="form-control" rows="3" placeholder="Enter message to all players..."></textarea>
+                    </div>
+                    <button class="btn btn-warning" onclick="sendAnnouncement()">Broadcast</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script>
+    let client, session;
+
+    async function login() {
+        const serverIp = document.getElementById('server-ip').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        client = new nakamajs.Client("defaultkey", serverIp, 7350, false);
+        try {
+            session = await client.authenticateEmail(email, password);
+            console.info("Authenticated successfully:", session);
+            
+            document.getElementById('login-screen').classList.add('d-none');
+            document.getElementById('main-content').classList.remove('d-none');
+            
+            loadStats();
+        } catch (e) {
+            alert("Login failed: " + e.message);
+        }
+    }
+
+    async function loadStats() {
+        try {
+            const response = await client.rpc(session, "get_admin_stats", {});
+            const stats = response.payload;
+            document.getElementById('stat-users').innerText = stats.users;
+            document.getElementById('stat-clans').innerText = stats.clans;
+            document.getElementById('stat-version').innerText = stats.version;
+        } catch (e) {
+            console.error("Failed to load stats", e);
+        }
+    }
+
+    async function loadUsers() {
+        try {
+            const response = await client.rpc(session, "admin_list_users", {});
+            const body = document.getElementById('user-table-body');
+            body.innerHTML = '';
+            
+            response.payload.users.forEach(user => {
+                const row = `<tr>
+                    <td>${user.id.substring(0,8)}...</td>
+                    <td>${user.username}</td>
+                    <td>${user.display_name || '-'}</td>
+                    <td>${new Date(user.create_time).toLocaleDateString()}</td>
+                </tr>`;
+                body.innerHTML += row;
+            });
+        } catch (e) {
+            console.error("Failed to load users", e);
+        }
+    }
+
+    async function sendAnnouncement() {
+        const msg = document.getElementById('announcement-msg').value;
+        if(!msg) return;
+
+        try {
+            await client.rpc(session, "server_announce", { message: msg });
+            alert("Announcement sent!");
+            document.getElementById('announcement-msg').value = '';
+        } catch (e) {
+            alert("Error sending announcement: " + e.message);
+        }
+    }
+
+    function showSection(section) {
+        document.getElementById('stats-section').classList.add('d-none');
+        document.getElementById('users-section').classList.add('d-none');
+        document.getElementById('announcements-section').classList.add('d-none');
+        
+        document.getElementById(section + '-section').classList.remove('d-none');
+        
+        if(section === 'users') loadUsers();
+        if(section === 'stats') loadStats();
+
+        document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+
+    function logout() {
+        location.reload();
+    }
+
+    document.getElementById('login-btn').addEventListener('click', login);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,2759 @@
+{
+  "11": {
+    "id": 11,
+    "name": "STR:NPC_NAME_11",
+    "desc": "STR:NPC_DESC_11",
+    "meshname": "goblin",
+    "grade": "regular",
+    "max_hp": 30,
+    "max_ap": 50,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 15,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 110,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 150,
+      "weaponitem_id": 300011
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "G11"
+    },
+    "skills": []
+  },
+  "12": {
+    "id": 12,
+    "name": "STR:NPC_NAME_12",
+    "desc": "STR:NPC_DESC_12",
+    "meshname": "goblinG",
+    "grade": "regular",
+    "max_hp": 30,
+    "max_ap": 30,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 110,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 110,
+      "weaponitem_id": 300012
+    },
+    "speed": {
+      "default": 230,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "G12"
+    },
+    "skills": [
+      121
+    ]
+  },
+  "13": {
+    "id": 13,
+    "name": "STR:NPC_NAME_13",
+    "desc": "STR:NPC_DESC_13",
+    "meshname": "goblinW",
+    "grade": "veteran",
+    "max_hp": 40,
+    "max_ap": 40,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 130,
+      "weaponitem_id": 300013
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "G13"
+    },
+    "skills": [
+      131,
+      132
+    ]
+  },
+  "14": {
+    "id": 14,
+    "name": "STR:NPC_NAME_14",
+    "desc": "STR:NPC_DESC_14",
+    "meshname": "goblinH",
+    "grade": "veteran",
+    "max_hp": 50,
+    "max_ap": 100,
+    "int": 4,
+    "agility": 2,
+    "view_angle": 40,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 35,
+      "height": 140,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 170,
+      "weaponitem_id": 300014
+    },
+    "speed": {
+      "default": 360,
+      "rotate": 0
+    },
+    "flags": {
+      "never_pushed": true
+    },
+    "drop": {
+      "table": "G14"
+    },
+    "skills": []
+  },
+  "15": {
+    "id": 15,
+    "name": "STR:NPC_NAME_15",
+    "desc": "STR:NPC_DESC_15",
+    "meshname": "goblinC",
+    "grade": "elite",
+    "max_hp": 200,
+    "max_ap": 100,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 15,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 35,
+      "height": 160,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 270,
+      "weaponitem_id": 300015
+    },
+    "speed": {
+      "default": 320,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G15"
+    },
+    "skills": [
+      151,
+      152
+    ]
+  },
+  "16": {
+    "id": 16,
+    "name": "STR:NPC_NAME_16",
+    "desc": "STR:NPC_DESC_16",
+    "meshname": "goblinK",
+    "grade": "boss",
+    "max_hp": 6000,
+    "max_ap": 6000,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 20,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.5 2.5 2.5",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300016
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G16"
+    },
+    "skills": [
+      161,
+      162
+    ]
+  },
+  "17": {
+    "id": 17,
+    "name": "STR:NPC_NAME_17",
+    "desc": "STR:NPC_DESC_17",
+    "meshname": "goblinK",
+    "grade": "boss",
+    "max_hp": 5000,
+    "max_ap": 5000,
+    "int": 4,
+    "agility": 5,
+    "view_angle": 20,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.1 2.1 2.1",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300016
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G17"
+    },
+    "skills": [
+      161,
+      162
+    ]
+  },
+  "18": {
+    "id": 18,
+    "name": "STR:NPC_NAME_18",
+    "desc": "STR:NPC_DESC_18",
+    "meshname": "goblinKB",
+    "grade": "boss",
+    "max_hp": 9000,
+    "max_ap": 9000,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 20,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.8 2.8 2.8",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300017
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G18"
+    },
+    "skills": [
+      163,
+      164,
+      166
+    ]
+  },
+  "19": {
+    "id": 19,
+    "name": "STR:NPC_NAME_19",
+    "desc": "STR:NPC_DESC_19",
+    "meshname": "goblinK",
+    "grade": "boss",
+    "max_hp": 5000,
+    "max_ap": 5000,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 20,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300017
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G19"
+    },
+    "skills": [
+      167,
+      168,
+      169,
+      174
+    ]
+  },
+  "21": {
+    "id": 21,
+    "name": "STR:NPC_NAME_21",
+    "desc": "STR:NPC_DESC_21",
+    "meshname": "kobolt",
+    "grade": "regular",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 35,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 165,
+      "weaponitem_id": 300021
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 0
+    },
+    "flags": {
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K21"
+    },
+    "skills": []
+  },
+  "22": {
+    "id": 22,
+    "name": "STR:NPC_NAME_22",
+    "desc": "STR:NPC_DESC_22",
+    "meshname": "kobold_shaman",
+    "grade": "regular",
+    "max_hp": 40,
+    "max_ap": 40,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 33,
+      "height": 130,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 135,
+      "weaponitem_id": 300022
+    },
+    "speed": {
+      "default": 250,
+      "rotate": 0
+    },
+    "flags": {
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K22"
+    },
+    "skills": [
+      221,
+      222
+    ]
+  },
+  "23": {
+    "id": 23,
+    "name": "STR:NPC_NAME_23",
+    "desc": "STR:NPC_DESC_23",
+    "meshname": "koboltC",
+    "grade": "veteran",
+    "max_hp": 90,
+    "max_ap": 90,
+    "int": 2,
+    "agility": 1,
+    "view_angle": 15,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.3 1.3 1.3",
+    "collision": {
+      "radius": 38,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 230,
+      "weaponitem_id": 300023
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 0
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K23"
+    },
+    "skills": []
+  },
+  "24": {
+    "id": 24,
+    "name": "STR:NPC_NAME_24",
+    "desc": "STR:NPC_DESC_24",
+    "meshname": "koboltK",
+    "grade": "elite",
+    "max_hp": 160,
+    "max_ap": 160,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 15,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 60,
+      "height": 250,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 370,
+      "weaponitem_id": 300024
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 4
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K24"
+    },
+    "skills": [
+      241
+    ]
+  },
+  "25": {
+    "id": 25,
+    "name": "STR:NPC_NAME_25",
+    "desc": "STR:NPC_DESC_25",
+    "meshname": "koboltK",
+    "grade": "boss",
+    "max_hp": 5000,
+    "max_ap": 7000,
+    "int": 2,
+    "agility": 3,
+    "view_angle": 15,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.8 1.8 1.8",
+    "collision": {
+      "radius": 60,
+      "height": 250,
+      "tremble": 10,
+      "pick": true
+    },
+    "attack": {
+      "type": "melee",
+      "range": 550,
+      "weaponitem_id": 300025
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 3
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K25"
+    },
+    "skills": [
+      251,
+      252
+    ]
+  },
+  "26": {
+    "id": 26,
+    "name": "STR:NPC_NAME_26",
+    "desc": "STR:NPC_DESC_26",
+    "meshname": "golem",
+    "grade": "boss",
+    "max_hp": 7000,
+    "max_ap": 8000,
+    "int": 1,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 60,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.7 1.7 1.7",
+    "collision": {
+      "radius": 50,
+      "height": 305,
+      "tremble": 10,
+      "pick": true
+    },
+    "attack": {
+      "type": "melee",
+      "range": 400,
+      "weaponitem_id": 300026
+    },
+    "speed": {
+      "default": 350,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K26"
+    },
+    "skills": [
+      261,
+      262,
+      263
+    ]
+  },
+  "31": {
+    "id": 31,
+    "name": "STR:NPC_NAME_31",
+    "desc": "STR:NPC_DESC_31",
+    "meshname": "skeleton",
+    "grade": "regular",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 40,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.1 1.1 1.1",
+    "collision": {
+      "radius": 30,
+      "height": 135,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 180,
+      "weaponitem_id": 300031
+    },
+    "speed": {
+      "default": 160,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S31"
+    },
+    "skills": []
+  },
+  "32": {
+    "id": 32,
+    "name": "STR:NPC_NAME_32",
+    "desc": "STR:NPC_DESC_32",
+    "meshname": "skeletonM",
+    "grade": "regular",
+    "max_hp": 40,
+    "max_ap": 40,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "0.8 0.8 0.8",
+    "collision": {
+      "radius": 30,
+      "height": 195,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 120,
+      "weaponitem_id": 300032
+    },
+    "speed": {
+      "default": 160,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "S32"
+    },
+    "skills": [
+      321,
+      322
+    ]
+  },
+  "33": {
+    "id": 33,
+    "name": "STR:NPC_NAME_33",
+    "desc": "STR:NPC_DESC_33",
+    "meshname": "skeletonC",
+    "grade": "veteran",
+    "max_hp": 80,
+    "max_ap": 100,
+    "int": 3,
+    "agility": 3,
+    "view_angle": 25,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.1 1.1 1.1",
+    "collision": {
+      "radius": 30,
+      "height": 155,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 280,
+      "weaponitem_id": 300033
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 0
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S33"
+    },
+    "skills": []
+  },
+  "34": {
+    "id": 34,
+    "name": "STR:NPC_NAME_34",
+    "desc": "STR:NPC_DESC_34",
+    "meshname": "skeletonB",
+    "grade": "elite",
+    "max_hp": 200,
+    "max_ap": 100,
+    "int": 3,
+    "agility": 3,
+    "view_angle": 25,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.3 1.3 1.3",
+    "collision": {
+      "radius": 40,
+      "height": 250,
+      "tremble": 10,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 350,
+      "weaponitem_id": 300034
+    },
+    "speed": {
+      "default": 500,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S34"
+    },
+    "skills": [
+      341
+    ]
+  },
+  "35": {
+    "id": 35,
+    "name": "STR:NPC_NAME_35",
+    "desc": "STR:NPC_DESC_35",
+    "meshname": "theUnholy",
+    "grade": "elite",
+    "max_hp": 200,
+    "max_ap": 100,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.6 1.6 1.6",
+    "collision": {
+      "radius": 30,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 180,
+      "weaponitem_id": 300035
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S35"
+    },
+    "skills": [
+      351,
+      352,
+      353
+    ]
+  },
+  "36": {
+    "id": 36,
+    "name": "STR:NPC_NAME_36",
+    "desc": "STR:NPC_DESC_36",
+    "meshname": "Lich",
+    "grade": "regular",
+    "max_hp": 40,
+    "max_ap": 0,
+    "int": 3,
+    "agility": 3,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "0.17 0.17 0.17",
+    "collision": {
+      "radius": 120,
+      "height": 700,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 120,
+      "weaponitem_id": 300036
+    },
+    "speed": {
+      "default": 200,
+      "rotate": 2.452
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S36"
+    },
+    "skills": [
+      361
+    ]
+  },
+  "37": {
+    "id": 37,
+    "name": "STR:NPC_NAME_37",
+    "desc": "STR:NPC_DESC_37",
+    "meshname": "skeletonB",
+    "grade": "boss",
+    "max_hp": 6000,
+    "max_ap": 7000,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 15,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.1 2.1 2.1",
+    "collision": {
+      "radius": 40,
+      "height": 250,
+      "tremble": 10,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 550,
+      "weaponitem_id": 300037
+    },
+    "speed": {
+      "default": 700,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S37"
+    },
+    "skills": [
+      371,
+      372,
+      373
+    ]
+  },
+  "38": {
+    "id": 38,
+    "name": "STR:NPC_NAME_38",
+    "desc": "STR:NPC_DESC_38",
+    "meshname": "theUnholy",
+    "grade": "boss",
+    "max_hp": 7000,
+    "max_ap": 7000,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 50,
+    "offensetype": 2,
+    "dyingtime": 8,
+    "scale": "4.0 4.0 4.0",
+    "collision": {
+      "radius": 15,
+      "height": 150,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 1,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 200,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S38"
+    },
+    "skills": [
+      381,
+      382,
+      383
+    ]
+  },
+  "39": {
+    "id": 39,
+    "name": "STR:NPC_NAME_39",
+    "desc": "STR:NPC_DESC_39",
+    "meshname": "Lich",
+    "grade": "boss",
+    "max_hp": 7000,
+    "max_ap": 8000,
+    "int": 1,
+    "agility": 1,
+    "view_angle": 20,
+    "dc": 60,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 80,
+      "height": 750,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 300,
+      "weaponitem_id": 300039
+    },
+    "speed": {
+      "default": 1000,
+      "rotate": 5
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S39"
+    },
+    "skills": [
+      391,
+      392,
+      393
+    ]
+  },
+  "41": {
+    "id": 41,
+    "name": "STR:NPC_NAME_41",
+    "desc": "STR:NPC_DESC_41",
+    "meshname": "palmpou_baby",
+    "grade": "regular",
+    "max_hp": 600,
+    "max_ap": 0,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 15,
+      "height": 30,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 80,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "P41"
+    },
+    "skills": [
+      411
+    ]
+  },
+  "42": {
+    "id": 42,
+    "name": "STR:NPC_NAME_42",
+    "desc": "STR:NPC_DESC_42",
+    "meshname": "palmpoa",
+    "grade": "regular",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 40,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "P42"
+    },
+    "skills": [
+      421
+    ]
+  },
+  "43": {
+    "id": 43,
+    "name": "STR:NPC_NAME_43",
+    "desc": "STR:NPC_DESC_43",
+    "meshname": "palmpoaH",
+    "grade": "veteran",
+    "max_hp": 100,
+    "max_ap": 100,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "2.0 2.0 2.0",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 80,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "P43"
+    },
+    "skills": [
+      432
+    ]
+  },
+  "44": {
+    "id": 44,
+    "name": "STR:NPC_NAME_44",
+    "desc": "STR:NPC_DESC_44",
+    "meshname": "palmpou",
+    "grade": "elite",
+    "max_hp": 200,
+    "max_ap": 200,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "3.0 3.0 3.0",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 80,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "P44"
+    },
+    "skills": [
+      441
+    ]
+  },
+  "45": {
+    "id": 45,
+    "name": "STR:NPC_NAME_45",
+    "desc": "STR:NPC_DESC_45",
+    "meshname": "cpalmpoa",
+    "grade": "boss",
+    "max_hp": 8000,
+    "max_ap": 8000,
+    "int": 1,
+    "agility": 4,
+    "view_angle": 60,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "2.0 2.0 2.0",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 80,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "P45"
+    },
+    "skills": [
+      451
+    ]
+  },
+  "46": {
+    "id": 46,
+    "name": "STR:NPC_NAME_46",
+    "desc": "STR:NPC_DESC_46",
+    "meshname": "palmpoaH",
+    "grade": "boss",
+    "max_hp": 3000,
+    "max_ap": 3000,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "2.0 2.0 2.0",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 80,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "P46"
+    },
+    "skills": [
+      431
+    ]
+  },
+  "47": {
+    "id": 47,
+    "name": "STR:NPC_NAME_47",
+    "desc": "STR:NPC_DESC_47",
+    "meshname": "palmpou",
+    "grade": "boss",
+    "max_hp": 6000,
+    "max_ap": 6000,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "3.0 3.0 3.0",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 80,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "P47"
+    },
+    "skills": [
+      442
+    ]
+  },
+  "48": {
+    "id": 48,
+    "name": "STR:NPC_NAME_48",
+    "desc": "STR:NPC_DESC_48",
+    "meshname": "palmpou_baby",
+    "grade": "regular",
+    "max_hp": 60,
+    "max_ap": 0,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 0,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 25,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 40,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "P48"
+    },
+    "skills": [
+      411
+    ]
+  },
+  "111": {
+    "id": 111,
+    "name": "STR:NPC_NAME_11",
+    "desc": "STR:NPC_DESC_11",
+    "meshname": "goblinE",
+    "grade": "regular",
+    "max_hp": 30,
+    "max_ap": 50,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 15,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 110,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 150,
+      "weaponitem_id": 300011
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "E01"
+    },
+    "skills": []
+  },
+  "131": {
+    "id": 131,
+    "name": "STR:NPC_NAME_31",
+    "desc": "STR:NPC_DESC_31",
+    "meshname": "skeleton",
+    "grade": "regular",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 40,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.1 1.1 1.1",
+    "collision": {
+      "radius": 30,
+      "height": 135,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 180,
+      "weaponitem_id": 300031
+    },
+    "speed": {
+      "default": 160,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "E01"
+    },
+    "skills": []
+  },
+  "141": {
+    "id": 141,
+    "name": "STR:NPC_NAME_191",
+    "desc": "STR:NPC_DESC_191",
+    "meshname": "goblinK",
+    "grade": "boss",
+    "max_hp": 400,
+    "max_ap": 400,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 20,
+    "dc": 30,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300018
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G191"
+    },
+    "skills": [
+      173
+    ]
+  },
+  "142": {
+    "id": 142,
+    "name": "STR:NPC_NAME_181",
+    "desc": "STR:NPC_DESC_181",
+    "meshname": "goblinKB",
+    "grade": "boss",
+    "max_hp": 400,
+    "max_ap": 400,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 20,
+    "dc": 30,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300018
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G181"
+    },
+    "skills": [
+      171,
+      172
+    ]
+  },
+  "143": {
+    "id": 143,
+    "name": "STR:NPC_NAME_24",
+    "desc": "STR:NPC_DESC_24",
+    "meshname": "koboltK",
+    "grade": "boss",
+    "max_hp": 400,
+    "max_ap": 400,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 15,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 60,
+      "height": 250,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 370,
+      "weaponitem_id": 300024
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 4
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K24"
+    },
+    "skills": [
+      241
+    ]
+  },
+  "144": {
+    "id": 144,
+    "name": "STR:NPC_NAME_24",
+    "desc": "STR:NPC_DESC_24",
+    "meshname": "koboltK",
+    "grade": "boss",
+    "max_hp": 500,
+    "max_ap": 500,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 15,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 60,
+      "height": 250,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 370,
+      "weaponitem_id": 300024
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 4
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K24"
+    },
+    "skills": [
+      241
+    ]
+  },
+  "145": {
+    "id": 145,
+    "name": "STR:NPC_NAME_35",
+    "desc": "STR:NPC_DESC_35",
+    "meshname": "theUnholy",
+    "grade": "boss",
+    "max_hp": 400,
+    "max_ap": 400,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.6 1.6 1.6",
+    "collision": {
+      "radius": 30,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 180,
+      "weaponitem_id": 300035
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S35"
+    },
+    "skills": [
+      351,
+      352,
+      353
+    ]
+  },
+  "151": {
+    "id": 151,
+    "name": "STR:NPC_NAME_11",
+    "desc": "STR:NPC_DESC_11",
+    "meshname": "goblin",
+    "grade": "regular",
+    "max_hp": 10,
+    "max_ap": 15,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 15,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 110,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 150,
+      "weaponitem_id": 300011
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "G11"
+    },
+    "skills": []
+  },
+  "152": {
+    "id": 152,
+    "name": "STR:NPC_NAME_12",
+    "desc": "STR:NPC_DESC_12",
+    "meshname": "goblinG",
+    "grade": "regular",
+    "max_hp": 10,
+    "max_ap": 10,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 110,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 110,
+      "weaponitem_id": 300012
+    },
+    "speed": {
+      "default": 230,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "G12"
+    },
+    "skills": [
+      121
+    ]
+  },
+  "153": {
+    "id": 153,
+    "name": "STR:NPC_NAME_13",
+    "desc": "STR:NPC_DESC_13",
+    "meshname": "goblinW",
+    "grade": "veteran",
+    "max_hp": 15,
+    "max_ap": 15,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 30,
+      "height": 120,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 130,
+      "weaponitem_id": 300013
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 0
+    },
+    "flags": {},
+    "drop": {
+      "table": "G13"
+    },
+    "skills": [
+      131,
+      132
+    ]
+  },
+  "154": {
+    "id": 154,
+    "name": "STR:NPC_NAME_14",
+    "desc": "STR:NPC_DESC_14",
+    "meshname": "goblinH",
+    "grade": "veteran",
+    "max_hp": 15,
+    "max_ap": 35,
+    "int": 4,
+    "agility": 2,
+    "view_angle": 40,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 35,
+      "height": 140,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 170,
+      "weaponitem_id": 300014
+    },
+    "speed": {
+      "default": 360,
+      "rotate": 0
+    },
+    "flags": {
+      "never_pushed": true
+    },
+    "drop": {
+      "table": "G14"
+    },
+    "skills": []
+  },
+  "155": {
+    "id": 155,
+    "name": "STR:NPC_NAME_15",
+    "desc": "STR:NPC_DESC_15",
+    "meshname": "goblinC",
+    "grade": "elite",
+    "max_hp": 60,
+    "max_ap": 35,
+    "int": 4,
+    "agility": 4,
+    "view_angle": 15,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 35,
+      "height": 160,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 270,
+      "weaponitem_id": 300015
+    },
+    "speed": {
+      "default": 320,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G15"
+    },
+    "skills": [
+      151,
+      152
+    ]
+  },
+  "156": {
+    "id": 156,
+    "name": "STR:NPC_NAME_16",
+    "desc": "STR:NPC_DESC_16",
+    "meshname": "goblinK",
+    "grade": "boss",
+    "max_hp": 1200,
+    "max_ap": 1200,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 20,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.5 2.5 2.5",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300016
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G16"
+    },
+    "skills": [
+      161,
+      162
+    ]
+  },
+  "157": {
+    "id": 157,
+    "name": "STR:NPC_NAME_191",
+    "desc": "STR:NPC_DESC_191",
+    "meshname": "goblinK",
+    "grade": "elite",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 20,
+    "dc": 30,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300018
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G191"
+    },
+    "skills": [
+      173
+    ]
+  },
+  "158": {
+    "id": 158,
+    "name": "STR:NPC_NAME_181",
+    "desc": "STR:NPC_DESC_181",
+    "meshname": "goblinKB",
+    "grade": "elite",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 20,
+    "dc": 30,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300018
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G181"
+    },
+    "skills": [
+      171,
+      172
+    ]
+  },
+  "159": {
+    "id": 159,
+    "name": "STR:NPC_NAME_18",
+    "desc": "STR:NPC_DESC_18",
+    "meshname": "goblinKB",
+    "grade": "boss",
+    "max_hp": 1500,
+    "max_ap": 1500,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 20,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.8 2.8 2.8",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300017
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G18"
+    },
+    "skills": [
+      163,
+      164,
+      166
+    ]
+  },
+  "161": {
+    "id": 161,
+    "name": "STR:NPC_NAME_21",
+    "desc": "STR:NPC_DESC_21",
+    "meshname": "kobolt",
+    "grade": "regular",
+    "max_hp": 15,
+    "max_ap": 15,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 35,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 165,
+      "weaponitem_id": 300021
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 0
+    },
+    "flags": {
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K21"
+    },
+    "skills": []
+  },
+  "162": {
+    "id": 162,
+    "name": "STR:NPC_NAME_22",
+    "desc": "STR:NPC_DESC_22",
+    "meshname": "kobold_shaman",
+    "grade": "regular",
+    "max_hp": 15,
+    "max_ap": 15,
+    "int": 2,
+    "agility": 4,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 33,
+      "height": 130,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 135,
+      "weaponitem_id": 300022
+    },
+    "speed": {
+      "default": 250,
+      "rotate": 0
+    },
+    "flags": {
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K22"
+    },
+    "skills": [
+      221,
+      222
+    ]
+  },
+  "163": {
+    "id": 163,
+    "name": "STR:NPC_NAME_23",
+    "desc": "STR:NPC_DESC_23",
+    "meshname": "koboltC",
+    "grade": "veteran",
+    "max_hp": 30,
+    "max_ap": 30,
+    "int": 2,
+    "agility": 1,
+    "view_angle": 15,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.3 1.3 1.3",
+    "collision": {
+      "radius": 38,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 230,
+      "weaponitem_id": 300023
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 0
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K23"
+    },
+    "skills": []
+  },
+  "164": {
+    "id": 164,
+    "name": "STR:NPC_NAME_24",
+    "desc": "STR:NPC_DESC_24",
+    "meshname": "koboltK",
+    "grade": "elite",
+    "max_hp": 50,
+    "max_ap": 50,
+    "int": 2,
+    "agility": 2,
+    "view_angle": 15,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 60,
+      "height": 250,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 370,
+      "weaponitem_id": 300024
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 4
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K24"
+    },
+    "skills": [
+      241
+    ]
+  },
+  "165": {
+    "id": 165,
+    "name": "STR:NPC_NAME_25",
+    "desc": "STR:NPC_DESC_25",
+    "meshname": "koboltK",
+    "grade": "boss",
+    "max_hp": 800,
+    "max_ap": 1200,
+    "int": 2,
+    "agility": 3,
+    "view_angle": 15,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.8 1.8 1.8",
+    "collision": {
+      "radius": 60,
+      "height": 250,
+      "tremble": 10,
+      "pick": true
+    },
+    "attack": {
+      "type": "melee",
+      "range": 550,
+      "weaponitem_id": 300025
+    },
+    "speed": {
+      "default": 300,
+      "rotate": 3
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K25"
+    },
+    "skills": [
+      251,
+      252
+    ]
+  },
+  "166": {
+    "id": 166,
+    "name": "STR:NPC_NAME_26",
+    "desc": "STR:NPC_DESC_26",
+    "meshname": "golem",
+    "grade": "boss",
+    "max_hp": 1200,
+    "max_ap": 1400,
+    "int": 1,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 60,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.7 1.7 1.7",
+    "collision": {
+      "radius": 50,
+      "height": 305,
+      "tremble": 10,
+      "pick": true
+    },
+    "attack": {
+      "type": "melee",
+      "range": 400,
+      "weaponitem_id": 300026
+    },
+    "speed": {
+      "default": 350,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K26"
+    },
+    "skills": [
+      261,
+      262,
+      263
+    ]
+  },
+  "167": {
+    "id": 167,
+    "name": "STR:NPC_NAME_26",
+    "desc": "STR:NPC_DESC_26",
+    "meshname": "golem",
+    "grade": "boss",
+    "max_hp": 1200,
+    "max_ap": 1400,
+    "int": 1,
+    "agility": 2,
+    "view_angle": 25,
+    "dc": 60,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 305,
+      "tremble": 10,
+      "pick": true
+    },
+    "attack": {
+      "type": "melee",
+      "range": 350,
+      "weaponitem_id": 300026
+    },
+    "speed": {
+      "default": 350,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "K26"
+    },
+    "skills": [
+      261,
+      262,
+      263
+    ]
+  },
+  "171": {
+    "id": 171,
+    "name": "STR:NPC_NAME_31",
+    "desc": "STR:NPC_DESC_31",
+    "meshname": "skeleton",
+    "grade": "regular",
+    "max_hp": 20,
+    "max_ap": 20,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 40,
+    "dc": 5,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.1 1.1 1.1",
+    "collision": {
+      "radius": 30,
+      "height": 135,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 180,
+      "weaponitem_id": 300031
+    },
+    "speed": {
+      "default": 160,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S31"
+    },
+    "skills": []
+  },
+  "172": {
+    "id": 172,
+    "name": "STR:NPC_NAME_32",
+    "desc": "STR:NPC_DESC_32",
+    "meshname": "skeletonM",
+    "grade": "regular",
+    "max_hp": 15,
+    "max_ap": 15,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "0.8 0.8 0.8",
+    "collision": {
+      "radius": 30,
+      "height": 195,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 120,
+      "weaponitem_id": 300032
+    },
+    "speed": {
+      "default": 160,
+      "rotate": 2.356
+    },
+    "flags": {},
+    "drop": {
+      "table": "S32"
+    },
+    "skills": [
+      321,
+      322
+    ]
+  },
+  "173": {
+    "id": 173,
+    "name": "STR:NPC_NAME_33",
+    "desc": "STR:NPC_DESC_33",
+    "meshname": "skeletonC",
+    "grade": "veteran",
+    "max_hp": 25,
+    "max_ap": 35,
+    "int": 3,
+    "agility": 3,
+    "view_angle": 25,
+    "dc": 6,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.1 1.1 1.1",
+    "collision": {
+      "radius": 30,
+      "height": 155,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 280,
+      "weaponitem_id": 300033
+    },
+    "speed": {
+      "default": 400,
+      "rotate": 0
+    },
+    "flags": {
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S33"
+    },
+    "skills": []
+  },
+  "174": {
+    "id": 174,
+    "name": "STR:NPC_NAME_34",
+    "desc": "STR:NPC_DESC_34",
+    "meshname": "skeletonB",
+    "grade": "elite",
+    "max_hp": 70,
+    "max_ap": 35,
+    "int": 3,
+    "agility": 3,
+    "view_angle": 25,
+    "dc": 7,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.3 1.3 1.3",
+    "collision": {
+      "radius": 40,
+      "height": 250,
+      "tremble": 10,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 350,
+      "weaponitem_id": 300034
+    },
+    "speed": {
+      "default": 500,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S34"
+    },
+    "skills": [
+      341
+    ]
+  },
+  "175": {
+    "id": 175,
+    "name": "STR:NPC_NAME_35",
+    "desc": "STR:NPC_DESC_35",
+    "meshname": "theUnholy",
+    "grade": "elite",
+    "max_hp": 70,
+    "max_ap": 35,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 8,
+    "offensetype": 1,
+    "dyingtime": 5,
+    "scale": "1.6 1.6 1.6",
+    "collision": {
+      "radius": 30,
+      "height": 150,
+      "tremble": 0,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 180,
+      "weaponitem_id": 300035
+    },
+    "speed": {
+      "default": 150,
+      "rotate": 2.356
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S35"
+    },
+    "skills": [
+      351,
+      352,
+      353
+    ]
+  },
+  "176": {
+    "id": 176,
+    "name": "STR:NPC_NAME_36",
+    "desc": "STR:NPC_DESC_36",
+    "meshname": "Lich",
+    "grade": "regular",
+    "max_hp": 15,
+    "max_ap": 0,
+    "int": 3,
+    "agility": 3,
+    "view_angle": 25,
+    "dc": 5,
+    "offensetype": 2,
+    "dyingtime": 5,
+    "scale": "0.17 0.17 0.17",
+    "collision": {
+      "radius": 120,
+      "height": 700,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 120,
+      "weaponitem_id": 300036
+    },
+    "speed": {
+      "default": 200,
+      "rotate": 2.452
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S36"
+    },
+    "skills": [
+      361
+    ]
+  },
+  "177": {
+    "id": 177,
+    "name": "STR:NPC_NAME_37",
+    "desc": "STR:NPC_DESC_37",
+    "meshname": "skeletonB",
+    "grade": "boss",
+    "max_hp": 1000,
+    "max_ap": 1200,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 15,
+    "dc": 50,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "2.1 2.1 2.1",
+    "collision": {
+      "radius": 40,
+      "height": 250,
+      "tremble": 10,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 550,
+      "weaponitem_id": 300037
+    },
+    "speed": {
+      "default": 700,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S37"
+    },
+    "skills": [
+      371,
+      372,
+      373
+    ]
+  },
+  "178": {
+    "id": 178,
+    "name": "STR:NPC_NAME_38",
+    "desc": "STR:NPC_DESC_38",
+    "meshname": "theUnholy",
+    "grade": "boss",
+    "max_hp": 1000,
+    "max_ap": 1200,
+    "int": 3,
+    "agility": 5,
+    "view_angle": 25,
+    "dc": 50,
+    "offensetype": 2,
+    "dyingtime": 8,
+    "scale": "4.0 4.0 4.0",
+    "collision": {
+      "radius": 15,
+      "height": 150,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 1,
+      "weaponitem_id": 0
+    },
+    "speed": {
+      "default": 200,
+      "rotate": 0
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S38"
+    },
+    "skills": [
+      381,
+      382,
+      383
+    ]
+  },
+  "179": {
+    "id": 179,
+    "name": "STR:NPC_NAME_39",
+    "desc": "STR:NPC_DESC_39",
+    "meshname": "Lich",
+    "grade": "boss",
+    "max_hp": 1200,
+    "max_ap": 1200,
+    "int": 1,
+    "agility": 1,
+    "view_angle": 20,
+    "dc": 60,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 80,
+      "height": 750,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 300,
+      "weaponitem_id": 300039
+    },
+    "speed": {
+      "default": 1000,
+      "rotate": 5
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S39"
+    },
+    "skills": [
+      391,
+      392,
+      393
+    ]
+  },
+  "180": {
+    "id": 180,
+    "name": "STR:NPC_NAME_39",
+    "desc": "STR:NPC_DESC_39",
+    "meshname": "Lich",
+    "grade": "boss",
+    "max_hp": 1200,
+    "max_ap": 1200,
+    "int": 1,
+    "agility": 1,
+    "view_angle": 20,
+    "dc": 60,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.0 1.0 1.0",
+    "collision": {
+      "radius": 80,
+      "height": 750,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 300,
+      "weaponitem_id": 300039
+    },
+    "speed": {
+      "default": 416,
+      "rotate": 5
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "S39"
+    },
+    "skills": [
+      391,
+      392,
+      393
+    ]
+  },
+  "181": {
+    "id": 181,
+    "name": "STR:NPC_NAME_181",
+    "desc": "STR:NPC_DESC_181",
+    "meshname": "goblinKB",
+    "grade": "elite",
+    "max_hp": 150,
+    "max_ap": 150,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 20,
+    "dc": 30,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300018
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G181"
+    },
+    "skills": [
+      171,
+      172
+    ]
+  },
+  "191": {
+    "id": 191,
+    "name": "STR:NPC_NAME_191",
+    "desc": "STR:NPC_DESC_191",
+    "meshname": "goblinK",
+    "grade": "elite",
+    "max_hp": 150,
+    "max_ap": 150,
+    "int": 3,
+    "agility": 2,
+    "view_angle": 20,
+    "dc": 30,
+    "offensetype": 1,
+    "dyingtime": 8,
+    "scale": "1.2 1.2 1.2",
+    "collision": {
+      "radius": 50,
+      "height": 200,
+      "tremble": 5,
+      "pick": false
+    },
+    "attack": {
+      "type": "melee",
+      "range": 450,
+      "weaponitem_id": 300018
+    },
+    "speed": {
+      "default": 450,
+      "rotate": 4.712
+    },
+    "flags": {
+      "never_blasted": true,
+      "never_pushed": true,
+      "never_attack_cancel": true
+    },
+    "drop": {
+      "table": "G191"
+    },
+    "skills": [
+      173
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slash1": { "stunTicks": 6, "knockbackScale": 1.0, "coneDot": 0.5, "rangeScale": 1.0, "swingAngleDeg": 60, "samples": 5 },
+  "slash2": { "stunTicks": 6, "knockbackScale": 1.0, "coneDot": 0.5, "rangeScale": 1.0, "swingAngleDeg": 60, "samples": 5 },
+  "slash3": { "stunTicks": 6, "knockbackScale": 1.0, "coneDot": 0.45, "rangeScale": 1.0, "swingAngleDeg": 70, "samples": 5 },
+  "slash4": { "stunTicks": 8, "knockbackScale": 1.2, "coneDot": 0.45, "rangeScale": 1.05, "swingAngleDeg": 80, "samples": 5 },
+  "slash5": { "stunTicks": 12, "knockbackScale": 2.0, "coneDot": 0.4, "rangeScale": 1.1, "swingAngleDeg": 100, "samples": 7 },
+  "uppercut": { "stunTicks": 12, "knockbackScale": 2.0, "coneDot": 0.5, "rangeScale": 0.9, "swingAngleDeg": 50, "samples": 5 },
+  "massive": { "stunTicks": 14, "knockbackScale": 2.2, "coneDot": 0.3, "rangeScale": 1.2, "swingAngleDeg": 120, "samples": 7 }
+}

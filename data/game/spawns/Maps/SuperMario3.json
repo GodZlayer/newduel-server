@@ -1,0 +1,165 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "SuperMario3",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SuperMario3\\spawn.xml",
+      "count": 15,
+      "spawns": [
+        {
+          "item": "bullet02",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -3584.0,
+            -704.0,
+            4800.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2240.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2112.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "85000",
+          "gametype": "solo",
+          "pos": [
+            17792.0,
+            16256.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "85000",
+          "gametype": "solo",
+          "pos": [
+            17792.0,
+            16256.0,
+            2624.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "75000",
+          "gametype": "solo",
+          "pos": [
+            17856.0,
+            9664.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "55000",
+          "gametype": "solo",
+          "pos": [
+            -20800.0,
+            -15104.0,
+            1728.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "65000",
+          "gametype": "solo",
+          "pos": [
+            -128.0,
+            -16512.0,
+            64.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "65000",
+          "gametype": "team",
+          "pos": [
+            -3584.0,
+            -704.0,
+            4800.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "65000",
+          "gametype": "team",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2240.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "65000",
+          "gametype": "team",
+          "pos": [
+            -3200.0,
+            1152.0,
+            2112.0
+          ]
+        },
+        {
+          "item": "ap01",
+          "timesec": "85000",
+          "gametype": "team",
+          "pos": [
+            17792.0,
+            16256.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "hp01",
+          "timesec": "85000",
+          "gametype": "team",
+          "pos": [
+            17792.0,
+            16256.0,
+            2624.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "75000",
+          "gametype": "team",
+          "pos": [
+            17856.0,
+            9664.0,
+            2496.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "55000",
+          "gametype": "team",
+          "pos": [
+            -20800.0,
+            -15104.0,
+            1728.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SuperMario3/spawn.xml"
+    }
+  ]
+}

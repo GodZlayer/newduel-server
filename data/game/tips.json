@@ -1,0 +1,95 @@
+{
+  "source": "tips.xml",
+  "count": 2,
+  "tips": [
+    {
+      "category": 0,
+      "messages": [
+        {
+          "text": "If you have any inquiries about GunZ, you may use the Helpdesk function on the GunZ Main Page."
+        },
+        {
+          "text": "You can view a replay by double clicking the replay files located in .../My Documents/Gunz/Replay."
+        },
+        {
+          "text": "Press the F11 key to start recording a replay file. Press F11 again to stop recording."
+        },
+        {
+          "text": "You can view a replay file by selecting \"Replay\" in the Main Lobby."
+        },
+        {
+          "text": "Screenshots are saved in .../My Documents/Gunz/Screenshots."
+        },
+        {
+          "text": "Join a Clan now so you can experience a Clan War!"
+        },
+        {
+          "text": "Press the F12 key to take a screenshot."
+        },
+        {
+          "text": "Tell your friends about GunZ. Together you can make a Clan."
+        },
+        {
+          "text": "All premium items can be shared through the \"Storage\" with every character on the same account."
+        },
+        {
+          "text": "Do you use a router? Try port forwarding to experience optimized network play."
+        },
+        {
+          "text": "You can give your friend an item as a present by using the gift function on the webpage."
+        },
+        {
+          "text": "Is GunZ running slow on your computer? Use the optimization feature in the Options menu."
+        },
+        {
+          "text": "You can use the \"Play Now\" function to quickly join a game."
+        },
+        {
+          "text": "Never give your password to anyone. The administrator will never ask you for your password."
+        },
+        {
+          "text": "The premium items bought in the item shop will appear in your \"Storage\"."
+        },
+        {
+          "text": "Bounty items cannot be shared with other characters through your \"Storage\"."
+        },
+        {
+          "text": "Use training mode to practice your skills without losing experience points."
+        },
+        {
+          "text": "Use the chat command '/r' to quickly reply to a whisper."
+        },
+        {
+          "text": "If you have a level 21 character, you cannot enter the Entry-level or Beginner Channel with any other characters."
+        },
+        {
+          "text": "Any Game ID that may offend others will be restricted."
+        },
+        {
+          "text": "Anyone who offends others inside a game will be subject to punishment by the operating team."
+        },
+        {
+          "text": "If you successfully defend yourself against a melee attack, you have a chance to perform a Massive Strike right away!"
+        },
+        {
+          "text": "Press the Ctrl key+any Number while in observer mode to assign a number to a player."
+        },
+        {
+          "text": "Have you played the exciting Clan War? Try it now!"
+        },
+        {
+          "text": "In a Clan War you will receive 1.5 times the Exp. There is no loss of Exp. resulting from the level difference."
+        }
+      ]
+    },
+    {
+      "category": 4,
+      "messages": [
+        {
+          "id": 1,
+          "text": "For stable latency, please select a server which  accurately reflects your geographical location."
+        }
+      ]
+    }
+  ]
+}

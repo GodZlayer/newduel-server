@@ -1,0 +1,246 @@
+{
+  "source": "formula.xml",
+  "count": 3,
+  "tables": [
+    {
+      "id": "NeedExpLM",
+      "rows": [
+        {
+          "lower": 1,
+          "upper": 20,
+          "value": 1.0
+        },
+        {
+          "lower": 21,
+          "upper": 30,
+          "value": 1.1
+        },
+        {
+          "lower": 31,
+          "upper": 40,
+          "value": 1.2
+        },
+        {
+          "lower": 41,
+          "upper": 45,
+          "value": 1.4
+        },
+        {
+          "lower": 46,
+          "upper": 50,
+          "value": 1.6
+        },
+        {
+          "lower": 51,
+          "upper": 55,
+          "value": 1.8
+        },
+        {
+          "lower": 56,
+          "upper": 60,
+          "value": 2.0
+        },
+        {
+          "lower": 61,
+          "upper": 65,
+          "value": 4.0
+        },
+        {
+          "lower": 66,
+          "upper": 70,
+          "value": 8.0
+        },
+        {
+          "lower": 71,
+          "upper": 75,
+          "value": 12.0
+        },
+        {
+          "lower": 76,
+          "upper": 80,
+          "value": 16.0
+        },
+        {
+          "lower": 81,
+          "upper": 85,
+          "value": 20.0
+        },
+        {
+          "lower": 86,
+          "upper": 90,
+          "value": 20.0
+        },
+        {
+          "lower": 91,
+          "upper": 95,
+          "value": 40.0
+        },
+        {
+          "lower": 96,
+          "upper": 99,
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "id": "GettingExpLM",
+      "rows": [
+        {
+          "lower": 1,
+          "upper": 20,
+          "value": 1.0
+        },
+        {
+          "lower": 21,
+          "upper": 30,
+          "value": 1.0
+        },
+        {
+          "lower": 31,
+          "upper": 40,
+          "value": 1.0
+        },
+        {
+          "lower": 41,
+          "upper": 45,
+          "value": 1.1
+        },
+        {
+          "lower": 46,
+          "upper": 50,
+          "value": 1.1
+        },
+        {
+          "lower": 51,
+          "upper": 55,
+          "value": 1.1
+        },
+        {
+          "lower": 56,
+          "upper": 60,
+          "value": 1.1
+        },
+        {
+          "lower": 61,
+          "upper": 65,
+          "value": 1.1
+        },
+        {
+          "lower": 66,
+          "upper": 70,
+          "value": 1.1
+        },
+        {
+          "lower": 71,
+          "upper": 75,
+          "value": 1.1
+        },
+        {
+          "lower": 76,
+          "upper": 80,
+          "value": 1.1
+        },
+        {
+          "lower": 81,
+          "upper": 85,
+          "value": 1.2
+        },
+        {
+          "lower": 86,
+          "upper": 90,
+          "value": 1.2
+        },
+        {
+          "lower": 91,
+          "upper": 95,
+          "value": 1.2
+        },
+        {
+          "lower": 96,
+          "upper": 99,
+          "value": 1.2
+        }
+      ]
+    },
+    {
+      "id": "GettingBountyLM",
+      "rows": [
+        {
+          "lower": 1,
+          "upper": 20,
+          "value": 1.0
+        },
+        {
+          "lower": 21,
+          "upper": 30,
+          "value": 1.1
+        },
+        {
+          "lower": 31,
+          "upper": 40,
+          "value": 1.1
+        },
+        {
+          "lower": 41,
+          "upper": 45,
+          "value": 1.2
+        },
+        {
+          "lower": 46,
+          "upper": 50,
+          "value": 1.2
+        },
+        {
+          "lower": 51,
+          "upper": 55,
+          "value": 1.2
+        },
+        {
+          "lower": 56,
+          "upper": 60,
+          "value": 1.2
+        },
+        {
+          "lower": 61,
+          "upper": 65,
+          "value": 1.2
+        },
+        {
+          "lower": 66,
+          "upper": 70,
+          "value": 1.2
+        },
+        {
+          "lower": 71,
+          "upper": 75,
+          "value": 1.2
+        },
+        {
+          "lower": 76,
+          "upper": 80,
+          "value": 1.2
+        },
+        {
+          "lower": 81,
+          "upper": 85,
+          "value": 1.2
+        },
+        {
+          "lower": 86,
+          "upper": 90,
+          "value": 1.2
+        },
+        {
+          "lower": 91,
+          "upper": 95,
+          "value": 1.2
+        },
+        {
+          "lower": 96,
+          "upper": 99,
+          "value": 1.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+  "map": "SkillMapSG V3",
+  "count_files": 1,
+  "files": [
+    {
+      "file": "C:\\Users\\santo\\Documents\\OpenGunz\\ogz-client-master\\Maps\\SkillMapSG V3\\spawn.xml",
+      "count": 8,
+      "spawns": [
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            3592.0,
+            3672.0,
+            488.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            3592.0,
+            528.0,
+            496.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            1400.0,
+            104.0,
+            2584.0
+          ]
+        },
+        {
+          "item": "hp02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            -520.0,
+            112.0,
+            2592.0
+          ]
+        },
+        {
+          "item": "ap02",
+          "timesec": "150000",
+          "gametype": "solo",
+          "pos": [
+            -504.0,
+            -1304.0,
+            2592.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "60000",
+          "gametype": "solo",
+          "pos": [
+            664.0,
+            2376.0,
+            528.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "60000",
+          "gametype": "team",
+          "pos": [
+            664.0,
+            2376.0,
+            528.0
+          ]
+        },
+        {
+          "item": "bullet02",
+          "timesec": "90000",
+          "gametype": "team",
+          "pos": [
+            664.0,
+            2376.0,
+            528.0
+          ]
+        }
+      ],
+      "source_root": "C:/Users/santo/Documents/OpenGunz/ogz-client-master/Maps",
+      "relative": "SkillMapSG V3/spawn.xml"
+    }
+  ]
+}
