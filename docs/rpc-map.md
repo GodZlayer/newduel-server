@@ -1,5 +1,10 @@
 # RPC Map e Match Handlers
 
+> Nota: este arquivo contém seções legadas. O runtime ativo atual usa RPCs `snake_case` em `newduel-server/src`.
+> Para o pacote server-first desta etapa, os novos RPCs adicionados são:
+> - `get_bootstrap_v2`
+> - `get_map_recipe_v2`
+
 ## Fluxos principais
 
 ### Login e selecao de personagem
