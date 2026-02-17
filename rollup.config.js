@@ -58,6 +58,8 @@ var rpcGetLadderStat = function(ctx, logger, nk, payload) { return MainBundle.rp
 var rpcGetReportQuestmap = function(ctx, logger, nk, payload) { return MainBundle.rpcGetReportQuestmap(ctx, logger, nk, payload); };
 var rpcGetShutdown = function(ctx, logger, nk, payload) { return MainBundle.rpcGetShutdown(ctx, logger, nk, payload); };
 var rpcGetMapsManifest = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMapsManifest(ctx, logger, nk, payload); };
+var rpcGetBootstrapV2 = function(ctx, logger, nk, payload) { return MainBundle.rpcGetBootstrapV2(ctx, logger, nk, payload); };
+var rpcGetMapRecipeV2 = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMapRecipeV2(ctx, logger, nk, payload); };
 var rpcEquipItem = function(ctx, logger, nk, payload) { return MainBundle.rpcEquipItem(ctx, logger, nk, payload); };
 var rpcTakeoffItem = function(ctx, logger, nk, payload) { return MainBundle.rpcTakeoffItem(ctx, logger, nk, payload); };
 var rpcListStages = function(ctx, logger, nk, payload) { return MainBundle.rpcListStages(ctx, logger, nk, payload); };
@@ -136,6 +138,8 @@ function InitModule(ctx, logger, nk, initializer) {
     initializer.registerRpc('get_report_questmap', rpcGetReportQuestmap);
     initializer.registerRpc('get_shutdown', rpcGetShutdown);
     initializer.registerRpc('get_maps_manifest', rpcGetMapsManifest);
+    initializer.registerRpc('get_bootstrap_v2', rpcGetBootstrapV2);
+    initializer.registerRpc('get_map_recipe_v2', rpcGetMapRecipeV2);
     initializer.registerRpc('equip_item', rpcEquipItem);
     initializer.registerRpc('takeoff_item', rpcTakeoffItem);
     initializer.registerRpc('list_stages', rpcListStages);

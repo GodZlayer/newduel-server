@@ -24,3 +24,5 @@ export {
     matchInit, matchJoinAttempt, matchJoin, 
     matchLeave, matchLoop, matchTerminate, matchSignal 
 } from "./match_handler";
+export { rpcGetBootstrapV2 } from "./bootstrap_v2";
+export { rpcGetMapRecipeV2 } from "./map_recipe_v2";

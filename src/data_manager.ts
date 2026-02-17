@@ -312,3 +312,11 @@ export function getMapCollision(mapId: number) {
     if (!entry) return null;
     return (MAP_COLLISION as Record<string, any>)[entry.name] ?? null;
 }
+
+export function getMapsCatalog() {
+    return MAPS as Record<string, any>;
+}
+
+export function getGameTypeConfigData() {
+    return GAMETYPECFG as any;
+}

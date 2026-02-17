@@ -1,0 +1,5 @@
+{
+  "enable_v2_bootstrap": true,
+  "enable_map_recipe": true,
+  "enforce_recipe_hash": false
+}

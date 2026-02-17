@@ -2,6 +2,7 @@ import { getGameTypeConfig, getItemData, getLegacyEffectById, getLegacyItemEffec
 import { addItemToInventory } from "./items";
 import { getLevelFromXp } from "./experience";
 import { updateXpLeaderboard } from "./leaderboards";
+import { getServerFeatureFlags } from "./server_flags";
 
 
 
@@ -18,6 +19,7 @@ export enum OpCode {
     S_MATCH_DELTA = 1002,
     S_MATCH_START = 1003,
     S_MATCH_END = 1004,
+    S_MATCH_ERROR = 1099,
     C_INPUT_MOVE = 2001,
     C_INPUT_ATTACK = 2002,
     C_INPUT_SKILL = 2003,
@@ -47,6 +49,7 @@ type StageSettings = {
     name: string;
     mapId: number;
     mode: string;
+    modeProfile?: string;
     gameTypeId: number;
     maxPlayers: number;
     roundLimit: number;
@@ -54,6 +57,13 @@ type StageSettings = {
     password?: string;
     teamMode?: boolean;
     channelRule?: string;
+    seed?: number;
+    recipeHash?: string;
+    contentVersion?: string;
+    contentHash?: string;
+    generatorId?: string;
+    generatorVersion?: string;
+    collisionHash?: string;
 };
 
 type PlayerState = {
@@ -2379,13 +2389,21 @@ export const matchInit: nkruntime.MatchInitFunction = (ctx, logger, nk, params) 
         name: params?.name ?? "Room",
         mapId: params?.mapId ?? 0,
         mode: params?.mode ?? "DM",
+        modeProfile: params?.modeProfile ?? "classic",
         gameTypeId,
         maxPlayers: params?.maxPlayers ?? 16,
         roundLimit,
         timeLimitSec,
         password: params?.password ?? "",
         teamMode: params?.teamMode ?? false,
-        channelRule: params?.channelRule ?? "free_all_maps"
+        channelRule: params?.channelRule ?? "free_all_maps",
+        seed: Number.isFinite(params?.seed) ? (params.seed >>> 0) : 0,
+        recipeHash: params?.recipeHash ?? "",
+        contentVersion: params?.contentVersion ?? "",
+        contentHash: params?.contentHash ?? "",
+        generatorId: params?.generatorId ?? "",
+        generatorVersion: params?.generatorVersion ?? "",
+        collisionHash: params?.collisionHash ?? ""
     };
 
     const map = getMapById(settings.mapId);
@@ -2467,11 +2485,16 @@ export const matchInit: nkruntime.MatchInitFunction = (ctx, logger, nk, params) 
             name: settings.name,
             mapId: settings.mapId,
             mode: settings.mode,
+            modeProfile: settings.modeProfile,
             gameTypeId: settings.gameTypeId,
             maxPlayers: settings.maxPlayers,
             roundLimit: settings.roundLimit,
             timeLimitSec: settings.timeLimitSec,
-            hasPassword: !!settings.password
+            hasPassword: !!settings.password,
+            seed: settings.seed ?? 0,
+            recipeHash: settings.recipeHash ?? "",
+            contentVersion: settings.contentVersion ?? "",
+            contentHash: settings.contentHash ?? ""
         })
     };
 };
@@ -2661,6 +2684,11 @@ export const matchJoin: nkruntime.MatchJoinFunction = (ctx, logger, nk, dispatch
             matchId: ctx.matchId,
             tickRate: TICK_RATE,
             mapId: state.stage.mapId,
+            seed: state.stage.seed ?? 0,
+            modeProfile: state.stage.modeProfile ?? "classic",
+            recipeHash: state.stage.recipeHash ?? "",
+            contentVersion: state.stage.contentVersion ?? "",
+            contentHash: state.stage.contentHash ?? "",
             players: Object.values(state.players).map(sp => ({
                 uid: sp.presence.userId,
                 name: sp.presence.username
@@ -3373,8 +3401,35 @@ export const matchLoop: nkruntime.MatchLoopFunction = (ctx, logger, nk, dispatch
                 broadcastRoomUpdate(dispatcher, state);
                 break;
             case OpCode.C_CLIENT_READY:
-                player.loaded = true;
-                broadcastRoomUpdate(dispatcher, state);
+                {
+                    const flags = getServerFeatureFlags(nk);
+                    const providedRecipeHash = typeof payload?.recipeHash === "string" ? payload.recipeHash : "";
+                    const providedContentHash = typeof payload?.contentHash === "string" ? payload.contentHash : "";
+                    const expectedRecipeHash = state.stage.recipeHash ?? "";
+                    const expectedContentHash = state.stage.contentHash ?? "";
+
+                    if (flags.enforceRecipeHash) {
+                        const recipeMismatch = !!expectedRecipeHash && providedRecipeHash !== expectedRecipeHash;
+                        const contentMismatch = !!expectedContentHash && providedContentHash !== expectedContentHash;
+                        if (recipeMismatch || contentMismatch) {
+                            player.loaded = false;
+                            dispatcher.broadcastMessage(
+                                OpCode.S_MATCH_ERROR,
+                                JSON.stringify(wrapPayload({
+                                    code: "CONTENT_HASH_MISMATCH",
+                                    detail: "Client recipe/content hash mismatch."
+                                })),
+                                [msg.presence],
+                                null,
+                                true
+                            );
+                            break;
+                        }
+                    }
+
+                    player.loaded = true;
+                    broadcastRoomUpdate(dispatcher, state);
+                }
                 break;
             case OpCode.C_ROOM_CHAT:
                 dispatcher.broadcastMessage(
@@ -4100,6 +4155,7 @@ export const matchSignal: nkruntime.MatchSignalFunction = (ctx, logger, nk, disp
         state.stage.name = input?.name ?? state.stage.name;
         state.stage.mapId = typeof input?.mapId === "number" ? input.mapId : state.stage.mapId;
         state.stage.mode = input?.mode ?? state.stage.mode;
+        if (typeof input?.modeProfile === "string") state.stage.modeProfile = input.modeProfile;
         state.stage.gameTypeId = typeof input?.gameTypeId === "number" ? input.gameTypeId : state.stage.gameTypeId;
         state.stage.maxPlayers = typeof input?.maxPlayers === "number" ? input.maxPlayers : state.stage.maxPlayers;
         state.stage.roundLimit = typeof input?.roundLimit === "number" ? input.roundLimit : state.stage.roundLimit;
@@ -4107,6 +4163,13 @@ export const matchSignal: nkruntime.MatchSignalFunction = (ctx, logger, nk, disp
         if (typeof input?.password === "string") state.stage.password = input.password;
         if (typeof input?.teamMode === "boolean") state.stage.teamMode = input.teamMode;
         if (typeof input?.channelRule === "string") state.stage.channelRule = input.channelRule;
+        if (typeof input?.seed === "number") state.stage.seed = input.seed >>> 0;
+        if (typeof input?.recipeHash === "string") state.stage.recipeHash = input.recipeHash;
+        if (typeof input?.contentVersion === "string") state.stage.contentVersion = input.contentVersion;
+        if (typeof input?.contentHash === "string") state.stage.contentHash = input.contentHash;
+        if (typeof input?.generatorId === "string") state.stage.generatorId = input.generatorId;
+        if (typeof input?.generatorVersion === "string") state.stage.generatorVersion = input.generatorVersion;
+        if (typeof input?.collisionHash === "string") state.stage.collisionHash = input.collisionHash;
         if (state.stage.mapId !== prevMapId || !!state.stage.teamMode !== prevTeamMode) {
             state.worldItems = getWorldItemSpawns(state.stage.mapId, !!state.stage.teamMode).map((entry: any, idx: number) => {
                 const desc = getWorldItemDesc(entry.item) || {};

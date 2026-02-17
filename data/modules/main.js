@@ -35293,6 +35293,8 @@ var MainBundle = (function (exports) {
     }
     };
 
+    var source$p = "system/gametypecfg.xml";
+    var root = "XML";
     var data = {
     	GAMETYPE: [
     		{
@@ -36387,6 +36389,8 @@ var MainBundle = (function (exports) {
     	]
     };
     var GAMETYPECFG = {
+    	source: source$p,
+    	root: root,
     	data: data
     };
 
@@ -108703,6 +108707,12 @@ var MainBundle = (function (exports) {
             return null;
         return (_a = MAP_COLLISION[entry.name]) !== null && _a !== void 0 ? _a : null;
     }
+    function getMapsCatalog() {
+        return MAPS;
+    }
+    function getGameTypeConfigData() {
+        return GAMETYPECFG;
+    }
 
     var UserRole;
     (function (UserRole) {
@@ -109283,7 +109293,7 @@ var MainBundle = (function (exports) {
         return JSON.stringify(character);
     };
 
-    var parsePayload$2 = function (payload) {
+    var parsePayload$4 = function (payload) {
         var input = {};
         try {
             input = payload ? JSON.parse(payload) : {};
@@ -109302,7 +109312,7 @@ var MainBundle = (function (exports) {
         return input;
     };
     var rpcGetGameData = function (ctx, logger, nk, payload) {
-        var input = parsePayload$2(payload);
+        var input = parsePayload$4(payload);
         var key = typeof (input === null || input === void 0 ? void 0 : input.key) === "string" ? input.key : null;
         return JSON.stringify({ data: getGameData(key !== null && key !== void 0 ? key : undefined) });
     };
@@ -109337,7 +109347,7 @@ var MainBundle = (function (exports) {
     var rpcGetShutdown = makeGetter("shutdown");
     var rpcGetMapsManifest = makeGetter("maps_manifest");
 
-    var parsePayload$1 = function (payload) {
+    var parsePayload$3 = function (payload) {
         var input = {};
         try {
             input = payload ? JSON.parse(payload) : {};
@@ -109393,7 +109403,7 @@ var MainBundle = (function (exports) {
         return false;
     };
     var rpcListShop = function (ctx, logger, nk, payload) {
-        var input = parsePayload$1(payload);
+        var input = parsePayload$3(payload);
         var limit = Math.min(200, Math.max(1, Number.isFinite(input === null || input === void 0 ? void 0 : input.limit) ? input.limit : 50));
         var offset = Math.max(0, Number.isFinite(input === null || input === void 0 ? void 0 : input.offset) ? input.offset : 0);
         var nameQuery = typeof (input === null || input === void 0 ? void 0 : input.name) === "string" ? input.name.toLowerCase() : null;
@@ -109437,7 +109447,7 @@ var MainBundle = (function (exports) {
         return JSON.stringify({ total: filtered.length, offset: offset, limit: limit, items: paged });
     };
     var rpcBuyItem = function (ctx, logger, nk, payload) {
-        var input = parsePayload$1(payload);
+        var input = parsePayload$3(payload);
         var itemId = input.itemId;
         var count = Number.isFinite(input === null || input === void 0 ? void 0 : input.count) ? Math.max(1, Math.floor(input.count)) : 1;
         var item = getItemData(itemId);
@@ -109466,7 +109476,7 @@ var MainBundle = (function (exports) {
         }
     };
     var rpcSellItem = function (ctx, logger, nk, payload) {
-        var input = parsePayload$1(payload);
+        var input = parsePayload$3(payload);
         var instanceId = input.instanceId;
         var count = Number.isFinite(input === null || input === void 0 ? void 0 : input.count) ? Math.max(1, Math.floor(input.count)) : 1;
         if (!instanceId)
@@ -109761,6 +109771,335 @@ var MainBundle = (function (exports) {
         catch (e) { }
     };
 
+    /******************************************************************************
+    Copyright (c) Microsoft Corporation.
+
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+    AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+    LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+    OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+    PERFORMANCE OF THIS SOFTWARE.
+    ***************************************************************************** */
+    /* global Reflect, Promise, SuppressedError, Symbol, Iterator */
+
+
+    var __assign = function() {
+        __assign = Object.assign || function __assign(t) {
+            for (var s, i = 1, n = arguments.length; i < n; i++) {
+                s = arguments[i];
+                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+            }
+            return t;
+        };
+        return __assign.apply(this, arguments);
+    };
+
+    typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
+        var e = new Error(message);
+        return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
+    };
+
+    var stableStringifyInner = function (value) {
+        if (value === null || value === undefined)
+            return "null";
+        var valueType = typeof value;
+        if (valueType === "number") {
+            return Number.isFinite(value) ? String(value) : "null";
+        }
+        if (valueType === "boolean")
+            return value ? "true" : "false";
+        if (valueType === "string")
+            return JSON.stringify(value);
+        if (Array.isArray(value)) {
+            return "[".concat(value.map(stableStringifyInner).join(","), "]");
+        }
+        if (valueType === "object") {
+            var keys = Object.keys(value).sort();
+            var parts = keys.map(function (key) { return "".concat(JSON.stringify(key), ":").concat(stableStringifyInner(value[key])); });
+            return "{".concat(parts.join(","), "}");
+        }
+        return "null";
+    };
+    var stableStringify = function (value) { return stableStringifyInner(value); };
+    var fnv1a32 = function (input) {
+        var hash = 0x811c9dc5;
+        for (var i = 0; i < input.length; i++) {
+            hash ^= input.charCodeAt(i);
+            hash = Math.imul(hash, 0x01000193) >>> 0;
+        }
+        return hash.toString(16).padStart(8, "0");
+    };
+    var hashObject = function (value) { return fnv1a32(stableStringify(value)); };
+
+    var DEFAULT_FLAGS = {
+        enableV2Bootstrap: true,
+        enableMapRecipe: true,
+        enforceRecipeHash: false
+    };
+    var cachedFlags = null;
+    var parseBool = function (value, fallback) {
+        if (typeof value === "boolean")
+            return value;
+        if (typeof value === "number")
+            return value !== 0;
+        if (typeof value === "string") {
+            var v = value.trim().toLowerCase();
+            if (v === "true" || v === "1" || v === "yes" || v === "on")
+                return true;
+            if (v === "false" || v === "0" || v === "no" || v === "off")
+                return false;
+        }
+        return fallback;
+    };
+    var normalizeFlags = function (raw) {
+        var _a, _b, _c;
+        var source = raw && typeof raw === "object" ? raw : {};
+        return {
+            enableV2Bootstrap: parseBool((_a = source.enableV2Bootstrap) !== null && _a !== void 0 ? _a : source.enable_v2_bootstrap, DEFAULT_FLAGS.enableV2Bootstrap),
+            enableMapRecipe: parseBool((_b = source.enableMapRecipe) !== null && _b !== void 0 ? _b : source.enable_map_recipe, DEFAULT_FLAGS.enableMapRecipe),
+            enforceRecipeHash: parseBool((_c = source.enforceRecipeHash) !== null && _c !== void 0 ? _c : source.enforce_recipe_hash, DEFAULT_FLAGS.enforceRecipeHash)
+        };
+    };
+    var getServerFeatureFlags = function (nk, forceReload) {
+        if (forceReload === void 0) { forceReload = false; }
+        if (cachedFlags && !forceReload)
+            return __assign({}, cachedFlags);
+        var flags = __assign({}, DEFAULT_FLAGS);
+        if (nk) {
+            try {
+                var raw = nk.fileRead("game/feature_flags.json");
+                if (raw) {
+                    var parsed = JSON.parse(raw);
+                    flags = normalizeFlags(parsed);
+                }
+            }
+            catch (_) {
+                // Keep defaults if file is missing or invalid.
+            }
+        }
+        cachedFlags = flags;
+        return __assign({}, flags);
+    };
+
+    var parsePayload$2 = function (payload) {
+        var input = {};
+        try {
+            input = payload ? JSON.parse(payload) : {};
+        }
+        catch (_a) {
+            input = {};
+        }
+        if (typeof input === "string") {
+            try {
+                input = JSON.parse(input);
+            }
+            catch (_b) {
+                input = {};
+            }
+        }
+        return input;
+    };
+    var buildMapList = function () {
+        var _a, _b, _c;
+        var maps = getMapsCatalog();
+        var out = [];
+        for (var _i = 0, _d = Object.keys(maps); _i < _d.length; _i++) {
+            var key = _d[_i];
+            var map = (_a = maps[key]) !== null && _a !== void 0 ? _a : {};
+            out.push({
+                id: Number(map.id),
+                name: String((_b = map.name) !== null && _b !== void 0 ? _b : ""),
+                maxPlayers: Number((_c = map.max_players) !== null && _c !== void 0 ? _c : 16),
+                modes: Array.isArray(map.modes) ? map.modes : [],
+                available: map.available !== false
+            });
+        }
+        out.sort(function (a, b) { return a.id - b.id; });
+        return out;
+    };
+    var buildGameTypeList = function () {
+        var _a, _b;
+        var gt = getGameTypeConfigData();
+        var rows = (_b = (_a = gt === null || gt === void 0 ? void 0 : gt.data) === null || _a === void 0 ? void 0 : _a.GAMETYPE) !== null && _b !== void 0 ? _b : [];
+        return rows.map(function (entry) {
+            var _a, _b, _c, _d, _e;
+            var maxPlayers = ((_a = entry.MAXPLAYERS) !== null && _a !== void 0 ? _a : [])
+                .map(function (mp) { var _a; return Number((_a = mp === null || mp === void 0 ? void 0 : mp["@"]) === null || _a === void 0 ? void 0 : _a.player); })
+                .filter(function (v) { return Number.isFinite(v); });
+            var rounds = ((_b = entry.ROUNDS) !== null && _b !== void 0 ? _b : [])
+                .map(function (r) { var _a; return Number((_a = r === null || r === void 0 ? void 0 : r["@"]) === null || _a === void 0 ? void 0 : _a.round); })
+                .filter(function (v) { return Number.isFinite(v); });
+            var timeLimits = ((_c = entry.LIMITTIME) !== null && _c !== void 0 ? _c : [])
+                .map(function (t) { var _a; return Number((_a = t === null || t === void 0 ? void 0 : t["@"]) === null || _a === void 0 ? void 0 : _a.sec); })
+                .filter(function (v) { return Number.isFinite(v); });
+            return {
+                id: Number((_e = (_d = entry === null || entry === void 0 ? void 0 : entry["@"]) === null || _d === void 0 ? void 0 : _d.id) !== null && _e !== void 0 ? _e : -1),
+                maxPlayers: maxPlayers,
+                rounds: rounds,
+                timeLimits: timeLimits
+            };
+        });
+    };
+    var buildChannelRules = function () {
+        var _a;
+        var data = getGameData("channelrule");
+        var rules = (_a = data === null || data === void 0 ? void 0 : data.rules) !== null && _a !== void 0 ? _a : [];
+        return rules.map(function (rule) {
+            var _a;
+            return ({
+                name: String((_a = rule === null || rule === void 0 ? void 0 : rule.name) !== null && _a !== void 0 ? _a : ""),
+                maps: Array.isArray(rule === null || rule === void 0 ? void 0 : rule.maps) ? rule.maps.map(function (m) { var _a; return String((_a = m === null || m === void 0 ? void 0 : m.name) !== null && _a !== void 0 ? _a : ""); }) : [],
+                gametypes: Array.isArray(rule === null || rule === void 0 ? void 0 : rule.gametypes) ? rule.gametypes.map(function (g) { return Number(g === null || g === void 0 ? void 0 : g.id); }) : []
+            });
+        });
+    };
+    var buildCharacterCreateProfile = function () { return ({
+        maxNameLength: 16,
+        slotsPerAccount: 4,
+        sexValues: [0, 1],
+        faceValues: [0, 1, 2, 3],
+        hairValues: [0],
+        costumeValues: [0, 1, 2]
+    }); };
+    var buildBootstrapV2Payload = function (nk) {
+        var flags = getServerFeatureFlags(nk);
+        var maps = buildMapList();
+        var gameTypes = buildGameTypeList();
+        var channelRules = buildChannelRules();
+        var characterCreate = buildCharacterCreateProfile();
+        var serverProfile = {
+            rtVersion: 1,
+            tickRate: 20,
+            modeProfiles: ["classic", "duel", "quest", "training"]
+        };
+        var contentCore = {
+            maps: maps,
+            gameTypes: gameTypes,
+            channelRules: channelRules,
+            characterCreate: characterCreate,
+            serverProfile: serverProfile
+        };
+        var contentHash = hashObject(contentCore);
+        var contentVersion = "v2-".concat(contentHash);
+        return {
+            compat: { v1: true, v2: true },
+            flags: {
+                enableV2Bootstrap: flags.enableV2Bootstrap,
+                enableMapRecipe: flags.enableMapRecipe,
+                enforceRecipeHash: flags.enforceRecipeHash
+            },
+            contentVersion: contentVersion,
+            contentHash: contentHash,
+            maps: maps,
+            gameTypes: gameTypes,
+            channelRules: channelRules,
+            characterCreate: characterCreate,
+            serverProfile: serverProfile
+        };
+    };
+    var rpcGetBootstrapV2 = function (_ctx, _logger, nk, payload) {
+        var _a, _b;
+        var input = parsePayload$2(payload);
+        var flags = getServerFeatureFlags(nk);
+        if (!flags.enableV2Bootstrap) {
+            return JSON.stringify({
+                ok: false,
+                reason: "bootstrap_v2_disabled",
+                compat: { v1: true, v2: false }
+            });
+        }
+        var bootstrap = buildBootstrapV2Payload(nk);
+        return JSON.stringify(__assign({ ok: true, clientVersion: (_a = input === null || input === void 0 ? void 0 : input.clientVersion) !== null && _a !== void 0 ? _a : "", rtVersion: (_b = input === null || input === void 0 ? void 0 : input.rtVersion) !== null && _b !== void 0 ? _b : 1 }, bootstrap));
+    };
+
+    var parsePayload$1 = function (payload) {
+        var input = {};
+        try {
+            input = payload ? JSON.parse(payload) : {};
+        }
+        catch (_a) {
+            input = {};
+        }
+        if (typeof input === "string") {
+            try {
+                input = JSON.parse(input);
+            }
+            catch (_b) {
+                input = {};
+            }
+        }
+        return input;
+    };
+    var normalizeModeProfile$1 = function (raw) {
+        var value = String(raw !== null && raw !== void 0 ? raw : "").trim().toLowerCase();
+        if (!value)
+            return "classic";
+        var clean = value.replace(/[^a-z0-9_\-]/g, "");
+        return clean || "classic";
+    };
+    var stringSeed = function (text) {
+        var hash = 2166136261 >>> 0;
+        for (var i = 0; i < text.length; i++) {
+            hash ^= text.charCodeAt(i);
+            hash = Math.imul(hash, 16777619) >>> 0;
+        }
+        return hash >>> 0;
+    };
+    var resolveMapRecipe = function (nk, input) {
+        var _a, _b;
+        var mapId = Number((_a = input === null || input === void 0 ? void 0 : input.mapId) !== null && _a !== void 0 ? _a : 0);
+        var gameTypeId = Number((_b = input === null || input === void 0 ? void 0 : input.gameTypeId) !== null && _b !== void 0 ? _b : 0);
+        var modeProfile = normalizeModeProfile$1(input === null || input === void 0 ? void 0 : input.modeProfile);
+        var map = getMapById(mapId);
+        if (!map)
+            throw new Error("mapId invalido para recipe.");
+        if (map.available === false)
+            throw new Error("Mapa indisponivel para recipe.");
+        var seed = Number.isFinite(input === null || input === void 0 ? void 0 : input.seed)
+            ? ((Number(input === null || input === void 0 ? void 0 : input.seed) >>> 0) || 0)
+            : stringSeed("".concat(mapId, ":").concat(gameTypeId, ":").concat(modeProfile));
+        var generatorId = "rs3_seed_profile_v1";
+        var generatorVersion = "1.0.0";
+        var collision = getMapCollision(mapId);
+        var collisionHash = hashObject(collision !== null && collision !== void 0 ? collision : {});
+        var recipeParams = {
+            profile: modeProfile,
+            spawnPolicy: "server_spawns_v1",
+            collisionModel: collision ? "server_collision_v1" : "none"
+        };
+        var recipeCore = {
+            generatorId: generatorId,
+            generatorVersion: generatorVersion,
+            mapId: mapId,
+            gameTypeId: gameTypeId,
+            modeProfile: modeProfile,
+            seed: seed,
+            recipeParams: recipeParams,
+            collisionHash: collisionHash
+        };
+        var recipeHash = hashObject(recipeCore);
+        var bootstrap = buildBootstrapV2Payload(nk);
+        return __assign(__assign({}, recipeCore), { recipeHash: recipeHash, contentVersion: bootstrap.contentVersion, contentHash: bootstrap.contentHash });
+    };
+    var rpcGetMapRecipeV2 = function (_ctx, _logger, nk, payload) {
+        var flags = getServerFeatureFlags(nk);
+        if (!flags.enableMapRecipe) {
+            return JSON.stringify({
+                ok: false,
+                reason: "map_recipe_v2_disabled",
+                compat: { v1: true, v2: false }
+            });
+        }
+        var input = parsePayload$1(payload);
+        var recipe = resolveMapRecipe(nk, input);
+        return JSON.stringify(__assign({ ok: true }, recipe));
+    };
+
     var GAME_TYPE_INFO = {
         0: { mode: "DM", teamMode: false },
         1: { mode: "TDM", teamMode: true },
@@ -109791,6 +110130,13 @@ var MainBundle = (function (exports) {
             }
         }
         return input;
+    };
+    var normalizeModeProfile = function (raw) {
+        var value = String(raw !== null && raw !== void 0 ? raw : "").trim().toLowerCase();
+        if (!value)
+            return "classic";
+        var clean = value.replace(/[^a-z0-9_\-]/g, "");
+        return clean || "classic";
     };
     var resolveStageConfig = function (input) {
         var _a, _b, _c, _d, _e, _f, _g;
@@ -109853,6 +110199,7 @@ var MainBundle = (function (exports) {
             mapId: mapId,
             mapName: map.name,
             mode: mode,
+            modeProfile: normalizeModeProfile(input === null || input === void 0 ? void 0 : input.modeProfile),
             gameTypeId: gameTypeId,
             maxPlayers: maxPlayers,
             roundLimit: roundLimit,
@@ -109935,28 +110282,48 @@ var MainBundle = (function (exports) {
     var rpcCreateStage = function (ctx, logger, nk, payload) {
         var input = parsePayload(payload);
         var resolved = resolveStageConfig(input);
-        var matchId = nk.matchCreate("match", {
+        var recipe = resolveMapRecipe(nk, {
+            mapId: resolved.mapId,
+            gameTypeId: resolved.gameTypeId,
+            modeProfile: resolved.modeProfile
+        });
+        var matchId = nk.matchCreate("match_handler", {
             name: resolved.name,
             mapId: resolved.mapId,
             mode: resolved.mode,
+            modeProfile: resolved.modeProfile,
             gameTypeId: resolved.gameTypeId,
             maxPlayers: resolved.maxPlayers,
             roundLimit: resolved.roundLimit,
             timeLimitSec: resolved.timeLimitSec,
             password: resolved.password,
             teamMode: resolved.teamMode,
-            channelRule: resolved.channelRule
+            channelRule: resolved.channelRule,
+            seed: recipe.seed,
+            recipeHash: recipe.recipeHash,
+            contentVersion: recipe.contentVersion,
+            contentHash: recipe.contentHash,
+            generatorId: recipe.generatorId,
+            generatorVersion: recipe.generatorVersion,
+            collisionHash: recipe.collisionHash
         });
         return JSON.stringify({
             matchId: matchId,
             name: resolved.name,
             mapId: resolved.mapId,
             mode: resolved.mode,
+            modeProfile: resolved.modeProfile,
             gameTypeId: resolved.gameTypeId,
             maxPlayers: resolved.maxPlayers,
             roundLimit: resolved.roundLimit,
             timeLimitSec: resolved.timeLimitSec,
-            hasPassword: !!resolved.password
+            hasPassword: !!resolved.password,
+            seed: recipe.seed,
+            recipeHash: recipe.recipeHash,
+            contentVersion: recipe.contentVersion,
+            contentHash: recipe.contentHash,
+            generatorId: recipe.generatorId,
+            generatorVersion: recipe.generatorVersion
         });
     };
     var rpcJoinStage = function (ctx, logger, nk, payload) {
@@ -109997,7 +110364,7 @@ var MainBundle = (function (exports) {
         return response !== null && response !== void 0 ? response : "{}";
     };
     var rpcStageUpdate = function (ctx, logger, nk, payload) {
-        var _a, _b, _c, _d, _e, _f;
+        var _a, _b, _c, _d, _e, _f, _g;
         var input = parsePayload(payload);
         var matchId = input === null || input === void 0 ? void 0 : input.matchId;
         if (!matchId)
@@ -110007,7 +110374,7 @@ var MainBundle = (function (exports) {
         try {
             current = JSON.parse(currentRaw);
         }
-        catch (_g) {
+        catch (_h) {
             current = {};
         }
         var stage = (_b = current === null || current === void 0 ? void 0 : current.stage) !== null && _b !== void 0 ? _b : {};
@@ -110015,6 +110382,7 @@ var MainBundle = (function (exports) {
             name: (_c = input === null || input === void 0 ? void 0 : input.name) !== null && _c !== void 0 ? _c : stage === null || stage === void 0 ? void 0 : stage.name,
             mapId: Number.isFinite(input === null || input === void 0 ? void 0 : input.mapId) ? input.mapId : stage === null || stage === void 0 ? void 0 : stage.mapId,
             mode: (_d = input === null || input === void 0 ? void 0 : input.mode) !== null && _d !== void 0 ? _d : stage === null || stage === void 0 ? void 0 : stage.mode,
+            modeProfile: (_e = input === null || input === void 0 ? void 0 : input.modeProfile) !== null && _e !== void 0 ? _e : stage === null || stage === void 0 ? void 0 : stage.modeProfile,
             gameTypeId: Number.isFinite(input === null || input === void 0 ? void 0 : input.gameTypeId) ? input.gameTypeId : stage === null || stage === void 0 ? void 0 : stage.gameTypeId,
             maxPlayers: Number.isFinite(input === null || input === void 0 ? void 0 : input.maxPlayers) ? input.maxPlayers : stage === null || stage === void 0 ? void 0 : stage.maxPlayers,
             round: Number.isFinite(input === null || input === void 0 ? void 0 : input.round) ? input.round : stage === null || stage === void 0 ? void 0 : stage.roundLimit,
@@ -110022,7 +110390,12 @@ var MainBundle = (function (exports) {
             limitTime: Number.isFinite(input === null || input === void 0 ? void 0 : input.limitTime) ? input.limitTime : stage === null || stage === void 0 ? void 0 : stage.timeLimitSec,
             password: typeof (input === null || input === void 0 ? void 0 : input.password) === "string" ? input.password : stage === null || stage === void 0 ? void 0 : stage.password,
             teamMode: typeof (input === null || input === void 0 ? void 0 : input.teamMode) === "boolean" ? input.teamMode : stage === null || stage === void 0 ? void 0 : stage.teamMode,
-            channelRule: (_f = (_e = input === null || input === void 0 ? void 0 : input.channelRule) !== null && _e !== void 0 ? _e : input === null || input === void 0 ? void 0 : input.rule) !== null && _f !== void 0 ? _f : stage === null || stage === void 0 ? void 0 : stage.channelRule
+            channelRule: (_g = (_f = input === null || input === void 0 ? void 0 : input.channelRule) !== null && _f !== void 0 ? _f : input === null || input === void 0 ? void 0 : input.rule) !== null && _g !== void 0 ? _g : stage === null || stage === void 0 ? void 0 : stage.channelRule
+        });
+        var recipe = resolveMapRecipe(nk, {
+            mapId: resolved.mapId,
+            gameTypeId: resolved.gameTypeId,
+            modeProfile: resolved.modeProfile
         });
         var response = nk.matchSignal(matchId, JSON.stringify({
             op: "update_stage",
@@ -110030,13 +110403,21 @@ var MainBundle = (function (exports) {
             name: resolved.name,
             mapId: resolved.mapId,
             mode: resolved.mode,
+            modeProfile: resolved.modeProfile,
             gameTypeId: resolved.gameTypeId,
             maxPlayers: resolved.maxPlayers,
             roundLimit: resolved.roundLimit,
             timeLimitSec: resolved.timeLimitSec,
             password: resolved.password,
             teamMode: resolved.teamMode,
-            channelRule: resolved.channelRule
+            channelRule: resolved.channelRule,
+            seed: recipe.seed,
+            recipeHash: recipe.recipeHash,
+            contentVersion: recipe.contentVersion,
+            contentHash: recipe.contentHash,
+            generatorId: recipe.generatorId,
+            generatorVersion: recipe.generatorVersion,
+            collisionHash: recipe.collisionHash
         }));
         return response !== null && response !== void 0 ? response : "{}";
     };
@@ -110070,39 +110451,6 @@ var MainBundle = (function (exports) {
             throw new Error("matchId é obrigatório.");
         var response = nk.matchSignal(matchId, JSON.stringify({ op: "end", userId: ctx.userId }));
         return response !== null && response !== void 0 ? response : "{}";
-    };
-
-    /******************************************************************************
-    Copyright (c) Microsoft Corporation.
-
-    Permission to use, copy, modify, and/or distribute this software for any
-    purpose with or without fee is hereby granted.
-
-    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-    AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-    LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-    OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-    PERFORMANCE OF THIS SOFTWARE.
-    ***************************************************************************** */
-    /* global Reflect, Promise, SuppressedError, Symbol, Iterator */
-
-
-    var __assign = function() {
-        __assign = Object.assign || function __assign(t) {
-            for (var s, i = 1, n = arguments.length; i < n; i++) {
-                s = arguments[i];
-                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-            }
-            return t;
-        };
-        return __assign.apply(this, arguments);
-    };
-
-    typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
-        var e = new Error(message);
-        return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
     };
 
     var NEED_EXP_LM = {
@@ -110160,6 +110508,7 @@ var MainBundle = (function (exports) {
         OpCode[OpCode["S_MATCH_DELTA"] = 1002] = "S_MATCH_DELTA";
         OpCode[OpCode["S_MATCH_START"] = 1003] = "S_MATCH_START";
         OpCode[OpCode["S_MATCH_END"] = 1004] = "S_MATCH_END";
+        OpCode[OpCode["S_MATCH_ERROR"] = 1099] = "S_MATCH_ERROR";
         OpCode[OpCode["C_INPUT_MOVE"] = 2001] = "C_INPUT_MOVE";
         OpCode[OpCode["C_INPUT_ATTACK"] = 2002] = "C_INPUT_ATTACK";
         OpCode[OpCode["C_INPUT_SKILL"] = 2003] = "C_INPUT_SKILL";
@@ -112131,7 +112480,7 @@ var MainBundle = (function (exports) {
         dispatcher.broadcastMessage(OpCode.S_MATCH_STATE, JSON.stringify(wrapPayload(payload)), null, null, true);
     };
     var matchInit = function (ctx, logger, nk, params) {
-        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2;
         var gameTypeId = (_a = params === null || params === void 0 ? void 0 : params.gameTypeId) !== null && _a !== void 0 ? _a : 0;
         var gt = getGameTypeConfig(gameTypeId);
         var roundLimit = Number.isFinite(params === null || params === void 0 ? void 0 : params.roundLimit) ? params.roundLimit : ((_b = gt === null || gt === void 0 ? void 0 : gt.defaultRound) !== null && _b !== void 0 ? _b : 0);
@@ -112140,23 +112489,31 @@ var MainBundle = (function (exports) {
             name: (_d = params === null || params === void 0 ? void 0 : params.name) !== null && _d !== void 0 ? _d : "Room",
             mapId: (_e = params === null || params === void 0 ? void 0 : params.mapId) !== null && _e !== void 0 ? _e : 0,
             mode: (_f = params === null || params === void 0 ? void 0 : params.mode) !== null && _f !== void 0 ? _f : "DM",
+            modeProfile: (_g = params === null || params === void 0 ? void 0 : params.modeProfile) !== null && _g !== void 0 ? _g : "classic",
             gameTypeId: gameTypeId,
-            maxPlayers: (_g = params === null || params === void 0 ? void 0 : params.maxPlayers) !== null && _g !== void 0 ? _g : 16,
+            maxPlayers: (_h = params === null || params === void 0 ? void 0 : params.maxPlayers) !== null && _h !== void 0 ? _h : 16,
             roundLimit: roundLimit,
             timeLimitSec: timeLimitSec,
-            password: (_h = params === null || params === void 0 ? void 0 : params.password) !== null && _h !== void 0 ? _h : "",
-            teamMode: (_j = params === null || params === void 0 ? void 0 : params.teamMode) !== null && _j !== void 0 ? _j : false,
-            channelRule: (_k = params === null || params === void 0 ? void 0 : params.channelRule) !== null && _k !== void 0 ? _k : "free_all_maps"
+            password: (_j = params === null || params === void 0 ? void 0 : params.password) !== null && _j !== void 0 ? _j : "",
+            teamMode: (_k = params === null || params === void 0 ? void 0 : params.teamMode) !== null && _k !== void 0 ? _k : false,
+            channelRule: (_l = params === null || params === void 0 ? void 0 : params.channelRule) !== null && _l !== void 0 ? _l : "free_all_maps",
+            seed: Number.isFinite(params === null || params === void 0 ? void 0 : params.seed) ? (params.seed >>> 0) : 0,
+            recipeHash: (_m = params === null || params === void 0 ? void 0 : params.recipeHash) !== null && _m !== void 0 ? _m : "",
+            contentVersion: (_o = params === null || params === void 0 ? void 0 : params.contentVersion) !== null && _o !== void 0 ? _o : "",
+            contentHash: (_p = params === null || params === void 0 ? void 0 : params.contentHash) !== null && _p !== void 0 ? _p : "",
+            generatorId: (_q = params === null || params === void 0 ? void 0 : params.generatorId) !== null && _q !== void 0 ? _q : "",
+            generatorVersion: (_r = params === null || params === void 0 ? void 0 : params.generatorVersion) !== null && _r !== void 0 ? _r : "",
+            collisionHash: (_s = params === null || params === void 0 ? void 0 : params.collisionHash) !== null && _s !== void 0 ? _s : ""
         };
         var map = getMapById(settings.mapId);
-        var mapName = (_l = map === null || map === void 0 ? void 0 : map.name) !== null && _l !== void 0 ? _l : "";
+        var mapName = (_t = map === null || map === void 0 ? void 0 : map.name) !== null && _t !== void 0 ? _t : "";
         var questLevel = Number.isFinite(params === null || params === void 0 ? void 0 : params.questLevel) ? params.questLevel : (Number.isFinite(params === null || params === void 0 ? void 0 : params.ql) ? params.ql : 0);
         var mapset = mapName ? getQuestMapsetByName(mapName) : null;
-        var scenario = mapset ? getScenarioForMapset((_o = (_m = mapset.title) !== null && _m !== void 0 ? _m : mapset.name) !== null && _o !== void 0 ? _o : mapName, questLevel) : null;
+        var scenario = mapset ? getScenarioForMapset((_v = (_u = mapset.title) !== null && _u !== void 0 ? _u : mapset.name) !== null && _v !== void 0 ? _v : mapName, questLevel) : null;
         var questState;
         var initialNpcs = {};
         if (scenario && mapset) {
-            var sectors = ((_p = scenario.maps) !== null && _p !== void 0 ? _p : [])
+            var sectors = ((_w = scenario.maps) !== null && _w !== void 0 ? _w : [])
                 .slice()
                 .sort(function (a, b) { var _a, _b; return Number((_a = a === null || a === void 0 ? void 0 : a.dice) !== null && _a !== void 0 ? _a : 0) - Number((_b = b === null || b === void 0 ? void 0 : b.dice) !== null && _b !== void 0 ? _b : 0); })
                 .map(function (m) {
@@ -112176,8 +112533,8 @@ var MainBundle = (function (exports) {
                 stageIndex: 0,
                 completed: false,
                 scenarioTitle: scenario.title,
-                scenarioXp: Number((_q = scenario.XP) !== null && _q !== void 0 ? _q : 0),
-                scenarioBp: Number((_r = scenario.BP) !== null && _r !== void 0 ? _r : 0),
+                scenarioXp: Number((_x = scenario.XP) !== null && _x !== void 0 ? _x : 0),
+                scenarioBp: Number((_y = scenario.BP) !== null && _y !== void 0 ? _y : 0),
                 sectors: sectors
             };
             if (sectors.length > 0) {
@@ -112224,11 +112581,16 @@ var MainBundle = (function (exports) {
                 name: settings.name,
                 mapId: settings.mapId,
                 mode: settings.mode,
+                modeProfile: settings.modeProfile,
                 gameTypeId: settings.gameTypeId,
                 maxPlayers: settings.maxPlayers,
                 roundLimit: settings.roundLimit,
                 timeLimitSec: settings.timeLimitSec,
-                hasPassword: !!settings.password
+                hasPassword: !!settings.password,
+                seed: (_z = settings.seed) !== null && _z !== void 0 ? _z : 0,
+                recipeHash: (_0 = settings.recipeHash) !== null && _0 !== void 0 ? _0 : "",
+                contentVersion: (_1 = settings.contentVersion) !== null && _1 !== void 0 ? _1 : "",
+                contentHash: (_2 = settings.contentHash) !== null && _2 !== void 0 ? _2 : ""
             })
         };
     };
@@ -112253,7 +112615,7 @@ var MainBundle = (function (exports) {
     };
     var matchJoin = function (ctx, logger, nk, dispatcher, tick, state, presences) {
         presences.forEach(function (p) {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
             var meta = (_b = (_a = state.pendingJoinMeta) === null || _a === void 0 ? void 0 : _a[p.userId]) !== null && _b !== void 0 ? _b : {};
             var spectator = !!meta.spectator;
             var existingEntry = Object.entries(state.players).find(function (_a) {
@@ -112385,8 +112747,8 @@ var MainBundle = (function (exports) {
                 }
                 if (playerState.weapons) {
                     var ids = Object.values(playerState.weapons).filter(function (id) { return typeof id === "number"; });
-                    for (var _l = 0, ids_2 = ids; _l < ids_2.length; _l++) {
-                        var id = ids_2[_l];
+                    for (var _r = 0, ids_2 = ids; _r < ids_2.length; _r++) {
+                        var id = ids_2[_r];
                         var weapon = getWeaponInfo(id);
                         if (weapon)
                             ensureAmmoState(playerState, id, weapon);
@@ -112425,6 +112787,11 @@ var MainBundle = (function (exports) {
                 matchId: ctx.matchId,
                 tickRate: TICK_RATE,
                 mapId: state.stage.mapId,
+                seed: (_l = state.stage.seed) !== null && _l !== void 0 ? _l : 0,
+                modeProfile: (_m = state.stage.modeProfile) !== null && _m !== void 0 ? _m : "classic",
+                recipeHash: (_o = state.stage.recipeHash) !== null && _o !== void 0 ? _o : "",
+                contentVersion: (_p = state.stage.contentVersion) !== null && _p !== void 0 ? _p : "",
+                contentHash: (_q = state.stage.contentHash) !== null && _q !== void 0 ? _q : "",
                 players: Object.values(state.players).map(function (sp) { return ({
                     uid: sp.presence.userId,
                     name: sp.presence.username
@@ -112478,7 +112845,7 @@ var MainBundle = (function (exports) {
         }
         updateDuelState(dispatcher, state, tick);
         msgList.forEach(function (msg) {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
             var player = state.players[msg.presence.sessionId];
             if (!player)
                 return;
@@ -112486,7 +112853,7 @@ var MainBundle = (function (exports) {
             try {
                 data = JSON.parse(nk.binaryToString(msg.data));
             }
-            catch (_q) {
+            catch (_s) {
                 data = {};
             }
             var envelope = parseEnvelope(data);
@@ -112724,8 +113091,8 @@ var MainBundle = (function (exports) {
                             player.chargedUntilTick = 0;
                             var range = 280;
                             var maxDmgRange = 50;
-                            for (var _i = 0, _r = Object.values(state.players); _i < _r.length; _i++) {
-                                var target = _r[_i];
+                            for (var _i = 0, _t = Object.values(state.players); _i < _t.length; _i++) {
+                                var target = _t[_i];
                                 if (target.spectator || target.disconnected)
                                     continue;
                                 if (target.presence.userId === player.presence.userId)
@@ -112764,8 +113131,8 @@ var MainBundle = (function (exports) {
                                     handlePlayerDeath(dispatcher, state, target, player, tick);
                                 }
                             }
-                            for (var _s = 0, _t = Object.values(state.npcs); _s < _t.length; _s++) {
-                                var npc = _t[_s];
+                            for (var _u = 0, _v = Object.values(state.npcs); _u < _v.length; _u++) {
+                                var npc = _v[_u];
                                 if (npc.dead)
                                     continue;
                                 var dist = dist2(ownerPos, npc.pos);
@@ -112781,8 +113148,8 @@ var MainBundle = (function (exports) {
                         else if (isSlash) {
                             var range = meleeRange + 100;
                             var attackPos = { x: ownerPos.x, y: ownerPos.y, z: ownerPos.z };
-                            for (var _u = 0, _v = Object.values(state.players); _u < _v.length; _u++) {
-                                var target = _v[_u];
+                            for (var _w = 0, _x = Object.values(state.players); _w < _x.length; _w++) {
+                                var target = _x[_w];
                                 if (target.spectator || target.disconnected)
                                     continue;
                                 if (target.presence.userId === player.presence.userId)
@@ -112826,8 +113193,8 @@ var MainBundle = (function (exports) {
                                     handlePlayerDeath(dispatcher, state, target, player, tick);
                                 }
                             }
-                            for (var _w = 0, _x = Object.values(state.npcs); _w < _x.length; _w++) {
-                                var npc = _x[_w];
+                            for (var _y = 0, _z = Object.values(state.npcs); _y < _z.length; _y++) {
+                                var npc = _z[_y];
                                 if (npc.dead)
                                     continue;
                                 var dist = distanceLineSegment({ x: ownerPos.x, y: ownerPos.y, z: ownerPos.z + ownerProfile.height * 0.5 }, npc.pos, { x: npc.pos.x, y: npc.pos.y, z: npc.pos.z + npc.height });
@@ -112844,8 +113211,8 @@ var MainBundle = (function (exports) {
                                 y: ownerPos.y + ownerDir.y * 100,
                                 z: ownerPos.z + ownerProfile.height * 0.5
                             };
-                            for (var _y = 0, _z = Object.values(state.players); _y < _z.length; _y++) {
-                                var target = _z[_y];
+                            for (var _0 = 0, _1 = Object.values(state.players); _0 < _1.length; _0++) {
+                                var target = _1[_0];
                                 if (target.spectator || target.disconnected)
                                     continue;
                                 if (target.presence.userId === player.presence.userId)
@@ -112893,8 +113260,8 @@ var MainBundle = (function (exports) {
                                     handlePlayerDeath(dispatcher, state, target, player, tick);
                                 }
                             }
-                            for (var _0 = 0, _1 = Object.values(state.npcs); _0 < _1.length; _0++) {
-                                var npc = _1[_0];
+                            for (var _2 = 0, _3 = Object.values(state.npcs); _2 < _3.length; _2++) {
+                                var npc = _3[_2];
                                 if (npc.dead)
                                     continue;
                                 var dist = distanceLineSegment(swordPos, npc.pos, { x: npc.pos.x, y: npc.pos.y, z: npc.pos.z + npc.height });
@@ -113163,20 +113530,39 @@ var MainBundle = (function (exports) {
                     broadcastRoomUpdate(dispatcher, state);
                     break;
                 case OpCode.C_CLIENT_READY:
-                    player.loaded = true;
-                    broadcastRoomUpdate(dispatcher, state);
+                    {
+                        var flags = getServerFeatureFlags(nk);
+                        var providedRecipeHash = typeof (payload === null || payload === void 0 ? void 0 : payload.recipeHash) === "string" ? payload.recipeHash : "";
+                        var providedContentHash = typeof (payload === null || payload === void 0 ? void 0 : payload.contentHash) === "string" ? payload.contentHash : "";
+                        var expectedRecipeHash = (_g = state.stage.recipeHash) !== null && _g !== void 0 ? _g : "";
+                        var expectedContentHash = (_h = state.stage.contentHash) !== null && _h !== void 0 ? _h : "";
+                        if (flags.enforceRecipeHash) {
+                            var recipeMismatch = !!expectedRecipeHash && providedRecipeHash !== expectedRecipeHash;
+                            var contentMismatch = !!expectedContentHash && providedContentHash !== expectedContentHash;
+                            if (recipeMismatch || contentMismatch) {
+                                player.loaded = false;
+                                dispatcher.broadcastMessage(OpCode.S_MATCH_ERROR, JSON.stringify(wrapPayload({
+                                    code: "CONTENT_HASH_MISMATCH",
+                                    detail: "Client recipe/content hash mismatch."
+                                })), [msg.presence], null, true);
+                                break;
+                            }
+                        }
+                        player.loaded = true;
+                        broadcastRoomUpdate(dispatcher, state);
+                    }
                     break;
                 case OpCode.C_ROOM_CHAT:
                     dispatcher.broadcastMessage(OpCode.C_ROOM_CHAT, JSON.stringify(wrapPayload({
                         userId: player.presence.userId,
                         username: player.presence.username,
-                        message: (_g = payload === null || payload === void 0 ? void 0 : payload.message) !== null && _g !== void 0 ? _g : ""
+                        message: (_j = payload === null || payload === void 0 ? void 0 : payload.message) !== null && _j !== void 0 ? _j : ""
                     })), null, null, true);
                     break;
                 case OpCode.TIME_SYNC: {
                     var response = {
                         serverTime: Date.now(),
-                        clientTime: (_j = (_h = payload === null || payload === void 0 ? void 0 : payload.clientTime) !== null && _h !== void 0 ? _h : payload === null || payload === void 0 ? void 0 : payload.t) !== null && _j !== void 0 ? _j : null,
+                        clientTime: (_l = (_k = payload === null || payload === void 0 ? void 0 : payload.clientTime) !== null && _k !== void 0 ? _k : payload === null || payload === void 0 ? void 0 : payload.t) !== null && _l !== void 0 ? _l : null,
                         tick: tick
                     };
                     dispatcher.broadcastMessage(OpCode.TIME_SYNC, JSON.stringify(wrapPayload(response)), [msg.presence], null, true);
@@ -113187,13 +113573,13 @@ var MainBundle = (function (exports) {
                         break;
                     if (player.stunUntilTick && player.stunUntilTick > tick)
                         break;
-                    var weaponId_3 = (_k = player.weapons) === null || _k === void 0 ? void 0 : _k.melee;
+                    var weaponId_3 = (_m = player.weapons) === null || _m === void 0 ? void 0 : _m.melee;
                     if (!weaponId_3)
                         break;
                     var weapon_3 = getWeaponInfo(weaponId_3);
                     if (!weapon_3)
                         break;
-                    var skillRaw = (_o = (_m = (_l = payload === null || payload === void 0 ? void 0 : payload.skill) !== null && _l !== void 0 ? _l : payload === null || payload === void 0 ? void 0 : payload.skillId) !== null && _m !== void 0 ? _m : payload === null || payload === void 0 ? void 0 : payload.id) !== null && _o !== void 0 ? _o : null;
+                    var skillRaw = (_q = (_p = (_o = payload === null || payload === void 0 ? void 0 : payload.skill) !== null && _o !== void 0 ? _o : payload === null || payload === void 0 ? void 0 : payload.skillId) !== null && _p !== void 0 ? _p : payload === null || payload === void 0 ? void 0 : payload.id) !== null && _q !== void 0 ? _q : null;
                     var skillId = 0;
                     if (typeof skillRaw === "string") {
                         var key = skillRaw.toLowerCase();
@@ -113219,8 +113605,8 @@ var MainBundle = (function (exports) {
                             break;
                         var range = 300;
                         var params = getMeleeMotionParams("slash5");
-                        for (var _2 = 0, _3 = Object.values(state.players); _2 < _3.length; _2++) {
-                            var target = _3[_2];
+                        for (var _4 = 0, _5 = Object.values(state.players); _4 < _5.length; _4++) {
+                            var target = _5[_4];
                             if (target.spectator || target.disconnected)
                                 continue;
                             if (target.presence.userId === player.presence.userId)
@@ -113259,7 +113645,7 @@ var MainBundle = (function (exports) {
                             applyDamage(target, player, damage, 0.4);
                             var stunTicks = Math.max(0, params.stun);
                             if (stunTicks > 0) {
-                                target.stunUntilTick = Math.max((_p = target.stunUntilTick) !== null && _p !== void 0 ? _p : 0, tick + stunTicks);
+                                target.stunUntilTick = Math.max((_r = target.stunUntilTick) !== null && _r !== void 0 ? _r : 0, tick + stunTicks);
                                 target.stunType = getStunTypeForMelee("slash5", player);
                             }
                             var kbDir = normalize({ x: target.pos.x - player.pos.x, y: target.pos.y - player.pos.y, z: 0 });
@@ -113271,8 +113657,8 @@ var MainBundle = (function (exports) {
                         if (weapon_3.weaponType !== "katana" && weapon_3.weaponType !== "doublekatana")
                             break;
                         var range = 200;
-                        for (var _4 = 0, _5 = Object.values(state.players); _4 < _5.length; _4++) {
-                            var target = _5[_4];
+                        for (var _6 = 0, _7 = Object.values(state.players); _6 < _7.length; _6++) {
+                            var target = _7[_6];
                             if (target.presence.userId === player.presence.userId)
                                 continue;
                             if (target.dead)
@@ -113298,8 +113684,8 @@ var MainBundle = (function (exports) {
                         if (weapon_3.weaponType !== "dagger" && weapon_3.weaponType !== "dualdagger")
                             break;
                         var range = 600;
-                        for (var _6 = 0, _7 = Object.values(state.players); _6 < _7.length; _6++) {
-                            var target = _7[_6];
+                        for (var _8 = 0, _9 = Object.values(state.players); _8 < _9.length; _8++) {
+                            var target = _9[_8];
                             if (target.presence.userId === player.presence.userId)
                                 continue;
                             if (target.dead)
@@ -113914,6 +114300,8 @@ var MainBundle = (function (exports) {
             state.stage.name = (_b = input === null || input === void 0 ? void 0 : input.name) !== null && _b !== void 0 ? _b : state.stage.name;
             state.stage.mapId = typeof (input === null || input === void 0 ? void 0 : input.mapId) === "number" ? input.mapId : state.stage.mapId;
             state.stage.mode = (_c = input === null || input === void 0 ? void 0 : input.mode) !== null && _c !== void 0 ? _c : state.stage.mode;
+            if (typeof (input === null || input === void 0 ? void 0 : input.modeProfile) === "string")
+                state.stage.modeProfile = input.modeProfile;
             state.stage.gameTypeId = typeof (input === null || input === void 0 ? void 0 : input.gameTypeId) === "number" ? input.gameTypeId : state.stage.gameTypeId;
             state.stage.maxPlayers = typeof (input === null || input === void 0 ? void 0 : input.maxPlayers) === "number" ? input.maxPlayers : state.stage.maxPlayers;
             state.stage.roundLimit = typeof (input === null || input === void 0 ? void 0 : input.roundLimit) === "number" ? input.roundLimit : state.stage.roundLimit;
@@ -113924,6 +114312,20 @@ var MainBundle = (function (exports) {
                 state.stage.teamMode = input.teamMode;
             if (typeof (input === null || input === void 0 ? void 0 : input.channelRule) === "string")
                 state.stage.channelRule = input.channelRule;
+            if (typeof (input === null || input === void 0 ? void 0 : input.seed) === "number")
+                state.stage.seed = input.seed >>> 0;
+            if (typeof (input === null || input === void 0 ? void 0 : input.recipeHash) === "string")
+                state.stage.recipeHash = input.recipeHash;
+            if (typeof (input === null || input === void 0 ? void 0 : input.contentVersion) === "string")
+                state.stage.contentVersion = input.contentVersion;
+            if (typeof (input === null || input === void 0 ? void 0 : input.contentHash) === "string")
+                state.stage.contentHash = input.contentHash;
+            if (typeof (input === null || input === void 0 ? void 0 : input.generatorId) === "string")
+                state.stage.generatorId = input.generatorId;
+            if (typeof (input === null || input === void 0 ? void 0 : input.generatorVersion) === "string")
+                state.stage.generatorVersion = input.generatorVersion;
+            if (typeof (input === null || input === void 0 ? void 0 : input.collisionHash) === "string")
+                state.stage.collisionHash = input.collisionHash;
             if (state.stage.mapId !== prevMapId || !!state.stage.teamMode !== prevTeamMode) {
                 state.worldItems = getWorldItemSpawns(state.stage.mapId, !!state.stage.teamMode).map(function (entry, idx) {
                     var _a, _b;
@@ -114042,6 +114444,7 @@ var MainBundle = (function (exports) {
     exports.rpcEquipItem = rpcEquipItem;
     exports.rpcFindClanWar = rpcFindClanWar;
     exports.rpcGetAdminStats = rpcGetAdminStats;
+    exports.rpcGetBootstrapV2 = rpcGetBootstrapV2;
     exports.rpcGetChannel = rpcGetChannel;
     exports.rpcGetChannelrule = rpcGetChannelrule;
     exports.rpcGetCharacterInfo = rpcGetCharacterInfo;
@@ -114053,6 +114456,7 @@ var MainBundle = (function (exports) {
     exports.rpcGetGameData = rpcGetGameData;
     exports.rpcGetGungame = rpcGetGungame;
     exports.rpcGetLadderStat = rpcGetLadderStat;
+    exports.rpcGetMapRecipeV2 = rpcGetMapRecipeV2;
     exports.rpcGetMapsManifest = rpcGetMapsManifest;
     exports.rpcGetMessages = rpcGetMessages;
     exports.rpcGetNotify = rpcGetNotify;
@@ -114140,6 +114544,8 @@ var rpcGetLadderStat = function(ctx, logger, nk, payload) { return MainBundle.rp
 var rpcGetReportQuestmap = function(ctx, logger, nk, payload) { return MainBundle.rpcGetReportQuestmap(ctx, logger, nk, payload); };
 var rpcGetShutdown = function(ctx, logger, nk, payload) { return MainBundle.rpcGetShutdown(ctx, logger, nk, payload); };
 var rpcGetMapsManifest = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMapsManifest(ctx, logger, nk, payload); };
+var rpcGetBootstrapV2 = function(ctx, logger, nk, payload) { return MainBundle.rpcGetBootstrapV2(ctx, logger, nk, payload); };
+var rpcGetMapRecipeV2 = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMapRecipeV2(ctx, logger, nk, payload); };
 var rpcEquipItem = function(ctx, logger, nk, payload) { return MainBundle.rpcEquipItem(ctx, logger, nk, payload); };
 var rpcTakeoffItem = function(ctx, logger, nk, payload) { return MainBundle.rpcTakeoffItem(ctx, logger, nk, payload); };
 var rpcListStages = function(ctx, logger, nk, payload) { return MainBundle.rpcListStages(ctx, logger, nk, payload); };
@@ -114218,6 +114624,8 @@ function InitModule(ctx, logger, nk, initializer) {
     initializer.registerRpc('get_report_questmap', rpcGetReportQuestmap);
     initializer.registerRpc('get_shutdown', rpcGetShutdown);
     initializer.registerRpc('get_maps_manifest', rpcGetMapsManifest);
+    initializer.registerRpc('get_bootstrap_v2', rpcGetBootstrapV2);
+    initializer.registerRpc('get_map_recipe_v2', rpcGetMapRecipeV2);
     initializer.registerRpc('equip_item', rpcEquipItem);
     initializer.registerRpc('takeoff_item', rpcTakeoffItem);
     initializer.registerRpc('list_stages', rpcListStages);

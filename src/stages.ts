@@ -1,9 +1,12 @@
 ﻿import { getChannelRule, getGameTypeConfig, getMapById } from "./data_manager";
 
+import { resolveMapRecipe } from "./map_recipe_v2";
+
 type StageCreatePayload = {
     name?: string;
     mapId?: number;
     mode?: string;
+    modeProfile?: string;
     gameTypeId?: number;
     maxPlayers?: number;
     round?: number;
@@ -20,6 +23,7 @@ type StageResolved = {
     mapId: number;
     mapName: string;
     mode: string;
+    modeProfile: string;
     gameTypeId: number;
     maxPlayers: number;
     roundLimit: number;
@@ -58,6 +62,13 @@ const parsePayload = (payload: string): any => {
         }
     }
     return input;
+};
+
+const normalizeModeProfile = (raw: any): string => {
+    const value = String(raw ?? "").trim().toLowerCase();
+    if (!value) return "classic";
+    const clean = value.replace(/[^a-z0-9_\-]/g, "");
+    return clean || "classic";
 };
 
 const resolveStageConfig = (input: StageCreatePayload): StageResolved => {
@@ -120,6 +131,7 @@ const resolveStageConfig = (input: StageCreatePayload): StageResolved => {
         mapId,
         mapName: map.name,
         mode,
+        modeProfile: normalizeModeProfile(input?.modeProfile),
         gameTypeId,
         maxPlayers,
         roundLimit,
@@ -207,18 +219,31 @@ export const rpcListStages: nkruntime.RpcFunction = (ctx, logger, nk, payload): 
 export const rpcCreateStage: nkruntime.RpcFunction = (ctx, logger, nk, payload): string => {
     const input = parsePayload(payload) as StageCreatePayload;
     const resolved = resolveStageConfig(input);
+    const recipe = resolveMapRecipe(nk, {
+        mapId: resolved.mapId,
+        gameTypeId: resolved.gameTypeId,
+        modeProfile: resolved.modeProfile
+    });
 
-    const matchId = nk.matchCreate("match", {
+    const matchId = nk.matchCreate("match_handler", {
         name: resolved.name,
         mapId: resolved.mapId,
         mode: resolved.mode,
+        modeProfile: resolved.modeProfile,
         gameTypeId: resolved.gameTypeId,
         maxPlayers: resolved.maxPlayers,
         roundLimit: resolved.roundLimit,
         timeLimitSec: resolved.timeLimitSec,
         password: resolved.password,
         teamMode: resolved.teamMode,
-        channelRule: resolved.channelRule
+        channelRule: resolved.channelRule,
+        seed: recipe.seed,
+        recipeHash: recipe.recipeHash,
+        contentVersion: recipe.contentVersion,
+        contentHash: recipe.contentHash,
+        generatorId: recipe.generatorId,
+        generatorVersion: recipe.generatorVersion,
+        collisionHash: recipe.collisionHash
     });
 
     return JSON.stringify({
@@ -226,11 +251,18 @@ export const rpcCreateStage: nkruntime.RpcFunction = (ctx, logger, nk, payload):
         name: resolved.name,
         mapId: resolved.mapId,
         mode: resolved.mode,
+        modeProfile: resolved.modeProfile,
         gameTypeId: resolved.gameTypeId,
         maxPlayers: resolved.maxPlayers,
         roundLimit: resolved.roundLimit,
         timeLimitSec: resolved.timeLimitSec,
-        hasPassword: !!resolved.password
+        hasPassword: !!resolved.password,
+        seed: recipe.seed,
+        recipeHash: recipe.recipeHash,
+        contentVersion: recipe.contentVersion,
+        contentHash: recipe.contentHash,
+        generatorId: recipe.generatorId,
+        generatorVersion: recipe.generatorVersion
     });
 };
 
@@ -283,6 +315,7 @@ export const rpcStageUpdate: nkruntime.RpcFunction = (ctx, logger, nk, payload):
         name: input?.name ?? stage?.name,
         mapId: Number.isFinite(input?.mapId) ? input.mapId : stage?.mapId,
         mode: input?.mode ?? stage?.mode,
+        modeProfile: input?.modeProfile ?? stage?.modeProfile,
         gameTypeId: Number.isFinite(input?.gameTypeId) ? input.gameTypeId : stage?.gameTypeId,
         maxPlayers: Number.isFinite(input?.maxPlayers) ? input.maxPlayers : stage?.maxPlayers,
         round: Number.isFinite(input?.round) ? input.round : stage?.roundLimit,
@@ -292,6 +325,11 @@ export const rpcStageUpdate: nkruntime.RpcFunction = (ctx, logger, nk, payload):
         teamMode: typeof input?.teamMode === "boolean" ? input.teamMode : stage?.teamMode,
         channelRule: input?.channelRule ?? input?.rule ?? stage?.channelRule
     });
+    const recipe = resolveMapRecipe(nk, {
+        mapId: resolved.mapId,
+        gameTypeId: resolved.gameTypeId,
+        modeProfile: resolved.modeProfile
+    });
 
     const response = nk.matchSignal(matchId, JSON.stringify({
         op: "update_stage",
@@ -299,13 +337,21 @@ export const rpcStageUpdate: nkruntime.RpcFunction = (ctx, logger, nk, payload):
         name: resolved.name,
         mapId: resolved.mapId,
         mode: resolved.mode,
+        modeProfile: resolved.modeProfile,
         gameTypeId: resolved.gameTypeId,
         maxPlayers: resolved.maxPlayers,
         roundLimit: resolved.roundLimit,
         timeLimitSec: resolved.timeLimitSec,
         password: resolved.password,
         teamMode: resolved.teamMode,
-        channelRule: resolved.channelRule
+        channelRule: resolved.channelRule,
+        seed: recipe.seed,
+        recipeHash: recipe.recipeHash,
+        contentVersion: recipe.contentVersion,
+        contentHash: recipe.contentHash,
+        generatorId: recipe.generatorId,
+        generatorVersion: recipe.generatorVersion,
+        collisionHash: recipe.collisionHash
     }));
     return response ?? "{}";
 };
