@@ -60,6 +60,28 @@ export const rpcAdminKickUsers: nkruntime.RpcFunction = (ctx: nkruntime.Context,
     return JSON.stringify({ success: true, count: userIds.length });
 };
 
+export const rpcLogout: nkruntime.RpcFunction = (ctx: nkruntime.Context, logger: nkruntime.Logger, nk: nkruntime.Nakama, _payload: string): string => {
+    if (!ctx.userId) {
+        throw new Error("Usuário não autenticado.");
+    }
+
+    if (ctx.sessionId) {
+        try {
+            nk.sessionDisconnect(ctx.sessionId);
+        } catch (e) {
+            logger.warn("Falha ao desconectar sessao %s: %v", ctx.sessionId, e);
+        }
+    }
+
+    try {
+        nk.sessionLogout(ctx.userId);
+    } catch (e) {
+        logger.warn("Falha ao invalidar sessao do usuario %s: %v", ctx.userId, e);
+    }
+
+    return JSON.stringify({ success: true });
+};
+
 export const rpcAdminBanUsers: nkruntime.RpcFunction = (ctx: nkruntime.Context, logger: nkruntime.Logger, nk: nkruntime.Nakama, payload: string): string => {
     if (!hasPermission(ctx, nk, UserRole.ADMIN)) {
         throw new Error("PermissÃ£o insuficiente.");

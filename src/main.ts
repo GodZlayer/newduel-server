@@ -1,5 +1,5 @@
 export { loadGameData, getDataCounts, getProtocolData } from "./data_manager";
-export { rpcServerAnnounce, rpcGetAdminStats, rpcAdminListUsers, rpcAdminKickUsers, rpcAdminBanUsers } from "./admin";
+export { rpcServerAnnounce, rpcGetAdminStats, rpcAdminListUsers, rpcAdminKickUsers, rpcAdminBanUsers, rpcLogout } from "./admin";
 export { rpcCreateCharacter, rpcListCharacters, rpcDeleteCharacter, rpcSelectCharacter, rpcGetCharacterInfo } from "./characters";
 export { rpcListInventory, rpcListCharInventory, rpcBringAccountItem, rpcBringBackAccountItem } from "./items";
 export { rpcGetGameData, rpcGetChannel, rpcGetChannelrule, rpcGetZitem, rpcGetShop, rpcGetFormula, rpcGetDroptable, rpcGetWorlditem, rpcGetNpc, rpcGetNpcset, rpcGetScenario, rpcGetQuestmap, rpcGetSpawns, rpcGetSacrificeTable, rpcGetStrings, rpcGetStringsLocales, rpcGetMessages, rpcGetTips, rpcGetNotify, rpcGetProtocol, rpcGetCserror, rpcGetEvent, rpcGetEventList, rpcGetGungame, rpcGetLadderStat, rpcGetReportQuestmap, rpcGetShutdown, rpcGetMapsManifest } from "./game_data";

@@ -1,0 +1,202 @@
+export type Vec2 = { x: number; y: number };
+export type Vec3 = { x: number; y: number; z: number };
+
+export type StageSettings = {
+    name: string;
+    mapId: number;
+    mode: string;
+    modeProfile?: string;
+    gameTypeId: number;
+    maxPlayers: number;
+    roundLimit: number;
+    timeLimitSec: number;
+    password?: string;
+    teamMode?: boolean;
+    channelRule?: string;
+    seed?: number;
+    recipeHash?: string;
+    contentVersion?: string;
+    contentHash?: string;
+    generatorId?: string;
+    generatorVersion?: string;
+    collisionHash?: string;
+};
+
+export type PlayerState = {
+    presence: nkruntime.Presence;
+    userId: string;
+    health: number;
+    ap: number;
+    pos: Vec3;
+    rot: Vec3;
+    vel: Vec3;
+    anim: number;
+    ready: boolean;
+    team: number;
+    loaded: boolean;
+    dead: boolean;
+    respawnTick: number;
+    lastAttackTick: number;
+    kills: number;
+    deaths: number;
+    maxHealth: number;
+    maxAp: number;
+    weight: number;
+    maxWeight: number;
+    sf: number;
+    fr: number;
+    cr: number;
+    pr: number;
+    lr: number;
+    limitSpeed: number;
+    limitWall: number;
+    limitJump: number;
+    limitTumble: number;
+    currentWeaponId?: number;
+    caFactor: number;
+    caElapsed: number;
+    lastShotTick: number;
+    pendingGuardRecoilTick?: number;
+    chargedUntilTick?: number;
+    guardCancelUntilTick?: number;
+    stunType?: number;
+    guardStartTick?: number;
+    pendingDashTick?: number;
+    pendingDashDir?: Vec3;
+    wallJumpStartTick?: number;
+    wallJumpDir?: number;
+    wallJump2?: boolean;
+    wallJump2Dir?: number;
+    lastTumbleTick?: number;
+    lastJumpTick?: number;
+    ammo: Record<string, {
+        magazine: number;
+        reserve: number;
+        reloadEndTick: number;
+        magazineSize: number;
+        reloadTicks: number;
+    }>;
+    weapons: {
+        melee?: number;
+        primary?: number;
+        secondary?: number;
+    };
+    spectator?: boolean;
+    disconnected?: boolean;
+    disconnectedUntilTick?: number;
+    flashUntilTick?: number;
+    stunUntilTick?: number;
+    slowUntilTick?: number;
+    slowRatio?: number;
+    poisonUntilTick?: number;
+    nextPoisonTick?: number;
+    poisonDamage?: number;
+    burnUntilTick?: number;
+    nextBurnTick?: number;
+    burnDamage?: number;
+    lightningUntilTick?: number;
+    nextLightningTick?: number;
+    lightningDamage?: number;
+    enchantType?: string;
+    enchantLevel?: number;
+    enchantDamage?: number;
+    enchantDurationTicks?: number;
+    enchantLimitSpeed?: number;
+    isVip?: boolean;
+};
+
+export type MatchState = {
+    players: { [sessionId: string]: PlayerState };
+    pendingJoinMeta?: Record<string, { spectator?: boolean }>;
+    startTime: number;
+    stage: StageSettings & { masterUserId?: string; masterSessionId?: string; started: boolean; round: number; roundStartTick?: number; roundEndTick?: number };
+    score: { red: number; blue: number };
+    worldItems: WorldItemState[];
+    quest?: {
+        mode: "simple" | "scenario";
+        questId?: number;
+        stageIndex: number;
+        completed: boolean;
+        scenarioTitle?: string;
+        scenarioXp?: number;
+        scenarioBp?: number;
+        sectors?: Array<{
+            sectorId: number;
+            npcsets: string[];
+            meleeSpawn?: number;
+            rangeSpawn?: number;
+            bossSpawn?: boolean;
+        }>;
+        stageTransitionTick?: number;
+    };
+    npcs: Record<string, NpcState>;
+    projectiles: ProjectileState[];
+    nextProjectileId: number;
+    smokeZones: SmokeZoneState[];
+    duel?: {
+        queue: string[];
+        p1?: string;
+        p2?: string;
+    };
+};
+
+export type WorldItemState = {
+    id: string;
+    name: string;
+    type: string;
+    amount: number;
+    pos: Vec3;
+    active: boolean;
+    respawnTick: number;
+    respawnSec: number;
+    oneShot?: boolean;
+};
+
+export type NpcState = {
+    id: string;
+    templateId: number;
+    name: string;
+    health: number;
+    ap: number;
+    maxHealth: number;
+    maxAp: number;
+    pos: Vec3;
+    radius: number;
+    height: number;
+    viewAngle: number;
+    speed: number;
+    attackRange: number;
+    weaponItemId: number;
+    skills: number[];
+    nextAttackTick: number;
+    nextSkillTick: Record<string, number>;
+    dead: boolean;
+};
+
+export type ProjectileState = {
+    id: string;
+    ownerUserId: string;
+    weaponType: string;
+    pos: Vec3;
+    dir: Vec3;
+    speed: number;
+    remaining: number;
+    damage: number;
+    range: number;
+    minDamageRatio: number;
+    vel?: Vec3;
+    gravity?: number;
+    lifeTicks?: number;
+    explodeAfterTicks?: number;
+    kind?: "rocket" | "grenade" | "flashbang" | "smoke" | "itemkit";
+    worldItemModel?: string;
+    effectDurationTicks?: number;
+};
+
+export type SmokeZoneState = {
+    id: string;
+    pos: Vec3;
+    radius: number;
+    endTick: number;
+    kind?: "smoke" | "tear";
+};

@@ -114509,68 +114509,124 @@ var MainBundle = (function (exports) {
 })({});
 
 // Pontes de função RPC (Satisfazendo Nakama 3.x Goja)
-var rpcServerAnnounce = function(ctx, logger, nk, payload) { return MainBundle.rpcServerAnnounce(ctx, logger, nk, payload); };
-var rpcGetAdminStats = function(ctx, logger, nk, payload) { return MainBundle.rpcGetAdminStats(ctx, logger, nk, payload); };
-var rpcAdminListUsers = function(ctx, logger, nk, payload) { return MainBundle.rpcAdminListUsers(ctx, logger, nk, payload); };
-var rpcAdminKickUsers = function(ctx, logger, nk, payload) { return MainBundle.rpcAdminKickUsers(ctx, logger, nk, payload); };
-var rpcAdminBanUsers = function(ctx, logger, nk, payload) { return MainBundle.rpcAdminBanUsers(ctx, logger, nk, payload); };
-var rpcCreateCharacter = function(ctx, logger, nk, payload) { return MainBundle.rpcCreateCharacter(ctx, logger, nk, payload); };
-var rpcListCharacters = function(ctx, logger, nk, payload) { return MainBundle.rpcListCharacters(ctx, logger, nk, payload); };
-var rpcDeleteCharacter = function(ctx, logger, nk, payload) { return MainBundle.rpcDeleteCharacter(ctx, logger, nk, payload); };
-var rpcSelectCharacter = function(ctx, logger, nk, payload) { return MainBundle.rpcSelectCharacter(ctx, logger, nk, payload); };
-var rpcGetCharacterInfo = function(ctx, logger, nk, payload) { return MainBundle.rpcGetCharacterInfo(ctx, logger, nk, payload); };
-var rpcListInventory = function(ctx, logger, nk, payload) { return MainBundle.rpcListInventory(ctx, logger, nk, payload); };
-var rpcListCharInventory = function(ctx, logger, nk, payload) { return MainBundle.rpcListCharInventory(ctx, logger, nk, payload); };
-var rpcBringAccountItem = function(ctx, logger, nk, payload) { return MainBundle.rpcBringAccountItem(ctx, logger, nk, payload); };
-var rpcBringBackAccountItem = function(ctx, logger, nk, payload) { return MainBundle.rpcBringBackAccountItem(ctx, logger, nk, payload); };
-var rpcBuyItem = function(ctx, logger, nk, payload) { return MainBundle.rpcBuyItem(ctx, logger, nk, payload); };
-var rpcListShop = function(ctx, logger, nk, payload) { return MainBundle.rpcListShop(ctx, logger, nk, payload); };
-var rpcSellItem = function(ctx, logger, nk, payload) { return MainBundle.rpcSellItem(ctx, logger, nk, payload); };
-var rpcGetGameData = function(ctx, logger, nk, payload) { return MainBundle.rpcGetGameData(ctx, logger, nk, payload); };
-var rpcGetChannel = function(ctx, logger, nk, payload) { return MainBundle.rpcGetChannel(ctx, logger, nk, payload); };
-var rpcGetChannelrule = function(ctx, logger, nk, payload) { return MainBundle.rpcGetChannelrule(ctx, logger, nk, payload); };
-var rpcGetZitem = function(ctx, logger, nk, payload) { return MainBundle.rpcGetZitem(ctx, logger, nk, payload); };
-var rpcGetShop = function(ctx, logger, nk, payload) { return MainBundle.rpcGetShop(ctx, logger, nk, payload); };
-var rpcGetFormula = function(ctx, logger, nk, payload) { return MainBundle.rpcGetFormula(ctx, logger, nk, payload); };
-var rpcGetDroptable = function(ctx, logger, nk, payload) { return MainBundle.rpcGetDroptable(ctx, logger, nk, payload); };
-var rpcGetWorlditem = function(ctx, logger, nk, payload) { return MainBundle.rpcGetWorlditem(ctx, logger, nk, payload); };
-var rpcGetNpc = function(ctx, logger, nk, payload) { return MainBundle.rpcGetNpc(ctx, logger, nk, payload); };
-var rpcGetNpcset = function(ctx, logger, nk, payload) { return MainBundle.rpcGetNpcset(ctx, logger, nk, payload); };
-var rpcGetScenario = function(ctx, logger, nk, payload) { return MainBundle.rpcGetScenario(ctx, logger, nk, payload); };
-var rpcGetQuestmap = function(ctx, logger, nk, payload) { return MainBundle.rpcGetQuestmap(ctx, logger, nk, payload); };
-var rpcGetSpawns = function(ctx, logger, nk, payload) { return MainBundle.rpcGetSpawns(ctx, logger, nk, payload); };
-var rpcGetSacrificeTable = function(ctx, logger, nk, payload) { return MainBundle.rpcGetSacrificeTable(ctx, logger, nk, payload); };
-var rpcGetStrings = function(ctx, logger, nk, payload) { return MainBundle.rpcGetStrings(ctx, logger, nk, payload); };
-var rpcGetStringsLocales = function(ctx, logger, nk, payload) { return MainBundle.rpcGetStringsLocales(ctx, logger, nk, payload); };
-var rpcGetMessages = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMessages(ctx, logger, nk, payload); };
-var rpcGetTips = function(ctx, logger, nk, payload) { return MainBundle.rpcGetTips(ctx, logger, nk, payload); };
-var rpcGetNotify = function(ctx, logger, nk, payload) { return MainBundle.rpcGetNotify(ctx, logger, nk, payload); };
-var rpcGetProtocol = function(ctx, logger, nk, payload) { return MainBundle.rpcGetProtocol(ctx, logger, nk, payload); };
-var rpcGetCserror = function(ctx, logger, nk, payload) { return MainBundle.rpcGetCserror(ctx, logger, nk, payload); };
-var rpcGetEvent = function(ctx, logger, nk, payload) { return MainBundle.rpcGetEvent(ctx, logger, nk, payload); };
-var rpcGetEventList = function(ctx, logger, nk, payload) { return MainBundle.rpcGetEventList(ctx, logger, nk, payload); };
-var rpcGetGungame = function(ctx, logger, nk, payload) { return MainBundle.rpcGetGungame(ctx, logger, nk, payload); };
-var rpcGetLadderStat = function(ctx, logger, nk, payload) { return MainBundle.rpcGetLadderStat(ctx, logger, nk, payload); };
-var rpcGetReportQuestmap = function(ctx, logger, nk, payload) { return MainBundle.rpcGetReportQuestmap(ctx, logger, nk, payload); };
-var rpcGetShutdown = function(ctx, logger, nk, payload) { return MainBundle.rpcGetShutdown(ctx, logger, nk, payload); };
-var rpcGetMapsManifest = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMapsManifest(ctx, logger, nk, payload); };
-var rpcGetBootstrapV2 = function(ctx, logger, nk, payload) { return MainBundle.rpcGetBootstrapV2(ctx, logger, nk, payload); };
-var rpcGetMapRecipeV2 = function(ctx, logger, nk, payload) { return MainBundle.rpcGetMapRecipeV2(ctx, logger, nk, payload); };
-var rpcEquipItem = function(ctx, logger, nk, payload) { return MainBundle.rpcEquipItem(ctx, logger, nk, payload); };
-var rpcTakeoffItem = function(ctx, logger, nk, payload) { return MainBundle.rpcTakeoffItem(ctx, logger, nk, payload); };
-var rpcListStages = function(ctx, logger, nk, payload) { return MainBundle.rpcListStages(ctx, logger, nk, payload); };
-var rpcCreateStage = function(ctx, logger, nk, payload) { return MainBundle.rpcCreateStage(ctx, logger, nk, payload); };
-var rpcJoinStage = function(ctx, logger, nk, payload) { return MainBundle.rpcJoinStage(ctx, logger, nk, payload); };
-var rpcRequestStageState = function(ctx, logger, nk, payload) { return MainBundle.rpcRequestStageState(ctx, logger, nk, payload); };
-var rpcSetReady = function(ctx, logger, nk, payload) { return MainBundle.rpcSetReady(ctx, logger, nk, payload); };
-var rpcSetTeam = function(ctx, logger, nk, payload) { return MainBundle.rpcSetTeam(ctx, logger, nk, payload); };
-var rpcStageUpdate = function(ctx, logger, nk, payload) { return MainBundle.rpcStageUpdate(ctx, logger, nk, payload); };
-var rpcStageChat = function(ctx, logger, nk, payload) { return MainBundle.rpcStageChat(ctx, logger, nk, payload); };
-var rpcStartStage = function(ctx, logger, nk, payload) { return MainBundle.rpcStartStage(ctx, logger, nk, payload); };
-var rpcEndStage = function(ctx, logger, nk, payload) { return MainBundle.rpcEndStage(ctx, logger, nk, payload); };
-var rpcCreateClan = function(ctx, logger, nk, payload) { return MainBundle.rpcCreateClan(ctx, logger, nk, payload); };
-var rpcListFriends = function(ctx, logger, nk, payload) { return MainBundle.rpcListFriends(ctx, logger, nk, payload); };
-var rpcFindClanWar = function(ctx, logger, nk, payload) { return MainBundle.rpcFindClanWar(ctx, logger, nk, payload); };
+var rpcServerAnnounce = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcServerAnnounce); };
+var rpcGetAdminStats = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetAdminStats); };
+var rpcAdminListUsers = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcAdminListUsers); };
+var rpcAdminKickUsers = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcAdminKickUsers); };
+var rpcAdminBanUsers = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcAdminBanUsers); };
+var rpcLogout = function(ctx, logger, nk, payload) {
+    if (!ctx || !ctx.userId) {
+        throw new Error("unauthorized");
+    }
+    if (ctx.sessionId) {
+        try { nk.sessionDisconnect(ctx.sessionId); } catch (_e) {}
+    }
+    try { nk.sessionLogout(ctx.userId); } catch (_e) {}
+    return JSON.stringify({ success: true });
+};
+var SESSION_IDLE_TIMEOUT_MS = 60 * 60 * 1000;
+var SESSION_IDLE_COLLECTION = "session_idle";
+var sessionIdleRead = function(ctx, nk) {
+    if (!ctx || !ctx.userId || !ctx.sessionId) return null;
+    try {
+        var rows = nk.storageRead([{ collection: SESSION_IDLE_COLLECTION, key: ctx.sessionId, userId: ctx.userId }]);
+        if (!rows || rows.length === 0 || !rows[0].value) return null;
+        var raw = rows[0].value;
+        var last = Number(raw.lastActiveMs || raw.last_active_ms || 0);
+        return Number.isFinite(last) && last > 0 ? last : null;
+    } catch (_e) {
+        return null;
+    }
+};
+var sessionIdleTouch = function(ctx, nk) {
+    if (!ctx || !ctx.userId || !ctx.sessionId) return;
+    try {
+        nk.storageWrite([{
+            collection: SESSION_IDLE_COLLECTION,
+            key: ctx.sessionId,
+            userId: ctx.userId,
+            value: { lastActiveMs: Date.now() },
+            permissionRead: 0,
+            permissionWrite: 0
+        }]);
+    } catch (_e) {}
+};
+var sessionIdleDelete = function(ctx, nk) {
+    if (!ctx || !ctx.userId || !ctx.sessionId) return;
+    try {
+        nk.storageDelete([{ collection: SESSION_IDLE_COLLECTION, key: ctx.sessionId, userId: ctx.userId }]);
+    } catch (_e) {}
+};
+var invokeRpcWithIdle = function(ctx, logger, nk, payload, fn) {
+    var last = sessionIdleRead(ctx, nk);
+    if (last && (Date.now() - last) > SESSION_IDLE_TIMEOUT_MS) {
+        sessionIdleDelete(ctx, nk);
+        if (ctx && ctx.sessionId) {
+            try { nk.sessionDisconnect(ctx.sessionId); } catch (_e) {}
+        }
+        throw new Error("session idle timeout");
+    }
+    var out = fn(ctx, logger, nk, payload);
+    sessionIdleTouch(ctx, nk);
+    return out;
+};
+var rpcCreateCharacter = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcCreateCharacter); };
+var rpcListCharacters = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcListCharacters); };
+var rpcDeleteCharacter = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcDeleteCharacter); };
+var rpcSelectCharacter = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcSelectCharacter); };
+var rpcGetCharacterInfo = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetCharacterInfo); };
+var rpcListInventory = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcListInventory); };
+var rpcListCharInventory = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcListCharInventory); };
+var rpcBringAccountItem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcBringAccountItem); };
+var rpcBringBackAccountItem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcBringBackAccountItem); };
+var rpcBuyItem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcBuyItem); };
+var rpcListShop = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcListShop); };
+var rpcSellItem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcSellItem); };
+var rpcGetGameData = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetGameData); };
+var rpcGetChannel = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetChannel); };
+var rpcGetChannelrule = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetChannelrule); };
+var rpcGetZitem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetZitem); };
+var rpcGetShop = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetShop); };
+var rpcGetFormula = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetFormula); };
+var rpcGetDroptable = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetDroptable); };
+var rpcGetWorlditem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetWorlditem); };
+var rpcGetNpc = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetNpc); };
+var rpcGetNpcset = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetNpcset); };
+var rpcGetScenario = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetScenario); };
+var rpcGetQuestmap = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetQuestmap); };
+var rpcGetSpawns = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetSpawns); };
+var rpcGetSacrificeTable = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetSacrificeTable); };
+var rpcGetStrings = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetStrings); };
+var rpcGetStringsLocales = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetStringsLocales); };
+var rpcGetMessages = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetMessages); };
+var rpcGetTips = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetTips); };
+var rpcGetNotify = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetNotify); };
+var rpcGetProtocol = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetProtocol); };
+var rpcGetCserror = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetCserror); };
+var rpcGetEvent = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetEvent); };
+var rpcGetEventList = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetEventList); };
+var rpcGetGungame = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetGungame); };
+var rpcGetLadderStat = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetLadderStat); };
+var rpcGetReportQuestmap = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetReportQuestmap); };
+var rpcGetShutdown = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetShutdown); };
+var rpcGetMapsManifest = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetMapsManifest); };
+var rpcGetBootstrapV2 = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetBootstrapV2); };
+var rpcGetMapRecipeV2 = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcGetMapRecipeV2); };
+var rpcEquipItem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcEquipItem); };
+var rpcTakeoffItem = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcTakeoffItem); };
+var rpcListStages = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcListStages); };
+var rpcCreateStage = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcCreateStage); };
+var rpcJoinStage = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcJoinStage); };
+var rpcRequestStageState = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcRequestStageState); };
+var rpcSetReady = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcSetReady); };
+var rpcSetTeam = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcSetTeam); };
+var rpcStageUpdate = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcStageUpdate); };
+var rpcStageChat = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcStageChat); };
+var rpcStartStage = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcStartStage); };
+var rpcEndStage = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcEndStage); };
+var rpcCreateClan = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcCreateClan); };
+var rpcListFriends = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcListFriends); };
+var rpcFindClanWar = function(ctx, logger, nk, payload) { return invokeRpcWithIdle(ctx, logger, nk, payload, MainBundle.rpcFindClanWar); };
 
 // Pontes de função Match
 var matchmakerMatched = function(ctx, logger, nk, matches) { return MainBundle.matchmakerMatched(ctx, logger, nk, matches); };
@@ -114589,6 +114645,7 @@ function InitModule(ctx, logger, nk, initializer) {
     logger.info("=========================================");
 
     // Registros de RPC
+    initializer.registerRpc('logout', rpcLogout);
     initializer.registerRpc('server_announce', rpcServerAnnounce);
     initializer.registerRpc('get_admin_stats', rpcGetAdminStats);
     initializer.registerRpc('admin_list_users', rpcAdminListUsers);
