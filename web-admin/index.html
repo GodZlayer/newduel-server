@@ -21,7 +21,7 @@
     <h3 class="text-center mb-4">Admin Login</h3>
     <div class="mb-3">
         <label class="form-label">Server IP</label>
-        <input type="text" id="server-ip" class="form-control" value="127.0.0.1">
+        <input type="text" id="server-ip" class="form-control" value="server.newduel.pp.ua">
     </div>
     <div class="mb-3">
         <label class="form-label">Email</label>
@@ -110,7 +110,7 @@
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
 
-        client = new nakamajs.Client("defaultkey", serverIp, 7350, false);
+        client = new nakamajs.Client("defaultkey", serverIp, 443, true);
         try {
             session = await client.authenticateEmail(email, password);
             console.info("Authenticated successfully:", session);
