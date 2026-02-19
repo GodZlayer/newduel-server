@@ -109886,6 +109886,13 @@ var MainBundle = (function (exports) {
         return __assign({}, flags);
     };
 
+    var asArray$1 = function (value) {
+        if (Array.isArray(value))
+            return value;
+        if (value === null || value === undefined)
+            return [];
+        return [value];
+    };
     var parsePayload$2 = function (payload) {
         var input = {};
         try {
@@ -109906,7 +109913,8 @@ var MainBundle = (function (exports) {
     };
     var buildMapList = function () {
         var _a, _b, _c;
-        var maps = getMapsCatalog();
+        var rawMaps = getMapsCatalog();
+        var maps = rawMaps && typeof rawMaps === "object" ? rawMaps : {};
         var out = [];
         for (var _i = 0, _d = Object.keys(maps); _i < _d.length; _i++) {
             var key = _d[_i];
@@ -109925,16 +109933,16 @@ var MainBundle = (function (exports) {
     var buildGameTypeList = function () {
         var _a, _b;
         var gt = getGameTypeConfigData();
-        var rows = (_b = (_a = gt === null || gt === void 0 ? void 0 : gt.data) === null || _a === void 0 ? void 0 : _a.GAMETYPE) !== null && _b !== void 0 ? _b : [];
+        var rows = asArray$1((_b = (_a = gt === null || gt === void 0 ? void 0 : gt.data) === null || _a === void 0 ? void 0 : _a.GAMETYPE) !== null && _b !== void 0 ? _b : []);
         return rows.map(function (entry) {
             var _a, _b, _c, _d, _e;
-            var maxPlayers = ((_a = entry.MAXPLAYERS) !== null && _a !== void 0 ? _a : [])
+            var maxPlayers = asArray$1((_a = entry === null || entry === void 0 ? void 0 : entry.MAXPLAYERS) !== null && _a !== void 0 ? _a : [])
                 .map(function (mp) { var _a; return Number((_a = mp === null || mp === void 0 ? void 0 : mp["@"]) === null || _a === void 0 ? void 0 : _a.player); })
                 .filter(function (v) { return Number.isFinite(v); });
-            var rounds = ((_b = entry.ROUNDS) !== null && _b !== void 0 ? _b : [])
+            var rounds = asArray$1((_b = entry === null || entry === void 0 ? void 0 : entry.ROUNDS) !== null && _b !== void 0 ? _b : [])
                 .map(function (r) { var _a; return Number((_a = r === null || r === void 0 ? void 0 : r["@"]) === null || _a === void 0 ? void 0 : _a.round); })
                 .filter(function (v) { return Number.isFinite(v); });
-            var timeLimits = ((_c = entry.LIMITTIME) !== null && _c !== void 0 ? _c : [])
+            var timeLimits = asArray$1((_c = entry === null || entry === void 0 ? void 0 : entry.LIMITTIME) !== null && _c !== void 0 ? _c : [])
                 .map(function (t) { var _a; return Number((_a = t === null || t === void 0 ? void 0 : t["@"]) === null || _a === void 0 ? void 0 : _a.sec); })
                 .filter(function (v) { return Number.isFinite(v); });
             return {
@@ -109948,13 +109956,15 @@ var MainBundle = (function (exports) {
     var buildChannelRules = function () {
         var _a;
         var data = getGameData("channelrule");
-        var rules = (_a = data === null || data === void 0 ? void 0 : data.rules) !== null && _a !== void 0 ? _a : [];
+        var rules = asArray$1((_a = data === null || data === void 0 ? void 0 : data.rules) !== null && _a !== void 0 ? _a : []);
         return rules.map(function (rule) {
             var _a;
             return ({
                 name: String((_a = rule === null || rule === void 0 ? void 0 : rule.name) !== null && _a !== void 0 ? _a : ""),
-                maps: Array.isArray(rule === null || rule === void 0 ? void 0 : rule.maps) ? rule.maps.map(function (m) { var _a; return String((_a = m === null || m === void 0 ? void 0 : m.name) !== null && _a !== void 0 ? _a : ""); }) : [],
-                gametypes: Array.isArray(rule === null || rule === void 0 ? void 0 : rule.gametypes) ? rule.gametypes.map(function (g) { return Number(g === null || g === void 0 ? void 0 : g.id); }) : []
+                maps: asArray$1(rule === null || rule === void 0 ? void 0 : rule.maps).map(function (m) { var _a; return String((_a = m === null || m === void 0 ? void 0 : m.name) !== null && _a !== void 0 ? _a : ""); }),
+                gametypes: asArray$1(rule === null || rule === void 0 ? void 0 : rule.gametypes)
+                    .map(function (g) { return Number(g === null || g === void 0 ? void 0 : g.id); })
+                    .filter(function (v) { return Number.isFinite(v); })
             });
         });
     };

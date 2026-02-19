@@ -2,6 +2,12 @@ import { getGameData, getGameTypeConfigData, getMapsCatalog } from "./data_manag
 import { hashObject } from "./hash_utils";
 import { getServerFeatureFlags } from "./server_flags";
 
+const asArray = <T = any>(value: any): T[] => {
+    if (Array.isArray(value)) return value as T[];
+    if (value === null || value === undefined) return [];
+    return [value as T];
+};
+
 const parsePayload = (payload: string): any => {
     let input: any = {};
     try {
@@ -20,7 +26,8 @@ const parsePayload = (payload: string): any => {
 };
 
 const buildMapList = () => {
-    const maps = getMapsCatalog();
+    const rawMaps = getMapsCatalog();
+    const maps = rawMaps && typeof rawMaps === "object" ? (rawMaps as Record<string, any>) : {};
     const out: any[] = [];
     for (const key of Object.keys(maps)) {
         const map = maps[key] ?? {};
@@ -38,15 +45,15 @@ const buildMapList = () => {
 
 const buildGameTypeList = () => {
     const gt = getGameTypeConfigData();
-    const rows = (gt as any)?.data?.GAMETYPE ?? [];
+    const rows = asArray<any>((gt as any)?.data?.GAMETYPE);
     return rows.map((entry: any) => {
-        const maxPlayers = (entry.MAXPLAYERS ?? [])
+        const maxPlayers = asArray<any>(entry?.MAXPLAYERS)
             .map((mp: any) => Number(mp?.["@"]?.player))
             .filter((v: number) => Number.isFinite(v));
-        const rounds = (entry.ROUNDS ?? [])
+        const rounds = asArray<any>(entry?.ROUNDS)
             .map((r: any) => Number(r?.["@"]?.round))
             .filter((v: number) => Number.isFinite(v));
-        const timeLimits = (entry.LIMITTIME ?? [])
+        const timeLimits = asArray<any>(entry?.LIMITTIME)
             .map((t: any) => Number(t?.["@"]?.sec))
             .filter((v: number) => Number.isFinite(v));
         return {
@@ -60,11 +67,13 @@ const buildGameTypeList = () => {
 
 const buildChannelRules = () => {
     const data = getGameData("channelrule") as any;
-    const rules = data?.rules ?? [];
+    const rules = asArray<any>(data?.rules);
     return rules.map((rule: any) => ({
         name: String(rule?.name ?? ""),
-        maps: Array.isArray(rule?.maps) ? rule.maps.map((m: any) => String(m?.name ?? "")) : [],
-        gametypes: Array.isArray(rule?.gametypes) ? rule.gametypes.map((g: any) => Number(g?.id)) : []
+        maps: asArray<any>(rule?.maps).map((m: any) => String(m?.name ?? "")),
+        gametypes: asArray<any>(rule?.gametypes)
+            .map((g: any) => Number(g?.id))
+            .filter((v: number) => Number.isFinite(v))
     }));
 };
 
