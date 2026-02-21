@@ -76,6 +76,31 @@ const INITIAL_COSTUME: Array<Array<{
 ];
 
 type CharacterListObject = { characters: Character[] };
+type CharacterState = { characters: Character[]; activeCharId: string | null };
+
+const readCharacterState = (nk: nkruntime.Nakama, userId: string): CharacterState => {
+    const objects = nk.storageRead([
+        { collection: "characters", key: "list", userId },
+        { collection: "characters", key: "active", userId }
+    ]);
+
+    let characters: Character[] = [];
+    let activeCharId: string | null = null;
+
+    for (const object of objects) {
+        if (object.key === "list") {
+            const value = object.value as CharacterListObject;
+            characters = Array.isArray(value?.characters) ? value.characters : [];
+            continue;
+        }
+        if (object.key === "active") {
+            const value = object.value as { charId?: string };
+            activeCharId = value?.charId ?? null;
+        }
+    }
+
+    return { characters, activeCharId };
+};
 
 const readCharacterList = (nk: nkruntime.Nakama, userId: string): Character[] => {
     const objects = nk.storageRead([{ collection: "characters", key: "list", userId }]);
@@ -188,10 +213,11 @@ export const rpcListCharacters: nkruntime.RpcFunction = (ctx: nkruntime.Context,
     const offset = Math.max(0, Number.isFinite(input.offset as number) ? (input.offset as number) : 0);
     const limit = Math.min(50, Math.max(1, Number.isFinite(input.limit as number) ? (input.limit as number) : 50));
 
-    const characters = readCharacterList(nk, ctx.userId)
+    const state = readCharacterState(nk, ctx.userId);
+    const characters = state.characters
         .slice()
         .sort((a, b) => a.charIndex - b.charIndex);
-    const activeCharId = readActiveCharacterId(nk, ctx.userId);
+    const activeCharId = state.activeCharId;
     const paged = characters.slice(offset, offset + limit);
 
     return JSON.stringify({
@@ -236,7 +262,8 @@ export const rpcCreateCharacter: nkruntime.RpcFunction = (ctx: nkruntime.Context
     if (safeFace < 0 || safeFace >= MAX_COSTUME_FACE) throw new Error("Face inválida.");
     if (safeCostume < 0 || safeCostume >= MAX_COSTUME_TEMPLATE) throw new Error("Costume inválido.");
 
-    const currentChars = readCharacterList(nk, ctx.userId);
+    const state = readCharacterState(nk, ctx.userId);
+    const currentChars = state.characters;
 
     if (currentChars.length >= MAX_CHARS) {
         throw new Error("Limite de personagens atingido.");
@@ -266,7 +293,7 @@ export const rpcCreateCharacter: nkruntime.RpcFunction = (ctx: nkruntime.Context
 
     addInitialItemsToInventory(nk, ctx.userId, equipment);
 
-    const activeCharId = readActiveCharacterId(nk, ctx.userId);
+    const activeCharId = state.activeCharId;
     if (!activeCharId) {
         writeActiveCharacterId(nk, ctx.userId, newChar.id);
     }
@@ -292,7 +319,8 @@ export const rpcDeleteCharacter: nkruntime.RpcFunction = (ctx, logger, nk, paylo
         input = {};
     }
 
-    const characters = readCharacterList(nk, ctx.userId);
+    const state = readCharacterState(nk, ctx.userId);
+    const characters = state.characters;
     const charId = input.charId;
     const charIndex = input.charIndex;
     if (!charId && !Number.isFinite(charIndex as number)) {
@@ -306,7 +334,7 @@ export const rpcDeleteCharacter: nkruntime.RpcFunction = (ctx, logger, nk, paylo
         throw new Error("Personagem não encontrado.");
     }
 
-    const activeCharId = readActiveCharacterId(nk, ctx.userId);
+    const activeCharId = state.activeCharId;
     if (activeCharId === characters[index].id) {
         throw new Error("Não é possível deletar o personagem ativo.");
     }

@@ -2,6 +2,9 @@ import { getGameData, getGameTypeConfigData, getMapsCatalog } from "./data_manag
 import { hashObject } from "./hash_utils";
 import { getServerFeatureFlags } from "./server_flags";
 
+let cachedBootstrapSignature: string | null = null;
+let cachedBootstrapPayload: any | null = null;
+
 const asArray = <T = any>(value: any): T[] => {
     if (Array.isArray(value)) return value as T[];
     if (value === null || value === undefined) return [];
@@ -88,6 +91,15 @@ const buildCharacterCreateProfile = () => ({
 
 export const buildBootstrapV2Payload = (nk: nkruntime.Nakama) => {
     const flags = getServerFeatureFlags(nk);
+    const cacheSignature = [
+        flags.enableV2Bootstrap ? "1" : "0",
+        flags.enableMapRecipe ? "1" : "0",
+        flags.enforceRecipeHash ? "1" : "0"
+    ].join(":");
+    if (cachedBootstrapPayload && cachedBootstrapSignature === cacheSignature) {
+        return cachedBootstrapPayload;
+    }
+
     const maps = buildMapList();
     const gameTypes = buildGameTypeList();
     const channelRules = buildChannelRules();
@@ -108,7 +120,7 @@ export const buildBootstrapV2Payload = (nk: nkruntime.Nakama) => {
     const contentHash = hashObject(contentCore);
     const contentVersion = `v2-${contentHash}`;
 
-    return {
+    const payload = {
         compat: { v1: true, v2: true },
         flags: {
             enableV2Bootstrap: flags.enableV2Bootstrap,
@@ -123,6 +135,10 @@ export const buildBootstrapV2Payload = (nk: nkruntime.Nakama) => {
         characterCreate,
         serverProfile
     };
+
+    cachedBootstrapSignature = cacheSignature;
+    cachedBootstrapPayload = payload;
+    return payload;
 };
 
 export const rpcGetBootstrapV2: nkruntime.RpcFunction = (_ctx, _logger, nk, payload: string): string => {

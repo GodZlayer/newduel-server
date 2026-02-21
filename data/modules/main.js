@@ -109022,6 +109022,28 @@ var MainBundle = (function (exports) {
             { melee: 1, primary: 4006, secondary: 4006, item1: 30101, item2: 30001, chest: 21501, hands: 0, legs: 23501, feet: 0 },
         ],
     ];
+    var readCharacterState = function (nk, userId) {
+        var _a;
+        var objects = nk.storageRead([
+            { collection: "characters", key: "list", userId: userId },
+            { collection: "characters", key: "active", userId: userId }
+        ]);
+        var characters = [];
+        var activeCharId = null;
+        for (var _i = 0, objects_1 = objects; _i < objects_1.length; _i++) {
+            var object = objects_1[_i];
+            if (object.key === "list") {
+                var value = object.value;
+                characters = Array.isArray(value === null || value === void 0 ? void 0 : value.characters) ? value.characters : [];
+                continue;
+            }
+            if (object.key === "active") {
+                var value = object.value;
+                activeCharId = (_a = value === null || value === void 0 ? void 0 : value.charId) !== null && _a !== void 0 ? _a : null;
+            }
+        }
+        return { characters: characters, activeCharId: activeCharId };
+    };
     var readCharacterList = function (nk, userId) {
         var objects = nk.storageRead([{ collection: "characters", key: "list", userId: userId }]);
         if (objects.length === 0)
@@ -109133,10 +109155,11 @@ var MainBundle = (function (exports) {
         }
         var offset = Math.max(0, Number.isFinite(input.offset) ? input.offset : 0);
         var limit = Math.min(50, Math.max(1, Number.isFinite(input.limit) ? input.limit : 50));
-        var characters = readCharacterList(nk, ctx.userId)
+        var state = readCharacterState(nk, ctx.userId);
+        var characters = state.characters
             .slice()
             .sort(function (a, b) { return a.charIndex - b.charIndex; });
-        var activeCharId = readActiveCharacterId(nk, ctx.userId);
+        var activeCharId = state.activeCharId;
         var paged = characters.slice(offset, offset + limit);
         return JSON.stringify({
             total: characters.length,
@@ -109179,7 +109202,8 @@ var MainBundle = (function (exports) {
             throw new Error("Face inválida.");
         if (safeCostume < 0 || safeCostume >= MAX_COSTUME_TEMPLATE)
             throw new Error("Costume inválido.");
-        var currentChars = readCharacterList(nk, ctx.userId);
+        var state = readCharacterState(nk, ctx.userId);
+        var currentChars = state.characters;
         if (currentChars.length >= MAX_CHARS) {
             throw new Error("Limite de personagens atingido.");
         }
@@ -109203,7 +109227,7 @@ var MainBundle = (function (exports) {
         currentChars.push(newChar);
         writeCharacterList(nk, ctx.userId, currentChars);
         addInitialItemsToInventory(nk, ctx.userId, equipment);
-        var activeCharId = readActiveCharacterId(nk, ctx.userId);
+        var activeCharId = state.activeCharId;
         if (!activeCharId) {
             writeActiveCharacterId(nk, ctx.userId, newChar.id);
         }
@@ -109226,7 +109250,8 @@ var MainBundle = (function (exports) {
         catch (_a) {
             input = {};
         }
-        var characters = readCharacterList(nk, ctx.userId);
+        var state = readCharacterState(nk, ctx.userId);
+        var characters = state.characters;
         var charId = input.charId;
         var charIndex = input.charIndex;
         if (!charId && !Number.isFinite(charIndex)) {
@@ -109238,7 +109263,7 @@ var MainBundle = (function (exports) {
         if (index === -1) {
             throw new Error("Personagem não encontrado.");
         }
-        var activeCharId = readActiveCharacterId(nk, ctx.userId);
+        var activeCharId = state.activeCharId;
         if (activeCharId === characters[index].id) {
             throw new Error("Não é possível deletar o personagem ativo.");
         }
@@ -109886,6 +109911,8 @@ var MainBundle = (function (exports) {
         return __assign({}, flags);
     };
 
+    var cachedBootstrapSignature = null;
+    var cachedBootstrapPayload = null;
     var asArray$1 = function (value) {
         if (Array.isArray(value))
             return value;
@@ -109978,6 +110005,14 @@ var MainBundle = (function (exports) {
     }); };
     var buildBootstrapV2Payload = function (nk) {
         var flags = getServerFeatureFlags(nk);
+        var cacheSignature = [
+            flags.enableV2Bootstrap ? "1" : "0",
+            flags.enableMapRecipe ? "1" : "0",
+            flags.enforceRecipeHash ? "1" : "0"
+        ].join(":");
+        if (cachedBootstrapPayload && cachedBootstrapSignature === cacheSignature) {
+            return cachedBootstrapPayload;
+        }
         var maps = buildMapList();
         var gameTypes = buildGameTypeList();
         var channelRules = buildChannelRules();
@@ -109996,7 +110031,7 @@ var MainBundle = (function (exports) {
         };
         var contentHash = hashObject(contentCore);
         var contentVersion = "v2-".concat(contentHash);
-        return {
+        var payload = {
             compat: { v1: true, v2: true },
             flags: {
                 enableV2Bootstrap: flags.enableV2Bootstrap,
@@ -110011,6 +110046,9 @@ var MainBundle = (function (exports) {
             characterCreate: characterCreate,
             serverProfile: serverProfile
         };
+        cachedBootstrapSignature = cacheSignature;
+        cachedBootstrapPayload = payload;
+        return payload;
     };
     var rpcGetBootstrapV2 = function (_ctx, _logger, nk, payload) {
         var _a, _b;
